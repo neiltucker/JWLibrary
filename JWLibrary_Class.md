@@ -3,11 +3,11 @@
 > **NOTE:** Official instructions on using JW Library can be found at [JW.org](https://www.jw.org/en/online-help/jw-library/)
 
 This is intended to be a one hour class. More time will be needed if videos & breaks are added.
-
+<br>
 ## Introduction:
 - 0:00 Introduction to JW Library (Video: [Start Using JW Library](https://www.jw.org/en/online-help/jw-library/android/features/))
 - 0:05 End
-
+<br>
 ## Lesson 1: (Navigation)
 - 0:00 Discuss Home Page 
 - 0:02 Perform Exercise 1.1 (Daily Text)
@@ -34,8 +34,7 @@ This is intended to be a one hour class. More time will be needed if videos & br
 - 0:12 Review of Lesson 3
 - 0:14 End
 
-
-
+<br>
 ## EXERCISES
 
 ---
