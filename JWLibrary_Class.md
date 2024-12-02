@@ -34,8 +34,11 @@ This is intended to be a one hour class. More time will be needed if videos & br
 - 0:12 Review of Lesson 3
 - 0:14 End
 
+
+
 ## EXERCISES
 
+---
 ### Navigation Exercises
 
 1.1. Go to today's Daily Text
