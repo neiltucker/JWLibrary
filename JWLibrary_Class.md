@@ -46,6 +46,7 @@ This is intended to be a one hour class. More time will be needed if videos & br
 
 1.4. Search for a scripture containing the phrase "earnestly seeking him" or choose your own expression
 
+---
 ### Downloading Exercises
 
 2.1. Download the King James Version of the Bible
@@ -56,6 +57,7 @@ This is intended to be a one hour class. More time will be needed if videos & br
 
 2.4. Use the "Downloaded" feature to find the largest file you have in JW Library
 
+---
 ### Highlighting Exercises
 
 3.1. Open the article for the next Watchtower study and highlight the answer for paragraph 1 in yellow
@@ -65,3 +67,4 @@ This is intended to be a one hour class. More time will be needed if videos & br
 3.3. Add a note to the highlighted answer
 
 3.4. Modify the note you created in the previous step or delete it
+
