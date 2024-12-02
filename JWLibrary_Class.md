@@ -5,7 +5,7 @@
 This is intended to be a one hour class. More time will be needed if videos & breaks are added.
 
 ## Introduction:
-- 0:00 Introduction to JW Library (Video: [Start Using JW Library](https://www.jw.org/en/online-help/jw-library/video-start-using-jwlibrary/))
+- 0:00 Introduction to JW Library (Video: [Start Using JW Library](https://www.jw.org/en/online-help/jw-library/android/features/))
 - 0:05 End
 
 ## Lesson 1: (Navigation)
