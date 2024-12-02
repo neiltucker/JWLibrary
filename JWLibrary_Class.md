@@ -1,8 +1,8 @@
-<h1 align="center"><span style="font-variant: small-caps;">JW Library Class Program</span></h1>
+<h1 align="center"><span style="font-variant: small-caps;">JW LIBRARY CLASS PROGRAM</span></h1>
 
 > **NOTE:** Official instructions on using JW Library can be found at [JW.org](https://www.jw.org/en/online-help/jw-library/)
 
-This is intended to be a one hour class. More time will be needed if videos & breaks are added.
+This will be a one-hour class.  More time will be needed if videos & breaks are included.
 
 <br>
 
