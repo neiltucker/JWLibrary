@@ -19,16 +19,16 @@ This is intended to be a one hour class. More time will be needed if videos & br
 - 0:18 End
 
 ## Lesson 2: (Downloading Files)
-- 0:00 Discuss downloading Bibles (Video: [Download and Manage Bibles](https://www.jw.org/en/online-help/jw-library/video-download-manage-bibles/))
+- 0:00 Discuss downloading Bibles (Video: [Download and Manage Bibles](https://www.jw.org/en/online-help/jw-library/android/bibles/))
 - 0:05 Perform Exercise 2.1 (Download KJV)
-- 0:10 Downloading Publications (Video: [Download and Manage Publications](https://www.jw.org/en/online-help/jw-library/video-download-manage-publications/))
+- 0:10 Downloading Publications (Video: [Download and Manage Publications](https://www.jw.org/en/online-help/jw-library/android/publications/))
 - 0:15 Perform Exercises 2.2 & 2.3 (Download video in English and Spanish)
 - 0:20 Perform Exercise 2.4 (Find largest downloaded file)
 - 0:21 Review of Lesson 2
 - 0:23 End
 
 ## Lesson 3: (Highlighting)
-- 0:00 Discuss Highlighting feature (Video: [Highlight Text](https://www.jw.org/en/online-help/jw-library/video-highlight-text/))
+- 0:00 Discuss Highlighting feature (Video: [Highlight Text](https://www.jw.org/en/online-help/jw-library/android/highlight-text/))
 - 0:05 Perform Exercises 3.1 & 3.2 (Highlight text then change the color of the highlight)
 - 0:10 Perform Exercises 3.3 & 3.4 (Create and edit notes)
 - 0:12 Review of Lesson 3
