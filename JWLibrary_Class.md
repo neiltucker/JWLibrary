@@ -42,7 +42,7 @@ This will be a one-hour class.  More time will be needed if videos & breaks are 
 
 ## EXERCISES
 
-### Navigation Exercises
+### 1. Navigation Exercises
 
 1.1. Go to today's Daily Text
 
@@ -54,7 +54,7 @@ This will be a one-hour class.  More time will be needed if videos & breaks are 
 
 ---
 
-### Downloading Exercises
+### 2. Downloading Exercises
 
 2.1. Download the King James Version of the Bible
 
@@ -66,7 +66,7 @@ This will be a one-hour class.  More time will be needed if videos & breaks are 
 
 ---
 
-### Highlighting Exercises
+### 3. Highlighting Exercises
 
 3.1. Open the article for the next Watchtower study and highlight the answer for paragraph 1 in yellow
 
