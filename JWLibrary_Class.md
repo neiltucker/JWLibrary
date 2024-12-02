@@ -11,9 +11,9 @@ This is intended to be a one hour class. More time will be needed if videos & br
 ## Lesson 1: (Navigation)
 - 0:00 Discuss Home Page 
 - 0:02 Perform Exercise 1.1 (Daily Text)
-- 0:03 Discuss Bookmarks (Video: [Set and Manage Bookmarks](https://www.jw.org/en/online-help/jw-library/video-set-manage-bookmarks/))
+- 0:03 Discuss Bookmarks (Video: [Set and Manage Bookmarks](https://www.jw.org/en/online-help/jw-library/android/bookmarks/))
 - 0:08 Perform Exercises 1.2 & 1.3 (Bookmarks & History)
-- 0:10 Discuss Search feature (Video: [Search in a Bible or Publication](https://www.jw.org/en/online-help/jw-library/video-search-bible-publication/))
+- 0:10 Discuss Search feature (Video: [Search in a Bible or Publication](https://www.jw.org/en/online-help/jw-library/android/search/))
 - 0:15 Perform Exercise 1.4 (Search)
 - 0:16 Review of Lesson 1
 - 0:18 End
