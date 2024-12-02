@@ -42,7 +42,6 @@ This will be a one-hour class.  More time will be needed if videos & breaks are 
 
 ## EXERCISES
 
----
 ### Navigation Exercises
 
 1.1. Go to today's Daily Text
