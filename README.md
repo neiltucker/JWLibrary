@@ -28,8 +28,8 @@ The curriculum is structured into three focused 15-minute lessons, framed by a 1
 0. **Pre-Class Clinic & Orientation (5–15 Mins)**
    * **Early Arrival Setup Clinic (15 mins prior):** Helpers greet attendees, connect devices to venue Wi-Fi, and verify the Bible and current Daily Text are downloaded before start time.
    * **30-Second Readiness Check:** Quick show of hands so helpers can assist anyone still needing a Bible download while class begins.
-   * **Peace of Mind ("Panic Button"):** Teaching students how to immediately silence unexpected audio using the device's physical **Volume Down** button or on-screen Pause (⏸️).
-   * Locating the main navigation bar and adjusting screen auto-lock.
+   * **Peace of Mind ("Panic Button"):** Teaching students how to immediately silence unexpected audio using the device's physical **Volume Down** button (on phones/tablets), keyboard **Mute key (🔇)** (on computers), or on-screen Pause (⏸️).
+   * Locating the main navigation bar and adjusting screen auto-lock / timeout.
 
 1. **Lesson 1: Finding Scriptures & Meetings (15 Mins)**
    * Exploring the main navigation bar and reading today's **Daily Text**.
@@ -42,7 +42,7 @@ The curriculum is structured into three focused 15-minute lessons, framed by a 1
    * Connecting to Wi-Fi before downloading to preserve mobile cellular data.
    * Downloading publications or media for offline use (no internet needed at meetings once downloaded).
    * Using the **Audio Player (🎧)** to listen to Bible chapters, Daily Text, or study articles read aloud.
-   * Mastering **Emergency Quick-Silencing**: Stopping sound instantly using device volume controls or on-screen pause.
+   * Mastering **Emergency Quick-Silencing**: Stopping sound instantly using device volume controls (holding side Volume Down on mobile; pressing keyboard Mute key on PC) or on-screen pause.
    * *Demonstrated by Instructor:* Checking storage space and sorting by **Largest Size** to remove unneeded files.
 
 3. **Lesson 3: Personal Study Tools (15 Mins)**
@@ -71,11 +71,11 @@ To ensure the latest features and security updates are available, verify that yo
 ### Recommendations Before Attending:
 * **Early Arrival (10–15 Mins Early):** Arrive a few minutes early so table assistants can help connect to venue Wi-Fi and verify your Bible and Daily Text are ready.
 * **Fully Charged Battery:** Bring your device fully charged (or bring your charging cord).
-* **Screen Timeout Adjustment:** Consider temporarily setting your device's screen auto-lock to 2 or 5 minutes so the screen stays on during demonstrations.
+* **Screen Timeout Adjustment:** Consider temporarily setting your device's screen auto-lock or screen timeout to 2 or 5 minutes so the screen stays on during demonstrations.
 * **App Installed:** Have the *JW Library* app installed on your device from the official app store prior to class.
 * **Storage Space:** Ensure your device has at least **2 to 4 GB** of free internal storage (or an installed SD card) so you can download publications, audio, and videos comfortably.
-* **Wi-Fi Connection:** Connect to an available Wi-Fi network before downloading large media files.
-* **Emergency Mute Tip:** Remember that pressing and holding the side **Volume Down button** will quickly silence audio if it ever plays unexpectedly.
+* **Wi-Fi Connection:** Connect to an available Wi-Fi network before downloading large media files to conserve mobile data.
+* **Emergency Mute Tip:** Remember that pressing the **Volume Down button** (on phones/tablets) or keyboard **Mute key (🔇)** (on laptops) will quickly silence audio if it ever plays unexpectedly.
 
 ---
 

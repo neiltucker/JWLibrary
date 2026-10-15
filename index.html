@@ -796,7 +796,7 @@
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>Emergency Silencing:</strong> If sound ever plays unexpectedly, hold down the physical <strong>Volume Down</strong> button on the side of your device.</span>
+          <span><strong>Emergency Silencing:</strong> If sound ever plays unexpectedly, <span id="check-silence-desc">press and hold the physical <strong>Volume Down button</strong> on the side of your phone/tablet, press the <strong>Mute key (🔇)</strong> on your keyboard, or tap <strong>Pause (⏸️)</strong></span>.</span>
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
@@ -804,11 +804,11 @@
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>Screen Timeout:</strong> Set auto-lock to 2 or 5 minutes so the screen stays on during class.</span>
+          <span><strong>Screen Timeout:</strong> <span id="check-timeout-desc">Set auto-lock or screen timeout to 2 or 5 minutes so the screen stays on during class.</span></span>
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>Wi-Fi Connected:</strong> Connect to venue Wi-Fi to preserve your cellular data.</span>
+          <span><strong>Wi-Fi Connected:</strong> Connect to venue Wi-Fi so you can download study materials and preserve mobile data.</span>
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
@@ -915,10 +915,10 @@
         <ul class="step-list">
           <li><span class="step-num">1</span> Open today's Daily Text or any Bible chapter.</li>
           <li><span class="step-num">2</span> Tap the <strong>Headphones / Play button</strong> (🎧) at the top of the screen to start the reading aloud.</li>
-          <li><span class="step-num">3</span> <strong>Practice Emergency Silencing:</strong> Stop the sound immediately by tapping <strong>Pause (⏸️)</strong> on the screen, or by pressing and holding the physical <strong>Volume Down</strong> button on the side of your device.</li>
+          <li><span class="step-num">3</span> <strong>Practice Emergency Silencing:</strong> Stop the sound immediately <span id="ex-silence-desc">by tapping <strong>Pause (⏸️)</strong> on the screen, or by pressing the physical <strong>Volume Down button</strong> on the side of your device (or the <strong>Mute key</strong> on a computer keyboard)</span>.</li>
         </ul>
         <div class="step-tip">
-          🔇 <strong>Peace of Mind Tip:</strong> Never fear media playing unexpectedly! Holding down your device's physical <strong>Volume Down button</strong> is your universal "emergency brake" anywhere in the Kingdom Hall or classroom.
+          🔇 <strong>Peace of Mind Tip:</strong> <span id="tip-silence-desc">Never fear media playing unexpectedly! On a phone or tablet, holding the side <strong>Volume Down</strong> button is your universal emergency brake. On a laptop or PC, press the keyboard <strong>Mute key (🔇)</strong> or click Pause (⏸️).</span>
         </div>
       </div>
 
@@ -1007,7 +1007,7 @@
             <tr>
               <td><strong>0:00 &ndash; 0:05</strong></td>
               <td>Welcome &amp; Orientation (5m)</td>
-              <td>Quick Bible readiness check (helpers assist anyone needing downloads), peace-of-mind emergency silencing tip (Volume Down button), and screen timeout check.</td>
+              <td>Quick Bible readiness check (helpers assist anyone needing downloads), peace-of-mind emergency silencing tip (side Volume Down on phones/tablets; Mute key on PC), and screen timeout check.</td>
             </tr>
             <tr>
               <td><strong>0:05 &ndash; 0:20</strong></td>
@@ -1173,6 +1173,10 @@
 
       const noteText = document.getElementById('device-note-text');
       const navLocations = document.querySelectorAll('.nav-location');
+      const checkSilence = document.getElementById('check-silence-desc');
+      const checkTimeout = document.getElementById('check-timeout-desc');
+      const exSilence = document.getElementById('ex-silence-desc');
+      const tipSilence = document.getElementById('tip-silence-desc');
       const videoL1 = document.getElementById('video-link-lesson1');
       const videoL2 = document.getElementById('video-link-lesson2');
       const videoL3 = document.getElementById('video-link-lesson3');
@@ -1180,18 +1184,30 @@
       if (device === 'apple') {
         noteText.innerHTML = '<strong>Device Selected:</strong> On Apple iPhone and iPad, the main navigation bar is at the bottom of the screen (Bible, Publications, Meetings, Personal Study).';
         navLocations.forEach(el => el.textContent = 'at the bottom of your screen');
+        if (checkSilence) checkSilence.innerHTML = 'press and hold the physical <strong>Volume Down button</strong> on the left side of your iPhone or iPad, or tap <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Set <strong>Auto-Lock</strong> (in <em>Settings &gt; Display &amp; Brightness</em>) to 2 or 5 minutes so the screen stays on during class.';
+        if (exSilence) exSilence.innerHTML = 'by tapping <strong>Pause (⏸️)</strong> on the screen, or by pressing and holding the physical <strong>Volume Down button</strong> on the left side of your iPhone or iPad.';
+        if (tipSilence) tipSilence.innerHTML = 'Never fear media playing unexpectedly! On iPhone and iPad, holding down the side <strong>Volume Down button</strong> is your universal emergency brake anywhere in the Kingdom Hall or classroom.';
         videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
         videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
         videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
       } else if (device === 'android') {
         noteText.innerHTML = '<strong>Device Selected:</strong> On Android phones and tablets, the main navigation bar is at the bottom (or swipe from the left edge for the navigation menu).';
         navLocations.forEach(el => el.textContent = 'at the bottom or left menu of your screen');
+        if (checkSilence) checkSilence.innerHTML = 'press and hold the physical <strong>Volume Down button</strong> on the side of your phone or tablet, or tap <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Set <strong>Screen timeout</strong> (in <em>Settings &gt; Display</em>) to 2 or 5 minutes so the screen stays on during class.';
+        if (exSilence) exSilence.innerHTML = 'by tapping <strong>Pause (⏸️)</strong> on the screen, or by pressing and holding the physical <strong>Volume Down button</strong> on the side of your Android device.';
+        if (tipSilence) tipSilence.innerHTML = 'Never fear media playing unexpectedly! On Android phones and tablets, holding down the side <strong>Volume Down button</strong> is your universal emergency brake anywhere in the Kingdom Hall or classroom.';
         videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
         videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
         videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
       } else if (device === 'windows') {
         noteText.innerHTML = '<strong>Device Selected:</strong> On Windows PCs and laptops, the main navigation bar is at the top of the screen (or in the left sidebar).';
         navLocations.forEach(el => el.textContent = 'at the top of your screen');
+        if (checkSilence) checkSilence.innerHTML = 'press the <strong>Mute key (🔇)</strong> or <strong>Volume Down key</strong> on your keyboard, click the taskbar speaker icon, or click <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Set <strong>Screen / Sleep</strong> (in <em>Settings &gt; System &gt; Power &amp; battery</em>) to 2 or 5 minutes so your laptop stays on.';
+        if (exSilence) exSilence.innerHTML = 'by clicking <strong>Pause (⏸️)</strong>, pressing the keyboard <strong>Mute key (🔇)</strong>, or clicking the Speaker icon on your taskbar.';
+        if (tipSilence) tipSilence.innerHTML = 'Never fear media playing unexpectedly! On Windows PCs and laptops, pressing the keyboard <strong>Mute key (🔇)</strong> or clicking Pause (⏸️) silences all audio instantly.';
         videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
         videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
         videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';

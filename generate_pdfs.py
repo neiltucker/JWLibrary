@@ -131,7 +131,7 @@ def build_class_program(output_path):
     # Schedule
     story.append(Paragraph('<b>Welcome &amp; Screen Orientation: (0:00 - 0:05)</b>', section_hdr))
     story.append(Paragraph('0:00 &nbsp; Welcome; Bible/Daily Text readiness check (helpers assist with downloads).', timing_style))
-    story.append(Paragraph('0:02 &nbsp; Emergency silencing tip (hold Volume Down or tap Pause); locate main navigation bar.', timing_style))
+    story.append(Paragraph('0:02 &nbsp; Emergency silence tip: hold Volume Down (mobile) or press Mute key (PC); locate main bar.', timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph('<b>Lesson 1: Finding Scriptures &amp; Meetings (0:05 - 0:20)</b>', section_hdr))
@@ -147,7 +147,7 @@ def build_class_program(output_path):
     story.append(Paragraph('0:20 &nbsp; Understanding offline use: items downloaded on Wi-Fi stay on device with no cellular data needed.', timing_style))
     story.append(Paragraph('0:22 &nbsp; Perform Core Exercise 2.1 (Wi-Fi check &amp; mobile data safety).', timing_style))
     story.append(Paragraph('0:24 &nbsp; Download an item for offline reading/viewing; perform Core Exercise 2.2.', timing_style))
-    story.append(Paragraph('0:28 &nbsp; Using Audio Player (headphones icon); stopping sound quickly with Volume Down or Pause.', timing_style))
+    story.append(Paragraph('0:28 &nbsp; Audio Player (headphones icon); quick-silencing with Volume Down (mobile) or Mute key (PC).', timing_style))
     story.append(Paragraph('0:31 &nbsp; Perform Core Exercise 2.3 (Listen with Audio). (Instructor demonstrates storage check).', timing_style))
     story.append(Spacer(1, 2))
 
@@ -173,7 +173,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph('<b>2.1</b> Verify your device is connected to Wi-Fi to preserve mobile cellular data.', ex_style))
     story.append(Paragraph('<b>2.2</b> In Publications or Meetings, tap the <b>Cloud icon</b> on a study item to download it for offline use.', ex_style))
-    story.append(Paragraph('<b>2.3</b> Open Daily Text or Bible. Tap <b>Headphones</b> to listen; test stopping sound with <b>Volume Down</b>.', ex_style))
+    story.append(Paragraph('<b>2.3</b> Open Daily Text or Bible. Tap <b>Headphones</b> to listen; stop with <b>Volume Down</b> (or Mute key).', ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph('<b>3.1</b> In paragraph 1 of the <i>Watchtower</i> study, press and drag across an answer and tap <b>Yellow</b>.', ex_style))
@@ -344,8 +344,8 @@ def build_curriculum(output_path):
     story.append(Paragraph(
         'Host a 15-minute early arrival clinic so helpers ensure the Bible and Daily Text are ready. At the start of class, '
         'conduct a 30-second readiness check: have students raise hands if they need download assistance so helpers can '
-        'assist quietly while you proceed. Teach the emergency Volume Down silencing trick early to ease learner anxiety. '
-        'Have table assistants verify that students successfully enlarge text with the A A button.',
+        'assist quietly while you proceed. Teach device silencing early (side Volume Down on mobile; keyboard Mute key on PC) '
+        'to eliminate anxiety. Have assistants verify that students successfully enlarge text with the A A button.',
         body_style
     ))
 
@@ -373,19 +373,19 @@ def build_curriculum(output_path):
     story.append(Paragraph('&bull; Understanding Offline Use: reading and listening with no cellular connection', bullet_style))
     story.append(Paragraph('&bull; Connecting to Wi-Fi before downloading to preserve mobile cellular data limits', bullet_style))
     story.append(Paragraph('&bull; Downloading publications and media (recognizing the Cloud icon)', bullet_style))
-    story.append(Paragraph('&bull; Using Audio Player and emergency quick-silencing (Volume Down / Pause)', bullet_style))
+    story.append(Paragraph('&bull; Using Audio Player and emergency quick-silencing (Volume Down on mobile; Mute key on PC)', bullet_style))
     story.append(Paragraph('&bull; <i>Instructor Demonstration:</i> Sorting by Largest Size to inspect storage and delete files', bullet_style))
 
     story.append(Paragraph('Hands-On Core Exercises (5 minutes)', h2_style))
     story.append(Paragraph('&bull; <b>Core 2.1:</b> Confirm the device is connected to Wi-Fi at the top of the screen.', bullet_style))
     story.append(Paragraph('&bull; <b>Core 2.2:</b> Tap the Cloud icon on a study publication or video to download it.', bullet_style))
-    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open Daily Text or Bible, tap Headphones to listen, and practice quick-silencing.', bullet_style))
+    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open Daily Text or Bible, tap Headphones to listen; stop with Volume Down or Mute key.', bullet_style))
 
     story.append(Paragraph('Facilitator Notes for Lesson 2', h2_style))
     story.append(Paragraph(
         'Reassure students on limited data plans that they will not use cellular data at meetings if they download '
         'ahead of time on Wi-Fi. Explicitly practice emergency silencing: non-tech users often fear accidental sound; '
-        'knowing that holding the physical Volume Down button silences any media gives them complete peace of mind.',
+        'knowing how to silence immediately (holding side Volume Down on mobile or tapping Mute key on PC) gives complete peace of mind.',
         body_style
     ))
 

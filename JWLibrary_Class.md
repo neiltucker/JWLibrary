@@ -22,8 +22,10 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 * **Pre-Class Setup Clinic (15 Mins Early):** Announce that doors open 15 minutes before class. Have helpers greet attendees at the door, connect their devices to venue Wi-Fi, and verify that the **Bible** and current **Daily Text** are downloaded so learners can dive into Lesson 1 without tech bottlenecks.
 * **Table Assistants (Helpers):** Recruit **1 or 2 assistants** to walk the room quietly during practice. When a student accidentally leaves an app or locks their screen, a helper can lean in and tap them back to the right view in 5 seconds without stopping the class.
-* **Emergency Silencing ("Panic Button") Guidance:** Non-tech and elderly users often harbor acute anxiety that media will play unexpectedly and loudly during meetings or class. Before touching media features, teach students the "emergency brake": **press and hold the physical Volume Down button** on the side of the device, or tap on-screen Pause (⏸️).
-* **Screen Timeout Check:** At the start of class, suggest that students temporarily adjust their device screen timeout (auto-lock) to **2 or 5 minutes** so their screen doesn't turn off while following along.
+* **Emergency Silencing ("Panic Button") Guidance:** Non-tech and elderly users often harbor acute anxiety that media will play unexpectedly and loudly during meetings or class. Before touching media features, teach students the device-appropriate "emergency brake":
+  * **Phones & Tablets (Apple / Android):** Press and hold the physical **Volume Down button** on the side of the device, or tap on-screen **Pause (⏸️)**.
+  * **Computers (Windows PC / Mac):** Press the keyboard **Mute key (🔇)** or **Volume Down key** (usually on the top function row), click the speaker icon on the taskbar/menu bar, or click **Pause (⏸️)**.
+* **Screen Timeout Check:** At the start of class, suggest that students temporarily adjust their device screen timeout or auto-lock to **2 or 5 minutes** so their screen doesn't turn off while following along.
 * **10-Minute Flex Buffer:** If a hands-on exercise takes longer than 15 minutes, gently borrow 3–5 minutes from the 10-minute wrap-up session without rushing.
 * **Stay-After Clinic:** Announce at the start that the instructor and helpers will remain for **15 minutes after the session** for anyone desiring relaxed, one-on-one assistance.
 
@@ -34,7 +36,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 ### Welcome & Orientation (0:00 – 0:05)
 * **0:00** Welcome students; ensure everyone is connected to the venue's Wi-Fi.
 * **0:01** **Visual Readiness Check:** Ask students to tap **Bible** (📖). If they see chapters (Genesis, Matthew), they are ready. If anyone sees a cloud download icon or needs help installing the Bible or Daily Text, they raise their hand and a helper assists quietly at their seat while class begins.
-* **0:03** **Peace of Mind (Emergency Silencing):** Demonstrate how to immediately silence unexpected audio by holding down the device's physical **Volume Down button** or tapping Pause (⏸️).
+* **0:03** **Peace of Mind (Emergency Silencing):** Demonstrate how to immediately silence unexpected audio: on phones and tablets, hold the side **Volume Down button**; on laptops and PCs, press the keyboard **Mute key (🔇)**; or tap/click **Pause (⏸️)**.
 * **0:04** Locate main navigation bar (bottom on iOS / Android; top on Windows); check battery and screen timeout settings.
 
 ---
@@ -57,7 +59,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 * **0:24** **Perform Core Exercise 2.1** (Wi-Fi check).
 * **0:26** Downloading a publication or short teaching video (e.g., *"Why Study the Bible?"*).
 * **0:29** **Perform Core Exercise 2.2** (Download for offline use).
-* **0:31** Using the **Audio Player (🎧)**: tapping the headphones icon to listen to an article or chapter read aloud, and practicing immediate pausing/silencing.
+* **0:31** Using the **Audio Player (🎧)**: tapping the headphones icon to listen to an article or chapter read aloud, and practicing immediate pausing/silencing (side Volume Down on mobile; Mute key on PC/Mac; on-screen Pause).
 * **0:33** **Perform Core Exercise 2.3** (Listen to audio & emergency quick-silence).
 * **0:35** *Instructor Demonstration:* Sorting downloaded files by **Largest Size** to manage storage.
 
@@ -98,7 +100,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 * **Core 2.1. Wi-Fi Check:** Verify that your device is connected to Wi-Fi before initiating any media download to preserve mobile cellular data.
 * **Core 2.2. Download for Offline Use:** Tap **Publications** (📚) or the meeting schedule. Tap the **Cloud icon (☁️)** on a study publication or short video to download it for offline use.
-* **Core 2.3. Listen to Audio & Quick Silence:** Open the Daily Text or a Bible chapter. Tap the **Headphones / Play button (🎧)** at the top of the screen to listen to the reading. Practice stopping the sound instantly by tapping **Pause (⏸️)** or by pressing and holding the device's physical **Volume Down** button.
+* **Core 2.3. Listen to Audio & Quick Silence:** Open the Daily Text or a Bible chapter. Tap the **Headphones / Play button (🎧)** at the top of the screen to listen to the reading. Practice stopping the sound instantly: on a phone or tablet, press and hold the physical **Volume Down button** on the side; on a laptop/PC, press the keyboard **Mute key (🔇)**; or tap/click **Pause (⏸️)**.
 * *Demonstrated (Bonus):* In **Publications** > **Downloaded**, change the sort order to **Largest Size** to check storage use and see how to delete unneeded files.
 
 ---
