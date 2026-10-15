@@ -130,8 +130,8 @@ def build_class_program(output_path):
 
     # Schedule
     story.append(Paragraph('<b>Welcome &amp; Screen Orientation: (0:00 - 0:05)</b>', section_hdr))
-    story.append(Paragraph('0:00 &nbsp; Welcome students, verify Wi-Fi connection, check battery and screen timeout settings.', timing_style))
-    story.append(Paragraph('0:02 &nbsp; Locate the main navigation bar (bottom on iOS / Android; top on Windows).', timing_style))
+    story.append(Paragraph('0:00 &nbsp; Welcome; Bible/Daily Text readiness check (helpers assist with downloads).', timing_style))
+    story.append(Paragraph('0:02 &nbsp; Emergency silencing tip (hold Volume Down or tap Pause); locate main navigation bar.', timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph('<b>Lesson 1: Finding Scriptures &amp; Meetings (0:05 - 0:20)</b>', section_hdr))
@@ -147,7 +147,7 @@ def build_class_program(output_path):
     story.append(Paragraph('0:20 &nbsp; Understanding offline use: items downloaded on Wi-Fi stay on device with no cellular data needed.', timing_style))
     story.append(Paragraph('0:22 &nbsp; Perform Core Exercise 2.1 (Wi-Fi check &amp; mobile data safety).', timing_style))
     story.append(Paragraph('0:24 &nbsp; Download an item for offline reading/viewing; perform Core Exercise 2.2.', timing_style))
-    story.append(Paragraph('0:28 &nbsp; Using Audio Player (headphones/play icon) to listen to articles or chapters read aloud.', timing_style))
+    story.append(Paragraph('0:28 &nbsp; Using Audio Player (headphones icon); stopping sound quickly with Volume Down or Pause.', timing_style))
     story.append(Paragraph('0:31 &nbsp; Perform Core Exercise 2.3 (Listen with Audio). (Instructor demonstrates storage check).', timing_style))
     story.append(Spacer(1, 2))
 
@@ -173,7 +173,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph('<b>2.1</b> Verify your device is connected to Wi-Fi to preserve mobile cellular data.', ex_style))
     story.append(Paragraph('<b>2.2</b> In Publications or Meetings, tap the <b>Cloud icon</b> on a study item to download it for offline use.', ex_style))
-    story.append(Paragraph('<b>2.3</b> Open the Daily Text or a Bible chapter. Tap the <b>Headphones button</b> to listen to the reading.', ex_style))
+    story.append(Paragraph('<b>2.3</b> Open Daily Text or Bible. Tap <b>Headphones</b> to listen; test stopping sound with <b>Volume Down</b>.', ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph('<b>3.1</b> In paragraph 1 of the <i>Watchtower</i> study, press and drag across an answer and tap <b>Yellow</b>.', ex_style))
@@ -299,12 +299,13 @@ def build_curriculum(output_path):
     story.append(Paragraph('&bull; Access the Daily Text and enlarge reading text using the A A button.', bullet_style))
     story.append(Paragraph('&bull; Locate weekly meeting study articles with one tap from the Meetings tab.', bullet_style))
     story.append(Paragraph('&bull; Understand offline reading and download publications on Wi-Fi to preserve mobile data.', bullet_style))
-    story.append(Paragraph('&bull; Use the audio player (headphones icon) to listen to articles read aloud.', bullet_style))
+    story.append(Paragraph('&bull; Use the audio player (headphones icon) and quickly silence unexpected audio.', bullet_style))
     story.append(Paragraph('&bull; Highlight answers in study articles in various colors and remove highlights.', bullet_style))
     story.append(Paragraph('&bull; Create a safety backup (.jwlibrary file) to safeguard study records.', bullet_style))
 
     story.append(Paragraph('Prerequisites &amp; Setup Tips', h1_style))
     story.append(Paragraph('Before attending this course, students should have:', body_style))
+    story.append(Paragraph('&bull; Arrive <b>10–15 minutes early</b> for helper assistance with Wi-Fi and Bible/Daily Text setup.', bullet_style))
     story.append(Paragraph('&bull; A supported device running <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, or <b>Windows 10 v2004+</b>.', bullet_style))
     story.append(Paragraph('&bull; Arrive with a <b>fully charged battery</b> (or bring a charger).', bullet_style))
     story.append(Paragraph('&bull; Temporarily set device <b>screen timeout to 2 or 5 minutes</b> to prevent the screen turning off.', bullet_style))
@@ -341,9 +342,10 @@ def build_curriculum(output_path):
 
     story.append(Paragraph('Facilitator Notes for Lesson 1', h2_style))
     story.append(Paragraph(
-        'Have table assistants verify that students successfully enlarge their text. Finding the A A button '
-        'early builds confidence and makes the rest of the class enjoyable. Keep bookmarks and search as quick '
-        'demonstrations so students do not get bogged down typing on touchscreen keyboards.',
+        'Host a 15-minute early arrival clinic so helpers ensure the Bible and Daily Text are ready. At the start of class, '
+        'conduct a 30-second readiness check: have students raise hands if they need download assistance so helpers can '
+        'assist quietly while you proceed. Teach the emergency Volume Down silencing trick early to ease learner anxiety. '
+        'Have table assistants verify that students successfully enlarge text with the A A button.',
         body_style
     ))
 
@@ -371,26 +373,26 @@ def build_curriculum(output_path):
     story.append(Paragraph('&bull; Understanding Offline Use: reading and listening with no cellular connection', bullet_style))
     story.append(Paragraph('&bull; Connecting to Wi-Fi before downloading to preserve mobile cellular data limits', bullet_style))
     story.append(Paragraph('&bull; Downloading publications and media (recognizing the Cloud icon)', bullet_style))
-    story.append(Paragraph('&bull; Using the Audio Player (headphones/play button) for narrated reading', bullet_style))
+    story.append(Paragraph('&bull; Using Audio Player and emergency quick-silencing (Volume Down / Pause)', bullet_style))
     story.append(Paragraph('&bull; <i>Instructor Demonstration:</i> Sorting by Largest Size to inspect storage and delete files', bullet_style))
 
     story.append(Paragraph('Hands-On Core Exercises (5 minutes)', h2_style))
     story.append(Paragraph('&bull; <b>Core 2.1:</b> Confirm the device is connected to Wi-Fi at the top of the screen.', bullet_style))
     story.append(Paragraph('&bull; <b>Core 2.2:</b> Tap the Cloud icon on a study publication or video to download it.', bullet_style))
-    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open the Daily Text or a Bible chapter and tap the Headphones button to listen.', bullet_style))
+    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open Daily Text or Bible, tap Headphones to listen, and practice quick-silencing.', bullet_style))
 
     story.append(Paragraph('Facilitator Notes for Lesson 2', h2_style))
     story.append(Paragraph(
         'Reassure students on limited data plans that they will not use cellular data at meetings if they download '
-        'ahead of time on Wi-Fi. Demonstrate the audio player clearly; many students with vision fatigue appreciate '
-        'listening along while preparing their study.',
+        'ahead of time on Wi-Fi. Explicitly practice emergency silencing: non-tech users often fear accidental sound; '
+        'knowing that holding the physical Volume Down button silences any media gives them complete peace of mind.',
         body_style
     ))
 
     story.append(Paragraph('After completing this lesson, students will be able to:', h2_style))
     story.append(Paragraph('&bull; Download publications safely on Wi-Fi without using mobile data.', bullet_style))
     story.append(Paragraph('&bull; Open and read downloaded publications offline at congregation meetings.', bullet_style))
-    story.append(Paragraph('&bull; Play and pause audio readings of scriptures and articles.', bullet_style))
+    story.append(Paragraph('&bull; Play, pause, and immediately silence audio readings of scriptures and articles.', bullet_style))
 
     # ==================== PAGE 4 ====================
     story.append(PageBreak())
@@ -422,10 +424,10 @@ def build_curriculum(output_path):
 
     story.append(Paragraph('Wrap-Up &amp; Facilitator Recommendations (0:50 - 1:00)', h2_style))
     story.append(Paragraph(
-        '• <b>10-Minute Flex Buffer:</b> Use this 10-minute wrap-up buffer to review accomplishments, answer questions, '
-        'or absorb extra time if earlier exercises ran long.<br/>'
-        '• <b>Table Assistants (Helpers):</b> Having 1 or 2 assistants quietly walking the room to help individuals with finger '
-        'gestures prevents class delays.<br/>'
+        '• <b>Pre-Class Setup Clinic:</b> Opening doors 15 minutes early for helper setup prevents Wi-Fi bottlenecks.<br/>'
+        '• <b>Emergency Silencing Reflex:</b> Teaching the Volume Down button early eliminates fear of unexpected audio.<br/>'
+        '• <b>10-Minute Flex Buffer:</b> Use this wrap-up buffer to review accomplishments, answer questions, or absorb extra time.<br/>'
+        '• <b>Table Assistants (Helpers):</b> Having 1 or 2 assistants walking the room to help individuals prevents class delays.<br/>'
         '• <b>Stay-After Clinic:</b> Offer to stay for 15 minutes after class for anyone wanting one-on-one help with their backup file.<br/>'
         '• <b>Physical Handouts:</b> Distribute printed copies of the 1-page Class Program so students have step numbers on the table.',
         body_style
