@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JW Library Tutorial &mdash; Practice Guide &amp; Class Schedule</title>
   <meta name="description" content="A clear, practical, step-by-step training guide and class schedule for learning how to use the JW Library app for personal study, meetings, and the ministry.">
+  <script>
+    // Early theme and font size setup to prevent flash of wrong theme/size
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        var savedSize = localStorage.getItem('jw_tutorial_text_size');
+        var sizes = { small: '16px', normal: '19px', large: '22px', xlarge: '25px' };
+        if (savedSize && sizes[savedSize]) {
+          document.documentElement.style.setProperty('--font-base', sizes[savedSize]);
+        }
+      } catch (e) {}
+    })();
+  </script>
   <style>
     :root {
       --bg: #f8fafc;
@@ -17,10 +33,129 @@
       --primary-border: #bfdbfe;
       --accent: #0f766e;
       --accent-light: #f0fdfa;
+      --accent-text: #134e4a;
       --tag-bg: #f1f5f9;
       --radius: 12px;
       --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
       --font-base: 19px;
+
+      /* UI Controls */
+      --btn-bg: #f1f5f9;
+      --btn-border: #cbd5e1;
+      --btn-text: #1e293b;
+      --btn-active-bg: #1e40af;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #f8fafc;
+      --exercise-border: #e2e8f0;
+      --demo-bg: #f1f5f9;
+      --demo-border: #64748b;
+      --demo-title: #475569;
+      --demo-text: #475569;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #fefce8;
+      --tip-border: #eab308;
+      --tip-text: #713f12;
+      --check-bg: #dcfce7;
+      --check-text: #166534;
+      --facilitator-bg: #f0fdf4;
+      --facilitator-border: #16a34a;
+      --facilitator-text: #14532d;
+      --facilitator-title: #166534;
+      --table-th-bg: #f1f5f9;
+
+      /* Video Link */
+      --video-bg: #eff6ff;
+      --video-border: #bfdbfe;
+      --video-text: #1d4ed8;
+      --video-hover-bg: #dbeafe;
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      --header-text: #ffffff;
+      --header-subtext: #dbeafe;
+      --header-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+
+      /* Device selector */
+      --device-tab-bg: #f8fafc;
+      --device-tab-border: #cbd5e1;
+      --device-tab-text: #1e293b;
+      --device-tab-hover-bg: #eff6ff;
+
+      /* Links & Footer */
+      --link-item-bg: #f8fafc;
+      --link-item-border: #cbd5e1;
+      --footer-text: #64748b;
+      --footer-heading: #334155;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-light: #172554;
+      --primary-border: #60a5fa;
+      --accent: #2dd4bf;
+      --accent-light: #042f2e;
+      --accent-text: #5eead4;
+      --tag-bg: #334155;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+
+      /* UI Controls */
+      --btn-bg: #334155;
+      --btn-border: #475569;
+      --btn-text: #f1f5f9;
+      --btn-active-bg: #3b82f6;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #0f172a;
+      --exercise-border: #334155;
+      --demo-bg: #182234;
+      --demo-border: #94a3b8;
+      --demo-title: #cbd5e1;
+      --demo-text: #cbd5e1;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #221c04;
+      --tip-border: #eab308;
+      --tip-text: #fef08a;
+      --check-bg: #064e3b;
+      --check-text: #86efac;
+      --facilitator-bg: #052e16;
+      --facilitator-border: #22c55e;
+      --facilitator-text: #bbf7d0;
+      --facilitator-title: #86efac;
+      --table-th-bg: #0f172a;
+
+      /* Video Link */
+      --video-bg: #1e293b;
+      --video-border: #3b82f6;
+      --video-text: #93c5fd;
+      --video-hover-bg: rgba(37, 99, 235, 0.2);
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      --header-text: #ffffff;
+      --header-subtext: #bfdbfe;
+      --header-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+      /* Device selector */
+      --device-tab-bg: #0f172a;
+      --device-tab-border: #475569;
+      --device-tab-text: #f1f5f9;
+      --device-tab-hover-bg: #1e293b;
+
+      /* Links & Footer */
+      --link-item-bg: #0f172a;
+      --link-item-border: #334155;
+      --footer-text: #94a3b8;
+      --footer-heading: #e2e8f0;
     }
 
     * {
@@ -29,18 +164,24 @@
       padding: 0;
     }
 
+    html {
+      font-size: var(--font-base);
+      transition: font-size 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: var(--font-base);
+      font-size: 1rem;
       line-height: 1.65;
       background-color: var(--bg);
       color: var(--text);
       padding: 1.5rem 1rem 4rem;
       -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 920px;
       margin: 0 auto;
     }
 
@@ -57,10 +198,12 @@
       padding: 0.85rem 1.25rem;
       margin-bottom: 1.5rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .util-group {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 0.5rem;
     }
@@ -72,9 +215,9 @@
     }
 
     .btn-control {
-      background-color: #f1f5f9;
-      border: 1px solid #cbd5e1;
-      color: var(--text);
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
       padding: 0.4rem 0.85rem;
       border-radius: 8px;
       font-size: 1rem;
@@ -90,6 +233,25 @@
       outline: none;
     }
 
+    .btn-control.active {
+      background-color: var(--btn-active-bg);
+      color: var(--btn-active-text);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-size {
+      min-width: 2.3rem;
+      text-align: center;
+    }
+
+    .btn-theme {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
     .btn-print {
       display: inline-flex;
       align-items: center;
@@ -102,12 +264,13 @@
 
     /* Header */
     header {
-      background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-      color: #ffffff;
+      background: var(--header-bg);
+      color: var(--header-text);
       border-radius: var(--radius);
       padding: 2.25rem 2rem;
       margin-bottom: 2rem;
-      box-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+      box-shadow: var(--header-shadow);
+      transition: background 0.2s ease;
     }
 
     header h1 {
@@ -116,11 +279,12 @@
       line-height: 1.25;
       margin-bottom: 0.6rem;
       letter-spacing: -0.02em;
+      color: var(--header-text);
     }
 
     header p {
       font-size: 1.15rem;
-      color: #dbeafe;
+      color: var(--header-subtext);
       max-width: 760px;
       line-height: 1.5;
     }
@@ -133,6 +297,7 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .device-card h2 {
@@ -152,13 +317,13 @@
     }
 
     .device-tab {
-      background-color: #f8fafc;
-      border: 2px solid #cbd5e1;
+      background-color: var(--device-tab-bg);
+      border: 2px solid var(--device-tab-border);
       padding: 0.9rem 1rem;
       border-radius: 10px;
       font-size: 1.05rem;
       font-weight: 700;
-      color: var(--text);
+      color: var(--device-tab-text);
       cursor: pointer;
       text-align: center;
       transition: all 0.2s ease;
@@ -166,7 +331,7 @@
 
     .device-tab:hover {
       border-color: var(--primary);
-      background-color: var(--primary-light);
+      background-color: var(--device-tab-hover-bg);
     }
 
     .device-tab.active {
@@ -183,7 +348,8 @@
       border-left: 4px solid var(--accent);
       border-radius: 6px;
       font-size: 1rem;
-      color: #134e4a;
+      color: var(--accent-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     /* Checklist Box */
@@ -194,6 +360,7 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .checklist-box h3 {
@@ -223,14 +390,16 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background-color: #dcfce7;
-      color: #166534;
+      background-color: var(--check-bg);
+      color: var(--check-text);
       font-weight: 700;
       border-radius: 50%;
-      width: 24px;
-      height: 24px;
+      width: 1.45rem;
+      height: 1.45rem;
+      font-size: 0.85rem;
       flex-shrink: 0;
       margin-top: 2px;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     /* Lesson Cards */
@@ -241,10 +410,11 @@
       padding: 2rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .lesson-header {
-      border-bottom: 2px solid #f1f5f9;
+      border-bottom: 2px solid var(--card-border);
       padding-bottom: 1rem;
       margin-bottom: 1.5rem;
       display: flex;
@@ -266,10 +436,11 @@
     .lesson-time {
       font-size: 0.95rem;
       font-weight: 700;
-      color: #475569;
-      background-color: #f1f5f9;
+      color: var(--text-muted);
+      background-color: var(--btn-bg);
       padding: 0.25rem 0.75rem;
       border-radius: 9999px;
+      border: 1px solid var(--card-border);
     }
 
     .lesson-intro {
@@ -283,9 +454,9 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background-color: #eff6ff;
-      border: 1px solid #bfdbfe;
-      color: #1d4ed8;
+      background-color: var(--video-bg);
+      border: 1px solid var(--video-border);
+      color: var(--video-text);
       padding: 0.5rem 1rem;
       border-radius: 8px;
       font-weight: 600;
@@ -295,22 +466,31 @@
     }
 
     .official-video-link:hover {
-      background-color: #dbeafe;
+      background-color: var(--video-hover-bg);
       text-decoration: underline;
     }
 
     /* Steps */
     .exercise-box {
-      background-color: #f8fafc;
-      border: 1px solid #e2e8f0;
+      background-color: var(--exercise-bg);
+      border: 1px solid var(--exercise-border);
       border-radius: 10px;
       padding: 1.35rem 1.5rem;
       margin-bottom: 1.25rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .exercise-box.demonstrated {
-      background-color: #f1f5f9;
-      border-left: 4px solid #64748b;
+      background-color: var(--demo-bg);
+      border-left: 4px solid var(--demo-border);
+    }
+
+    .exercise-box.demonstrated .exercise-title {
+      color: var(--demo-title);
+    }
+
+    .exercise-box.demonstrated p {
+      color: var(--demo-text);
     }
 
     .exercise-title {
@@ -336,18 +516,19 @@
       padding-left: 2rem;
       font-size: 1.02rem;
       line-height: 1.55;
+      color: var(--text);
     }
 
     .step-num {
       position: absolute;
       left: 0;
-      top: 1px;
+      top: 2px;
       background-color: var(--primary);
       color: #ffffff;
       font-weight: 700;
       font-size: 0.85rem;
-      width: 22px;
-      height: 22px;
+      width: 1.45rem;
+      height: 1.45rem;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -357,11 +538,12 @@
     .step-tip {
       margin-top: 0.75rem;
       padding: 0.65rem 0.85rem;
-      background-color: #fefce8;
-      border-left: 3px solid #eab308;
+      background-color: var(--tip-bg);
+      border-left: 3px solid var(--tip-border);
       border-radius: 4px;
       font-size: 0.95rem;
-      color: #713f12;
+      color: var(--tip-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     /* Accordion for Facilitator Section */
@@ -372,6 +554,7 @@
       padding: 1.25rem 1.5rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     details.instructor-guide summary {
@@ -388,7 +571,7 @@
     .instructor-content {
       margin-top: 1.25rem;
       padding-top: 1rem;
-      border-top: 1px solid #e2e8f0;
+      border-top: 1px solid var(--card-border);
       font-size: 1rem;
       color: var(--text-muted);
     }
@@ -400,30 +583,35 @@
     }
 
     .timing-table th, .timing-table td {
-      border: 1px solid #e2e8f0;
+      border: 1px solid var(--card-border);
       padding: 0.6rem 0.85rem;
       text-align: left;
     }
 
     .timing-table th {
-      background-color: #f1f5f9;
+      background-color: var(--table-th-bg);
       color: var(--text);
       font-weight: 700;
+    }
+
+    .timing-table td {
+      color: var(--text);
     }
 
     .facilitator-box {
       margin-top: 1rem;
       padding: 1rem;
-      background-color: #f0fdf4;
-      border-left: 4px solid #16a34a;
+      background-color: var(--facilitator-bg);
+      border-left: 4px solid var(--facilitator-border);
       border-radius: 6px;
-      color: #14532d;
+      color: var(--facilitator-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     .facilitator-box h4 {
       font-size: 1.05rem;
       margin-bottom: 0.4rem;
-      color: #166534;
+      color: var(--facilitator-title);
     }
 
     /* Official Links Card */
@@ -434,6 +622,7 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     .links-card h3 {
@@ -455,8 +644,8 @@
     .link-item {
       display: block;
       padding: 0.75rem 1rem;
-      background-color: #f8fafc;
-      border: 1px solid #cbd5e1;
+      background-color: var(--link-item-bg);
+      border: 1px solid var(--link-item-border);
       border-radius: 8px;
       color: var(--primary);
       text-decoration: none;
@@ -479,24 +668,25 @@
       padding: 1.75rem;
       margin-top: 2rem;
       font-size: 0.9rem;
-      color: #64748b;
+      color: var(--footer-text);
       line-height: 1.6;
       box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
     }
 
     footer h4 {
       font-size: 1.05rem;
-      color: #334155;
+      color: var(--footer-heading);
       margin-bottom: 0.5rem;
     }
 
     /* Print Styles */
     @media print {
       body {
-        background-color: #ffffff;
-        color: #000000;
-        font-size: 11pt;
-        padding: 0;
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        padding: 0 !important;
       }
 
       .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
@@ -504,40 +694,41 @@
       }
 
       header {
-        background: none;
-        color: #000000;
+        background: none !important;
+        color: #000000 !important;
         padding: 0 0 0.75rem 0;
         border-bottom: 2px solid #000000;
         margin-bottom: 1.25rem;
-        box-shadow: none;
+        box-shadow: none !important;
       }
 
       header h1 {
-        font-size: 18pt;
-        color: #000000;
+        font-size: 18pt !important;
+        color: #000000 !important;
       }
 
       header p {
-        color: #333333;
-        font-size: 10.5pt;
+        color: #333333 !important;
+        font-size: 10.5pt !important;
       }
 
       .lesson-card, .exercise-box {
-        border: 1px solid #cccccc;
-        box-shadow: none;
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
         page-break-inside: avoid;
         margin-bottom: 0.85rem;
         padding: 0.85rem;
       }
 
       .lesson-title {
-        color: #000000;
-        font-size: 13pt;
+        color: #000000 !important;
+        font-size: 13pt !important;
       }
 
       .step-num {
-        background-color: #000000;
-        color: #ffffff;
+        background-color: #000000 !important;
+        color: #ffffff !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
       }
@@ -552,9 +743,13 @@
     <div class="utility-bar">
       <div class="util-group">
         <span class="util-label">Text Size:</span>
-        <button class="btn-control" onclick="setTextSize('normal')" title="Standard text size">A</button>
-        <button class="btn-control" onclick="setTextSize('large')" title="Large text size">A+</button>
-        <button class="btn-control" onclick="setTextSize('xlarge')" title="Extra large text size">A++</button>
+        <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Smaller text size" aria-label="Smaller text size">A−</button>
+        <button class="btn-control btn-size active" id="btn-size-normal" onclick="setTextSize('normal')" title="Standard text size" aria-label="Standard text size">A</button>
+        <button class="btn-control btn-size" id="btn-size-large" onclick="setTextSize('large')" title="Large text size" aria-label="Large text size">A+</button>
+        <button class="btn-control btn-size" id="btn-size-xlarge" onclick="setTextSize('xlarge')" title="Extra large text size" aria-label="Extra large text size">A++</button>
+        <button class="btn-control btn-theme" id="btn-theme-toggle" onclick="toggleTheme()" title="Switch to Dark Mode" aria-label="Switch to Dark Mode">
+          <span id="theme-icon">🌙</span> <span id="theme-label">Dark</span>
+        </button>
       </div>
       <div class="util-group">
         <button class="btn-control btn-print" onclick="window.print()" title="Print this practice sheet">
@@ -664,8 +859,8 @@
 
       <!-- Demonstrated Box -->
       <div class="exercise-box demonstrated">
-        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Bookmarks, History &amp; Search</h3>
-        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+        <h3 class="exercise-title">Instructor Demonstration: Bookmarks, History &amp; Search</h3>
+        <p>
           The instructor will show how to set a <strong>Bookmark (🔖)</strong>, revisit recent verses using <strong>History (🕒)</strong>, and search for words with <strong>Search (🔍)</strong>. You can practice these at home!
         </p>
       </div>
@@ -721,8 +916,8 @@
 
       <!-- Demonstrated Box -->
       <div class="exercise-box demonstrated">
-        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Managing Storage Space</h3>
-        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+        <h3 class="exercise-title">Instructor Demonstration: Managing Storage Space</h3>
+        <p>
           The instructor will demonstrate how to go to <em>Publications &gt; Downloaded</em>, sort by <strong>Largest Size</strong>, and delete older videos when device storage space runs low.
         </p>
       </div>
@@ -779,8 +974,8 @@
 
       <!-- Demonstrated Box -->
       <div class="exercise-box demonstrated">
-        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Notes, Tags &amp; Personal Study Hub</h3>
-        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+        <h3 class="exercise-title">Instructor Demonstration: Notes, Tags &amp; Personal Study Hub</h3>
+        <p>
           The instructor will show how you can attach written notes (📝) to verses and view all your collected bookmarks and highlights in the <strong>Personal Study</strong> tab.
         </p>
       </div>
@@ -883,17 +1078,82 @@
   </div>
 
   <script>
-    // Text size switcher
+    // Text size configuration
+    const TEXT_SIZES = {
+      small: '16px',
+      normal: '19px',
+      large: '22px',
+      xlarge: '25px'
+    };
+
     function setTextSize(size) {
-      const root = document.documentElement;
-      if (size === 'normal') {
-        root.style.setProperty('--font-base', '19px');
-      } else if (size === 'large') {
-        root.style.setProperty('--font-base', '22px');
-      } else if (size === 'xlarge') {
-        root.style.setProperty('--font-base', '25px');
-      }
+      const base = TEXT_SIZES[size] || TEXT_SIZES.normal;
+      document.documentElement.style.setProperty('--font-base', base);
+
+      document.querySelectorAll('.btn-size').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById('btn-size-' + size);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      try {
+        localStorage.setItem('jw_tutorial_text_size', size);
+      } catch (e) {}
     }
+
+    // Theme (Dark Mode) switcher
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      const isDark = theme === 'dark';
+      if (isDark) {
+        root.setAttribute('data-theme', 'dark');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+
+      const iconEl = document.getElementById('theme-icon');
+      const labelEl = document.getElementById('theme-label');
+      const toggleBtn = document.getElementById('btn-theme-toggle');
+
+      if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+      if (labelEl) labelEl.textContent = isDark ? 'Light' : 'Dark';
+      if (toggleBtn) {
+        toggleBtn.title = isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+        toggleBtn.setAttribute('aria-label', toggleBtn.title);
+      }
+
+      try {
+        localStorage.setItem('jw_tutorial_theme', theme);
+      } catch (e) {}
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    }
+
+    // Initialize preferences from localStorage or system defaults
+    (function initPreferences() {
+      try {
+        const savedSize = localStorage.getItem('jw_tutorial_text_size');
+        if (savedSize && TEXT_SIZES[savedSize]) {
+          setTextSize(savedSize);
+        } else {
+          setTextSize('normal');
+        }
+
+        const savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          applyTheme(savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          applyTheme('dark');
+        } else {
+          applyTheme('light');
+        }
+      } catch (e) {
+        setTextSize('normal');
+        applyTheme('light');
+      }
+    })();
 
     // Device switcher
     function selectDevice(device) {

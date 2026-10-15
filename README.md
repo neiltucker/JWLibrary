@@ -14,7 +14,8 @@ An interactive, accessible version of this tutorial—optimized for all screen s
 
 The web guide includes:
 * **Device Switcher:** Choose between **Apple (iOS / iPadOS)**, **Android**, or **Windows PC / Mac** to view the exact button names and menu layouts for your device.
-* **Large-Print Display & Text Size Controls:** Built for effortless readability with adjustable font sizing (`A`, `A+`, `A++`).
+* **Large-Print Display & Text Size Controls:** Built for effortless readability with adjustable font sizing (`A−`, `A`, `A+`, `A++`) to reduce or enlarge text size.
+* **Dark Mode & Light Mode:** One-tap theme toggle in the header for strain-free reading in low-light environments.
 * **Printable Quick-Reference Guide:** Format and print clean physical cheat sheets for student practice.
 * **Streamlined Core Walkthroughs:** Clear, numbered 1-2-3 steps paired with visual icon cues (📖, 📚, 📅, ☀️, 🔍, 🔖, 🖍️, 🎧, 💾).
 
