@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JW Library Tutorial — Practice Guide & Class Schedule</title>
+  <meta name="description" content="A clear, practical, step-by-step training guide and class schedule for learning how to use the JW Library app for personal study, meetings, and the ministry.">
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --primary: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-border: #bfdbfe;
+      --accent: #0f766e;
+      --accent-light: #f0fdfa;
+      --tag-bg: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --font-base: 19px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: var(--font-base);
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1.5rem 1rem 4rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .utility-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .util-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .util-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .btn-control {
+      background-color: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      color: var(--text);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-control:hover, .btn-control:focus {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      color: #ffffff;
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: #dbeafe;
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Device Selector Card */
+    .device-card {
+      background-color: var(--card-bg);
+      border: 2px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .device-card h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .device-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .device-tab {
+      background-color: #f8fafc;
+      border: 2px solid #cbd5e1;
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .device-tab:hover {
+      border-color: var(--primary);
+      background-color: var(--primary-light);
+    }
+
+    .device-tab.active {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 6px -1px rgba(30, 64, 175, 0.3);
+    }
+
+    .device-note {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background-color: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      font-size: 1rem;
+      color: #134e4a;
+    }
+
+    /* Checklist Box */
+    .checklist-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .checklist-box h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checklist-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    .check-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #dcfce7;
+      color: #166534;
+      font-weight: 700;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Lesson Cards */
+    .lesson-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .lesson-header {
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+
+    .lesson-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .lesson-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #475569;
+      background-color: #f1f5f9;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+    }
+
+    .lesson-intro {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .official-video-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1d4ed8;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: all 0.15s ease;
+    }
+
+    .official-video-link:hover {
+      background-color: #dbeafe;
+      text-decoration: underline;
+    }
+
+    /* Steps */
+    .exercise-box {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .exercise-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .step-list {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .step-list li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.02rem;
+      line-height: 1.55;
+    }
+
+    .step-num {
+      position: absolute;
+      left: 0;
+      top: 1px;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-tip {
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      background-color: #fefce8;
+      border-left: 3px solid #eab308;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: #713f12;
+    }
+
+    /* Accordion for Instructor Section */
+    details.instructor-guide {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    details.instructor-guide summary {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      user-select: none;
+    }
+
+    .instructor-content {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e8f0;
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    .timing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .timing-table th, .timing-table td {
+      border: 1px solid #e2e8f0;
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+
+    .timing-table th {
+      background-color: #f1f5f9;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    /* Official Links Card */
+    .links-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+
+    .links-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .link-item {
+      display: block;
+      padding: 0.75rem 1rem;
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      transition: all 0.15s ease;
+    }
+
+    .link-item:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Footer & Disclaimer */
+    footer {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #64748b;
+      line-height: 1.6;
+      box-shadow: var(--shadow);
+    }
+
+    footer h4 {
+      font-size: 1.05rem;
+      color: #334155;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 12pt;
+        padding: 0;
+      }
+
+      .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
+        display: none !important;
+      }
+
+      header {
+        background: none;
+        color: #000000;
+        padding: 0 0 1rem 0;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 1.5rem;
+        box-shadow: none;
+      }
+
+      header h1 {
+        font-size: 20pt;
+        color: #000000;
+      }
+
+      header p {
+        color: #333333;
+        font-size: 11pt;
+      }
+
+      .lesson-card, .exercise-box {
+        border: 1px solid #cccccc;
+        box-shadow: none;
+        page-break-inside: avoid;
+        margin-bottom: 1rem;
+        padding: 1rem;
+      }
+
+      .lesson-title {
+        color: #000000;
+        font-size: 14pt;
+      }
+
+      .step-num {
+        background-color: #000000;
+        color: #ffffff;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Top Utility Controls -->
+    <div class="utility-bar">
+      <div class="util-group">
+        <span class="util-label">Text Size:</span>
+        <button class="btn-control" onclick="setTextSize('normal')" title="Standard text size">A</button>
+        <button class="btn-control" onclick="setTextSize('large')" title="Large text size">A+</button>
+        <button class="btn-control" onclick="setTextSize('xlarge')" title="Extra large text size">A++</button>
+      </div>
+      <div class="util-group">
+        <button class="btn-control btn-print" onclick="window.print()" title="Print this practice sheet">
+          🖨️ Print Quick Guide
+        </button>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <h1>JW Library Tutorial</h1>
+      <p>A practical, hands-on practice guide to help you navigate and enjoy reading the Bible, preparing for meetings, and using publications.</p>
+    </header>
+
+    <!-- Device Switcher -->
+    <section class="device-card">
+      <h2><span>📱</span> Select Your Device</h2>
+      <p style="font-size: 1rem; color: var(--text-muted);">Choose your device so the instructions and button locations match your screen:</p>
+      
+      <div class="device-tabs">
+        <button class="device-tab active" id="tab-apple" onclick="selectDevice('apple')">
+          🍎 Apple (iPhone / iPad)
+        </button>
+        <button class="device-tab" id="tab-android" onclick="selectDevice('android')">
+          🤖 Android (Phone / Tablet)
+        </button>
+        <button class="device-tab" id="tab-windows" onclick="selectDevice('windows')">
+          💻 Windows PC / Mac
+        </button>
+      </div>
+
+      <div class="device-note" id="device-note-text">
+        <strong>Device Selected:</strong> On Apple iPhone and iPad, the main navigation bar is at the bottom of the screen (Bible, Publications, Meetings, Personal Study).
+      </div>
+    </section>
+
+    <!-- Quick Checklist -->
+    <section class="checklist-box">
+      <h3><span>✅</span> Preparation Checklist</h3>
+      <div class="checklist-items">
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Connect to Wi-Fi:</strong> Connect to home, Kingdom Hall, or library Wi-Fi to avoid mobile data charges.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>App Installed:</strong> Make sure the app is opened and updated to the latest available version.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Device Storage:</strong> Check that your device has at least 2 GB of free space for media downloads.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lesson 1: Navigation & Meetings -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>📖</span> Lesson 1: Getting Around & Meetings</h2>
+        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+      </div>
+      
+      <p class="lesson-intro">
+        Learn how to move between the primary sections of the app, read today's Daily Text, open your meeting study articles directly, and find passages quickly using search and bookmarks.
+      </p>
+
+      <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+        ▶️ View Official Tutorial on JW.ORG
+      </a>
+
+      <!-- Exercise 1.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 1.1: Go to Today's Daily Text</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> <span class="nav-instruction">Look at the main navigation bar (<strong class="nav-location">at the bottom of your screen</strong>)</span>.</li>
+          <li><span class="step-num">2</span> Tap <strong>Daily Text</strong> (☀️).</li>
+          <li><span class="step-num">3</span> Read today's scripture and the accompanying comment.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 1.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 1.2: Use the Meetings Tab</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap the <strong>Meetings</strong> tab (📅) on your main navigation bar.</li>
+          <li><span class="step-num">2</span> Notice the two meeting sections: <em>Midweek Meeting</em> and <em>Weekend Meeting</em>.</li>
+          <li><span class="step-num">3</span> Tap the <strong>Watchtower Study</strong> article under the Weekend Meeting to open it immediately.</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Tip:</strong> The Meetings tab automatically updates every week, so you never have to search for the right issue!
+        </div>
+      </div>
+
+      <!-- Exercise 1.3 & 1.4 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 1.3 & 1.4: Bookmarks & History</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap <strong>Bible</strong> (📖) and open any Bible chapter (for example, <em>Matthew chapter 5</em>).</li>
+          <li><span class="step-num">2</span> Tap the <strong>Bookmark</strong> icon (🔖) at the top of the screen and choose an open slot to save your place.</li>
+          <li><span class="step-num">3</span> To return to a verse you looked up earlier, tap the <strong>History</strong> icon (🕒) to view your recent reading list.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 1.5 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 1.5: Search for a Scripture</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap the <strong>Search</strong> icon (🔍) at the top of the screen.</li>
+          <li><span class="step-num">2</span> Type the phrase: <code>draw close to God</code> (or a phrase of your choice).</li>
+          <li><span class="step-num">3</span> Tap the search key or result to see matching verses (such as <em>James 4:8</em>).</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 2: Downloading & Managing Media -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>⬇️</span> Lesson 2: Downloading & Managing Media</h2>
+        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+      </div>
+
+      <p class="lesson-intro">
+        Learn how to download Bible translations, videos, and publications to your device for reading offline, and how to remove older large files to save storage space.
+      </p>
+
+      <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
+        ▶️ View Official Tutorial on JW.ORG
+      </a>
+
+      <!-- Exercise 2.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 2.1: Download an Additional Bible Translation</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap <strong>Bible</strong> (📖) to see the list of Bible books.</li>
+          <li><span class="step-num">2</span> Tap the <strong>Languages</strong> button (🌐) in the upper bar.</li>
+          <li><span class="step-num">3</span> Look for an available translation with a <strong>Cloud icon</strong> (☁️) (such as the <em>King James Version</em>) and tap it to download.</li>
+          <li><span class="step-num">4</span> Once downloaded, the cloud icon disappears, showing it is ready for offline reading.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.2 & 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 2.2 & 2.3: Download a Video</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap <strong>Publications</strong> (📚), then tap <strong>Videos</strong> (or <strong>Media</strong>).</li>
+          <li><span class="step-num">2</span> Under <em>Our Meetings and Ministry</em> or <em>Bible Teachings</em>, locate a short introductory video (such as <em>"Why Study the Bible?"</em>).</li>
+          <li><span class="step-num">3</span> Tap the video title and choose a resolution (for example, <strong>720p</strong> or <strong>480p</strong> for smaller file size) to download.</li>
+          <li><span class="step-num">4</span> To download in another language, tap the <strong>Languages</strong> icon on the video page and pick a language (e.g., Spanish).</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Data Tip:</strong> Choosing 480p or 720p downloads faster and uses significantly less storage space than 1080p.
+        </div>
+      </div>
+
+      <!-- Exercise 2.4 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 2.4: Check Downloaded Files & Free Up Space</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap <strong>Publications</strong> (📚), then select the <strong>Downloaded</strong> section.</li>
+          <li><span class="step-num">2</span> Change the sort option at the top to <strong>Largest Size</strong>.</li>
+          <li><span class="step-num">3</span> Review the files that occupy the most storage space. If there is a large video you no longer watch, tap the <strong>Three Dots / More</strong> button (⋮) next to it and select <strong>Delete</strong>.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Lesson 3: Highlighting, Personal Study & Data Safety -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>🖍️</span> Lesson 3: Highlighting & Personal Study</h2>
+        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+      </div>
+
+      <p class="lesson-intro">
+        Make the material your own by marking answers, adding notes, organizing your study with tags, and creating a safety backup file so you never lose your personal study records.
+      </p>
+
+      <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
+        ▶️ View Official Tutorial on JW.ORG
+      </a>
+
+      <!-- Exercise 3.1 & 3.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 3.1 & 3.2: Highlight an Answer</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Go to the <strong>Meetings</strong> tab (📅) and open the current week's <em>Watchtower</em> study article.</li>
+          <li><span class="step-num">2</span> In paragraph 1, press and hold on the first word of an answer, then drag across to highlight it.</li>
+          <li><span class="step-num">3</span> Choose the <strong>Yellow</strong> color from the color menu.</li>
+          <li><span class="step-num">4</span> Tap the highlighted words again to try switching the color (to blue or green), or tap the trash icon to remove the highlight.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.3 & 3.4 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 3.3 & 3.4: Add a Note & Visit Personal Study</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Highlight another phrase in the article. In the menu that pops up, tap <strong>Add Note</strong> (📝).</li>
+          <li><span class="step-num">2</span> Type a brief comment (such as <em>"Good point for comment"</em>) and tap <strong>Done</strong>.</li>
+          <li><span class="step-num">3</span> Tap the <strong>Personal Study</strong> tab on your navigation bar.</li>
+          <li><span class="step-num">4</span> Notice how all your notes, highlights, and tags are neatly collected in this central place!</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.5 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Exercise 3.5: Back Up Your Personal Study Data</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tap <strong>Settings</strong> (⚙️) on your screen.</li>
+          <li><span class="step-num">2</span> Tap <strong>Backup and Restore</strong>.</li>
+          <li><span class="step-num">3</span> Select <strong>Create Backup</strong>.</li>
+          <li><span class="step-num">4</span> Follow the on-screen prompt to save your study backup file (a <code>.jwlibrary</code> file) to your device or cloud drive.</li>
+        </ul>
+        <div class="step-tip">
+          🛡️ <strong>Essential Tip:</strong> Your notes and highlights are stored locally on your device. Making a backup every few weeks ensures your personal study notes are never lost if you get a new device!
+        </div>
+      </div>
+    </article>
+
+    <!-- Expandable Instructor Schedule Guide -->
+    <details class="instructor-guide">
+      <summary><span>📋</span> Instructor Class Schedule & Teaching Guide (Click to Expand)</summary>
+      <div class="instructor-content">
+        <p>This class can be presented as a comfortable 60-minute session or expanded to 90 minutes with questions and hands-on assistance.</p>
+        
+        <table class="timing-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Topic</th>
+              <th>Activities & Focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0:00 – 0:05</strong></td>
+              <td>Welcome & Screen Orientation</td>
+              <td>Help students locate their navigation bar and adjust text size.</td>
+            </tr>
+            <tr>
+              <td><strong>0:05 – 0:25</strong></td>
+              <td>Lesson 1: Navigation & Meetings</td>
+              <td>Cover Daily Text, Meetings Tab, Bookmarks, History, and Search (Exercises 1.1–1.5).</td>
+            </tr>
+            <tr>
+              <td><strong>0:25 – 0:45</strong></td>
+              <td>Lesson 2: Downloading & Storage</td>
+              <td>Demonstrate Bible and video downloads, and check the Largest Size sort (Exercises 2.1–2.4).</td>
+            </tr>
+            <tr>
+              <td><strong>0:45 – 1:00</strong></td>
+              <td>Lesson 3: Study, Notes & Backup</td>
+              <td>Practice highlighting, personal notes, and create a <code>.jwlibrary</code> backup file (Exercises 3.1–3.5).</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4 style="margin-top: 1rem; color: var(--text);">Teaching Suggestions:</h4>
+        <ul style="padding-left: 1.5rem; margin-top: 0.5rem; line-height: 1.6;">
+          <li>Encourage students to master one simple action at a time before moving forward.</li>
+          <li>Pair students with a study partner who can assist if someone gets stuck on a menu.</li>
+          <li>Remind everyone to connect to the venue's Wi-Fi network before downloading videos.</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Official Links Card -->
+    <section class="links-card">
+      <h3><span>🔗</span> Official Help & Tutorials on JW.ORG</h3>
+      <p style="font-size: 1rem; color: var(--text-muted);">For authoritative, full-length instruction videos and official help topics, visit:</p>
+      
+      <div class="links-grid">
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/" target="_blank" rel="noopener">
+          🌐 JW.ORG Help Main Index
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+          ✨ JW Library App Features
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/apple/" target="_blank" rel="noopener">
+          🍎 Help for Apple (iOS / iPadOS)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/android/" target="_blank" rel="noopener">
+          🤖 Help for Android Devices
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/windows/" target="_blank" rel="noopener">
+          💻 Help for Windows Devices
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/use-playlists/" target="_blank" rel="noopener">
+          🎵 How to Use Playlists
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer & Disclaimer -->
+    <footer>
+      <h4>Legal & Non-Affiliation Notice</h4>
+      <p>
+        <em>JW Library</em> is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. 
+        This training guide and class schedule is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Official instructions, publications, and videos are available exclusively from <a href="https://www.jw.org" target="_blank" rel="noopener" style="color: var(--primary);">JW.ORG</a>.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Text size switcher
+    function setTextSize(size) {
+      const root = document.documentElement;
+      if (size === 'normal') {
+        root.style.setProperty('--font-base', '19px');
+      } else if (size === 'large') {
+        root.style.setProperty('--font-base', '22px');
+      } else if (size === 'xlarge') {
+        root.style.setProperty('--font-base', '25px');
+      }
+    }
+
+    // Device switcher
+    function selectDevice(device) {
+      document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + device);
+      if (activeTab) activeTab.classList.add('active');
+
+      const noteText = document.getElementById('device-note-text');
+      const navLocations = document.querySelectorAll('.nav-location');
+      const videoL1 = document.getElementById('video-link-lesson1');
+      const videoL2 = document.getElementById('video-link-lesson2');
+      const videoL3 = document.getElementById('video-link-lesson3');
+
+      if (device === 'apple') {
+        noteText.innerHTML = '<strong>Device Selected:</strong> On Apple iPhone and iPad, the main navigation bar is at the bottom of the screen (Bible, Publications, Meetings, Personal Study).';
+        navLocations.forEach(el => el.textContent = 'at the bottom of your screen');
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
+      } else if (device === 'android') {
+        noteText.innerHTML = '<strong>Device Selected:</strong> On Android phones and tablets, the main navigation bar is at the bottom (or swipe from the left edge for the navigation menu).';
+        navLocations.forEach(el => el.textContent = 'at the bottom or left menu of your screen');
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
+      } else if (device === 'windows') {
+        noteText.innerHTML = '<strong>Device Selected:</strong> On Windows PCs and laptops, the main navigation bar is at the top of the screen (or in the left sidebar).';
+        navLocations.forEach(el => el.textContent = 'at the top of your screen');
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';
+      }
+    }
+  </script>
+</body>
+</html>
