@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JW Library Tutorial — Practice Guide & Class Schedule</title>
+  <title>JW Library Tutorial &mdash; Practice Guide &amp; Class Schedule</title>
   <meta name="description" content="A clear, practical, step-by-step training guide and class schedule for learning how to use the JW Library app for personal study, meetings, and the ministry.">
   <style>
     :root {
@@ -207,7 +207,7 @@
 
     .checklist-items {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 0.85rem;
     }
 
@@ -215,7 +215,7 @@
       display: flex;
       align-items: flex-start;
       gap: 0.65rem;
-      font-size: 1rem;
+      font-size: 0.98rem;
       color: var(--text-muted);
     }
 
@@ -308,6 +308,11 @@
       margin-bottom: 1.25rem;
     }
 
+    .exercise-box.demonstrated {
+      background-color: #f1f5f9;
+      border-left: 4px solid #64748b;
+    }
+
     .exercise-title {
       font-size: 1.2rem;
       font-weight: 700;
@@ -359,7 +364,7 @@
       color: #713f12;
     }
 
-    /* Accordion for Instructor Section */
+    /* Accordion for Facilitator Section */
     details.instructor-guide {
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -404,6 +409,21 @@
       background-color: #f1f5f9;
       color: var(--text);
       font-weight: 700;
+    }
+
+    .facilitator-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #f0fdf4;
+      border-left: 4px solid #16a34a;
+      border-radius: 6px;
+      color: #14532d;
+    }
+
+    .facilitator-box h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      color: #166534;
     }
 
     /* Official Links Card */
@@ -475,7 +495,7 @@
       body {
         background-color: #ffffff;
         color: #000000;
-        font-size: 12pt;
+        font-size: 11pt;
         padding: 0;
       }
 
@@ -486,33 +506,33 @@
       header {
         background: none;
         color: #000000;
-        padding: 0 0 1rem 0;
+        padding: 0 0 0.75rem 0;
         border-bottom: 2px solid #000000;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.25rem;
         box-shadow: none;
       }
 
       header h1 {
-        font-size: 20pt;
+        font-size: 18pt;
         color: #000000;
       }
 
       header p {
         color: #333333;
-        font-size: 11pt;
+        font-size: 10.5pt;
       }
 
       .lesson-card, .exercise-box {
         border: 1px solid #cccccc;
         box-shadow: none;
         page-break-inside: avoid;
-        margin-bottom: 1rem;
-        padding: 1rem;
+        margin-bottom: 0.85rem;
+        padding: 0.85rem;
       }
 
       .lesson-title {
         color: #000000;
-        font-size: 14pt;
+        font-size: 13pt;
       }
 
       .step-num {
@@ -546,7 +566,7 @@
     <!-- Header -->
     <header>
       <h1>JW Library Tutorial</h1>
-      <p>A practical, hands-on practice guide to help you navigate and enjoy reading the Bible, preparing for meetings, and using publications.</p>
+      <p>A practical, hands-on practice guide to help you find Bible scriptures, prepare for weekly meetings, and protect your study notes.</p>
     </header>
 
     <!-- Device Switcher -->
@@ -577,28 +597,32 @@
       <div class="checklist-items">
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>Connect to Wi-Fi:</strong> Connect to home, Kingdom Hall, or library Wi-Fi to avoid mobile data charges.</span>
+          <span><strong>Battery:</strong> Arrive with your device fully charged (or bring your charging cord).</span>
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>App Installed:</strong> Make sure the app is opened and updated to the latest available version.</span>
+          <span><strong>Screen Timeout:</strong> Set auto-lock to 2 or 5 minutes so the screen stays on during class.</span>
         </div>
         <div class="check-item">
           <span class="check-badge">✓</span>
-          <span><strong>Device Storage:</strong> Check that your device has at least 2 GB of free space for media downloads.</span>
+          <span><strong>Wi-Fi Connected:</strong> Connect to venue Wi-Fi to preserve your cellular data.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Free Space:</strong> Ensure your device has at least 2 GB of storage for downloads.</span>
         </div>
       </div>
     </section>
 
-    <!-- Lesson 1: Navigation & Meetings -->
+    <!-- Lesson 1: Finding Scriptures & Meetings -->
     <article class="lesson-card">
       <div class="lesson-header">
-        <h2 class="lesson-title"><span>📖</span> Lesson 1: Getting Around & Meetings</h2>
-        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+        <h2 class="lesson-title"><span>📖</span> Lesson 1: Finding Scriptures &amp; Meetings</h2>
+        <span class="lesson-time">Time: 15 Mins</span>
       </div>
       
       <p class="lesson-intro">
-        Learn how to move between the primary sections of the app, read today's Daily Text, open your meeting study articles directly, and find passages quickly using search and bookmarks.
+        Learn how to move between the primary sections of the app, make reading comfortable by enlarging the text, open any Bible chapter, and jump directly to your weekly meeting materials.
       </p>
 
       <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
@@ -607,57 +631,55 @@
 
       <!-- Exercise 1.1 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 1.1: Go to Today's Daily Text</h3>
+        <h3 class="exercise-title">Core 1.1: Daily Text &amp; Making Text Bigger</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> <span class="nav-instruction">Look at the main navigation bar (<strong class="nav-location">at the bottom of your screen</strong>)</span>.</li>
-          <li><span class="step-num">2</span> Tap <strong>Daily Text</strong> (☀️).</li>
-          <li><span class="step-num">3</span> Read today's scripture and the accompanying comment.</li>
+          <li><span class="step-num">1</span> <span class="nav-instruction">Look at the main navigation bar (<strong class="nav-location">at the bottom of your screen</strong>)</span> and tap <strong>Daily Text</strong> (☀️).</li>
+          <li><span class="step-num">2</span> Look at the top bar and tap the <strong>Appearance / Text Size icon</strong> (<strong><code>A A</code></strong>).</li>
+          <li><span class="step-num">3</span> Drag the slider to the right to make the print larger and easy to read.</li>
         </ul>
+        <div class="step-tip">
+          💡 <strong>Reading Tip:</strong> Once you set your preferred text size here, the app remembers it across all Bible chapters and articles!
+        </div>
       </div>
 
       <!-- Exercise 1.2 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 1.2: Use the Meetings Tab</h3>
+        <h3 class="exercise-title">Core 1.2: Open a Bible Book &amp; Chapter</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Tap the <strong>Meetings</strong> tab (📅) on your main navigation bar.</li>
-          <li><span class="step-num">2</span> Notice the two meeting sections: <em>Midweek Meeting</em> and <em>Weekend Meeting</em>.</li>
-          <li><span class="step-num">3</span> Tap the <strong>Watchtower Study</strong> article under the Weekend Meeting to open it immediately.</li>
-        </ul>
-        <div class="step-tip">
-          💡 <strong>Tip:</strong> The Meetings tab automatically updates every week, so you never have to search for the right issue!
-        </div>
-      </div>
-
-      <!-- Exercise 1.3 & 1.4 -->
-      <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 1.3 & 1.4: Bookmarks & History</h3>
-        <ul class="step-list">
-          <li><span class="step-num">1</span> Tap <strong>Bible</strong> (📖) and open any Bible chapter (for example, <em>Matthew chapter 5</em>).</li>
-          <li><span class="step-num">2</span> Tap the <strong>Bookmark</strong> icon (🔖) at the top of the screen and choose an open slot to save your place.</li>
-          <li><span class="step-num">3</span> To return to a verse you looked up earlier, tap the <strong>History</strong> icon (🕒) to view your recent reading list.</li>
+          <li><span class="step-num">1</span> Tap <strong>Bible</strong> (📖) on your main navigation bar.</li>
+          <li><span class="step-num">2</span> Tap a Bible book (for example, <em>Matthew</em>).</li>
+          <li><span class="step-num">3</span> Tap chapter <strong>5</strong> to begin reading.</li>
         </ul>
       </div>
 
-      <!-- Exercise 1.5 -->
+      <!-- Exercise 1.3 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 1.5: Search for a Scripture</h3>
+        <h3 class="exercise-title">Core 1.3: Use the Meetings Tab</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Tap the <strong>Search</strong> icon (🔍) at the top of the screen.</li>
-          <li><span class="step-num">2</span> Type the phrase: <code>draw close to God</code> (or a phrase of your choice).</li>
-          <li><span class="step-num">3</span> Tap the search key or result to see matching verses (such as <em>James 4:8</em>).</li>
+          <li><span class="step-num">1</span> Tap the <strong>Meetings</strong> tab (📅) on your navigation bar.</li>
+          <li><span class="step-num">2</span> Notice the two weekly meeting sections: <em>Midweek Meeting</em> and <em>Weekend Meeting</em>.</li>
+          <li><span class="step-num">3</span> Tap the <strong>Watchtower Study</strong> article under the Weekend Meeting to open it immediately with one tap.</li>
         </ul>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Bookmarks, History &amp; Search</h3>
+        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+          The instructor will show how to set a <strong>Bookmark (🔖)</strong>, revisit recent verses using <strong>History (🕒)</strong>, and search for words with <strong>Search (🔍)</strong>. You can practice these at home!
+        </p>
       </div>
     </article>
 
-    <!-- Lesson 2: Downloading & Managing Media -->
+    <!-- Lesson 2: Downloading and Using Media -->
     <article class="lesson-card">
       <div class="lesson-header">
-        <h2 class="lesson-title"><span>⬇️</span> Lesson 2: Downloading & Managing Media</h2>
-        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+        <h2 class="lesson-title"><span>⬇️</span> Lesson 2: Downloading and Using Media</h2>
+        <span class="lesson-time">Time: 15 Mins</span>
       </div>
 
       <p class="lesson-intro">
-        Learn how to download Bible translations, videos, and publications to your device for reading offline, and how to remove older large files to save storage space.
+        Understand how offline reading works, download publications on Wi-Fi to preserve your mobile cellular data, and enjoy listening to audio recordings read aloud.
       </p>
 
       <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
@@ -666,142 +688,162 @@
 
       <!-- Exercise 2.1 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 2.1: Download an Additional Bible Translation</h3>
+        <h3 class="exercise-title">Core 2.1: Wi-Fi Check &amp; Mobile Data Safety</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Tap <strong>Bible</strong> (📖) to see the list of Bible books.</li>
-          <li><span class="step-num">2</span> Tap the <strong>Languages</strong> button (🌐) in the upper bar.</li>
-          <li><span class="step-num">3</span> Look for an available translation with a <strong>Cloud icon</strong> (☁️) (such as the <em>King James Version</em>) and tap it to download.</li>
-          <li><span class="step-num">4</span> Once downloaded, the cloud icon disappears, showing it is ready for offline reading.</li>
+          <li><span class="step-num">1</span> Look at the top of your device screen to confirm the <strong>Wi-Fi icon</strong> is connected.</li>
+          <li><span class="step-num">2</span> <em>Why this matters:</em> Downloading while on Wi-Fi ensures you never incur mobile cellular data charges.</li>
+          <li><span class="step-num">3</span> <em>Offline Peace of Mind:</em> Once downloaded, publications and audio stay on your device forever&mdash;no internet or cellular signal is needed at meetings!</li>
         </ul>
       </div>
 
-      <!-- Exercise 2.2 & 2.3 -->
+      <!-- Exercise 2.2 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 2.2 & 2.3: Download a Video</h3>
+        <h3 class="exercise-title">Core 2.2: Download an Item for Offline Use</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Tap <strong>Publications</strong> (📚), then tap <strong>Videos</strong> (or <strong>Media</strong>).</li>
-          <li><span class="step-num">2</span> Under <em>Our Meetings and Ministry</em> or <em>Bible Teachings</em>, locate a short introductory video (such as <em>"Why Study the Bible?"</em>).</li>
-          <li><span class="step-num">3</span> Tap the video title and choose a resolution (for example, <strong>720p</strong> or <strong>480p</strong> for smaller file size) to download.</li>
-          <li><span class="step-num">4</span> To download in another language, tap the <strong>Languages</strong> icon on the video page and pick a language (e.g., Spanish).</li>
+          <li><span class="step-num">1</span> Tap <strong>Publications</strong> (📚), or go to the <strong>Meetings</strong> tab (📅).</li>
+          <li><span class="step-num">2</span> Look for an item marked with a <strong>Cloud icon</strong> (☁️) (e.g., this month's meeting workbook or a short video).</li>
+          <li><span class="step-num">3</span> Tap the item to download it. When the cloud icon disappears, the item is completely saved on your device for offline reading.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Core 2.3: Listen with the Audio Player</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Open today's Daily Text or any Bible chapter.</li>
+          <li><span class="step-num">2</span> Tap the <strong>Headphones / Play button</strong> (🎧) at the top of the screen.</li>
+          <li><span class="step-num">3</span> Listen as the text is read aloud to you. Tap pause whenever you want to pause.</li>
         </ul>
         <div class="step-tip">
-          💡 <strong>Data Tip:</strong> Choosing 480p or 720p downloads faster and uses significantly less storage space than 1080p.
+          🎧 <strong>Comfort Tip:</strong> Listening with audio is wonderful when your eyes feel tired or while preparing for meetings!
         </div>
       </div>
 
-      <!-- Exercise 2.4 -->
-      <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 2.4: Check Downloaded Files & Free Up Space</h3>
-        <ul class="step-list">
-          <li><span class="step-num">1</span> Tap <strong>Publications</strong> (📚), then select the <strong>Downloaded</strong> section.</li>
-          <li><span class="step-num">2</span> Change the sort option at the top to <strong>Largest Size</strong>.</li>
-          <li><span class="step-num">3</span> Review the files that occupy the most storage space. If there is a large video you no longer watch, tap the <strong>Three Dots / More</strong> button (⋮) next to it and select <strong>Delete</strong>.</li>
-        </ul>
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Managing Storage Space</h3>
+        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+          The instructor will demonstrate how to go to <em>Publications &gt; Downloaded</em>, sort by <strong>Largest Size</strong>, and delete older videos when device storage space runs low.
+        </p>
       </div>
     </article>
 
-    <!-- Lesson 3: Highlighting, Personal Study & Data Safety -->
+    <!-- Lesson 3: Personal Study Tools -->
     <article class="lesson-card">
       <div class="lesson-header">
-        <h2 class="lesson-title"><span>🖍️</span> Lesson 3: Highlighting & Personal Study</h2>
-        <span class="lesson-time">Lesson Time: 15–20 Mins</span>
+        <h2 class="lesson-title"><span>🖍️</span> Lesson 3: Personal Study Tools</h2>
+        <span class="lesson-time">Time: 15 Mins</span>
       </div>
 
       <p class="lesson-intro">
-        Make the material your own by marking answers, adding notes, organizing your study with tags, and creating a safety backup file so you never lose your personal study records.
+        Learn how to mark answers for the meeting, change or remove highlights with ease, and create a safety backup file so years of your personal study markings are never lost.
       </p>
 
       <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
         ▶️ View Official Tutorial on JW.ORG
       </a>
 
-      <!-- Exercise 3.1 & 3.2 -->
+      <!-- Exercise 3.1 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 3.1 & 3.2: Highlight an Answer</h3>
+        <h3 class="exercise-title">Core 3.1: Highlight an Answer in Yellow</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Go to the <strong>Meetings</strong> tab (📅) and open the current week's <em>Watchtower</em> study article.</li>
-          <li><span class="step-num">2</span> In paragraph 1, press and hold on the first word of an answer, then drag across to highlight it.</li>
-          <li><span class="step-num">3</span> Choose the <strong>Yellow</strong> color from the color menu.</li>
-          <li><span class="step-num">4</span> Tap the highlighted words again to try switching the color (to blue or green), or tap the trash icon to remove the highlight.</li>
+          <li><span class="step-num">1</span> Tap the <strong>Meetings</strong> tab (📅) and open the upcoming <em>Watchtower</em> study article.</li>
+          <li><span class="step-num">2</span> In paragraph 1, press and hold on the first word of an answer, then gently drag your finger across the sentence.</li>
+          <li><span class="step-num">3</span> Tap the <strong>Yellow circle</strong> in the color menu that appears. Your answer is highlighted!</li>
         </ul>
       </div>
 
-      <!-- Exercise 3.3 & 3.4 -->
+      <!-- Exercise 3.2 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 3.3 & 3.4: Add a Note & Visit Personal Study</h3>
+        <h3 class="exercise-title">Core 3.2: Change Color or Remove a Highlight</h3>
         <ul class="step-list">
-          <li><span class="step-num">1</span> Highlight another phrase in the article. In the menu that pops up, tap <strong>Add Note</strong> (📝).</li>
-          <li><span class="step-num">2</span> Type a brief comment (such as <em>"Good point for comment"</em>) and tap <strong>Done</strong>.</li>
-          <li><span class="step-num">3</span> Tap the <strong>Personal Study</strong> tab on your navigation bar.</li>
-          <li><span class="step-num">4</span> Notice how all your notes, highlights, and tags are neatly collected in this central place!</li>
+          <li><span class="step-num">1</span> Tap directly on the highlighted yellow text you just made.</li>
+          <li><span class="step-num">2</span> Tap another color (like blue or green) to change it.</li>
+          <li><span class="step-num">3</span> To erase a highlight completely, tap the <strong>Trash can icon</strong>.</li>
         </ul>
       </div>
 
-      <!-- Exercise 3.5 -->
+      <!-- Exercise 3.3 -->
       <div class="exercise-box">
-        <h3 class="exercise-title">Exercise 3.5: Back Up Your Personal Study Data</h3>
+        <h3 class="exercise-title">Core 3.3: Create a Safety Backup File</h3>
         <ul class="step-list">
           <li><span class="step-num">1</span> Tap <strong>Settings</strong> (⚙️) on your screen.</li>
           <li><span class="step-num">2</span> Tap <strong>Backup and Restore</strong>.</li>
-          <li><span class="step-num">3</span> Select <strong>Create Backup</strong>.</li>
-          <li><span class="step-num">4</span> Follow the on-screen prompt to save your study backup file (a <code>.jwlibrary</code> file) to your device or cloud drive.</li>
+          <li><span class="step-num">3</span> Tap <strong>Create Backup</strong>.</li>
+          <li><span class="step-num">4</span> Follow the on-screen prompt to save your study backup file (a <code>.jwlibrary</code> file).</li>
         </ul>
         <div class="step-tip">
-          🛡️ <strong>Essential Tip:</strong> Your notes and highlights are stored locally on your device. Making a backup every few weeks ensures your personal study notes are never lost if you get a new device!
+          🛡️ <strong>Essential Peace of Mind:</strong> Your notes and highlights are saved on your physical device. Creating a backup file every month ensures your study notes are protected if you ever get a new phone or tablet!
         </div>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title" style="color: #475569;">Instructor Demonstration: Notes, Tags &amp; Personal Study Hub</h3>
+        <p style="font-size: 0.98rem; color: #475569; line-height: 1.55;">
+          The instructor will show how you can attach written notes (📝) to verses and view all your collected bookmarks and highlights in the <strong>Personal Study</strong> tab.
+        </p>
       </div>
     </article>
 
-    <!-- Expandable Instructor Schedule Guide -->
+    <!-- Expandable Facilitator Schedule Guide -->
     <details class="instructor-guide">
-      <summary><span>📋</span> Instructor Class Schedule & Teaching Guide (Click to Expand)</summary>
+      <summary><span>📋</span> Facilitator &amp; Trainer Guide (60-Minute Master Plan)</summary>
       <div class="instructor-content">
-        <p>This class can be presented as a comfortable 60-minute session or expanded to 90 minutes with questions and hands-on assistance.</p>
+        <p>This master schedule dedicates 15 minutes to each lesson with a built-in <strong>10-minute wrap-up buffer</strong> for a relaxed, pressure-free session.</p>
         
         <table class="timing-table">
           <thead>
             <tr>
               <th>Time</th>
-              <th>Topic</th>
-              <th>Activities & Focus</th>
+              <th>Session</th>
+              <th>Core Focus &amp; Hands-On Milestones</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>0:00 – 0:05</strong></td>
-              <td>Welcome & Screen Orientation</td>
-              <td>Help students locate their navigation bar and adjust text size.</td>
+              <td><strong>0:00 &ndash; 0:05</strong></td>
+              <td>Welcome &amp; Orientation (5m)</td>
+              <td>Check Wi-Fi, battery, screen timeout (set to 2&ndash;5m), and locate navigation bar.</td>
             </tr>
             <tr>
-              <td><strong>0:05 – 0:25</strong></td>
-              <td>Lesson 1: Navigation & Meetings</td>
-              <td>Cover Daily Text, Meetings Tab, Bookmarks, History, and Search (Exercises 1.1–1.5).</td>
+              <td><strong>0:05 &ndash; 0:20</strong></td>
+              <td>Lesson 1: Finding Scriptures &amp; Meetings (15m)</td>
+              <td>Core 1.1: Daily Text &amp; Text Size (<code>A A</code>) &bull; Core 1.2: Bible Book/Chapter &bull; Core 1.3: Meetings tab.</td>
             </tr>
             <tr>
-              <td><strong>0:25 – 0:45</strong></td>
-              <td>Lesson 2: Downloading & Storage</td>
-              <td>Demonstrate Bible and video downloads, and check the Largest Size sort (Exercises 2.1–2.4).</td>
+              <td><strong>0:20 &ndash; 0:35</strong></td>
+              <td>Lesson 2: Downloading and Using Media (15m)</td>
+              <td>Core 2.1: Wi-Fi data safety &bull; Core 2.2: Download for offline use &bull; Core 2.3: Audio player (🎧).</td>
             </tr>
             <tr>
-              <td><strong>0:45 – 1:00</strong></td>
-              <td>Lesson 3: Study, Notes & Backup</td>
-              <td>Practice highlighting, personal notes, and create a <code>.jwlibrary</code> backup file (Exercises 3.1–3.5).</td>
+              <td><strong>0:35 &ndash; 0:50</strong></td>
+              <td>Lesson 3: Personal Study Tools (15m)</td>
+              <td>Core 3.1: Highlighting in yellow &bull; Core 3.2: Adjusting color/erasing &bull; Core 3.3: Creating backup file.</td>
+            </tr>
+            <tr>
+              <td><strong>0:50 &ndash; 1:00</strong></td>
+              <td>Wrap-Up, Review &amp; Questions (10m)</td>
+              <td>Review accomplishments, answer questions, and utilize flex time if earlier exercises ran over.</td>
             </tr>
           </tbody>
         </table>
 
-        <h4 style="margin-top: 1rem; color: var(--text);">Teaching Suggestions:</h4>
-        <ul style="padding-left: 1.5rem; margin-top: 0.5rem; line-height: 1.6;">
-          <li>Encourage students to master one simple action at a time before moving forward.</li>
-          <li>Pair students with a study partner who can assist if someone gets stuck on a menu.</li>
-          <li>Remind everyone to connect to the venue's Wi-Fi network before downloading videos.</li>
-        </ul>
+        <div class="facilitator-box">
+          <h4>Key Facilitator Recommendations:</h4>
+          <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
+            <li><strong>Table Assistants (Helpers):</strong> Arrange for 1 or 2 helpers to quietly circulate. When a student accidentally leaves an app, a helper can tap them back in seconds without stopping the class.</li>
+            <li><strong>The 10-Minute Flex Buffer:</strong> If an exercise takes a little longer, calmly borrow 3&ndash;5 minutes from the 10-minute wrap-up buffer without rushing.</li>
+            <li><strong>Stay-After Clinic:</strong> Announce that the instructor and helpers will remain for 15 minutes after class for anyone wanting one-on-one help.</li>
+            <li><strong>Physical Handouts:</strong> Print copies of the 1-page Class Program so students have step numbers directly on the table.</li>
+          </ul>
+        </div>
       </div>
     </details>
 
     <!-- Official Links Card -->
     <section class="links-card">
-      <h3><span>🔗</span> Official Help & Tutorials on JW.ORG</h3>
+      <h3><span>🔗</span> Official Help &amp; Tutorials on JW.ORG</h3>
       <p style="font-size: 1rem; color: var(--text-muted);">For authoritative, full-length instruction videos and official help topics, visit:</p>
       
       <div class="links-grid">
@@ -828,7 +870,7 @@
 
     <!-- Footer & Disclaimer -->
     <footer>
-      <h4>Legal & Non-Affiliation Notice</h4>
+      <h4>Legal &amp; Non-Affiliation Notice</h4>
       <p>
         <em>JW Library</em> is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. 
         This training guide and class schedule is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses.

@@ -2,7 +2,7 @@
 
 An independent, practical training guide and class schedule designed to help individuals learn how to use the **JW Library** app for personal Bible reading, congregation meetings, and the ministry.
 
-This tutorial can be conducted as a standard **one-hour class** or extended to **90 minutes** to allow extra practice time and discussion.
+This tutorial is structured as a comfortable **60-minute class** with a dedicated **10-minute wrap-up buffer** and can easily flex or expand to **75–90 minutes** for groups desiring extra hands-on practice.
 
 ---
 
@@ -14,35 +14,38 @@ An interactive, accessible version of this tutorial—optimized for all screen s
 
 The web guide includes:
 * **Device Switcher:** Choose between **Apple (iOS / iPadOS)**, **Android**, or **Windows PC / Mac** to view the exact button names and menu layouts for your device.
-* **Large-Print Display & Text Size Controls:** Built for effortless readability with adjustable font sizing.
+* **Large-Print Display & Text Size Controls:** Built for effortless readability with adjustable font sizing (`A`, `A+`, `A++`).
 * **Printable Quick-Reference Guide:** Format and print clean physical cheat sheets for student practice.
-* **Step-by-Step Walkthroughs:** Clear, numbered 1-2-3 steps paired with visual icon cues (📖, 📚, 📅, 🔍, 🔖, 🖍️, 💾).
+* **Streamlined Core Walkthroughs:** Clear, numbered 1-2-3 steps paired with visual icon cues (📖, 📚, 📅, ☀️, 🔍, 🔖, 🖍️, 🎧, 💾).
 
 ---
 
 ## 📋 Course Overview
 
-The curriculum is structured into three practical, hands-on lessons:
+The curriculum is structured into three focused 15-minute lessons, framed by a 5-minute welcome and a 10-minute wrap-up buffer:
 
-1. **Lesson 1: Navigation & Meetings**
-   * Exploring the main navigation bar and finding today's Daily Text.
+1. **Lesson 1: Finding Scriptures & Meetings (15 Mins)**
+   * Exploring the main navigation bar and reading today's **Daily Text**.
+   * Adjusting **Text Size (`A A`)** for comfortable, effortless reading.
+   * Opening a specific **Bible book and chapter**.
    * Using the **Meetings tab** for one-tap access to the Midweek Meeting workbook and Weekend *Watchtower* study article.
-   * Setting and finding Bookmarks (saving place in chapters or specific verses).
-   * Reviewing recently viewed scriptures and publications using **History**.
-   * Searching for words, phrases, or topics in Bibles and publications.
+   * *Demonstrated by Instructor:* Bookmarks, History, and Search.
 
-2. **Lesson 2: Downloading & Managing Media**
-   * Tips for downloading media over Wi-Fi to preserve mobile data.
-   * Downloading Bible translations and the *Study Edition*.
-   * Downloading video and audio publications in primary and secondary languages.
-   * Managing storage: locating downloaded files, sorting by largest size, and removing unneeded files to free up device memory.
+2. **Lesson 2: Downloading and Using Media (15 Mins)**
+   * Connecting to Wi-Fi before downloading to preserve mobile cellular data.
+   * Downloading publications or media for offline use (no internet needed at meetings once downloaded).
+   * Using the **Audio Player (🎧)** to listen to Bible chapters, Daily Text, or study articles read aloud.
+   * *Demonstrated by Instructor:* Checking storage space and sorting by **Largest Size** to remove unneeded files.
 
-3. **Lesson 3: Highlighting, Personal Study & Data Safety**
-   * Highlighting verses and study paragraphs in multiple colors.
-   * Changing or removing existing highlights.
-   * Creating personal study notes and organizing them with **Tags**.
-   * Viewing and managing notes, highlights, and bookmarks in the central **Personal Study** tab.
-   * **Crucial Data Protection:** Backing up personal study data (`.jwlibrary` backup file) so notes and highlights are never lost.
+3. **Lesson 3: Personal Study Tools (15 Mins)**
+   * Highlighting study paragraphs and Bible verses in yellow.
+   * Changing highlight colors (e.g., to blue or green) or removing a highlight.
+   * **Crucial Data Protection:** Creating a safety backup file (`.jwlibrary`) in *Settings > Backup and Restore* so study notes and markings are never lost.
+   * *Demonstrated by Instructor:* Adding study notes, organizing with Tags, and navigating the central Personal Study tab.
+
+4. **Wrap-Up, Review & Questions (10 Mins)**
+   * A dedicated 10-minute buffer for review, questions, or flex time if earlier exercises run over.
+   * Facilitators can remain after class for anyone wanting one-on-one assistance.
 
 ---
 
@@ -58,6 +61,8 @@ To ensure the latest features and security updates are available, verify that yo
 | **Windows** | Windows 10 Version 2004 or later |
 
 ### Recommendations Before Attending:
+* **Fully Charged Battery:** Bring your device fully charged (or bring your charging cord).
+* **Screen Timeout Adjustment:** Consider temporarily setting your device's screen auto-lock to 2 or 5 minutes so the screen stays on during demonstrations.
 * **App Installed:** Have the *JW Library* app installed on your device from the official app store prior to class.
 * **Storage Space:** Ensure your device has at least **2 to 4 GB** of free internal storage (or an installed SD card) so you can download publications, audio, and videos comfortably.
 * **Wi-Fi Connection:** Connect to an available Wi-Fi network before downloading large media files.
@@ -66,10 +71,11 @@ To ensure the latest features and security updates are available, verify that yo
 
 ## 📁 Repository Contents
 
-* **`index.html`**: Complete, responsive, accessible web tutorial with device-specific toggles, text resizing, and printable quick guide.
-* **`JWLibrary_Class.md`**: Markdown curriculum containing the instructor timing breakdown, discussion topics, and student exercises.
-* **`JW Library Class Program.pdf`**: Printable class schedule and exercise reference sheet.
+* **`index.html`**: Complete, responsive, accessible web tutorial with device-specific toggles, text resizing, facilitator timing guide, and printable quick guide.
+* **`JWLibrary_Class.md`**: Markdown curriculum containing the instructor timing breakdown, facilitator advice, and core hands-on student exercises.
+* **`JW Library Class Program.pdf`**: Printable 1-page class schedule and exercise reference sheet.
 * **`JW Library Tutorial Curriculum.pdf`**: Comprehensive 4-page curriculum and teaching guide for instructors.
+* **`generate_pdfs.py`**: Python script using ReportLab to deterministically regenerate the PDFs.
 * **`tinyurl.txt`**: Short redirect link reference.
 
 ---
