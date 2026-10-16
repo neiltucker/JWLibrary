@@ -8,6 +8,35 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfgen import canvas
 import pypdf
 
+# Unicode Font Registration for multi-language support (English, Swahili, Luganda, Dinka)
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+FONT_REG = 'Helvetica'
+FONT_BOLD = 'Helvetica-Bold'
+FONT_ITALIC = 'Helvetica-Oblique'
+
+for base_dir, r_file, b_file, i_file in [
+    ('C:/Windows/Fonts', 'segoeui.ttf', 'segoeuib.ttf', 'segoeuii.ttf'),
+    ('C:/Windows/Fonts', 'arial.ttf', 'arialbd.ttf', 'ariali.ttf'),
+]:
+    r_path = os.path.join(base_dir, r_file)
+    b_path = os.path.join(base_dir, b_file)
+    i_path = os.path.join(base_dir, i_file)
+    if os.path.exists(r_path) and os.path.exists(b_path):
+        try:
+            pdfmetrics.registerFont(TTFont('AppRegular', r_path))
+            pdfmetrics.registerFont(TTFont('AppBold', b_path))
+            pdfmetrics.registerFont(TTFont('AppItalic', i_path if os.path.exists(i_path) else r_path))
+            from reportlab.pdfbase.pdfmetrics import registerFontFamily
+            registerFontFamily('AppRegular', normal='AppRegular', bold='AppBold', italic='AppItalic', boldItalic='AppBold')
+            FONT_REG = 'AppRegular'
+            FONT_BOLD = 'AppBold'
+            FONT_ITALIC = 'AppItalic'
+            break
+        except Exception:
+            pass
+
 # Numbered canvas for "Page X of Y" on Curriculum
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
@@ -28,7 +57,7 @@ class NumberedCanvas(canvas.Canvas):
 
     def draw_page_number(self, page_count):
         self.saveState()
-        self.setFont("Helvetica", 8)
+        self.setFont(FONT_REG, 8)
         self.setFillColor(colors.HexColor('#64748b'))
         # Top right header
         self.drawRightString(letter[0] - 45, letter[1] - 30, f"Page {self._pageNumber} of {page_count}")
@@ -53,7 +82,7 @@ def build_class_program(output_path):
     title_style = ParagraphStyle(
         'DocTitle',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=13,
         leading=15,
         alignment=1,
@@ -63,7 +92,7 @@ def build_class_program(output_path):
     note_style = ParagraphStyle(
         'DocNote',
         parent=styles['Normal'],
-        fontName='Helvetica-Oblique',
+        fontName=FONT_ITALIC,
         fontSize=7,
         leading=9,
         alignment=1,
@@ -73,7 +102,7 @@ def build_class_program(output_path):
     section_hdr = ParagraphStyle(
         'SectionHdr',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=8,
         leading=10,
         textColor=colors.HexColor('#1e40af'),
@@ -83,7 +112,7 @@ def build_class_program(output_path):
     timing_style = ParagraphStyle(
         'TimingLine',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=7,
         leading=9,
         textColor=colors.HexColor('#1e293b')
@@ -92,7 +121,7 @@ def build_class_program(output_path):
     ex_hdr = ParagraphStyle(
         'ExHdr',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=8,
         leading=10,
         textColor=colors.HexColor('#0f766e'),
@@ -103,7 +132,7 @@ def build_class_program(output_path):
     ex_style = ParagraphStyle(
         'ExLine',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=7,
         leading=8.8,
         textColor=colors.HexColor('#1e293b')
@@ -112,7 +141,7 @@ def build_class_program(output_path):
     disclaimer_style = ParagraphStyle(
         'Disclaimer',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=6,
         leading=7.5,
         alignment=1,
@@ -201,7 +230,7 @@ def build_curriculum(output_path):
     doc_title = ParagraphStyle(
         'DocTitle',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=15,
         leading=18,
         textColor=colors.HexColor('#1e3a8a')
@@ -210,7 +239,7 @@ def build_curriculum(output_path):
     note_style = ParagraphStyle(
         'DocNote',
         parent=styles['Normal'],
-        fontName='Helvetica-Oblique',
+        fontName=FONT_ITALIC,
         fontSize=8.5,
         leading=11,
         textColor=colors.HexColor('#475569')
@@ -219,7 +248,7 @@ def build_curriculum(output_path):
     h1_style = ParagraphStyle(
         'H1',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=12,
         leading=15,
         textColor=colors.HexColor('#1e40af'),
@@ -230,7 +259,7 @@ def build_curriculum(output_path):
     h2_style = ParagraphStyle(
         'H2',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=10,
         leading=13,
         textColor=colors.HexColor('#0f766e'),
@@ -241,7 +270,7 @@ def build_curriculum(output_path):
     body_style = ParagraphStyle(
         'Body',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=9.5,
         leading=13.5,
         textColor=colors.HexColor('#1e293b')
@@ -250,7 +279,7 @@ def build_curriculum(output_path):
     bullet_style = ParagraphStyle(
         'Bullet',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=9.5,
         leading=13.5,
         leftIndent=15,
@@ -428,8 +457,10 @@ def build_curriculum(output_path):
         '• <b>Emergency Silencing Reflex:</b> Teaching the Volume Down button early eliminates fear of unexpected audio.<br/>'
         '• <b>10-Minute Flex Buffer:</b> Use this wrap-up buffer to review accomplishments, answer questions, or absorb extra time.<br/>'
         '• <b>Table Assistants (Helpers):</b> Having 1 or 2 assistants walking the room to help individuals prevents class delays.<br/>'
-        '• <b>Stay-After Clinic:</b> Offer to stay for 15 minutes after class for anyone wanting one-on-one help with their backup file.<br/>'
-        '• <b>Physical Handouts:</b> Distribute printed copies of the 1-page Class Program so students have step numbers on the table.',
+        '• <b>Physical Handouts (When Beneficial):</b> Having printed 1-page Class Programs on tables helps where data/Wi-Fi is limited.<br/>'
+        '• <b>Table QR Codes / Projection (Optional):</b> Projecting or placing QR cards on tables lets learners open the guide with one camera tap.<br/>'
+        '• <b>Home Screen Bookmark (Optional):</b> Suggesting "Add to Home Screen" caches the practice guide for easy offline review.<br/>'
+        '• <b>Stay-After Clinic:</b> Offer to stay for 15 minutes after class for anyone wanting one-on-one help with their backup file.',
         body_style
     ))
 

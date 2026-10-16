@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="din">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piööc ë JW Library &mdash; Athör ë Them ku Thaa ë Class (Draft)</title>
+  <meta name="description" content="Athör ë kuɔny ku thaa ë class bï kɔc piɔ̈ɔ̈c të ye kek JW Library app luɔ̈ɔ̈i thïn. Draft Dinka translation, not yet reviewed.">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="sw" href="sw.html">
+  <link rel="alternate" hreflang="lg" href="lg.html">
+  <link rel="alternate" hreflang="din" href="din.html">
+  <link rel="manifest" href="manifest-din.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <script>
+    // Early theme and font size setup to prevent flash of wrong theme/size
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        var savedSize = localStorage.getItem('jw_tutorial_text_size');
+        var sizes = { small: '16px', normal: '19px', large: '22px', xlarge: '25px' };
+        if (savedSize && sizes[savedSize]) {
+          document.documentElement.style.setProperty('--font-base', sizes[savedSize]);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --primary: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-border: #bfdbfe;
+      --accent: #0f766e;
+      --accent-light: #f0fdfa;
+      --accent-text: #134e4a;
+      --tag-bg: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --font-base: 19px;
+
+      /* UI Controls */
+      --btn-bg: #f1f5f9;
+      --btn-border: #cbd5e1;
+      --btn-text: #1e293b;
+      --btn-active-bg: #1e40af;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #f8fafc;
+      --exercise-border: #e2e8f0;
+      --demo-bg: #f1f5f9;
+      --demo-border: #64748b;
+      --demo-title: #475569;
+      --demo-text: #475569;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #fefce8;
+      --tip-border: #eab308;
+      --tip-text: #713f12;
+      --check-bg: #dcfce7;
+      --check-text: #166534;
+      --facilitator-bg: #f0fdf4;
+      --facilitator-border: #16a34a;
+      --facilitator-text: #14532d;
+      --facilitator-title: #166534;
+      --table-th-bg: #f1f5f9;
+
+      /* Video Link */
+      --video-bg: #eff6ff;
+      --video-border: #bfdbfe;
+      --video-text: #1d4ed8;
+      --video-hover-bg: #dbeafe;
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      --header-text: #ffffff;
+      --header-subtext: #dbeafe;
+      --header-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+
+      /* Device selector */
+      --device-tab-bg: #f8fafc;
+      --device-tab-border: #cbd5e1;
+      --device-tab-text: #1e293b;
+      --device-tab-hover-bg: #eff6ff;
+
+      /* Links & Footer */
+      --link-item-bg: #f8fafc;
+      --link-item-border: #cbd5e1;
+      --footer-text: #64748b;
+      --footer-heading: #334155;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-light: #172554;
+      --primary-border: #60a5fa;
+      --accent: #2dd4bf;
+      --accent-light: #042f2e;
+      --accent-text: #5eead4;
+      --tag-bg: #334155;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+
+      /* UI Controls */
+      --btn-bg: #334155;
+      --btn-border: #475569;
+      --btn-text: #f1f5f9;
+      --btn-active-bg: #3b82f6;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #0f172a;
+      --exercise-border: #334155;
+      --demo-bg: #182234;
+      --demo-border: #94a3b8;
+      --demo-title: #cbd5e1;
+      --demo-text: #cbd5e1;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #221c04;
+      --tip-border: #eab308;
+      --tip-text: #fef08a;
+      --check-bg: #064e3b;
+      --check-text: #86efac;
+      --facilitator-bg: #052e16;
+      --facilitator-border: #22c55e;
+      --facilitator-text: #bbf7d0;
+      --facilitator-title: #86efac;
+      --table-th-bg: #0f172a;
+
+      /* Video Link */
+      --video-bg: #1e293b;
+      --video-border: #3b82f6;
+      --video-text: #93c5fd;
+      --video-hover-bg: rgba(37, 99, 235, 0.2);
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      --header-text: #ffffff;
+      --header-subtext: #bfdbfe;
+      --header-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+      /* Device selector */
+      --device-tab-bg: #0f172a;
+      --device-tab-border: #475569;
+      --device-tab-text: #f1f5f9;
+      --device-tab-hover-bg: #1e293b;
+
+      /* Links & Footer */
+      --link-item-bg: #0f172a;
+      --link-item-border: #334155;
+      --footer-text: #94a3b8;
+      --footer-heading: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: var(--font-base);
+      transition: font-size 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1.5rem 1rem 4rem;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .utility-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .util-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .util-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .btn-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-control:hover, .btn-control:focus {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    .btn-control.active {
+      background-color: var(--btn-active-bg);
+      color: var(--btn-active-text);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-size {
+      min-width: 2.3rem;
+      text-align: center;
+    }
+
+    .btn-theme {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--header-shadow);
+      transition: background 0.2s ease;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+      color: var(--header-text);
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: var(--header-subtext);
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Device Selector Card */
+    .device-card {
+      background-color: var(--card-bg);
+      border: 2px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .device-card h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .device-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .device-tab {
+      background-color: var(--device-tab-bg);
+      border: 2px solid var(--device-tab-border);
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--device-tab-text);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .device-tab:hover {
+      border-color: var(--primary);
+      background-color: var(--device-tab-hover-bg);
+    }
+
+    .device-tab.active {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 6px -1px rgba(30, 64, 175, 0.3);
+    }
+
+    .device-note {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background-color: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      font-size: 1rem;
+      color: var(--accent-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Checklist Box */
+    .checklist-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .checklist-box h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checklist-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    .check-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--check-bg);
+      color: var(--check-text);
+      font-weight: 700;
+      border-radius: 50%;
+      width: 1.45rem;
+      height: 1.45rem;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Lesson Cards */
+    .lesson-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .lesson-header {
+      border-bottom: 2px solid var(--card-border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+
+    .lesson-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .lesson-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background-color: var(--btn-bg);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--card-border);
+    }
+
+    .lesson-intro {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .official-video-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--video-bg);
+      border: 1px solid var(--video-border);
+      color: var(--video-text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: all 0.15s ease;
+    }
+
+    .official-video-link:hover {
+      background-color: var(--video-hover-bg);
+      text-decoration: underline;
+    }
+
+    /* Steps */
+    .exercise-box {
+      background-color: var(--exercise-bg);
+      border: 1px solid var(--exercise-border);
+      border-radius: 10px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .exercise-box.demonstrated {
+      background-color: var(--demo-bg);
+      border-left: 4px solid var(--demo-border);
+    }
+
+    .exercise-box.demonstrated .exercise-title {
+      color: var(--demo-title);
+    }
+
+    .exercise-box.demonstrated p {
+      color: var(--demo-text);
+    }
+
+    .exercise-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .step-list {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .step-list li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.02rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    .step-num {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      width: 1.45rem;
+      height: 1.45rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-tip {
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      background-color: var(--tip-bg);
+      border-left: 3px solid var(--tip-border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: var(--tip-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Accordion for Facilitator Section */
+    details.instructor-guide {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    details.instructor-guide summary {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      user-select: none;
+    }
+
+    .instructor-content {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+      font-size: 1rem;
+      color: var(--text-muted);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .timing-table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .timing-table th, .timing-table td {
+      border: 1px solid var(--card-border);
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+
+    .timing-table th {
+      background-color: var(--table-th-bg);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .timing-table td {
+      color: var(--text);
+    }
+
+    .facilitator-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: var(--facilitator-bg);
+      border-left: 4px solid var(--facilitator-border);
+      border-radius: 6px;
+      color: var(--facilitator-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .facilitator-box h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      color: var(--facilitator-title);
+    }
+
+    /* Official Links Card */
+    .links-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .links-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .link-item {
+      display: block;
+      padding: 0.75rem 1rem;
+      background-color: var(--link-item-bg);
+      border: 1px solid var(--link-item-border);
+      border-radius: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      transition: all 0.15s ease;
+    }
+
+    .link-item:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Footer & Disclaimer */
+    footer {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--footer-text);
+      line-height: 1.6;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    footer h4 {
+      font-size: 1.05rem;
+      color: var(--footer-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        padding: 0 !important;
+      }
+
+      .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
+        display: none !important;
+      }
+
+      header {
+        background: none !important;
+        color: #000000 !important;
+        padding: 0 0 0.75rem 0;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 1.25rem;
+        box-shadow: none !important;
+      }
+
+      header h1 {
+        font-size: 18pt !important;
+        color: #000000 !important;
+      }
+
+      header p {
+        color: #333333 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .lesson-card, .exercise-box {
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 0.85rem;
+        padding: 0.85rem;
+      }
+
+      .lesson-title {
+        color: #000000 !important;
+        font-size: 13pt !important;
+      }
+
+      .step-num {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    /* Language menu */
+    .select-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 0.85em;
+      transition: all 0.15s ease;
+    }
+
+    [data-theme="dark"] .select-control {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    }
+
+    .select-control:hover, .select-control:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+  
+/* Phone-width fixes: let long words wrap, and stop grids/menus from forcing sideways scrolling */
+body { overflow-wrap: anywhere; }
+.timing-table { overflow-wrap: normal; }
+.timing-table td:first-child { white-space: nowrap; }
+.lesson-title, .exercise-title, .device-card h2, .checklist-box h3, .links-card h3 { min-width: 0; }
+.device-tabs { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.checklist-items, .links-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.util-group { max-width: 100%; }
+.select-control { max-width: 100%; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+  .utility-bar { padding: 0.75rem; }
+  header { padding: 1.5rem 1.25rem; }
+  header h1 { font-size: 1.75rem; }
+  .lesson-card { padding: 1.25rem; }
+  .lesson-title { display: block; font-size: 1.3rem; }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Button nhial -->
+    <div class="utility-bar">
+      <div class="util-group" role="navigation" aria-label="Lɔc Thoŋ (Language)">
+        <label for="lang-select" class="util-label"><span aria-hidden="true">🌐</span> Thoŋ (Language):</label>
+        <select id="lang-select" class="select-control" onchange="window.location.href=this.value" aria-label="Lɔc Thoŋ (Choose language)">
+          <option value="index.html">English</option>
+          <option value="sw.html">Kiswahili</option>
+          <option value="lg.html">Luganda</option>
+          <option value="din.html" selected>Thuɔŋjäŋ (Dinka)</option>
+        </select>
+      </div>
+      <div class="util-group">
+        <span class="util-label">Dït ë Wël (Text Size):</span>
+        <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Wël koor" aria-label="Wël koor">A−</button>
+        <button class="btn-control btn-size active" id="btn-size-normal" onclick="setTextSize('normal')" title="Wël ë aköl ëbɛ̈n" aria-label="Wël ë aköl ëbɛ̈n">A</button>
+        <button class="btn-control btn-size" id="btn-size-large" onclick="setTextSize('large')" title="Wël dït" aria-label="Wël dït">A+</button>
+        <button class="btn-control btn-size" id="btn-size-xlarge" onclick="setTextSize('xlarge')" title="Wël dït arëët" aria-label="Wël dït arëët">A++</button>
+        <button class="btn-control btn-theme" id="btn-theme-toggle" onclick="toggleTheme()" title="Waar ë Dark Mode" aria-label="Waar ë Dark Mode">
+          <span id="theme-icon">🌙</span> <span id="theme-label">Dark</span>
+        </button>
+      </div>
+      <div class="util-group">
+        <button class="btn-control btn-print" onclick="window.print()" title="Print athör kënë ë them">
+          🖨️ Print Athör Koor
+        </button>
+      </div>
+    </div>
+
+    <!-- Nhom -->
+    <header>
+      <h1>Piööc ë JW Library</h1>
+      <p>Piööc ë thaa tök bï yïn kuɔny ba app luɔ̈ɔ̈i: ba Baibol kuɛ̈n ke mït piɔ̈u, ba rɔt guiir tënë amat ë Kërthiaan, ku ba athör ë Baibol luɔ̈ɔ̈i.</p>
+    </header>
+
+    <!-- Draft notice (Dinka only) -->
+    <div class="step-tip" role="note" style="margin: 0 0 2rem 0;">
+      ⚠️ <strong>DRAFT TRANSLATION — NOT YET REVIEWED.</strong> This Dinka (Thuɔŋjäŋ) text is an AI-produced first draft and must be checked by a fluent Dinka speaker before use. App button names are kept in English on purpose.<br>
+      <strong>Athör kënë acï waar thok ë Thuɔŋjäŋ aya ke draft.</strong> Raan ŋic Thuɔŋjäŋ apieth abï ye guiir ëtök ke ŋoot ke kën ye gam kɔc.
+    </div>
+
+    <!-- Lɔc Device -->
+    <section class="device-card">
+      <h2><span>📱</span> Lɔc Device Du</h2>
+      <p style="font-size: 1rem; color: var(--text-muted);">Lɔc device du bï wël ku tɛ̈ tɔ̈ button thïn thöŋ ke skrin du:</p>
+
+      <div class="device-tabs">
+        <button class="device-tab active" id="tab-apple" onclick="selectDevice('apple')">
+          🍎 Apple (iPhone / iPad)
+        </button>
+        <button class="device-tab" id="tab-android" onclick="selectDevice('android')">
+          🤖 Android (Phone / Tablet)
+        </button>
+        <button class="device-tab" id="tab-windows" onclick="selectDevice('windows')">
+          💻 Windows PC / Mac
+        </button>
+      </div>
+
+      <div class="device-note" id="device-note-text">
+        <strong>Device cï Lɔc:</strong> Në Apple iPhone ku iPad, navigation bar ë apɛi atɔ̈ piny në skrin (Bible, Publications, Meetings, Personal Study).
+      </div>
+    </section>
+
+    <!-- Kä bï Guiir -->
+    <section class="checklist-box">
+      <h3><span>✅</span> Kä bï Guiir</h3>
+      <div class="checklist-items">
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Bɛ̈n ë Thɛɛ:</strong> Bɛ̈n minit 10–15 ke ŋoot bï kɔc ye kuɔny Wi-Fi du tïŋ ku bïk tïŋ lɔn cï Baibol du ku Daily Text download.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Cuɔ̈ɔ̈t ë Röl:</strong> Të cï röl bɛ̈n ke kën ye tak, <span id="check-silence-desc">nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ ë phone/tablet du ku muk, nyiɛ̈n <strong>Mute key (🔇)</strong> në keyboard du, ka gät <strong>Pause (⏸️)</strong></span>.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Battery:</strong> Bɛ̈n ke device du ke battery cï thiäŋ (ka bɛ̈ɛ̈i charger du).</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Screen Timeout:</strong> <span id="check-timeout-desc">Guiir auto-lock ka screen timeout bï ya minit 2 ka 5 bï skrin cïï thiök në class.</span></span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Wi-Fi cï Mat:</strong> Mat device në Wi-Fi ë ɣöt bï kä ë piööc download ku data ë phone du cïï thök.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Storage:</strong> Tïŋ lɔn nɔŋ device du GB 2 ë storage tënë download.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Piööc 1 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>📖</span> Piööc 1: Yök ë Wël ë Baibol ku Amat</h2>
+        <span class="lesson-time">Thaa: Minit 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Piɔ̈ɔ̈c të ye yïn lɔ në kä dïït ë app yic, të bï kuɛ̈n ya piɛth ke wël cï dït, të ye chapter ë Baibol liep, ku të ye kä ë amat ë week ëbɛ̈n yök enɔn.
+      </p>
+
+      <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+        ▶️ Tïŋ Piööc cï Gam në JW.ORG (English)
+      </a>
+
+      <!-- Them 1.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 1.1: Daily Text ku Wël bï Dït</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> <span class="nav-instruction">Tïŋ navigation bar ë apɛi (<strong class="nav-location">piny në skrin du</strong>)</span> ku gät <strong>Daily Text</strong> (☀️).</li>
+          <li><span class="step-num">2</span> Tïŋ bar nhial ku gät <strong>Appearance / Text Size icon</strong> (<strong><code>A A</code></strong>).</li>
+          <li><span class="step-num">3</span> Cuɔ̈ɔ̈t slider lɔ cuëc bï wël ya dït ku kuɛ̈n ya piɛth.</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Kë bï Tak në Kuɛ̈n:</strong> Të cï yïn text size cï nhiaar guiir ëtënë, app abï muk në chapter ëbɛ̈n ë Baibol ku piööc ëbɛ̈n!
+        </div>
+      </div>
+
+      <!-- Them 1.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 1.2: Liep Athör ku Chapter ë Baibol</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät <strong>Bible</strong> (📖) në navigation bar du.</li>
+          <li><span class="step-num">2</span> Gät athör ë Baibol (cït <em>Matthew</em>).</li>
+          <li><span class="step-num">3</span> Gät chapter <strong>5</strong> ba kuɛ̈n jɔ̈k.</li>
+        </ul>
+      </div>
+
+      <!-- Them 1.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 1.3: Luɔ̈ɔ̈i Meetings Tab</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät <strong>Meetings</strong> tab (📅) në navigation bar du.</li>
+          <li><span class="step-num">2</span> Tïŋ amat karou ë week ëbɛ̈n: <em>Midweek Meeting</em> ku <em>Weekend Meeting</em>.</li>
+          <li><span class="step-num">3</span> Gät piööc ë <strong>Watchtower Study</strong> tɔ̈ piny ë Weekend Meeting bï liep enɔn ë gät tök.</li>
+        </ul>
+      </div>
+
+      <!-- Nyuɔɔth -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Raan ye Piööc Abï Nyuɔɔth: Bookmarks, History ku Search</h3>
+        <p>
+          Raan ye piööc abï nyuɔɔth të ye <strong>Bookmark (🔖)</strong> tääu, të ye yïn dhuk në wël cï kuɛ̈n ke <strong>History (🕒)</strong>, ku të ye wël yök ke <strong>Search (🔍)</strong>. Alëu ba ke them baai!
+        </p>
+      </div>
+    </article>
+
+    <!-- Piööc 2 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>⬇️</span> Piööc 2: Download ku Luɔ̈i ë Röl ku Video</h2>
+        <span class="lesson-time">Thaa: Minit 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Deet të ye kuɛ̈n ke cïn intanet luui thïn, download athör në Wi-Fi bï data ë phone du cïï thök, ku piŋ röl ke ye kuɛ̈n ke mït piɔ̈u.
+      </p>
+
+      <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
+        ▶️ Tïŋ Piööc cï Gam në JW.ORG (English)
+      </a>
+
+      <!-- Them 2.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 2.1: Tïŋ Wi-Fi ku Tiit ë Data ë Phone</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tïŋ nhial në skrin ë device du lɔn cï <strong>Wi-Fi icon</strong> mat.</li>
+          <li><span class="step-num">2</span> <em>Yeŋö ye ye kë dit:</em> Download në Wi-Fi acïï wëu ë data ë phone du nyaai.</li>
+          <li><span class="step-num">3</span> <em>Dɔ̈ɔ̈r ë Piɔ̈u ke Cïn Intanet:</em> Të cï athör ku röl download, ke döŋ në device du aköl ëbɛ̈n&mdash;intanet ka network ë phone acïï kɔɔr në amat!</li>
+        </ul>
+      </div>
+
+      <!-- Them 2.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 2.2: Download Kë bï Luɔ̈ɔ̈i ke Cïn Intanet</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät <strong>Publications</strong> (📚), ka lɔ në <strong>Meetings</strong> tab (📅).</li>
+          <li><span class="step-num">2</span> Kɔɔr kë nɔŋ <strong>Cloud icon</strong> (☁️) (cït athör ë amat ë pɛɛi kënë ka video koor).</li>
+          <li><span class="step-num">3</span> Gät kë cï yök bï download. Të cï cloud icon määr, ka kë cï muk ëbɛ̈n në device du bï kuɛ̈n ke cïn intanet.</li>
+        </ul>
+      </div>
+
+      <!-- Them 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 2.3: Piŋ Röl ku Cuɔ̈ɔ̈t ë Röl Enɔn</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Liep Daily Text ë akööl kënë ka chapter ë Baibol.</li>
+          <li><span class="step-num">2</span> Gät <strong>Headphones / Play button</strong> (🎧) nhial në skrin ba kuɛ̈n piŋ.</li>
+          <li><span class="step-num">3</span> <strong>Them Cuɔ̈ɔ̈t ë Röl:</strong> Cuɔ̈ɔ̈t röl enɔn <span id="ex-silence-desc">ke gät <strong>Pause (⏸️)</strong> në skrin, ka ke nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ ë device du (ka <strong>Mute key</strong> në keyboard ë computer)</span>.</li>
+        </ul>
+        <div class="step-tip">
+          🔇 <strong>Kë bï Piɔ̈u Dɔ̈ɔ̈r:</strong> <span id="tip-silence-desc">Du riɔ̈ɔ̈c lɔn bï röl bɛ̈n ke kën ye tak! Në phone ka tablet, muk <strong>Volume Down</strong> button tɔ̈ në lɔ̈ŋ, kënë ee brake du ë riɔ̈ɔ̈c. Në laptop ka PC, nyiɛ̈n <strong>Mute key (🔇)</strong> në keyboard ka gät Pause (⏸️).</span>
+        </div>
+      </div>
+
+      <!-- Nyuɔɔth -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Raan ye Piööc Abï Nyuɔɔth: Tiit ë Storage</h3>
+        <p>
+          Raan ye piööc abï nyuɔɔth të ye yïn lɔ në <em>Publications &gt; Downloaded</em>, të ye yïn lɔc <strong>Largest Size</strong>, ku të ye video thɛɛr nyaai të cï storage ë device thiäŋ.
+        </p>
+      </div>
+    </article>
+
+    <!-- Piööc 3 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>🖍️</span> Piööc 3: Kä ë Piööc ë Rɔt</h2>
+        <span class="lesson-time">Thaa: Minit 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Piɔ̈ɔ̈c të ye bër highlight tënë amat, të ye highlight waar ka nyaai apieth, ku të ye backup file looi bï kä cï gät në piööc du ë run juëc cïï määr.
+      </p>
+
+      <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
+        ▶️ Tïŋ Piööc cï Gam në JW.ORG (English)
+      </a>
+
+      <!-- Them 3.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 3.1: Highlight Bër ke Yellow</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät <strong>Meetings</strong> tab (📅) ku liep piööc ë <em>Watchtower</em> bɔ̈ tueŋ.</li>
+          <li><span class="step-num">2</span> Në paragraph 1, nyiɛ̈n wël tueŋ ë bër ku muk, ku cuɔ̈ɔ̈t cin du amääth në wël yic.</li>
+          <li><span class="step-num">3</span> Gät <strong>Yellow circle</strong> në color menu bï bɛ̈n. Bër du acï highlight!</li>
+        </ul>
+      </div>
+
+      <!-- Them 3.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 3.2: Waar Color ka Nyaai Highlight</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät wël ë yellow cï highlight ëmën.</li>
+          <li><span class="step-num">2</span> Gät color dɛ̈t (cït blue ka green) bï waar.</li>
+          <li><span class="step-num">3</span> Bï highlight nyaai ëbɛ̈n, gät <strong>Trash can icon</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Them 3.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Them 3.3: Looi Backup File</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gät <strong>Settings</strong> (⚙️) në skrin du.</li>
+          <li><span class="step-num">2</span> Gät <strong>Backup and Restore</strong>.</li>
+          <li><span class="step-num">3</span> Gät <strong>Create Backup</strong>.</li>
+          <li><span class="step-num">4</span> Kuany cök wël bï bɛ̈n në skrin ba backup file ë piööc du muk (<code>.jwlibrary</code> file).</li>
+        </ul>
+        <div class="step-tip">
+          🛡️ <strong>Dɔ̈ɔ̈r ë Piɔ̈u:</strong> Note ku highlight du atɔ̈ në device du. Të looi yïn backup file pɛɛi ëbɛ̈n, ka note ë piööc du abï tiit të cï yïn phone ka tablet yam yök!
+        </div>
+      </div>
+
+      <!-- Nyuɔɔth -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Raan ye Piööc Abï Nyuɔɔth: Notes, Tags ku Personal Study</h3>
+        <p>
+          Raan ye piööc abï nyuɔɔth të ye note (📝) mat në wël ë Baibol, ku të ye bookmark ku highlight ëbɛ̈n tïŋ në <strong>Personal Study</strong> tab.
+        </p>
+      </div>
+    </article>
+
+    <!-- Kuɔny tënë Raan ye Class Wɛ̈t -->
+    <details class="instructor-guide">
+      <summary><span>📋</span> Kuɔny tënë Raan ye Class Wɛ̈t ku Raan ye Piööc (Thaa ë Minit 60)</summary>
+      <div class="instructor-content">
+        <p>Thaa kënë aye minit 15 gam piööc ëbɛ̈n, ku <strong>minit 10 ë thök</strong> atɔ̈ thïn bï class ya piɛth ke cïn yäc.</p>
+
+        <table class="timing-table">
+          <thead>
+            <tr>
+              <th>Thaa</th>
+              <th>Piööc</th>
+              <th>Kë Dït ku Them</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0:00 &ndash; 0:05</strong></td>
+              <td>Tɔ̈ɔ̈k ku Nyuɔɔth ë Device (minit 5)</td>
+              <td>Thëm ë Baibol enɔn (kɔc ye kuɔny aye raan kɔɔr download kuɔny), cuɔ̈ɔ̈t ë röl (Volume Down në lɔ̈ŋ ë phone/tablet; Mute key në PC), ku tïŋ screen timeout.</td>
+            </tr>
+            <tr>
+              <td><strong>0:05 &ndash; 0:20</strong></td>
+              <td>Piööc 1: Yök ë Wël ë Baibol ku Amat (minit 15)</td>
+              <td>Them 1.1: Daily Text ku Text Size (<code>A A</code>) &bull; Them 1.2: Athör/Chapter ë Baibol &bull; Them 1.3: Meetings tab.</td>
+            </tr>
+            <tr>
+              <td><strong>0:20 &ndash; 0:35</strong></td>
+              <td>Piööc 2: Download ku Luɔ̈i ë Röl ku Video (minit 15)</td>
+              <td>Them 2.1: Wi-Fi ku tiit ë data &bull; Them 2.2: Download bï luɔ̈ɔ̈i ke cïn intanet &bull; Them 2.3: Audio player (🎧) ku cuɔ̈ɔ̈t ë röl enɔn.</td>
+            </tr>
+            <tr>
+              <td><strong>0:35 &ndash; 0:50</strong></td>
+              <td>Piööc 3: Kä ë Piööc ë Rɔt (minit 15)</td>
+              <td>Them 3.1: Highlight ke yellow &bull; Them 3.2: Waar color/nyaai &bull; Them 3.3: Looi backup file.</td>
+            </tr>
+            <tr>
+              <td><strong>0:50 &ndash; 1:00</strong></td>
+              <td>Thök, Dhuk Cök, ku Thiëc (minit 10)</td>
+              <td>Dhuk cök në kä cï looi, bëër thiëc, ku luɔ̈ɔ̈i thaa juak të cï them kɔ̈k thaa juëc dɔm.</td>
+            </tr>
+          </tbody>
+        </table>
+
+                <div class="facilitator-box">
+          <h4>Wël Dïït tënë Raan ye Class Wɛ̈t:</h4>
+          <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
+            <li><strong>Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Minit 15 ke Ŋoot):</strong> Lueel lɔn bï ɣöt liep minit 15 ke ŋoot bï kɔc ye kuɔny kɔc mat në Wi-Fi ku bïk tïŋ lɔn cï Baibol ku Daily Text download ke class ŋoot ke kën jɔ̈k.</li>
+            <li><strong>Cuɔ̈ɔ̈t ë Röl ("Panic Button") Tueŋ:</strong> Nyuɔɔth kɔc Volume Down button ku Pause icon të jɔ̈k class. Të ŋic kek lɔn lëu bïk röl cuɔ̈ɔ̈t enɔn, ka riɔ̈ɔ̈c ë technology abï thök ke kek ŋoot ke kën röl ku video liep.</li>
+            <li><strong>Kɔc ye Kuɔny në Tëëbil:</strong> Guiir kɔc 1 ka 2 ye kuɔny bïk cath amääth. Të cï raan ye piɔ̈ɔ̈c app nyaai ke kën ye tak, raan ye kuɔny alëu bï ye dhuk ë second lik ke class cïï kääc.</li>
+            <li><strong>Minit 10 ë Juak:</strong> Të cï them thaa juëc dɔm, lɔɔm minit 3&ndash;5 në minit 10 ë thök ke cïn yäc.</li>
+            <li><strong>Kuɔny ë Cök ë Class:</strong> Lueel lɔn bï raan ye piööc ku kɔc ye kuɔny döŋ minit 15 të cï class thök tënë raan kɔɔr kuɔny ë rɔt.</li>
+            <li><strong>Awereek cï Gɔ̈r në Piny (Të wïc kɔc):</strong> Tääu de awereek ke 1-page Class Program në tëëbil nhial akony kɔc bïk kuën kä bï them ëbɛ̈n enɔn, ke cïn kë bï ya wïc bï website kënë liep në data ë phone.</li>
+            <li><strong>QR Codes në Tëëbil ka në Skrin (Cïï kë bï cɔk looi):</strong> Të lëu yïn, nyuɔɔth QR code në skrin dït ka tääu <a href="Table_Cards_Dinka_din.pdf" target="_blank" rel="noopener">Awereek ke QR ë Tëëbil (PDF)</a> bï kɔc lëu bïk liep athör ë piööc enɔn në camera ë phone ke cïn kë bï gɔ̈r.</li>
+            <li><strong>Mat në Home Screen (Kony ë Luɔ̈ɔ̈i ke Cïn Intanet):</strong> Nyuɔɔth kɔc "Share &gt; Add to Home Screen" (iPhone) ka "Menu &gt; Add to Home screen" (Android). <em>Kë Dït:</em> Liep icon kënë yam enɔn ke ŋoot ke cï mat në intanet yic bï këbɛ̈n muk apath. Na cï kënë thök, ke athör ë piööc kënë abï ya luui apath të cïn intanet (ku bideoth, PDFs, ku links ke JW.ORG aabï ya kɔɔr intanet).</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Link cï Gam -->
+    <section class="links-card">
+      <h3><span>🔗</span> Kuɔny cï Gam ku Piööc në JW.ORG</h3>
+      <p style="font-size: 1rem; color: var(--text-muted);">Tënë video ë piööc cï thöŋ ku kuɔny cï gam, lɔ tɛ̈ɛ̈n <em>(English)</em>:</p>
+
+      <div class="links-grid">
+        <a class="link-item" href="https://www.jw.org/din/" target="_blank" rel="noopener">
+          🌐 JW.ORG në Thuɔŋjäŋ (Dinka)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/" target="_blank" rel="noopener">
+          🌐 JW.ORG Help Main Index
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+          ✨ JW Library App Features
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/apple/" target="_blank" rel="noopener">
+          🍎 Help for Apple (iOS / iPadOS)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/android/" target="_blank" rel="noopener">
+          🤖 Help for Android Devices
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/windows/" target="_blank" rel="noopener">
+          💻 Help for Windows Devices
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/use-playlists/" target="_blank" rel="noopener">
+          🎵 How to Use Playlists
+        </a>
+      </div>
+    </section>
+
+    <!-- Wël ë Löŋ -->
+    <footer>
+      <h4>Wël ë Löŋ (Legal &amp; Non-Affiliation Notice)</h4>
+      <p>
+        <em>JW Library</em> ee trademark cï gät tënë Watch Tower Bible and Tract Society of Pennsylvania.
+        Athör ë piööc kënë ku thaa ë class kënë aye lɔn ë piööc ë rɔt ke cïn ɣɔɔc thïn, cï looi ë rɔt bï kɔc kuɔny bïk app piɔ̈ɔ̈c. Acïï mat ke, acïï gam, acïï tiit, acïï cuat, ku acïï leec ë Watch Tower Bible and Tract Society of Pennsylvania ka Ciëëtke Yekoba.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        <em>English original:</em> JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This training guide and class schedule is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Wël cï gam, athör, ku video atɔ̈ tënë <a href="https://www.jw.org/din/" target="_blank" rel="noopener" style="color: var(--primary);">JW.ORG</a> ë rɔt.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Text size
+    const TEXT_SIZES = {
+      small: '16px',
+      normal: '19px',
+      large: '22px',
+      xlarge: '25px'
+    };
+
+    function setTextSize(size) {
+      const base = TEXT_SIZES[size] || TEXT_SIZES.normal;
+      document.documentElement.style.setProperty('--font-base', base);
+
+      document.querySelectorAll('.btn-size').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById('btn-size-' + size);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      try {
+        localStorage.setItem('jw_tutorial_text_size', size);
+      } catch (e) {}
+    }
+
+    // Theme (Dark Mode)
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      const isDark = theme === 'dark';
+      if (isDark) {
+        root.setAttribute('data-theme', 'dark');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+
+      const iconEl = document.getElementById('theme-icon');
+      const labelEl = document.getElementById('theme-label');
+      const toggleBtn = document.getElementById('btn-theme-toggle');
+
+      if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+      if (labelEl) labelEl.textContent = isDark ? 'Light' : 'Dark';
+      if (toggleBtn) {
+        toggleBtn.title = isDark ? 'Waar ë Light Mode' : 'Waar ë Dark Mode';
+        toggleBtn.setAttribute('aria-label', toggleBtn.title);
+      }
+
+      try {
+        localStorage.setItem('jw_tutorial_theme', theme);
+      } catch (e) {}
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    }
+
+    // Initialize preferences from localStorage or system defaults
+    (function initPreferences() {
+      try {
+        const savedSize = localStorage.getItem('jw_tutorial_text_size');
+        if (savedSize && TEXT_SIZES[savedSize]) {
+          setTextSize(savedSize);
+        } else {
+          setTextSize('normal');
+        }
+
+        const savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          applyTheme(savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          applyTheme('dark');
+        } else {
+          applyTheme('light');
+        }
+
+        // Restore the learner's device choice so the right instructions and links show on load
+        let savedDevice = null;
+        try { savedDevice = localStorage.getItem('jw_tutorial_device'); } catch (e) {}
+        selectDevice(['apple', 'android', 'windows'].indexOf(savedDevice) !== -1 ? savedDevice : 'apple');
+      } catch (e) {
+        setTextSize('normal');
+        applyTheme('light');
+        selectDevice('apple');
+      }
+    })();
+
+    // Register Service Worker for true offline PWA capability
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+      });
+    }
+
+
+    // Lɔc device
+    function selectDevice(device) {
+      try {
+        localStorage.setItem('jw_tutorial_device', device);
+      } catch (e) {}
+
+      document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + device);
+      if (activeTab) activeTab.classList.add('active');
+
+      const noteText = document.getElementById('device-note-text');
+      const navLocations = document.querySelectorAll('.nav-location');
+      const checkSilence = document.getElementById('check-silence-desc');
+      const checkTimeout = document.getElementById('check-timeout-desc');
+      const exSilence = document.getElementById('ex-silence-desc');
+      const tipSilence = document.getElementById('tip-silence-desc');
+      const videoL1 = document.getElementById('video-link-lesson1');
+      const videoL2 = document.getElementById('video-link-lesson2');
+      const videoL3 = document.getElementById('video-link-lesson3');
+
+      if (device === 'apple') {
+        noteText.innerHTML = '<strong>Device cï Lɔc:</strong> Në Apple iPhone ku iPad, navigation bar ë apɛi atɔ̈ piny në skrin (Bible, Publications, Meetings, Personal Study).';
+        navLocations.forEach(el => el.textContent = 'piny në skrin du');
+        if (checkSilence) checkSilence.innerHTML = 'nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ cam ë iPhone ka iPad du ku muk, ka gät <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Guiir <strong>Auto-Lock</strong> (në <em>Settings &gt; Display &amp; Brightness</em>) bï ya minit 2 ka 5 bï skrin cïï thiök në class.';
+        if (exSilence) exSilence.innerHTML = 'ke gät <strong>Pause (⏸️)</strong> në skrin, ka ke nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ cam ë iPhone ka iPad du ku muk.';
+        if (tipSilence) tipSilence.innerHTML = 'Du riɔ̈ɔ̈c lɔn bï röl bɛ̈n ke kën ye tak! Në iPhone ku iPad, muk <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ, kënë ee brake du ë riɔ̈ɔ̈c në Kingdom Hall ka në class.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
+      } else if (device === 'android') {
+        noteText.innerHTML = '<strong>Device cï Lɔc:</strong> Në Android phone ku tablet, navigation bar ë apɛi atɔ̈ piny (ka cuɔ̈ɔ̈t cin du në lɔ̈ŋ cam bï navigation menu bɛ̈n).';
+        navLocations.forEach(el => el.textContent = 'piny ka në menu cam ë skrin du');
+        if (checkSilence) checkSilence.innerHTML = 'nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ ë phone ka tablet du ku muk, ka gät <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Guiir <strong>Screen timeout</strong> (në <em>Settings &gt; Display</em>) bï ya minit 2 ka 5 bï skrin cïï thiök në class.';
+        if (exSilence) exSilence.innerHTML = 'ke gät <strong>Pause (⏸️)</strong> në skrin, ka ke nyiɛ̈n <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ ë Android device du ku muk.';
+        if (tipSilence) tipSilence.innerHTML = 'Du riɔ̈ɔ̈c lɔn bï röl bɛ̈n ke kën ye tak! Në Android phone ku tablet, muk <strong>Volume Down button</strong> tɔ̈ në lɔ̈ŋ, kënë ee brake du ë riɔ̈ɔ̈c në Kingdom Hall ka në class.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
+      } else if (device === 'windows') {
+        noteText.innerHTML = '<strong>Device cï Lɔc:</strong> Në Windows PC ku laptop, navigation bar ë apɛi atɔ̈ nhial në skrin (ka në sidebar cam).';
+        navLocations.forEach(el => el.textContent = 'nhial në skrin du');
+        if (checkSilence) checkSilence.innerHTML = 'nyiɛ̈n <strong>Mute key (🔇)</strong> ka <strong>Volume Down key</strong> në keyboard du, gät speaker icon në taskbar, ka gät <strong>Pause (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Guiir <strong>Screen / Sleep</strong> (në <em>Settings &gt; System &gt; Power &amp; battery</em>) bï ya minit 2 ka 5 bï laptop du cïï thiök.';
+        if (exSilence) exSilence.innerHTML = 'ke gät <strong>Pause (⏸️)</strong>, ke nyiɛ̈n <strong>Mute key (🔇)</strong> në keyboard, ka ke gät Speaker icon në taskbar du.';
+        if (tipSilence) tipSilence.innerHTML = 'Du riɔ̈ɔ̈c lɔn bï röl bɛ̈n ke kën ye tak! Në Windows PC ku laptop, nyiɛ̈n <strong>Mute key (🔇)</strong> në keyboard ka gät Pause (⏸️), ka röl ëbɛ̈n abï cuɔ̈ɔ̈t enɔn.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';
+      }
+    }
+  </script>
+</body>
+</html>

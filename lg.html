@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="lg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okuyiga Okukozesa JW Library &mdash; Ekitabo eky'Okwegezaamu n'Enteekateeka ya Kiraasi</title>
+  <meta name="description" content="Ekitabo ekyangu era eky'omugaso, eky'omutendera ku mutendera, n'enteekateeka ya kiraasi, okuyiga engeri y'okukozesa pulogulaamu ya JW Library mu kwesomesa, mu nkuŋŋaana, ne mu buweereza.">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="sw" href="sw.html">
+  <link rel="alternate" hreflang="lg" href="lg.html">
+  <link rel="alternate" hreflang="din" href="din.html">
+  <link rel="manifest" href="manifest-lg.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <script>
+    // Early theme and font size setup to prevent flash of wrong theme/size
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        var savedSize = localStorage.getItem('jw_tutorial_text_size');
+        var sizes = { small: '16px', normal: '19px', large: '22px', xlarge: '25px' };
+        if (savedSize && sizes[savedSize]) {
+          document.documentElement.style.setProperty('--font-base', sizes[savedSize]);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --primary: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-border: #bfdbfe;
+      --accent: #0f766e;
+      --accent-light: #f0fdfa;
+      --accent-text: #134e4a;
+      --tag-bg: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --font-base: 19px;
+
+      /* UI Controls */
+      --btn-bg: #f1f5f9;
+      --btn-border: #cbd5e1;
+      --btn-text: #1e293b;
+      --btn-active-bg: #1e40af;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #f8fafc;
+      --exercise-border: #e2e8f0;
+      --demo-bg: #f1f5f9;
+      --demo-border: #64748b;
+      --demo-title: #475569;
+      --demo-text: #475569;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #fefce8;
+      --tip-border: #eab308;
+      --tip-text: #713f12;
+      --check-bg: #dcfce7;
+      --check-text: #166534;
+      --facilitator-bg: #f0fdf4;
+      --facilitator-border: #16a34a;
+      --facilitator-text: #14532d;
+      --facilitator-title: #166534;
+      --table-th-bg: #f1f5f9;
+
+      /* Video Link */
+      --video-bg: #eff6ff;
+      --video-border: #bfdbfe;
+      --video-text: #1d4ed8;
+      --video-hover-bg: #dbeafe;
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      --header-text: #ffffff;
+      --header-subtext: #dbeafe;
+      --header-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+
+      /* Device selector */
+      --device-tab-bg: #f8fafc;
+      --device-tab-border: #cbd5e1;
+      --device-tab-text: #1e293b;
+      --device-tab-hover-bg: #eff6ff;
+
+      /* Links & Footer */
+      --link-item-bg: #f8fafc;
+      --link-item-border: #cbd5e1;
+      --footer-text: #64748b;
+      --footer-heading: #334155;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-light: #172554;
+      --primary-border: #60a5fa;
+      --accent: #2dd4bf;
+      --accent-light: #042f2e;
+      --accent-text: #5eead4;
+      --tag-bg: #334155;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+
+      /* UI Controls */
+      --btn-bg: #334155;
+      --btn-border: #475569;
+      --btn-text: #f1f5f9;
+      --btn-active-bg: #3b82f6;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #0f172a;
+      --exercise-border: #334155;
+      --demo-bg: #182234;
+      --demo-border: #94a3b8;
+      --demo-title: #cbd5e1;
+      --demo-text: #cbd5e1;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #221c04;
+      --tip-border: #eab308;
+      --tip-text: #fef08a;
+      --check-bg: #064e3b;
+      --check-text: #86efac;
+      --facilitator-bg: #052e16;
+      --facilitator-border: #22c55e;
+      --facilitator-text: #bbf7d0;
+      --facilitator-title: #86efac;
+      --table-th-bg: #0f172a;
+
+      /* Video Link */
+      --video-bg: #1e293b;
+      --video-border: #3b82f6;
+      --video-text: #93c5fd;
+      --video-hover-bg: rgba(37, 99, 235, 0.2);
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      --header-text: #ffffff;
+      --header-subtext: #bfdbfe;
+      --header-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+      /* Device selector */
+      --device-tab-bg: #0f172a;
+      --device-tab-border: #475569;
+      --device-tab-text: #f1f5f9;
+      --device-tab-hover-bg: #1e293b;
+
+      /* Links & Footer */
+      --link-item-bg: #0f172a;
+      --link-item-border: #334155;
+      --footer-text: #94a3b8;
+      --footer-heading: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: var(--font-base);
+      transition: font-size 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1.5rem 1rem 4rem;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .utility-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .util-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .util-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .btn-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-control:hover, .btn-control:focus {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    .btn-control.active {
+      background-color: var(--btn-active-bg);
+      color: var(--btn-active-text);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-size {
+      min-width: 2.3rem;
+      text-align: center;
+    }
+
+    .btn-theme {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--header-shadow);
+      transition: background 0.2s ease;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+      color: var(--header-text);
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: var(--header-subtext);
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Device Selector Card */
+    .device-card {
+      background-color: var(--card-bg);
+      border: 2px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .device-card h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .device-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .device-tab {
+      background-color: var(--device-tab-bg);
+      border: 2px solid var(--device-tab-border);
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--device-tab-text);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .device-tab:hover {
+      border-color: var(--primary);
+      background-color: var(--device-tab-hover-bg);
+    }
+
+    .device-tab.active {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 6px -1px rgba(30, 64, 175, 0.3);
+    }
+
+    .device-note {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background-color: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      font-size: 1rem;
+      color: var(--accent-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Checklist Box */
+    .checklist-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .checklist-box h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checklist-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    .check-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--check-bg);
+      color: var(--check-text);
+      font-weight: 700;
+      border-radius: 50%;
+      width: 1.45rem;
+      height: 1.45rem;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Lesson Cards */
+    .lesson-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .lesson-header {
+      border-bottom: 2px solid var(--card-border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+
+    .lesson-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .lesson-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background-color: var(--btn-bg);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--card-border);
+    }
+
+    .lesson-intro {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .official-video-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--video-bg);
+      border: 1px solid var(--video-border);
+      color: var(--video-text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: all 0.15s ease;
+    }
+
+    .official-video-link:hover {
+      background-color: var(--video-hover-bg);
+      text-decoration: underline;
+    }
+
+    /* Steps */
+    .exercise-box {
+      background-color: var(--exercise-bg);
+      border: 1px solid var(--exercise-border);
+      border-radius: 10px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .exercise-box.demonstrated {
+      background-color: var(--demo-bg);
+      border-left: 4px solid var(--demo-border);
+    }
+
+    .exercise-box.demonstrated .exercise-title {
+      color: var(--demo-title);
+    }
+
+    .exercise-box.demonstrated p {
+      color: var(--demo-text);
+    }
+
+    .exercise-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .step-list {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .step-list li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.02rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    .step-num {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      width: 1.45rem;
+      height: 1.45rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-tip {
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      background-color: var(--tip-bg);
+      border-left: 3px solid var(--tip-border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: var(--tip-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Accordion for Facilitator Section */
+    details.instructor-guide {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    details.instructor-guide summary {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      user-select: none;
+    }
+
+    .instructor-content {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+      font-size: 1rem;
+      color: var(--text-muted);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .timing-table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .timing-table th, .timing-table td {
+      border: 1px solid var(--card-border);
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+
+    .timing-table th {
+      background-color: var(--table-th-bg);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .timing-table td {
+      color: var(--text);
+    }
+
+    .facilitator-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: var(--facilitator-bg);
+      border-left: 4px solid var(--facilitator-border);
+      border-radius: 6px;
+      color: var(--facilitator-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .facilitator-box h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      color: var(--facilitator-title);
+    }
+
+    /* Official Links Card */
+    .links-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .links-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .link-item {
+      display: block;
+      padding: 0.75rem 1rem;
+      background-color: var(--link-item-bg);
+      border: 1px solid var(--link-item-border);
+      border-radius: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      transition: all 0.15s ease;
+    }
+
+    .link-item:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Footer & Disclaimer */
+    footer {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--footer-text);
+      line-height: 1.6;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    footer h4 {
+      font-size: 1.05rem;
+      color: var(--footer-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        padding: 0 !important;
+      }
+
+      .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
+        display: none !important;
+      }
+
+      header {
+        background: none !important;
+        color: #000000 !important;
+        padding: 0 0 0.75rem 0;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 1.25rem;
+        box-shadow: none !important;
+      }
+
+      header h1 {
+        font-size: 18pt !important;
+        color: #000000 !important;
+      }
+
+      header p {
+        color: #333333 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .lesson-card, .exercise-box {
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 0.85rem;
+        padding: 0.85rem;
+      }
+
+      .lesson-title {
+        color: #000000 !important;
+        font-size: 13pt !important;
+      }
+
+      .step-num {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    /* Language menu */
+    .select-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 0.85em;
+      transition: all 0.15s ease;
+    }
+
+    [data-theme="dark"] .select-control {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    }
+
+    .select-control:hover, .select-control:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+  
+/* Phone-width fixes: let long words wrap, and stop grids/menus from forcing sideways scrolling */
+body { overflow-wrap: anywhere; }
+.timing-table { overflow-wrap: normal; }
+.timing-table td:first-child { white-space: nowrap; }
+.lesson-title, .exercise-title, .device-card h2, .checklist-box h3, .links-card h3 { min-width: 0; }
+.device-tabs { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.checklist-items, .links-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.util-group { max-width: 100%; }
+.select-control { max-width: 100%; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+  .utility-bar { padding: 0.75rem; }
+  header { padding: 1.5rem 1.25rem; }
+  header h1 { font-size: 1.75rem; }
+  .lesson-card { padding: 1.25rem; }
+  .lesson-title { display: block; font-size: 1.3rem; }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Obupeesa obwa Waggulu -->
+    <div class="utility-bar">
+      <div class="util-group" role="navigation" aria-label="Okulonda Olulimi">
+        <label for="lang-select" class="util-label"><span aria-hidden="true">🌐</span> Olulimi:</label>
+        <select id="lang-select" class="select-control" onchange="window.location.href=this.value" aria-label="Londa Olulimi">
+          <option value="index.html">English</option>
+          <option value="sw.html">Kiswahili</option>
+          <option value="lg.html" selected>Luganda</option>
+          <option value="din.html">Thuɔŋjäŋ (Dinka)</option>
+        </select>
+      </div>
+      <div class="util-group">
+        <span class="util-label">Obunene bw'Ennukuta:</span>
+        <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Ennukuta entono" aria-label="Ennukuta entono">A−</button>
+        <button class="btn-control btn-size active" id="btn-size-normal" onclick="setTextSize('normal')" title="Ennukuta eza bulijjo" aria-label="Ennukuta eza bulijjo">A</button>
+        <button class="btn-control btn-size" id="btn-size-large" onclick="setTextSize('large')" title="Ennukuta ennene" aria-label="Ennukuta ennene">A+</button>
+        <button class="btn-control btn-size" id="btn-size-xlarge" onclick="setTextSize('xlarge')" title="Ennukuta ennene ennyo" aria-label="Ennukuta ennene ennyo">A++</button>
+        <button class="btn-control btn-theme" id="btn-theme-toggle" onclick="toggleTheme()" title="Kyusa ku Nkola y'Ekizikiza" aria-label="Kyusa ku Nkola y'Ekizikiza">
+          <span id="theme-icon">🌙</span> <span id="theme-label">Ekizikiza</span>
+        </button>
+      </div>
+      <div class="util-group">
+        <button class="btn-control btn-print" onclick="window.print()" title="Kuba olupapula luno olw'okwegezaamu mu kyapa">
+          🖨️ Kuba Ekitabo Ekimpi mu Kyapa
+        </button>
+      </div>
+    </div>
+
+    <!-- Omutwe -->
+    <header>
+      <h1>Okuyiga Okukozesa JW Library</h1>
+      <p>Okuyiga okw'essaawa emu okw'omugaso okukuyamba okukozesa pulogulaamu eno n'okunyumirwa okusoma Bayibuli, okwetegekera enkuŋŋaana z'Ekikristaayo, n'okukozesa ebitabo ebyesigamiziddwa ku Bayibuli.</p>
+    </header>
+
+    <!-- Okulonda Ekyuma -->
+    <section class="device-card">
+      <h2><span>📱</span> Londa Ekyuma Kyo</h2>
+      <p style="font-size: 1rem; color: var(--text-muted);">Londa ekyuma kyo ebiragiro n'ebifo obupeesa we buli bikwatagane ne ssirini yo:</p>
+
+      <div class="device-tabs">
+        <button class="device-tab active" id="tab-apple" onclick="selectDevice('apple')">
+          🍎 Apple (iPhone / iPad)
+        </button>
+        <button class="device-tab" id="tab-android" onclick="selectDevice('android')">
+          🤖 Android (Essimu / Tabuleti)
+        </button>
+        <button class="device-tab" id="tab-windows" onclick="selectDevice('windows')">
+          💻 Kompyuta ya Windows / Mac
+        </button>
+      </div>
+
+      <div class="device-note" id="device-note-text">
+        <strong>Ekyuma Ekirondeddwa:</strong> Ku iPhone ne iPad za Apple, olukalala olukulu olw'okutambuliramu luli wansi ku ssirini (Bayibuli, Ebitabo, Enkuŋŋaana, Okwesomesa).
+      </div>
+    </section>
+
+    <!-- Olukalala lw'Okwetegeka -->
+    <section class="checklist-box">
+      <h3><span>✅</span> Olukalala lw'Okwetegeka</h3>
+      <div class="checklist-items">
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Tuuka Kare:</strong> Tuuka eddakiika 10–15 nga bukyali abayambi basobole okukebera Wi-Fi yo n'okukakasa nti Bayibuli yo n'Ekyawandiikibwa eky'Olunaku biwanuddwa.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Okusirisa mu Kabenje:</strong> Eddoboozi bwe livaayo nga terisuubiddwa, <span id="check-silence-desc">nyiga era onyweze <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali g'essimu/tabuleti yo, nyiga <strong>eppeesa erisirisa (🔇)</strong> ku kiwandiikiro kyo, oba nyiga <strong>Yimiriza (⏸️)</strong></span>.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Bbaatule:</strong> Jjira ekyuma kyo nga bbaatule ejjudde (oba leeta waya yo ecaajinga).</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Ekiseera Ssirini mw'Ezikira:</strong> <span id="check-timeout-desc">Teekawo ssirini eggalirwe oba ezikire oluvannyuma lw'eddakiika 2 oba 5 ssirini esigale ng'eyaka mu kiseera kya kiraasi.</span></span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Wi-Fi Eyungiddwa:</strong> Yunga ku Wi-Fi y'ekifo osobole okuwanula ebintu eby'okuyiga n'okukekkereza data y'essimu.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Ekifo Ekitaliiko Kintu:</strong> Kakasa nti ekyuma kyo kirina waakiri GB 2 ez'ekifo eky'okuterekamu ebiwanulwa.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Essomo 1 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>📖</span> Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana</h2>
+        <span class="lesson-time">Ekiseera: Eddakiika 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Yiga engeri y'okuva mu kitundu ekimu ekikulu ekya pulogulaamu okugenda mu kirala, okusoma mu ngeri ennyangu ng'ogaziya ennukuta, okuggulawo essuula yonna eya Bayibuli, n'okugenda butereevu ku bintu by'enkuŋŋaana zo eza buli wiiki.
+      </p>
+
+      <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+        ▶️ Laba Okuyiga Okutuufu ku JW.ORG (mu Lungereza)
+      </a>
+
+      <!-- Okwegezaamu 1.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 1.1: Ekyawandiikibwa eky'Olunaku n'Okugaziya Ennukuta</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> <span class="nav-instruction">Tunuulira olukalala olukulu olw'okutambuliramu (<strong class="nav-location">wansi ku ssirini yo</strong>)</span> olwo onyige <strong>Ekyawandiikibwa eky'Olunaku</strong> (☀️) <em>(Daily Text)</em>.</li>
+          <li><span class="step-num">2</span> Tunuulira olukalala olwa waggulu onyige <strong>akabonero k'Endabika / Obunene bw'Ennukuta</strong> (<strong><code>A A</code></strong>).</li>
+          <li><span class="step-num">3</span> Sereza akasaaliro ku ddyo ennukuta zifuuke nnene era nnyangu okusoma.</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Amagezi ag'Okusoma:</strong> Bw'omala okuteekawo obunene bw'ennukuta bw'oyagala wano, pulogulaamu ebujjukira mu ssuula zonna eza Bayibuli ne mu bitundu byonna!
+        </div>
+      </div>
+
+      <!-- Okwegezaamu 1.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 1.2: Ggulawo Ekitabo n'Essuula ya Bayibuli</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga <strong>Bayibuli</strong> (📖) <em>(Bible)</em> ku lukalala lwo olukulu olw'okutambuliramu.</li>
+          <li><span class="step-num">2</span> Nyiga ekitabo kya Bayibuli (okugeza, <em>Matayo</em>).</li>
+          <li><span class="step-num">3</span> Nyiga essuula <strong>5</strong> otandike okusoma.</li>
+        </ul>
+      </div>
+
+      <!-- Okwegezaamu 1.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 1.3: Kozesa Ekitundu ky'Enkuŋŋaana</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga ekitundu ky'<strong>Enkuŋŋaana</strong> (📅) <em>(Meetings)</em> ku lukalala lwo olw'okutambuliramu.</li>
+          <li><span class="step-num">2</span> Weetegereze ebitundu ebibiri eby'enkuŋŋaana eza buli wiiki: <em>Olukuŋŋaana olw'Omu Wiiki</em> n'<em>Olukuŋŋaana olwa Wikendi</em>.</li>
+          <li><span class="step-num">3</span> Nyiga ekitundu ky'<strong>Okusoma Omunaala gw'Omukuumi</strong> ekiri wansi w'Olukuŋŋaana olwa Wikendi okukiggulawo amangu ddala ng'onyize omulundi gumu.</li>
+        </ul>
+      </div>
+
+      <!-- Ekirageddwa -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Omusomesa Alaga: Obubonero bw'Okujjukira, Ebyafaayo ne Noonya</h3>
+        <p>
+          Omusomesa ajja kulaga engeri y'okuteekawo <strong>Akabonero k'Okujjukira (🔖)</strong> <em>(Bookmark)</em>, okuddayo ku nnyiriri z'obadde osoma ng'okozesa <strong>Ebyafaayo (🕒)</strong> <em>(History)</em>, n'okunoonya ebigambo ng'okozesa <strong>Noonya (🔍)</strong> <em>(Search)</em>. Osobola okubyegezaamu ng'oli waka!
+        </p>
+      </div>
+    </article>
+
+    <!-- Essomo 2 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>⬇️</span> Essomo 2: Okuwanula n'Okukozesa Amaloboozi ne Vidiyo</h2>
+        <span class="lesson-time">Ekiseera: Eddakiika 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Tegeera engeri okusoma awatali yintaneeti gye kukolamu, wanula ebitabo ng'oli ku Wi-Fi okukekkereza data y'essimu yo, era onyumirwe okuwuliriza amaloboozi agasoma mu ddoboozi.
+      </p>
+
+      <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
+        ▶️ Laba Okuyiga Okutuufu ku JW.ORG (mu Lungereza)
+      </a>
+
+      <!-- Okwegezaamu 2.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 2.1: Okukebera Wi-Fi n'Okukuuma Data y'Essimu</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Tunuulira waggulu ku ssirini y'ekyuma kyo okakase nti <strong>akabonero ka Wi-Fi</strong> kalaga nti oyungiddwa.</li>
+          <li><span class="step-num">2</span> <em>Lwaki kino kikulu:</em> Okuwanula ng'oli ku Wi-Fi kikakasa nti tosasula ssente za data y'essimu.</li>
+          <li><span class="step-num">3</span> <em>Emirembe Awatali Yintaneeti:</em> Ebitabo n'amaloboozi bwe bimala okuwanulwa, bisigala ku kyuma kyo ennaku zonna&mdash;teweetaaga yintaneeti wadde akabonero k'essimu mu nkuŋŋaana!</li>
+        </ul>
+      </div>
+
+      <!-- Okwegezaamu 2.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 2.2: Wanula Ekintu Okukikozesa Awatali Yintaneeti</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga <strong>Ebitabo</strong> (📚) <em>(Publications)</em>, oba genda mu kitundu ky'<strong>Enkuŋŋaana</strong> (📅) <em>(Meetings)</em>.</li>
+          <li><span class="step-num">2</span> Noonya ekintu ekiriko <strong>akabonero k'Ekire</strong> (☁️) (okugeza, akatabo k'olukuŋŋaana ak'omwezi guno oba vidiyo empi).</li>
+          <li><span class="step-num">3</span> Nyiga ekintu ekyo okukiwanula. Akabonero k'ekire bwe kaggwaawo, ekintu ekyo kiba kiterekeddwa kyonna ku kyuma kyo osobole okukisoma awatali yintaneeti.</li>
+        </ul>
+      </div>
+
+      <!-- Okwegezaamu 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 2.3: Wuliriza Amaloboozi era Osirise Amangu mu Kabenje</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Ggulawo Ekyawandiikibwa eky'Olunaku eky'olwaleero oba essuula yonna eya Bayibuli.</li>
+          <li><span class="step-num">2</span> Nyiga <strong>eppeesa lya Headphones / Zannya</strong> (🎧) <em>(Play)</em> eriri waggulu ku ssirini okutandika okuwuliriza okusoma.</li>
+          <li><span class="step-num">3</span> <strong>Weegezeemu Okusirisa mu Kabenje:</strong> Komya eddoboozi amangu ddala <span id="ex-silence-desc">ng'onyiga <strong>Yimiriza (⏸️)</strong> ku ssirini, oba ng'onyiga <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali g'ekyuma kyo (oba <strong>eppeesa erisirisa</strong> ku kiwandiikiro kya kompyuta)</span>.</li>
+        </ul>
+        <div class="step-tip">
+          🔇 <strong>Amagezi ag'Emirembe mu Mutima:</strong> <span id="tip-silence-desc">Totya nti amaloboozi oba vidiyo binaavaayo nga tebisuubiddwa! Ku ssimu oba tabuleti, okunyweza <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali ye buleeki yo ey'akabenje buli wamu. Ku laputopu oba kompyuta, nyiga <strong>eppeesa erisirisa (🔇)</strong> ku kiwandiikiro oba nyiga Yimiriza (⏸️).</span>
+        </div>
+      </div>
+
+      <!-- Ekirageddwa -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Omusomesa Alaga: Okulabirira Ekifo eky'Okuterekamu</h3>
+        <p>
+          Omusomesa ajja kulaga engeri y'okugenda mu <em>Ebitabo &gt; Ebiwanuddwa</em> <em>(Publications &gt; Downloaded)</em>, okusengeka ng'osinziira ku <strong>Ekisinga Obunene</strong> <em>(Largest Size)</em>, n'okusangulamu vidiyo enkadde ng'ekifo eky'okuterekamu ku kyuma kikendedde.
+        </p>
+      </div>
+    </article>
+
+    <!-- Essomo 3 -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>🖍️</span> Essomo 3: Ebikozesebwa mu Kwesomesa</h2>
+        <span class="lesson-time">Ekiseera: Eddakiika 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Yiga engeri y'okussaako langi ku byokuddamu eby'olukuŋŋaana, okukyusa oba okuggyawo langi mu ngeri ennyangu, n'okukola fayiro y'ekkopi obubonero bw'okwesomesa kwo obw'emyaka mingi bureme kubula n'akatono.
+      </p>
+
+      <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
+        ▶️ Laba Okuyiga Okutuufu ku JW.ORG (mu Lungereza)
+      </a>
+
+      <!-- Okwegezaamu 3.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 3.1: Ssaako Langi ya Kyenvu ku Kyokuddamu</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga ekitundu ky'<strong>Enkuŋŋaana</strong> (📅) <em>(Meetings)</em> oggulewo ekitundu eky'okusoma mu <em>Omunaala gw'Omukuumi</em> ekiddako.</li>
+          <li><span class="step-num">2</span> Mu katundu 1, nyiga era onyweze ekigambo ekisooka eky'ekyokuddamu, olwo owalule mpola engalo yo ku sentensi eyo.</li>
+          <li><span class="step-num">3</span> Nyiga <strong>akatundu aka Kyenvu</strong> <em>(Yellow)</em> mu menu ya langi evaayo. Ekyokuddamu kyo kissiddwako langi!</li>
+        </ul>
+      </div>
+
+      <!-- Okwegezaamu 3.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 3.2: Kyusa Langi oba Ggyawo Langi</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga butereevu ku bigambo by'osizzaako langi ya kyenvu kati.</li>
+          <li><span class="step-num">2</span> Nyiga langi endala (nga bbulu oba kiragala) okugikyusa.</li>
+          <li><span class="step-num">3</span> Okuggyawo langi yonna, nyiga <strong>akabonero ka Kasasiro</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Okwegezaamu 3.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Okukulu 3.3: Kola Fayiro y'Ekkopi</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyiga <strong>Entegeka</strong> (⚙️) <em>(Settings)</em> ku ssirini yo.</li>
+          <li><span class="step-num">2</span> Nyiga <strong>Okutereka Kkopi n'Okugizzaawo</strong> <em>(Backup and Restore)</em>.</li>
+          <li><span class="step-num">3</span> Nyiga <strong>Kola Kkopi</strong> <em>(Create Backup)</em>.</li>
+          <li><span class="step-num">4</span> Goberera ebiragiro ebivaayo ku ssirini okutereka fayiro yo ey'ekkopi ey'okusoma (fayiro ya <code>.jwlibrary</code>).</li>
+        </ul>
+        <div class="step-tip">
+          🛡️ <strong>Emirembe mu Mutima Enkulu:</strong> Ebiwandiiko byo ne langi z'osizzaako biterekebwa ku kyuma kyo. Okukola fayiro y'ekkopi buli mwezi kikakasa nti ebiwandiiko byo eby'okusoma bikuumibwa singa ofuna essimu oba tabuleti empya!
+        </div>
+      </div>
+
+      <!-- Ekirageddwa -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Omusomesa Alaga: Ebiwandiiko, Tags n'Ekitundu ky'Okwesomesa</h3>
+        <p>
+          Omusomesa ajja kulaga engeri gy'osobola okugatta ebiwandiiko by'owandiise (📝) ku nnyiriri n'okulaba obubonero bwo bwonna obw'okujjukira ne langi zonna mu kitundu ky'<strong>Okwesomesa</strong> <em>(Personal Study)</em>.
+        </p>
+      </div>
+    </article>
+
+    <!-- Ekitabo ky'Akulembera Kiraasi -->
+    <details class="instructor-guide">
+      <summary><span>📋</span> Ekiyamba Akulembera Kiraasi n'Omusomesa (Enteekateeka Enkulu ey'Eddakiika 60)</summary>
+      <div class="instructor-content">
+        <p>Enteekateeka eno enkulu ewa buli ssomo eddakiika 15 era erimu <strong>eddakiika 10 ez'okufundikira</strong> kiraasi esobole okuba ennyangu awatali kanyigo.</p>
+
+        <table class="timing-table">
+          <thead>
+            <tr>
+              <th>Ekiseera</th>
+              <th>Ekitundu</th>
+              <th>Ekigendererwa Ekikulu n'Okwegezaamu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0:00 &ndash; 0:05</strong></td>
+              <td>Okwaniriza n'Okumanyiira (ddak. 5)</td>
+              <td>Okukebera amangu oba Bayibuli yeetegefu (abayambi bayamba abo abeetaaga okuwanula), amagezi ag'okusirisa mu kabenje (eppeesa erikendeeza eddoboozi eriri ku mabbali ku ssimu/tabuleti; eppeesa erisirisa ku kompyuta), n'okukebera ekiseera ssirini mw'ezikira.</td>
+            </tr>
+            <tr>
+              <td><strong>0:05 &ndash; 0:20</strong></td>
+              <td>Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana (ddak. 15)</td>
+              <td>Okukulu 1.1: Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta (<code>A A</code>) &bull; Okukulu 1.2: Ekitabo/Essuula ya Bayibuli &bull; Okukulu 1.3: Ekitundu ky'Enkuŋŋaana.</td>
+            </tr>
+            <tr>
+              <td><strong>0:20 &ndash; 0:35</strong></td>
+              <td>Essomo 2: Okuwanula n'Okukozesa Amaloboozi ne Vidiyo (ddak. 15)</td>
+              <td>Okukulu 2.1: Okukuuma data ng'okozesa Wi-Fi &bull; Okukulu 2.2: Okuwanula okukozesa awatali yintaneeti &bull; Okukulu 2.3: Ekizannya amaloboozi (🎧) n'okusirisa amangu mu kabenje.</td>
+            </tr>
+            <tr>
+              <td><strong>0:35 &ndash; 0:50</strong></td>
+              <td>Essomo 3: Ebikozesebwa mu Kwesomesa (ddak. 15)</td>
+              <td>Okukulu 3.1: Okussaako langi ya kyenvu &bull; Okukulu 3.2: Okukyusa langi/okugiggyawo &bull; Okukulu 3.3: Okukola fayiro y'ekkopi.</td>
+            </tr>
+            <tr>
+              <td><strong>0:50 &ndash; 1:00</strong></td>
+              <td>Okufundikira, Okuddamu Okwetegereza, n'Ebibuuzo (ddak. 10)</td>
+              <td>Muddemu mwetegereze ebituukiddwako, muddemu ebibuuzo, era mukozese ekiseera eky'enyongeza singa okwegezaamu okwasooka kwatwala ekiseera ekisingawo.</td>
+            </tr>
+          </tbody>
+        </table>
+
+                <div class="facilitator-box">
+          <h4>Amagezi Amakulu eri Akulembera Kiraasi:</h4>
+          <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
+            <li><strong>Okuyambibwa nga Kiraasi Tennatandika (Eddakiika 15 nga Bukyali):</strong> Langirira nti enzigi zijja kuggulwawo eddakiika 15 nga bukyali abayambi basobole okuyunga abazze ku Wi-Fi y'ekifo n'okukakasa nti Bayibuli n'Ekyawandiikibwa eky'Olunaku biwanuddwa nga eddakiika esooka eya kiraasi tennatuuka.</li>
+            <li><strong>Okusirisa mu Kabenje ("Eppeesa ery'Akabenje") Kusooke:</strong> Laga abayizi eppeesa erikendeeza eddoboozi eriri ku mabbali n'akabonero ka Yimiriza ku ntandikwa ddala. Bwe bamanya nti basobola okusirisa eddoboozi amangu, okutya kwabwe ku tekinologiya kuggwaawo nga tebannaggulawo maloboozi ne vidiyo.</li>
+            <li><strong>Abayambi ku Mmeeza:</strong> Tegeka abayambi 1 oba 2 batambuletambule mpola. Omuyizi bw'ava mu pulogulaamu mu butanwa, omuyambi asobola okumuzzaayo mu sikonda ntono awatali kuyimiriza kiraasi.</li>
+            <li><strong>Eddakiika 10 ez'Enyongeza:</strong> Okwegezaamu bwe kutwala ekiseera ekisingako katono, kwata mpola eddakiika 3&ndash;5 okuva mu ddakiika 10 ez'okufundikira awatali kwanguyiriza.</li>
+            <li><strong>Okuyambibwa Oluvannyuma lwa Kiraasi:</strong> Langirira nti omusomesa n'abayambi bajja kusigalawo eddakiika 15 oluvannyuma lwa kiraasi okuyamba oyo yenna ayagala okuyambibwa ng'ali yekka.</li>
+            <li><strong>Kkopi Ezikubiddwa mu Kyapa (Bwe kiba kyetaagisa):</strong> Okussa kkopi z'Enteekateeka ya Kiraasi ey'olupapula olumu ku mmeeza kisobozesa abayizi okugoberera emitendera gyonna egy'okwegezaamu mbagirawo, awatali kwetaaga kuggulawo mukutu guno ku ddata ey'essimu.</li>
+            <li><strong>Koodi za QR ku Mmeeza oba ku Ssirini (Si kya buwaze):</strong> Bwe kiba kisoboka, okussa koodi ya QR ku ssirini oba okuteeka <a href="Table_Cards_Luganda_lg.pdf" target="_blank" rel="noopener">Obukadi bw'oku mmeeza (PDF)</a> kiyamba abayizi okuggulawo ekitabo kino mbagirawo nga bakozesa kamera y'essimu yaabwe awatali kuwandiika linnya lya mukutu.</li>
+            <li><strong>Yongereza ku Ssirini Ey'omu Maaso (Amagezi g'Okukozesa nga Tewali Yintaneeti):</strong> Laga abayizi engeri y'okukozesa "Share &gt; Add to Home Screen" (iPhone) oba "Menu &gt; Add to Home screen" (Android). <em>Kikulu:</em> Ggulawo akabonero ako akapya omulundi gumu nga muli ku yintaneeti kasobole okubika ebyetaagisa byonna. Oluvannyuma lw'ekyo, ekitabo kino kijja kukola bulungi ne bwe mutabaako yintaneeti (wabula vidiyo ez'ebweru, PDF, n'obukutu bwa JW.ORG bijja kwetaaga yintaneeti).</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Link Entuufu -->
+    <section class="links-card">
+      <h3><span>🔗</span> Obuyambi Obutuufu n'Okuyiga ku JW.ORG</h3>
+      <p style="font-size: 1rem; color: var(--text-muted);">Okufuna vidiyo enzijuvu ezisomesa ez'obuyinza n'emitwe gy'obuyambi emituufu, genda ku <em>(mu Lungereza)</em>:</p>
+
+      <div class="links-grid">
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/" target="_blank" rel="noopener">
+          🌐 Olukalala Olukulu olw'Obuyambi ku JW.ORG
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+          ✨ Ebintu Ebiri mu Pulogulaamu ya JW Library
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/apple/" target="_blank" rel="noopener">
+          🍎 Obuyambi ku Apple (iOS / iPadOS)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/android/" target="_blank" rel="noopener">
+          🤖 Obuyambi ku Byuma bya Android
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/windows/" target="_blank" rel="noopener">
+          💻 Obuyambi ku Byuma bya Windows
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/use-playlists/" target="_blank" rel="noopener">
+          🎵 Engeri y'Okukozesa Playlists
+        </a>
+      </div>
+    </section>
+
+    <!-- Wansi n'Ebikwata ku Mateeka -->
+    <footer>
+      <h4>Ebikwata ku Mateeka n'Obutabaako Kakwate</h4>
+      <p>
+        <em>JW Library</em> kabonero k'obusuubuzi akaawandiisibwa aka Watch Tower Bible and Tract Society of Pennsylvania.
+        Ekitabo kino eky'okutendeka n'enteekateeka eno eya kiraasi mulimu gwa kusomesa ogwetongodde, ogutali gwa kusuubula, ogwakolebwa okuyamba abantu okuyiga engeri y'okukozesa pulogulaamu eno kyokka. Tegukwatagana na, tegwakkirizibwa, tegulabirirwa, tegusasulirwa, era tegusiimibwa butongole Watch Tower Bible and Tract Society of Pennsylvania wadde Abajulirwa ba Yakuwa.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Ebiragiro ebituufu, ebitabo, ne vidiyo bifunibwa ku <a href="https://www.jw.org" target="_blank" rel="noopener" style="color: var(--primary);">JW.ORG</a> kyokka.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Entegeka y'obunene bw'ennukuta
+    const TEXT_SIZES = {
+      small: '16px',
+      normal: '19px',
+      large: '22px',
+      xlarge: '25px'
+    };
+
+    function setTextSize(size) {
+      const base = TEXT_SIZES[size] || TEXT_SIZES.normal;
+      document.documentElement.style.setProperty('--font-base', base);
+
+      document.querySelectorAll('.btn-size').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById('btn-size-' + size);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      try {
+        localStorage.setItem('jw_tutorial_text_size', size);
+      } catch (e) {}
+    }
+
+    // Okukyusa endabika (Enkola y'Ekizikiza)
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      const isDark = theme === 'dark';
+      if (isDark) {
+        root.setAttribute('data-theme', 'dark');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+
+      const iconEl = document.getElementById('theme-icon');
+      const labelEl = document.getElementById('theme-label');
+      const toggleBtn = document.getElementById('btn-theme-toggle');
+
+      if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+      if (labelEl) labelEl.textContent = isDark ? 'Ekitangaala' : 'Ekizikiza';
+      if (toggleBtn) {
+        toggleBtn.title = isDark ? "Kyusa ku Nkola y'Ekitangaala" : "Kyusa ku Nkola y'Ekizikiza";
+        toggleBtn.setAttribute('aria-label', toggleBtn.title);
+      }
+
+      try {
+        localStorage.setItem('jw_tutorial_theme', theme);
+      } catch (e) {}
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    }
+
+    // Tandika n'entegeka eziterekeddwa mu localStorage oba eza sisitimu
+    (function initPreferences() {
+      try {
+        const savedSize = localStorage.getItem('jw_tutorial_text_size');
+        if (savedSize && TEXT_SIZES[savedSize]) {
+          setTextSize(savedSize);
+        } else {
+          setTextSize('normal');
+        }
+
+        const savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          applyTheme(savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          applyTheme('dark');
+        } else {
+          applyTheme('light');
+        }
+
+        // Restore the learner's device choice so the right instructions and links show on load
+        let savedDevice = null;
+        try { savedDevice = localStorage.getItem('jw_tutorial_device'); } catch (e) {}
+        selectDevice(['apple', 'android', 'windows'].indexOf(savedDevice) !== -1 ? savedDevice : 'apple');
+      } catch (e) {
+        setTextSize('normal');
+        applyTheme('light');
+        selectDevice('apple');
+      }
+    })();
+
+    // Register Service Worker for true offline PWA capability
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+      });
+    }
+
+
+    // Okulonda ekyuma
+    function selectDevice(device) {
+      try {
+        localStorage.setItem('jw_tutorial_device', device);
+      } catch (e) {}
+
+      document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + device);
+      if (activeTab) activeTab.classList.add('active');
+
+      const noteText = document.getElementById('device-note-text');
+      const navLocations = document.querySelectorAll('.nav-location');
+      const checkSilence = document.getElementById('check-silence-desc');
+      const checkTimeout = document.getElementById('check-timeout-desc');
+      const exSilence = document.getElementById('ex-silence-desc');
+      const tipSilence = document.getElementById('tip-silence-desc');
+      const videoL1 = document.getElementById('video-link-lesson1');
+      const videoL2 = document.getElementById('video-link-lesson2');
+      const videoL3 = document.getElementById('video-link-lesson3');
+
+      if (device === 'apple') {
+        noteText.innerHTML = '<strong>Ekyuma Ekirondeddwa:</strong> Ku iPhone ne iPad za Apple, olukalala olukulu olw\'okutambuliramu luli wansi ku ssirini (Bayibuli, Ebitabo, Enkuŋŋaana, Okwesomesa).';
+        navLocations.forEach(el => el.textContent = 'wansi ku ssirini yo');
+        if (checkSilence) checkSilence.innerHTML = 'nyiga era onyweze <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku ludda olwa kkono olwa iPhone oba iPad yo, oba nyiga <strong>Yimiriza (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Teekawo <strong>Auto-Lock</strong> (mu <em>Settings &gt; Display &amp; Brightness</em>) ku ddakiika 2 oba 5 ssirini esigale ng\'eyaka mu kiseera kya kiraasi.';
+        if (exSilence) exSilence.innerHTML = 'ng\'onyiga <strong>Yimiriza (⏸️)</strong> ku ssirini, oba ng\'onyiga era ng\'onyweza <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku ludda olwa kkono olwa iPhone oba iPad yo.';
+        if (tipSilence) tipSilence.innerHTML = 'Totya nti amaloboozi oba vidiyo binaavaayo nga tebisuubiddwa! Ku iPhone ne iPad, okunyweza <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali ye buleeki yo ey\'akabenje buli wamu mu Kizimbe ky\'Obwakabaka oba mu kiraasi.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
+      } else if (device === 'android') {
+        noteText.innerHTML = '<strong>Ekyuma Ekirondeddwa:</strong> Ku ssimu ne tabuleti za Android, olukalala olukulu olw\'okutambuliramu luli wansi (oba sereza engalo okuva ku mabbali ga kkono ofune menu ey\'okutambuliramu).';
+        navLocations.forEach(el => el.textContent = 'wansi oba ku menu ey\'oku kkono ku ssirini yo');
+        if (checkSilence) checkSilence.innerHTML = 'nyiga era onyweze <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali g\'essimu oba tabuleti yo, oba nyiga <strong>Yimiriza (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Teekawo <strong>Screen timeout</strong> (mu <em>Settings &gt; Display</em>) ku ddakiika 2 oba 5 ssirini esigale ng\'eyaka mu kiseera kya kiraasi.';
+        if (exSilence) exSilence.innerHTML = 'ng\'onyiga <strong>Yimiriza (⏸️)</strong> ku ssirini, oba ng\'onyiga era ng\'onyweza <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali g\'ekyuma kyo ekya Android.';
+        if (tipSilence) tipSilence.innerHTML = 'Totya nti amaloboozi oba vidiyo binaavaayo nga tebisuubiddwa! Ku ssimu ne tabuleti za Android, okunyweza <strong>eppeesa erikendeeza eddoboozi</strong> eriri ku mabbali ye buleeki yo ey\'akabenje buli wamu mu Kizimbe ky\'Obwakabaka oba mu kiraasi.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
+      } else if (device === 'windows') {
+        noteText.innerHTML = '<strong>Ekyuma Ekirondeddwa:</strong> Ku kompyuta za Windows ne laputopu, olukalala olukulu olw\'okutambuliramu luli waggulu ku ssirini (oba ku lukalala olw\'oku mabbali ga kkono).';
+        navLocations.forEach(el => el.textContent = 'waggulu ku ssirini yo');
+        if (checkSilence) checkSilence.innerHTML = 'nyiga <strong>eppeesa erisirisa (🔇)</strong> oba <strong>eppeesa erikendeeza eddoboozi</strong> ku kiwandiikiro kyo, nyiga akabonero ka sipiika ku taskbar, oba nyiga <strong>Yimiriza (⏸️)</strong>.';
+        if (checkTimeout) checkTimeout.innerHTML = 'Teekawo <strong>Screen / Sleep</strong> (mu <em>Settings &gt; System &gt; Power &amp; battery</em>) ku ddakiika 2 oba 5 laputopu yo esigale ng\'eyaka.';
+        if (exSilence) exSilence.innerHTML = 'ng\'onyiga <strong>Yimiriza (⏸️)</strong>, ng\'onyiga <strong>eppeesa erisirisa (🔇)</strong> ku kiwandiikiro, oba ng\'onyiga akabonero ka Sipiika ku taskbar yo.';
+        if (tipSilence) tipSilence.innerHTML = 'Totya nti amaloboozi oba vidiyo binaavaayo nga tebisuubiddwa! Ku kompyuta za Windows ne laputopu, okunyiga <strong>eppeesa erisirisa (🔇)</strong> ku kiwandiikiro oba okunyiga Yimiriza (⏸️) kisirisa amaloboozi gonna amangu ddala.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';
+      }
+    }
+  </script>
+</body>
+</html>

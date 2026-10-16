@@ -28,6 +28,9 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 * **Screen Timeout Check:** At the start of class, suggest that students temporarily adjust their device screen timeout or auto-lock to **2 or 5 minutes** so their screen doesn't turn off while following along.
 * **10-Minute Flex Buffer:** If a hands-on exercise takes longer than 15 minutes, gently borrow 3–5 minutes from the 10-minute wrap-up session without rushing.
 * **Stay-After Clinic:** Announce at the start that the instructor and helpers will remain for **15 minutes after the session** for anyone desiring relaxed, one-on-one assistance.
+* **Physical Handouts (When Beneficial):** In environments where mobile data or Wi-Fi is slow or limited, placing printed copies of the 1-page Class Program on the tables is especially helpful, allowing learners to follow all exercise steps immediately without loading the web guide on cellular data.
+* **Table QR Cards or Screen Projection (Optional):** Projecting a QR code or placing printed table cards on tables lets learners open the guide with a single tap of their camera without typing URLs.
+* **Add to Home Screen (Offline PWA Tip):** Show learners how to use "Share > Add to Home Screen" (iOS) or "Menu > Add to Home screen" (Android). Because the tutorial includes built-in offline caching via a Service Worker, the home-screen shortcut will open and operate even without an active internet connection.
 
 ---
 

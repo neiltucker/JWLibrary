@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JW Library Tutorial &mdash; Practice Guide &amp; Class Schedule</title>
   <meta name="description" content="A clear, practical, step-by-step training guide and class schedule for learning how to use the JW Library app for personal study, meetings, and the ministry.">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="sw" href="sw.html">
+  <link rel="alternate" hreflang="lg" href="lg.html">
+  <link rel="alternate" hreflang="din" href="din.html">
+  <link rel="manifest" href="manifest-en.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="alternate" hreflang="x-default" href="index.html">
   <script>
     // Early theme and font size setup to prevent flash of wrong theme/size
     (function() {
@@ -214,6 +222,35 @@
       color: var(--text-muted);
     }
 
+    .select-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 0.85em;
+      transition: all 0.15s ease;
+    }
+
+    [data-theme="dark"] .select-control {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    }
+
+    .select-control:hover, .select-control:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
     .btn-control {
       background-color: var(--btn-bg);
       border: 1px solid var(--btn-border);
@@ -223,6 +260,10 @@
       font-size: 1rem;
       font-weight: 600;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       transition: all 0.15s ease;
     }
 
@@ -238,6 +279,12 @@
       color: var(--btn-active-text);
       border-color: var(--primary);
       box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-lang {
+      min-height: 2rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.92rem;
     }
 
     .btn-size {
@@ -574,10 +621,13 @@
       border-top: 1px solid var(--card-border);
       font-size: 1rem;
       color: var(--text-muted);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .timing-table {
       width: 100%;
+      min-width: 520px;
       border-collapse: collapse;
       margin: 1rem 0;
     }
@@ -733,6 +783,24 @@
         print-color-adjust: exact;
       }
     }
+  
+/* Phone-width fixes: let long words wrap, and stop grids/menus from forcing sideways scrolling */
+body { overflow-wrap: anywhere; }
+.timing-table { overflow-wrap: normal; }
+.timing-table td:first-child { white-space: nowrap; }
+.lesson-title, .exercise-title, .device-card h2, .checklist-box h3, .links-card h3 { min-width: 0; }
+.device-tabs { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.checklist-items, .links-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.util-group { max-width: 100%; }
+.select-control { max-width: 100%; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+  .utility-bar { padding: 0.75rem; }
+  header { padding: 1.5rem 1.25rem; }
+  header h1 { font-size: 1.75rem; }
+  .lesson-card { padding: 1.25rem; }
+  .lesson-title { display: block; font-size: 1.3rem; }
+}
+
   </style>
 </head>
 <body>
@@ -741,6 +809,15 @@
 
     <!-- Top Utility Controls -->
     <div class="utility-bar">
+      <div class="util-group" role="navigation" aria-label="Language Selector">
+        <label for="lang-select" class="util-label"><span aria-hidden="true">🌐</span> Language:</label>
+        <select id="lang-select" class="select-control select-lang" onchange="window.location.href=this.value" aria-label="Select Language">
+          <option value="index.html" selected>English</option>
+          <option value="sw.html">Kiswahili</option>
+          <option value="lg.html">Luganda</option>
+          <option value="din.html">Thuɔŋjäŋ (Dinka)</option>
+        </select>
+      </div>
       <div class="util-group">
         <span class="util-label">Text Size:</span>
         <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Smaller text size" aria-label="Smaller text size">A−</button>
@@ -1032,7 +1109,7 @@
           </tbody>
         </table>
 
-        <div class="facilitator-box">
+                <div class="facilitator-box">
           <h4>Key Facilitator Recommendations:</h4>
           <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
             <li><strong>Pre-Class Setup Clinic (15 Mins Early):</strong> Announce that doors open 15 minutes early so helpers can connect attendees to venue Wi-Fi and verify the Bible and Daily Text are downloaded before the first minute of class.</li>
@@ -1040,7 +1117,9 @@
             <li><strong>Table Assistants (Helpers):</strong> Arrange for 1 or 2 helpers to quietly circulate. When a student accidentally leaves an app, a helper can tap them back in seconds without stopping the class.</li>
             <li><strong>The 10-Minute Flex Buffer:</strong> If an exercise takes a little longer, calmly borrow 3&ndash;5 minutes from the 10-minute wrap-up buffer without rushing.</li>
             <li><strong>Stay-After Clinic:</strong> Announce that the instructor and helpers will remain for 15 minutes after class for anyone wanting one-on-one help.</li>
-            <li><strong>Physical Handouts:</strong> Print copies of the 1-page Class Program so students have step numbers directly on the table.</li>
+            <li><strong>Physical Handouts (When Beneficial):</strong> Having printed copies of the 1-page Class Program on the tables allows learners to follow all exercise steps immediately, without needing to load this website on mobile data.</li>
+            <li><strong>Table QR Cards &amp; Screen Projection (Optional):</strong> Displaying a QR code on the screen or placing printed <a href="Table_Cards_English_en.pdf" target="_blank" rel="noopener">Table Cards (PDF)</a> on tables lets learners open the guide with a single camera tap without typing URLs.</li>
+            <li><strong>Add to Home Screen (Offline Tip):</strong> Show learners how to use "Share &gt; Add to Home Screen" (iPhone) or "Menu &gt; Add to Home screen" (Android). <em>Important:</em> Open the new icon once while online to complete caching. Afterward, this practice guide will open and work completely offline without an internet connection (though external videos, PDFs, and JW.ORG links still need internet).</li>
           </ul>
         </div>
       </div>
@@ -1159,14 +1238,33 @@
         } else {
           applyTheme('light');
         }
+
+        const savedDevice = localStorage.getItem('jw_tutorial_device');
+        if (savedDevice && (savedDevice === 'apple' || savedDevice === 'android' || savedDevice === 'windows')) {
+          selectDevice(savedDevice);
+        } else {
+          selectDevice('apple');
+        }
       } catch (e) {
         setTextSize('normal');
         applyTheme('light');
+        selectDevice('apple');
       }
     })();
 
+    // Register Service Worker for true offline PWA capability
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+      });
+    }
+
     // Device switcher
     function selectDevice(device) {
+      try {
+        localStorage.setItem('jw_tutorial_device', device);
+      } catch (e) {}
+
       document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
       const activeTab = document.getElementById('tab-' + device);
       if (activeTab) activeTab.classList.add('active');
