@@ -10,6 +10,14 @@ To make review easier:
 * The legal disclaimer appears in Dinka **and** in the original English, because its exact wording matters.
 * A reviewer can compare line-by-line with the English files in the original repo.
 
+## Changes in this version (16 Oct 2026, update 3)
+* **Standardized terminology aligned with modern JW.ORG Dinka literature (last 2–3 years):**
+  * Time units updated from the English loanword *minit* to modern Dinka *degiik* across schedules and tips.
+  * Media terms updated from *video* to standard localized *bideoth*.
+  * Theocratic terms aligned with official modern usage: *Watchtower* -> *Ɣönbɛ̈ɛ̈rtïët*, *Kingdom Hall* -> *luaŋ ë Bääny Nhialic*, *paragraph* -> *abër*, and *Jehovah's Witnesses* -> *Ciëëtke Yakoba*.
+  * Standardized breathy and diphthong orthography: *ëbën* (replacing *ëbɛ̈n*) and *apiɛth* (replacing *apieth*).
+  * Generated PDFs refreshed with updated vocabulary.
+
 ## Changes in this version (16 Oct 2026, update 2)
 * Three facilitator tips added to `JWLibrary_Class.md`, the README and page 4 of the curriculum PDF, matching the English: printed handouts, QR table cards, and Add to Home Screen. The Dinka wording reuses the phrases from the web page, with the English in brackets. The old "Athör bï Gam Kɔc" PDF tip was replaced, as in the English.
 * README lists the new files: `manifest-din.json`, `sw.js`, `Table_Cards_Dinka_din.pdf`, `QR_Dinka_din.png/.svg`.

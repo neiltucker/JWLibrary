@@ -37,8 +37,8 @@ Set a phone (or computer) to **Dinka (Thuɔŋjäŋ)** in its language settings, 
 
 1. **Everything.** This is a rough draft. Please correct or rewrite freely, using the English files as the source.
 2. The verb used for "tap" (*gät*), and the words for "open" (*liep*), "listen" (*piŋ*), "read" (*kuɛ̈n*).
-3. Dinka names for: Bible book Matthew, "chapter", the Watchtower title (*Ɣönbrtïït* was seen on WOL), Kingdom Hall, the colours yellow / blue / green.
-4. *amat* for "meeting" and *Ciëëtke Yekoba* for Jehovah's Witnesses (both seen on jw.org/din).
+3. Dinka names for: Bible book Matthew, "chapter", the Watchtower title (*Ɣönbɛ̈ɛ̈rtïët*), Kingdom Hall (*luaŋ ë Bääny Nhialic*), the colours yellow / blue / green.
+4. *amat* for "meeting" and *Ciëëtke Yakoba* for Jehovah's Witnesses (from modern jw.org/din literature).
 5. Whether any Dinka should be added next to the English button names, and in which dialect the text should be written.
 
 6. **New in this round — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and Add to Home Screen. English versions are given in brackets beside each.
