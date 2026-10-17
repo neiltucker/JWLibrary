@@ -111,10 +111,16 @@ Ebiragiro ebitongole eby'omutendera ku mutendera ne vidiyo ezisomesa okuva eri a
 
 ---
 
+## 🤝 Okukozesa oba Okukyusa Ekitabo Kino (Adapting This Guide)
+
+Bw'oba oyagala okuvvuunula, okukyusa, oba okutegeka kiraasi yo ng'okozesa ekitabo kino, goberera *Guidelines for Adapting, Customizing, or Hosting Your Own Classes* mu [README ey'Olungereza](../../README.md) n'obukwakkulizo bwa [LICENSE](../../LICENSE). *(English: If you translate, adapt, or host your own class with this guide, please follow the "Guidelines for Adapting, Customizing, or Hosting Your Own Classes" in the [English README](../../README.md) and the terms of the [LICENSE](../../LICENSE).)*
+
+---
+
 ## ⚖️ Ebikwata ku Mateeka n'Obutabaako Kakwate
 
 *JW Library* kabonero k'obusuubuzi akaawandiisibwa aka Watch Tower Bible and Tract Society of Pennsylvania.
 
-Etterekero lino n'okuyiga kuno mulimu gwa kusomesa ogwetongodde, ogutali gwa kusuubula, ogwakolebwa olw'okuwa amagezi n'okuyiga ku lwa muntu ssekinnoomu kyokka. Omulimu guno tegukwatagana na, tegusasulirwa, tegulabirirwa, tegwakkirizibwa, era tegusiimibwa butongole Watch Tower Bible and Tract Society of Pennsylvania wadde Abajulirwa ba Yakuwa. Ebitabo byonna ebitongole, amaloboozi ne vidiyo, n'obulagirizi obw'obuyinza birina okufunibwa butereevu okuva ku [JW.ORG](https://www.jw.org/lg/).
+Etterekero lino n'okuyiga kuno mulimu gwa kusomesa ogwetongodde, ogutali gwa kusuubula, ogwakolebwa olw'okuwa amagezi n'okuyiga ku lwa muntu ssekinnoomu kyokka. Omulimu guno tegukwatagana na, tegusasulirwa, tegulabirirwa, tegwakkirizibwa, era tegusiimibwa butongole Watch Tower Bible and Tract Society of Pennsylvania wadde Abajulirwa ba Yakuwa. Enkyusa zonna ezikolebwamu enkyukakyuka oba kiraasi endala ezikolebwa buvunaanyizibwa bwa bannyini zo bennyini, era teziraga ndowooza ya mutandisi w'ekitabo kino ekisooka. Ebitabo byonna ebitongole, amaloboozi ne vidiyo, n'obulagirizi obw'obuyinza birina okufunibwa butereevu okuva ku [JW.ORG](https://www.jw.org/lg/).
 
-*English original:* JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses.
+*English original:* JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer. All official publications, media, and authoritative guidance must be obtained directly from JW.ORG.

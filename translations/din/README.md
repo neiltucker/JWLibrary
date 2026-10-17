@@ -113,10 +113,16 @@ Wël ë kaam ku bideoth ë piööc tënë kɔc cï app looi atɔ̈ tɛ̈ɛ̈n *(
 
 ---
 
+## 🤝 Adapting This Guide
+
+*(English: If you translate, adapt, or host your own class with this guide, please follow the "Guidelines for Adapting, Customizing, or Hosting Your Own Classes" in the [English README](../../README.md) and the terms of the [LICENSE](../../LICENSE).)*
+
+---
+
 ## ⚖️ Wël ë Löŋ (Legal & Non-Affiliation Disclaimer)
 
 *JW Library* ee trademark cï gät tënë Watch Tower Bible and Tract Society of Pennsylvania.
 
-Repository kënë ku piööc kënë aye lɔn ë piööc ë rɔt, ke cïn ɣɔɔc thïn, cï looi bï kɔc ya ŋic kä ku bïk piɔ̈ɔ̈c ë rɔt. Acïï mat ke, acïï cuat, acïï tiit, acïï gam, ku acïï leec ë Watch Tower Bible and Tract Society of Pennsylvania ka Ciëëtke Yakoba. Athör ëbën cï gam, röl ku bideoth, ku kuɔny ë yic ëbën abï yök tënë [JW.ORG](https://www.jw.org/din/) ë rɔt.
+Repository kënë ku piööc kënë aye lɔn ë piööc ë rɔt, ke cïn ɣɔɔc thïn, cï looi bï kɔc ya ŋic kä ku bïk piɔ̈ɔ̈c ë rɔt. Acïï mat ke, acïï cuat, acïï tiit, acïï gam, ku acïï leec ë Watch Tower Bible and Tract Society of Pennsylvania ka Ciëëtke Yakoba. Kä ëbën cï waar thïn, athör cï bɛ̈n bei thïn, ka class kɔ̈k aye gɛ̈k ë kɔc cï ke looi, ku acïï nyuɔɔth raan cï template kënë tueŋ looi. Athör ëbën cï gam, röl ku bideoth, ku kuɔny ë yic ëbën abï yök tënë [JW.ORG](https://www.jw.org/din/) ë rɔt.
 
-*(English original of the disclaimer: JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. All official publications, media, and authoritative guidance must be obtained directly from JW.ORG.)*
+*(English original of the disclaimer: JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer. All official publications, media, and authoritative guidance must be obtained directly from JW.ORG.)*

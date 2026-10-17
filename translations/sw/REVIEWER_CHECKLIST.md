@@ -17,17 +17,20 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 | Meetings | Mikutano | | |
 | Personal Study | Funzo la Kibinafsi | | |
 | Daily Text | Andiko la Siku | | |
-| Bookmarks | Alama za Kukumbuka Ukurasa | | |
+| Bookmarks | Vialamisho | | |
 | History | Historia | | |
 | Search | Tafuta | | |
-| Settings | Mipangilio | | |
+| Settings | Mapendezi | | |
 | Backup and Restore | Hifadhi Nakala na Rejesha | | |
 | Create Backup | Tengeneza Nakala ya Akiba | | |
-| Downloaded | Yaliyopakuliwa | | |
-| Largest Size | Ukubwa Zaidi | | |
+| Downloaded | Zilizopakuliwa | | |
+| Largest Size | Kubwa Zaidi | | |
 | Add Note | Ongeza Maelezo | | |
 | Tags | Vibandiko | | |
-| Playlists | Sehemu ya Zitakazochezwa | | |
+| Playlists | Zitakazochezwa | | |
+| Pause | Simamisha | | |
+| Delete (remove highlight) | Futa | | |
+| Text size | Ukubwa wa Herufi | | |
 
 **How the answers are used:**
 - If the app shows Kiswahili words, the documents will use those exact words, with the English name in brackets.
@@ -35,13 +38,21 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 
 ## 2. Terms to confirm
 
-1. The names of the two meetings exactly as the app's Meetings tab shows them (this translation uses *Mkutano wa Katikati ya Juma* and *Mkutano wa Mwisho wa Juma*).
-2. The official Swahili title of the video *"Why Study the Bible?"* (this translation uses *"Kwa Nini Ujifunze Biblia?"*, which is a guess).
+1. The names of the two meetings exactly as the app's Meetings tab shows them (this translation now uses *Mkutano wa Katikati ya Juma* and *Mkutano wa Mwisho Juma*, as in recent JW publications).
+2. **Settings:** the app's Settings button is written **Mapendezi** (from wol.jw.org's settings page). If the app shows *Mipangilio* or another word, please write it in the table above.
 3. Phone and computer settings names in Swahili (e.g. *Mipangilio > Skrini*, *Muda wa Skrini Kuzima*) — these are my translations; the exact wording depends on the device.
-4. Whether older learners understand *kipakatalishi* (laptop) and *kompyuta kibao* (tablet), or whether simpler everyday words are better.
-5. *Sitisha* for Pause, and *Nakala ya Akiba* for backup (rather than *chelezo*).
+4. *tablet* and *laptop* are now used (JW publications say *tablet*; *kompyuta kibao* and *kipakatalishi* were not found). Are they clear to older learners?
+5. *Nakala ya Akiba* for backup (rather than *chelezo*). (*Simamisha* for Pause is now taken from the JW Library help pages.)
 
-6. **New in this round — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and *Weka Kwenye Skrini ya Kwanza* (Add to Home Screen), including the new sentence telling learners to open the home-screen icon once while still online.
+6. **From update 2 — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and *Weka Kwenye Skrini ya Kwanza* (Add to Home Screen), including the new sentence telling learners to open the home-screen icon once while still online.
+7. **New in update 3 — please check:**
+    * **bofya** for "tap" everywhere (JW publications use *bofya* for tapping in the app; *gusa* means touching in general). Is this natural on a phone?
+    * **Tags:** *Vibandiko* (as in *mwb24* May) vs *tagi* (*w25* June). Which should be used?
+    * The new sentence in the draft notice (button names given in Kiswahili with English in brackets) and the English original of the legal notice (footer, class outline, README, curriculum PDF).
+
+8. **New in update 4 — please check:** the derivative-works sentence in the footer and README, *"Toleo lolote lililobadilishwa, nakala zilizotokana na mradi huu, au madarasa yanayotokana nao ni jukumu la waandishi wao wenyewe na hayamwakilishi msimamizi wa kiolezo hiki cha asili."* (English: "Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer."), and the new README section *Kutumia au Kurekebisha Mwongozo Huu*.
+
+*Resolved in update 3:* the video title *"Kwa Nini Ujifunze Biblia?"* is confirmed as official.
 
 ## 3. General review
 
