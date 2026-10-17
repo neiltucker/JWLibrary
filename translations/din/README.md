@@ -10,13 +10,13 @@ Piööc kënë acï guiir bï ya **class ë degiik 60** ke cïn riɛl, ku **degi
 
 ---
 
-## 🌐 Piööc ë Intanet
+## 🌐 Piööc ë Nɛt
 
-Piööc kënë ë intanet—kë ye luui apiɛth në skrin ëbën, kë nɔŋ wël tënë device du, ku wël dït—anɔŋ tɛ̈ɛ̈n:
+Piööc kënë ë nɛt—kë ye luui apiɛth në skrin ëbën, kë nɔŋ wël tënë device du, ku wël dït—anɔŋ tɛ̈ɛ̈n:
 
 **[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/)** *(ë Thoŋ ë Liŋliŋ / English)*
 
-Piööc ë intanet anɔŋ:
+Piööc ë nɛt anɔŋ:
 * **Lɔc Device Du:** Lɔc **Apple (iOS / iPadOS)**, **Android**, ka **Windows PC / Mac** ba rin ë button ku menu ë device du tïŋ.
 * **Wël Dït ku Button bï Wël Waar:** Alëu ba wël dhuɔ̈ɔ̈r ka ba ke juak (`A−`, `A`, `A+`, `A++`).
 * **Dark Mode ku Light Mode:** Button tök nhial bï nyin cïn riɛl të nɔŋ ɣɛɛr koor.
@@ -30,23 +30,23 @@ Piööc ë intanet anɔŋ:
 Piööc anɔŋ piööc kadiäk, piööc tök ë degiik 15. Kɔ̈k aye ke kuɔny ë degiik 15 ke class ŋoot ke kën jɔ̈k, degiik 5 ë tɔ̈ɔ̈k, ku degiik 10 ë thök:
 
 0. **Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Degiik 5–15)**
-   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye device ke mat në Wi-Fi, ku aye tïŋ lɔn cï Baibol ku Daily Text ë download ke class ŋoot ke kën jɔ̈k.
-   * **Thëm ë Second 30:** Kɔc ye piɔ̈ɔ̈c aye ciin ke jɔt enɔn, bï kɔc ye kuɔny raan kɔɔr download ë Baibol kuɔny.
-   * **Dɔ̈ɔ̈r ë Piɔ̈u ("Panic Button"):** Piööc kɔc të bïk röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn: **Volume Down button** tɔ̈ në lɔ̈ŋ ë phone/tablet, **Mute key (🔇)** në keyboard ë computer, ka **Pause (⏸️)** në skrin.
+   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye device ke mat në Wi-Fi, ku aye tïŋ lɔn cï Baibol (English ka thok dɛ̈t) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny ke class ŋoot ke kën jɔ̈k. *(English: there is no Bible or Daily Text in Dinka; English is the default Bible language, and the instructor may choose another language a learner reads better.)*
+   * **Thëm ë Second 30:** Kɔc ye piɔ̈ɔ̈c aye ciin ke jɔt enɔn, bï kɔc ye kuɔny raan kɔɔr jatpiny ë Baibol kuɔny.
+   * **Dɔ̈ɔ̈r ë Piɔ̈u ("Panic Button"):** Piööc kɔc të bïk röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn: **Volume Down button** tɔ̈ në lɔ̈ŋ ë telapun/tablet, **Mute key (🔇)** në keyboard ë computer, ka **Pause (⏸️)** në skrin.
    * Yök navigation bar ë apɛi, ku guiir thaa bï skrin thiök (auto-lock / timeout).
 
 1. **Piööc 1: Yök ë Wël ë Baibol ku Amat (Degiik 15)**
-   * Tïŋ navigation bar ë apɛi ku kuɛ̈n **Daily Text** ë akööl kënë.
+   * Tïŋ navigation bar ë apɛi ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ *(the Daily Text is not published in Dinka)*.
    * Guiir **Text Size (`A A`)** bï kuɛ̈n ya piɛth.
-   * Liep **athör ku chapter ë Baibol**.
-   * Luɔ̈ɔ̈i **Meetings tab** bï athör ë amat ë Midweek ku piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Weekend liep ë gät tök.
+   * Liep **athör ku chapter ë Baibol** *(English, or another language the learner reads; the instructor decides)*.
+   * Luɔ̈ɔ̈i **Meetings tab** bï *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* (Midweek) ku piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Weekend liep ë tuany tök.
    * *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search.
 
-2. **Piööc 2: Download ku Luɔ̈i ë Röl ku Bideoth (Degiik 15)**
-   * Mat device në Wi-Fi ke yïn ŋoot ke kën download, bï data ë phone du cïï thök.
-   * Download athör, röl, ka bideoth bï kek luɔ̈ɔ̈i ke cïn intanet (të cï ke download, cïn intanet yïn kɔɔr në amat).
-   * Luɔ̈ɔ̈i **Audio Player (🎧)** ba chapter ë Baibol, Daily Text, ka piööc piŋ ke ye kuɛ̈n ë röl.
-   * **Cuɔ̈ɔ̈t ë Röl Enɔn:** Cuɔ̈ɔ̈t röl enɔn ke Volume Down button në lɔ̈ŋ ë phone, Mute key në keyboard ë computer, ka Pause në skrin.
+2. **Piööc 2: Jatpiny ku Luɔ̈i ë Röl ku Bideoth (Degiik 15)**
+   * Mat device në Wi-Fi ke yïn ŋoot ke kën jatpiny, bï data ë telapundu cïï thök.
+   * Jatpiny athör, röl, ka bideoth bï kek luɔ̈ɔ̈i ke cïn nɛt (të cï ke jatpiny, cïn nɛt yïn kɔɔr në amat).
+   * Luɔ̈ɔ̈i **Audio Player (🎧)** ba chapter ë Baibol ka piööc piŋ ke ye kuɛ̈n ë röl.
+   * **Cuɔ̈ɔ̈t ë Röl Enɔn:** Cuɔ̈ɔ̈t röl enɔn ke Volume Down button në lɔ̈ŋ ë telapun, Mute key në keyboard ë computer, ka Pause në skrin.
    * *Raan ye Piööc Abï Nyuɔɔth:* Tïŋ storage ku lɔc **Largest Size** bï file cïï kɔɔr ë nyaai.
 
 3. **Piööc 3: Kä ë Piööc ë Rɔt (Degiik 15)**
@@ -58,7 +58,7 @@ Piööc anɔŋ piööc kadiäk, piööc tök ë degiik 15. Kɔ̈k aye ke kuɔny 
 4. **Thök, Dhuk Cök, ku Thiëc (Degiik 10)**
    * Degiik 10 tënë dhuk cök, thiëc, ka thaa juak të cï them kɔ̈k thaa juëc dɔm.
    * Kɔc ye class wɛ̈t alëu bïk döŋ të cï class thök bïk raan kɔɔr kuɔny ë rɔt kuɔny.
-   * *Kuɔny tënë Raan ye Class Wɛ̈t:* Tääu awereek ke 1-page Class Program në tëëbil nhial të cïn intanet apiɛth; luɔ̈ɔ̈i QR table cards bï kɔc piööc liep në camera ë phone; ku nyuɔɔth kɔc "Add to Home Screen". *(English: put printed 1-page Class Programs on the tables where internet is poor; use the QR table cards so learners can open the guide with their phone camera; and show learners "Add to Home Screen" so the guide opens without internet after it has been opened once online.)*
+   * *Kuɔny tënë Raan ye Class Wɛ̈t:* Tääu awereek ke 1-page Class Program në tëëbil nhial të cïn nɛt apiɛth; luɔ̈ɔ̈i QR table cards bï kɔc piööc liep në camera ë telapun; ku nyuɔɔth kɔc "Add to Home Screen". *(English: put printed 1-page Class Programs on the tables where internet is poor; use the QR table cards so learners can open the guide with their phone camera; and show learners "Add to Home Screen" so the guide opens without internet after it has been opened once online.)*
 
 ---
 
@@ -74,21 +74,21 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 | **Windows** | Windows 10 Version 2004 ka kë yam |
 
 ### Kä Piɛth ke Yïn Ŋoot ke Kën Bɔ̈:
-* **Bɛ̈n ë Thɛɛ (Degiik 10–15 ke Ŋoot):** Bɛ̈n ke ŋoot bï kɔc ye kuɔny yïn mat në Wi-Fi ku tïŋ lɔn cï Baibol du ku Daily Text guiir.
+* **Bɛ̈n ë Thɛɛ (Degiik 10–15 ke Ŋoot):** Bɛ̈n ke ŋoot bï kɔc ye kuɔny yïn mat në Wi-Fi ku tïŋ lɔn cï Baibol du ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ guiir.
 * **Battery Cï Thiäŋ:** Bɛ̈ɛ̈i device du ke battery cï thiäŋ (ka bɛ̈ɛ̈i charger du).
 * **Guiir Screen Timeout:** Guiir skrin ë device du bï thiök ë degiik 2 ka 5, bï skrin cïï thiök ke kä ŋoot ke ye nyuɔɔth.
 * **App Cï Tääu:** Tääu *JW Library* app në device du në app store ke class ŋoot ke kën jɔ̈k.
-* **Storage:** Tïŋ lɔn nɔŋ device du **GB 2 agut 4** ë storage cïn kë tɔ̈ thïn (ka SD card) bï athör, röl, ku bideoth download apiɛth.
-* **Wi-Fi:** Mat device në Wi-Fi ke yïn ŋoot ke kën file dït ë röl ku bideoth download, bï data ë phone du cïï thök.
-* **Kë bï Tak ë Cuɔ̈ɔ̈t ë Röl:** Tak lɔn **Volume Down button** (në phone/tablet) ka **Mute key (🔇)** në keyboard (në laptop) abï röl cuɔ̈ɔ̈t enɔn të cï bɔ̈ ke kën ye tak.
+* **Storage:** Tïŋ lɔn nɔŋ device du **GB 2 agut 4** ë storage cïn kë tɔ̈ thïn (ka SD card) bï athör, röl, ku bideoth jatpiny apiɛth.
+* **Wi-Fi:** Mat device në Wi-Fi ke yïn ŋoot ke kën file dït ë röl ku bideoth jatpiny, bï data ë telapundu cïï thök.
+* **Kë bï Tak ë Cuɔ̈ɔ̈t ë Röl:** Tak lɔn **Volume Down button** (në telapun/tablet) ka **Mute key (🔇)** në keyboard (në laptop) abï röl cuɔ̈ɔ̈t enɔn të cï bɔ̈ ke kën ye tak.
 
 ---
 
 ## 📁 Kë Tɔ̈ në Repository Kënë
 
-* **`din.html`**: Piööc ë intanet ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï device lɔc (device cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
+* **`din.html`**: Piööc ë nɛt ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï device lɔc (device cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
   *Put `din.html` in the same folder as `index.html` (English), `sw.html`, and `lg.html` so the language menu works.*
-* **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn intanet *(without internet)*. After a learner opens the guide once while online, the four guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
+* **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn nɛt *(without internet)*. After a learner opens the guide once while online, the four guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
 * **`Table_Cards_Dinka_din.pdf`**: Printable QR table cards (4 per page) that open `din.html`.
 * **`QR_Dinka_din.png` & `QR_Dinka_din.svg`**: QR code that opens the Dinka page (PNG for screens, SVG for printing).
 * **`JWLibrary_Class.md`**: Thaa ë piööc ë Markdown: thaa tënë raan ye piööc, wël ë kuɔny tënë raan ye class wɛ̈t, ku them ë kɔc ye piɔ̈ɔ̈c.
@@ -117,6 +117,6 @@ Wël ë kaam ku bideoth ë piööc tënë kɔc cï app looi atɔ̈ tɛ̈ɛ̈n *(
 
 *JW Library* ee trademark cï gät tënë Watch Tower Bible and Tract Society of Pennsylvania.
 
-Repository kënë ku piööc kënë aye lɔn ë piööc ë rɔt, ke cïn ɣɔɔc thïn, cï looi bï kɔc ya ŋic kä ku bïk piɔ̈ɔ̈c ë rɔt. Acïï mat ke, acïï cuat, acïï tiit, acïï gam, ku acïï leec ë Watch Tower Bible and Tract Society of Pennsylvania ka Ciëëtke Yakoba. Athör ëbën cï gam, röl ku bideoth, ku kuɔny ë yic ëbën abï yök tënë [JW.ORG](https://www.jw.org) ë rɔt.
+Repository kënë ku piööc kënë aye lɔn ë piööc ë rɔt, ke cïn ɣɔɔc thïn, cï looi bï kɔc ya ŋic kä ku bïk piɔ̈ɔ̈c ë rɔt. Acïï mat ke, acïï cuat, acïï tiit, acïï gam, ku acïï leec ë Watch Tower Bible and Tract Society of Pennsylvania ka Ciëëtke Yakoba. Athör ëbën cï gam, röl ku bideoth, ku kuɔny ë yic ëbën abï yök tënë [JW.ORG](https://www.jw.org/din/) ë rɔt.
 
 *(English original of the disclaimer: JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. All official publications, media, and authoritative guidance must be obtained directly from JW.ORG.)*
