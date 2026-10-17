@@ -17,16 +17,16 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 | Meetings | Enkuŋŋaana | | |
 | Personal Study | Okwesomesa | | |
 | Daily Text | Ekyawandiikibwa eky'Olunaku | | |
-| Bookmarks | Obubonero bw'Okujjukira | | |
-| History | Ebyafaayo | | |
+| Bookmarks | Obubonero obulaga w'okomye okusoma | | |
+| History | History (English) | | |
 | Search | Noonya | | |
-| Settings | Entegeka | | |
+| Settings | By'Oyagala | | |
 | Backup and Restore | Okutereka Kkopi n'Okugizzaawo | | |
 | Create Backup | Kola Kkopi | | |
 | Downloaded | Ebiwanuddwa | | |
 | Largest Size | Ekisinga Obunene | | |
 | Add Note | Yongerako Ekiwandiiko | | |
-| Tags | Tags (English) | | |
+| Tags | Ttaaga | | |
 | Playlists | Playlists (English) | | |
 
 **How the answers are used:**
@@ -36,13 +36,18 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 ## 2. Terms to confirm
 
 1. Whether the JW Library app shows its buttons in Luganda at all. If it does not, the English names should become the main bold label.
-2. Ekizimbe ky'Obwakabaka (Kingdom Hall), Olukuŋŋaana olw'Omu Wiiki / olwa Wikendi (midweek / weekend meeting), akatabo k'olukuŋŋaana (meeting workbook).
-3. *Okuwanula* for "download" — and use one word consistently throughout.
-4. The official Luganda title of the video *"Why Study the Bible?"* (this translation uses *"Lwaki Oyiga Bayibuli?"*, which is a guess).
-5. Spelling of "screen" (*ssirini*) and other loanwords, and general grammar and naturalness.
+2. *Olukuŋŋaana olwa wiikendi* (weekend meeting): is **wiikendi** the right spelling, or should it be worded another way (e.g. Saturday/Sunday)? (*Olukuŋŋaana olwa wakati mu wiiki* for the midweek meeting and *Akatabo k'Enkuŋŋaana* are taken from JW publications.)
+3. Draft notice: *Enkyusa esooka — tennakeberebwa* ("first draft — not yet reviewed"), and the new sentence *Amannya g'obupeesa bw'apu gawandiikiddwa ne mu Lungereza osobole okubuzuula ku ssirini yo.*
+4. The exercise label **Okwegezaamu Okukulu 1.1** ("core exercise 1.1"). Is it natural? (Uganda school books use *Ekyokukola 1*.)
+5. Exercise 3.1, step 2: *nyiga era onyweze ekigambo ekisooka mu ky'okuddamu* ("press and hold the first word in the answer").
+6. App labels not found in JW publications: *okussaako langi* (highlight), *Okutereka Kkopi n'Okugizzaawo* / *Kola Kkopi* (Backup and Restore / Create Backup), *data y'essimu* (mobile data).
+7. *By'Oyagala* for the app's Settings button. It is taken from the heading of the Luganda Online Library's own settings page (wol.jw.org); *Entegeka* and *Ensengeka* were not used because Luganda JW publications use them only to mean "arrangement" or "order". Does *By'Oyagala* read naturally as a button name, e.g. "Nyiga **By'Oyagala** (Settings)" and "ku kitundu By'Oyagala"?
+8. Spelling of "screen" (*ssirini*) and other loanwords, and general grammar and naturalness.
 
-6. **New in this round — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and Add to Home Screen, including the new sentence telling learners to open the home-screen icon once while still online.
-7. The link text *Obukadi bw'okummeeza (PDF)* on the web page: should it be written *bw'oku mmeeza*? The new support-file text uses *obukadi bwa QR ku mmeeza*. Please choose one form for both.
+*Resolved since update 2:* the video title is *"Lwaki Kikulu Okuyiga Bayibuli?"*, confirmed in *Nyumirwa Obulamu Emirembe Gyonna!* Lesson 1.
+
+9. **From update 2 — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and Add to Home Screen, including the new sentence telling learners to open the home-screen icon once while still online.
+10. The link text *Obukadi bw'okummeeza (PDF)* on the web page: should it be written *bw'oku mmeeza*? The new support-file text uses *obukadi bwa QR ku mmeeza*. Please choose one form for both.
 
 ## 3. General review
 

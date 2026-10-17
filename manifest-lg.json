@@ -1,7 +1,7 @@
 {
   "name": "Okuyiga Okukozesa JW Library",
   "short_name": "JW Okuyiga",
-  "description": "Ekitabo eky'okwegezaamu n'enteekateeka ya kiraasi ey'okuyiga okukozesa pulogulaamu ya JW Library.",
+  "description": "Ekitabo eky'okwegezaamu n'enteekateeka ya kiraasi ey'okuyiga okukozesa apu ya JW Library.",
   "start_url": "./lg.html",
   "scope": "./",
   "display": "standalone",
