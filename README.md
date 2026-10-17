@@ -90,6 +90,30 @@ To ensure the latest features and security updates are available, verify that yo
 
 ---
 
+## 🤝 Guidelines for Adapting, Customizing, or Hosting Your Own Classes
+
+Facilitators, instructors, and communities are warmly welcomed to use, translate, adapt, or build upon this material for their local training needs. If you customize these files or publish your own version, please observe the following standards:
+
+1. **Use as a Template (Recommended):**  
+   We encourage clicking the **"Use this template"** button at the top of this repository rather than creating a standard fork. This creates a clean, independent repository under your own account without linking your local changes to this upstream repository's commit history or pull request queue.
+
+2. **Update URLs, Domains & QR Table Cards:**  
+   If you publish your own web guide or print QR table cards, please update all links and QR codes to point to your own deployment (e.g., your own GitHub Pages URL or local venue link) rather than `neiltucker.github.io`. This ensures learners at your venue connect to your intended version.
+
+3. **No Implied Endorsement or Affiliation:**  
+   You may reference this repository as the original source of the template, but you must not state, imply, or suggest that your modified curriculum, website, or class materials are authorized, reviewed, sponsored, or endorsed by the original author (Neil Tucker).
+
+4. **Retain the Legal & Non-Affiliation Disclaimer:**  
+   All copies, translations, and derivative works must retain the full non-affiliation notice regarding *Watch Tower Bible and Tract Society of Pennsylvania* and *Jehovah's Witnesses*. *JW Library* is a registered trademark, and all training materials must remain strictly non-commercial and educational.
+
+5. **Focus on Digital Literacy & Official Guidance:**  
+   This project exists solely to help individuals navigate the official *JW Library* app and *JW.ORG*. Any adapted classes should remain neutral, positive, and strictly aligned with officially published guidance from the app's publisher.
+
+6. **Responsibility for Derivative Content:**  
+   Anyone who forks, modifies, or redistributes these materials assumes sole responsibility for their changes, translations, and classroom delivery. The original author accepts no responsibility or liability for derivative versions created by third parties.
+
+---
+
 ## 🔗 Official Documentation
 
 Official, step-by-step instructions and video tutorials from the app's publisher are available at:
@@ -107,4 +131,4 @@ Official, step-by-step instructions and video tutorials from the app's publisher
 
 *JW Library* is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. 
 
-This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. All official publications, media, and authoritative guidance must be obtained directly from [JW.ORG](https://www.jw.org).
+This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer. All official publications, media, and authoritative guidance must be obtained directly from [JW.ORG](https://www.jw.org).
