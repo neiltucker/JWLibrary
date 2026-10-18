@@ -90,6 +90,20 @@ To ensure the latest features and security updates are available, verify that yo
 
 ---
 
+## 🗃️ Looking for the Classic / Legacy Tutorial Materials?
+
+For instructors and facilitators who prefer the traditional comprehensive printed workbook format and detailed touch-device walkthroughs, the complete legacy courseware is maintained in a dedicated archive:
+
+👉 **[JWLibrary-Legacy Repository](https://github.com/neiltucker/JWLibrary-Legacy)**
+
+The legacy repository includes:
+* **Comprehensive Student Workbook:** Available in ready-to-print [PDF](https://github.com/neiltucker/JWLibrary-Legacy/blob/main/JW%20Library%20Tutorial.pdf) and fully customizable [Microsoft Word (`.docx`)](https://github.com/neiltucker/JWLibrary-Legacy/blob/main/JW%20Library%20Tutorial.docx) format.
+* **Instructor Curriculum & Schedule Handouts:** Complete lesson guides and class programs in both PDF and Word formats.
+* **Historical Archive (`JWLibrary-Legacy.zip`):** Complete archive of early revisions (`RevA` through `RevD`), intermediate drafts, and historical snapshots spanning 2015–2025.
+
+
+---
+
 ## 🤝 Guidelines for Adapting, Customizing, or Hosting Your Own Classes
 
 Facilitators, instructors, and communities are warmly welcomed to use, translate, adapt, or build upon this material for their local training needs. If you customize these files or publish your own version, please observe the following standards:
