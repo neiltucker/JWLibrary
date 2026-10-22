@@ -4,13 +4,13 @@ Ekitabo ekiyamba okutendeka n'enteekateeka ya kiraasi, ebyetongodde era ebyangu 
 
 Okuyiga kuno kutegekeddwa okuba **kiraasi ya ddakiika 60** etali ya kanyigo, nga mulimu **eddakiika 10 ez'okufundikira**, era kusobola okwongezebwako okutuuka ku **ddakiika 75–90** eri ebibinja ebyagala okufuna ekiseera ekisingawo eky'okwegezaamu.
 
-> **Ebikwata ku nkyusa eno:** Eno nkyusa ya Luganda ey'ekitabo ekyasooka okuwandiikibwa mu Lungereza. Amannya g'obupeesa mu apu gawandiikiddwa mu Luganda, ate erinnya ery'Olungereza ne liteekebwa mu bukomera, kubanga ebigambo by'olaba ku ssirini yo bisinziira ku lulimi essimu yo oba kompyuta yo lw'ekozesa.
+> **Ebikwata ku nkyusa eno:** Eno nkyusa ya Luganda ey'ekitabo ekyasooka okuwandiikibwa mu Lungereza. Amannya g'obupeesa mu apu gawandiikiddwa mu Luganda, ate erinnya ery'Olungereza ne liteekebwa mu bukomera, kubanga ebigambo by'olaba ku sikuliini yo bisinziira ku lulimi essimu yo oba kompyuta yo lw'ekozesa.
 
 ---
 
 ## 🌐 Ekitabo eky'oku Mukutu ky'Osobola Okukozesa
 
-Enkyusa ey'oku mukutu ey'okuyiga kuno—ekola obulungi ku ssirini za buli bunene, erimu ebiragiro ebisinziira ku ssimu, tabbuleeti, oba kompyuta gy'olonze, era ng'ennukuta nnene—esangibwa wano:
+Enkyusa ey'oku mukutu ey'okuyiga kuno—ekola obulungi ku sikuliini za buli bunene, erimu ebiragiro ebisinziira ku ssimu, tabbuleeti, oba kompyuta gy'olonze, era ng'ennukuta nnene—esangibwa wano:
 
 **[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/)** *(mu Lungereza)*
 
@@ -30,8 +30,8 @@ Amasomo gategekeddwa mu masomo asatu, buli limu lya ddakiika 15, nga gasookebwak
 0. **Okuyambibwa nga Kiraasi Tennatandika n'Okumanyiira (Eddakiika 5–15)**
    * **Okuyambibwa kw'Abo Abatuuka nga Bukyali (eddakiika 15 nga tennatandika):** Abayambi babaniriza abazze, bayunga amasimu, tabbuleeti, ne kompyuta zaabwe ku Wi-Fi y'ekifo, era bakakasa nti Bayibuli n'Ekyawandiikibwa eky'Olunaku ekiriwo biwanuddwa nga kiraasi tennatandika.
    * **Okukebera mu Sikonda 30 oba Abantu Beetegese:** Abayizi bayimusa emikono mangu abayambi basobole okuyamba oyo yenna akyetaaga okuwanula Bayibuli nga kiraasi etandika.
-   * **Emirembe mu Mutima ("Eppeesa ery'Akabenje"):** Okuyigiriza abayizi engeri y'okusirisa amangu eddoboozi eritasuubiddwa nga bakozesa **eppeesa erikendeeza eddoboozi** *(Volume Down)* eriri ku mabbali g'essimu oba tabbuleeti, **eppeesa erisirisa (🔇)** *(Mute)* ku kiwandiikiro kya kompyuta, oba **Yimiriza (⏸️)** *(Pause)* ku ssirini.
-   * Okuzuula olukalala olukulu olw'okutambuliramu (navigation bar) n'okutereeza ekiseera ssirini mw'eggalirwa / mw'ezikira.
+   * **Emirembe mu Mutima ("Eppeesa erisirisa"):** Okuyigiriza abayizi engeri y'okusirisa amangu eddoboozi eritasuubiddwa nga bakozesa **eppeesa erikendeeza eddoboozi** *(Volume Down)* eriri ku mabbali g'essimu oba tabbuleeti, **eppeesa erisirisa (🔇)** *(Mute)* ku kibodi kya kompyuta, oba **Yimiriza (⏸️)** *(Pause)* ku sikuliini.
+   * Okuzuula olukalala olukulu olw'okutambuliramu (navigation bar) n'okutereeza ekiseera sikuliini mw'eggalirwa / mw'ezikira.
 
 1. **Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana (Eddakiika 15)**
    * Okwetegereza olukalala olukulu olw'okutambuliramu n'okusoma **Ekyawandiikibwa eky'Olunaku** *(Daily Text)* eky'olwaleero.
@@ -44,19 +44,19 @@ Amasomo gategekeddwa mu masomo asatu, buli limu lya ddakiika 15, nga gasookebwak
    * Okuyunga ku Wi-Fi nga tonnawanula, osobole okukekkereza data y'essimu.
    * Okuwanula ebitabo oba amaloboozi ne vidiyo okubikozesa nga tolina Intaneeti (bw'omala okubiwanula, teweetaaga Intaneeti mu nkuŋŋaana).
    * Okukozesa **Ekizannya Amaloboozi (🎧)** *(Audio Player)* okuwuliriza essuula za Bayibuli, Ekyawandiikibwa eky'Olunaku, oba ebitundu eby'okusoma nga bisomebwa mu ddoboozi.
-   * **Okusirisa Amangu mu Kabenje:** Okukomya eddoboozi amangu ddala ng'okozesa obupeesa bw'eddoboozi obw'essimu oba kompyuta (okunyweza eppeesa erikendeeza eddoboozi eriri ku mabbali g'essimu; okunyiga eppeesa erisirisa ku kiwandiikiro kya kompyuta) oba Yimiriza ku ssirini.
-   * *Omusomesa Alaga:* Okukebera ekifo eky'okuterekamu n'okusengeka ng'osinziira ku **Ekisinga Obunene** *(Largest Size)* okuggyawo fayiro ezitali nneetaagisa.
+   * **Okusirisa Amaloboozi Amangu:** Okukomya eddoboozi amangu ddala ng'okozesa obupeesa bw'eddoboozi obw'essimu oba kompyuta (okunyweza eppeesa erikendeeza eddoboozi eriri ku mabbali g'essimu; okunyiga eppeesa erisirisa ku kibodi kya kompyuta) oba Yimiriza ku sikuliini.
+   * *Omusomesa Alaga:* Okukebera ekifo eky'okuterekamu n'okusengeka ng'osinziira ku **Esinga Obunene** *(Largest Size)* okuggyawo fayiro ezitali nneetaagisa.
 
 3. **Essomo 3: Ebikozesebwa mu Kwesomesa (Eddakiika 15)**
    * Okussaako langi ya kyenvu ku butundu obw'okusoma ne ku nnyiriri za Bayibuli.
    * Okukyusa langi (okugeza, okugifuula bbulu oba kiragala) oba okuggyawo langi.
-   * **Okukuuma Ebyo by'Owandiise:** Okukola fayiro y'ekkopi (`.jwlibrary`) ku kitundu *By'Oyagala > Okutereka Kkopi n'Okugizzaawo* *(Settings > Backup and Restore)* ebiwandiiko byo n'obubonero bw'okusoma bireme kubula n'akatono.
+   * **Okukuuma Ebyo by'Owandiise:** Okukola kkopi ya fayiro (`.jwlibrary`) ku kitundu *By'Oyagala > Okutereka Kkopi n'Okugizzaawo* *(Settings > Backup and Restore)* ebiwandiiko byo n'obubonero bw'okusoma bireme kubula n'akatono.
    * *Omusomesa Alaga:* Okwongerako ebiwandiiko, okusengeka ng'okozesa **Ttaaga** *(Tags)*, n'okukozesa ekitundu ekikulu eky'Okwesomesa *(Personal Study)*.
 
 4. **Okufundikira, Okuddamu Okwetegereza, n'Ebibuuzo (Eddakiika 10)**
    * Eddakiika 10 ezaateekebwawo ez'okuddamu okwetegereza, ebibuuzo, oba ekiseera eky'enyongeza singa okwegezaamu okwasooka kutwala ekiseera ekisingawo.
-   * Abakulembera kiraasi basobola okusigalawo oluvannyuma lwa kiraasi okuyamba oyo yenna ayagala okuyambibwa ng'ali yekka.
-   * *Amagezi eri Akulembera Kiraasi:* Teeka kkopi z'Enteekateeka ya Kiraasi ey'olupapula olumu ezikubiddwa mu kyapa ku mmeeza ng'awali Intaneeti enafu oba ey'ebbeeyi, kozesa obukadi bwa QR ku mmeeza abayizi baggulewo ekitabo kino nga bakozesa kamera y'essimu, era olage abayizi "Add to Home Screen" ekitabo kisobole okugguka ne bwe waba tewali Intaneeti.
+   * Abalungamya basobola okusigalawo oluvannyuma lwa kiraasi okuyamba oyo yenna ayagala okuyambibwa ng'ali yekka.
+   * *Amagezi eri Omulungamya:* Teeka kkopi z'Enteekateeka ya Kiraasi ey'olupapula olumu ezikubiddwa mu kyapa ku mmeeza ng'awali Intaneeti enafu oba ey'ebbeeyi, kozesa obukadi bwa QR ku mmeeza abayizi baggulewo ekitabo kino nga bakozesa kamera y'essimu, era olage abayizi "Add to Home Screen" ekitabo kisobole okugguka ne bwe waba tewali Intaneeti.
 
 ---
 
@@ -74,21 +74,21 @@ Okukakasa nti ebipya n'ebirongoosa eby'obukuumi bifunika, kakasa nti essimu yo, 
 ### Bye Tukuwa Amagezi Okukola nga Tonnajja:
 * **Tuuka nga Bukyali (Eddakiika 10–15 nga Kiraasi Tennatandika):** Tuuka eddakiika ntono nga bukyali abayambi basobole okukuyunga ku Wi-Fi y'ekifo n'okukakasa nti Bayibuli yo n'Ekyawandiikibwa eky'Olunaku byetegefu.
 * **Bbaatule Ejjudde:** Leeta essimu yo, tabbuleeti, oba kompyuta yo nga bbaatule yaayo ejjudde (oba leeta waya yo ecaajinga).
-* **Okutereeza Ekiseera Ssirini mw'Ezikira:** Lowooza ku ky'okuteekawo okumala akaseera ssirini y'essimu yo, tabbuleeti, oba kompyuta yo eggalirwe oba ezikire oluvannyuma lw'eddakiika 2 oba 5, ssirini ereme kuzikira ng'abantu balagibwa.
+* **Okutereeza Ekiseera Sikuliini mw'Ezikira:** Lowooza ku ky'okuteekawo okumala akaseera sikuliini y'essimu yo, tabbuleeti, oba kompyuta yo eggalirwe oba ezikire oluvannyuma lw'eddakiika 2 oba 5, sikuliini ereme kuzikira ng'abantu balagibwa.
 * **Apu Eteekeddwamu:** Teeka apu ya *JW Library* ku ssimu yo, tabbuleeti, oba kompyuta yo okuva mu dduuka lya apu ery'omutindo (app store) nga kiraasi tennatandika.
 * **Ekifo eky'Okuterekamu:** Kakasa nti essimu yo, tabbuleeti, oba kompyuta yo erina waakiri **GB 2 okutuuka ku 4** ez'ekifo ekitaliiko kintu (oba SD card eteekeddwamu) osobole okuwanula ebitabo, amaloboozi, ne vidiyo awatali buzibu.
 * **Okuyunga ku Wi-Fi:** Yunga ku Wi-Fi eriwo nga tonnawanula fayiro ennene ez'amaloboozi ne vidiyo osobole okukekkereza data y'essimu.
-* **Amagezi ag'Okusirisa mu Kabenje:** Jjukira nti okunyiga **eppeesa erikendeeza eddoboozi** (ku ssimu/tabbuleeti) oba **eppeesa erisirisa (🔇)** ku kiwandiikiro (ku laputopu) kijja kusirisa amangu eddoboozi singa livaayo nga terisuubiddwa.
+* **Amagezi ag'Okusirisa Amaloboozi:** Jjukira nti okunyiga **eppeesa erikendeeza eddoboozi** (ku ssimu/tabbuleeti) oba **eppeesa erisirisa (🔇)** ku kibodi (ku laputopu) kijja kusirisa amangu eddoboozi singa livaayo nga terisuubiddwa.
 
 ---
 
 ## 📁 Ebiri mu Tterekero Lino
 
-* **`lg.html`**: Okuyiga kw'oku mukutu okujjuvu mu Luganda, okwekyusa okusinziira ku ssirini, okulimu menu ey'okulonda olulimi, obupeesa obulonda essimu, tabbuleeti, oba kompyuta (ky'olonze kijjukirwa), okukyusa obunene bw'ennukuta, ekitabo ky'ekiseera eky'akulembera kiraasi, n'ekitabo ekimpi ekisobola okukubibwa mu kyapa.
+* **`lg.html`**: Okuyiga kw'oku mukutu okujjuvu mu Luganda, okwekyusa okusinziira ku sikuliini, okulimu menu ey'okulonda olulimi, obupeesa obulonda essimu, tabbuleeti, oba kompyuta (ky'olonze kijjukirwa), okukyusa obunene bw'ennukuta, ekitabo ky'ekiseera eky'omulungamya, n'ekitabo ekimpi ekisobola okukubibwa mu kyapa.
   *Teeka `lg.html` mu folda y'emu ne `index.html` (Olungereza), `sw.html`, ne `din.html` menu y'olulimi esobole okukola.*
-* **`manifest-lg.json` ne `sw.js`**: Fayiro ezisobozesa ekitabo kino okuteekebwa ku ssirini ey'omu maaso ey'essimu n'okugguka mu Luganda. Omuyizi bw'amala okuggulawo ekitabo kino omulundi gumu nga waliwo Intaneeti, empapula ennya ez'ekitabo kino ziterekebwa ku ssimu oba kompyuta ne zigguka nga tewali Intaneeti. PDF, vidiyo, ne link za JW.ORG bikyetaaga Intaneeti.
+* **`manifest-lg.json` ne `sw.js`**: Fayiro ezisobozesa ekitabo kino okuteekebwa ku sikuliini ey'omu maaso ey'essimu n'okugguka mu Luganda. Omuyizi bw'amala okuggulawo ekitabo kino omulundi gumu nga waliwo Intaneeti, empapula ennya ez'ekitabo kino ziterekebwa ku ssimu oba kompyuta ne zigguka nga tewali Intaneeti. PDF, vidiyo, ne link za JW.ORG bikyetaaga Intaneeti.
 * **`Table_Cards_Luganda_lg.pdf`**: Obukadi bwa QR obw'okukuba mu kyapa (obukadi 4 ku lupapula lumu) obuggulawo `lg.html`.
-* **`QR_Luganda_lg.png` ne `QR_Luganda_lg.svg`**: Koodi ya QR eggulawo olupapula olw'Oluganda (PNG ya ssirini, SVG ya kukuba mu kyapa).
+* **`QR_Luganda_lg.png` ne `QR_Luganda_lg.svg`**: Koodi ya QR eggulawo olupapula olw'Oluganda (PNG ya sikuliini, SVG ya kukuba mu kyapa).
 * **`JWLibrary_Class.md`**: Enteekateeka y'amasomo mu Markdown erimu engeri ekiseera gye kigabanyizibwamu eri omusomesa, amagezi eri akulembera kiraasi, n'okwegezaamu okukulu okw'abayizi.
 * **`JW Library Class Program.pdf`**: Enteekateeka ya kiraasi ey'olupapula 1 esobola okukubibwa mu kyapa n'olupapula olujjukiza okwegezaamu *(mu Lungereza mu tterekero eryasooka)*.
 * **`JW Library Tutorial Curriculum.pdf`**: Enteekateeka y'amasomo enzijuvu ey'empapula 4 n'ekitabo ekiyamba abasomesa *(mu Lungereza mu tterekero eryasooka)*.

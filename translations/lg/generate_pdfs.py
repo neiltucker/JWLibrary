@@ -181,34 +181,34 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=3))
 
     # Enteekateeka
-    story.append(Paragraph("<b>Okwaniriza n'Okumanyiira Ssirini: (0:00 - 0:05)</b>", section_hdr))
+    story.append(Paragraph("<b>Okwaniriza n'Okumanyiira Sikuliini: (0:00 - 0:05)</b>", section_hdr))
     story.append(Paragraph("0:00 &nbsp; Okwaniriza; okukebera oba Bayibuli/Ekyawandiikibwa eky'Olunaku byetegefu (abayambi bayamba okuwanula).", timing_style))
-    story.append(Paragraph("0:02 &nbsp; Amagezi ag'okusirisa mu kabenje: nyweza eppeesa erikendeeza eddoboozi (essimu) oba nyiga erisirisa (kompyuta); zuula olukalala olukulu.", timing_style))
+    story.append(Paragraph("0:02 &nbsp; Amagezi ag'okusirisa amaloboozi: nyweza eppeesa erikendeeza eddoboozi (essimu) oba nyiga erisirisa (kompyuta); zuula olukalala olukulu.", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana (0:05 - 0:20)</b>", section_hdr))
     story.append(Paragraph("0:05 &nbsp; Okwogera ku bitundu ebikulu eby'okutambuliramu (Bayibuli, Ebitabo, Enkuŋŋaana, Okwesomesa).", timing_style))
     story.append(Paragraph("0:07 &nbsp; Okuggulawo Ekyawandiikibwa eky'Olunaku n'okunyiga akabonero <b>A A</b> okugaziya ennukuta osome bulungi.", timing_style))
-    story.append(Paragraph("0:10 &nbsp; Kola Okwegezaamu Okukulu 1.1 (Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta).", timing_style))
-    story.append(Paragraph("0:12 &nbsp; Okuggulawo ekitabo n'essuula ya Bayibuli; kola Okwegezaamu Okukulu 1.2.", timing_style))
+    story.append(Paragraph("0:10 &nbsp; Kola Okwegezaamu 1.1 (Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta).", timing_style))
+    story.append(Paragraph("0:12 &nbsp; Okuggulawo ekitabo n'essuula ya Bayibuli; kola Okwegezaamu 1.2.", timing_style))
     story.append(Paragraph("0:15 &nbsp; Okwogera ku kitundu ky'Enkuŋŋaana (Akatabo k'Enkuŋŋaana ak'olukuŋŋaana olwa wakati mu wiiki, n'Omunaala gw'Omukuumi ogusomebwa ku lukuŋŋaana olwa wiikendi).", timing_style))
-    story.append(Paragraph("0:18 &nbsp; Kola Okwegezaamu Okukulu 1.3 (Enkuŋŋaana). (Omusomesa alaga Bookmarks, History, ne Noonya).", timing_style))
+    story.append(Paragraph("0:18 &nbsp; Kola Okwegezaamu 1.3 (Enkuŋŋaana). (Omusomesa alaga Bookmarks, History, ne Noonya).", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Essomo 2: Okuwanula n'Okukozesa Amaloboozi ne Vidiyo (0:20 - 0:35)</b>", section_hdr))
     story.append(Paragraph("0:20 &nbsp; Okutegeera okukozesa awatali Intaneeti: ebiwanulwa ku Wi-Fi bisigala ku ssimu, tabbuleeti, oba kompyuta awatali kwetaaga data y'essimu.", timing_style))
-    story.append(Paragraph("0:22 &nbsp; Kola Okwegezaamu Okukulu 2.1 (Okukebera Wi-Fi n'okukuuma data y'essimu).", timing_style))
-    story.append(Paragraph("0:24 &nbsp; Okuwanula ekintu okukisoma/okukiraba awatali Intaneeti; kola Okwegezaamu Okukulu 2.2.", timing_style))
+    story.append(Paragraph("0:22 &nbsp; Kola Okwegezaamu 2.1 (Okukebera Wi-Fi n'okukuuma data y'essimu).", timing_style))
+    story.append(Paragraph("0:24 &nbsp; Okuwanula ekintu okukisoma/okukiraba awatali Intaneeti; kola Okwegezaamu 2.2.", timing_style))
     story.append(Paragraph("0:28 &nbsp; Ekizannya Amaloboozi (akabonero ka headphones); okusirisa amangu n'eppeesa erikendeeza eddoboozi (essimu) oba erisirisa (kompyuta).", timing_style))
-    story.append(Paragraph("0:31 &nbsp; Kola Okwegezaamu Okukulu 2.3 (Okuwuliriza Amaloboozi). (Omusomesa alaga okukebera ekifo eky'okuterekamu).", timing_style))
+    story.append(Paragraph("0:31 &nbsp; Kola Okwegezaamu 2.3 (Okuwuliriza Amaloboozi). (Omusomesa alaga okukebera ekifo eky'okuterekamu).", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Essomo 3: Ebikozesebwa mu Kwesomesa (0:35 - 0:50)</b>", section_hdr))
     story.append(Paragraph("0:35 &nbsp; Okulonda ebigambo n'ebisentensi okussaako langi ku by'okuddamu mu bitundu eby'okusoma.", timing_style))
-    story.append(Paragraph("0:37 &nbsp; Kola Okwegezaamu Okukulu 3.1 (Ssaako langi ya kyenvu ku ky'okuddamu).", timing_style))
-    story.append(Paragraph("0:40 &nbsp; Okukyusa langi oba okugiggyawo; kola Okwegezaamu Okukulu 3.2.", timing_style))
+    story.append(Paragraph("0:37 &nbsp; Kola Okwegezaamu 3.1 (Ssaako langi ya kyenvu ku ky'okuddamu).", timing_style))
+    story.append(Paragraph("0:40 &nbsp; Okukyusa langi oba okugiggyawo; kola Okwegezaamu 3.2.", timing_style))
     story.append(Paragraph("0:43 &nbsp; Okukuuma by'osoma: okukola fayiro y'ekkopi (.jwlibrary) ku kitundu By'Oyagala (Settings) &gt; Okutereka Kkopi n'Okugizzaawo.", timing_style))
-    story.append(Paragraph("0:46 &nbsp; Kola Okwegezaamu Okukulu 3.3 (Kola Kkopi). (Omusomesa alaga Ebiwandiiko ne Ttaaga).", timing_style))
+    story.append(Paragraph("0:46 &nbsp; Kola Okwegezaamu 3.3 (Kola Kkopi). (Omusomesa alaga Ebiwandiiko ne Ttaaga).", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Okufundikira, Okuddamu Okwetegereza, n'Ebibuuzo: (0:50 - 1:00)</b>", section_hdr))
@@ -340,7 +340,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Abagendererwamu", h1_style))
     story.append(Paragraph(
         "Okuyiga kuno kutegekeddwa abantu abamanyi ebisookerwako ku kukozesa essimu ey'omulembe, tabbuleeti, oba kompyuta. "
-        "Abayizi balina okuba nga basobola okukozesa ssirini enyigibwa oba mawusi. Okuba nga wali okozesezza apu ya JW Library "
+        "Abayizi balina okuba nga basobola okukozesa sikuliini enyigibwa oba mawusi. Okuba nga wali okozesezza apu ya JW Library "
         "kiyamba naye tekyetaagisa.",
         body_style
     ))
@@ -360,7 +360,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Okutuuka <b>eddakiika 10–15 nga bukyali</b> abayambi babayambe ku Wi-Fi n'okutegeka Bayibuli/Ekyawandiikibwa eky'Olunaku.", bullet_style))
     story.append(Paragraph("&bull; Okuba n'essimu, tabbuleeti, oba kompyuta ekozesa <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, oba <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Okujja nga <b>bbaatule ejjudde</b> (oba okuleeta ecaajinga).", bullet_style))
-    story.append(Paragraph("&bull; Okuteekawo okumala akaseera <b>ssirini ezikire oluvannyuma lw'eddakiika 2 oba 5</b> ssirini ereme kuzikira.", bullet_style))
+    story.append(Paragraph("&bull; Okuteekawo okumala akaseera <b>sikuliini ezikire oluvannyuma lw'eddakiika 2 oba 5</b> sikuliini ereme kuzikira.", bullet_style))
     story.append(Paragraph("&bull; Waakiri <b>GB 2 okutuuka ku 4</b> ez'ekifo eky'okuterekamu (oba SD card eteekeddwamu) ku lwa fayiro z'amaloboozi ne vidiyo.", bullet_style))
     story.append(Paragraph("&bull; Okuyunga ku Wi-Fi nga tebannawanula vidiyo oba amaloboozi.", bullet_style))
 
@@ -387,16 +387,16 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Ekitundu ky'Enkuŋŋaana (okuggulawo Akatabo k'Enkuŋŋaana ak'olukuŋŋaana olwa wakati mu wiiki n'ekitundu ky'Omunaala gw'Omukuumi ekisomebwa ku lukuŋŋaana olwa wiikendi)", bullet_style))
     story.append(Paragraph("&bull; <i>Omusomesa Alaga:</i> Obubonero obulaga w'okomye okusoma (Bookmarks), History, ne Noonya (okwegezaamu awaka)", bullet_style))
 
-    story.append(Paragraph("Okwegezaamu Okukulu (eddakiika 5)", h2_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 1.1:</b> Ggulawo Ekyawandiikibwa eky'Olunaku onyige <b>A A</b> ennukuta zifuuke nnene era zitegeerekeke.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 1.2:</b> Nyiga Bayibuli, londa ekitabo (Matayo), oggulewo essuula 5.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 1.3:</b> Ggulawo ekitundu ky'Enkuŋŋaana onyige ekitundu ky'Omunaala gw'Omukuumi ekisomebwa mu kibiina wiiki eno.", bullet_style))
+    story.append(Paragraph("Okwegezaamu (eddakiika 5)", h2_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 1.1:</b> Ggulawo Ekyawandiikibwa eky'Olunaku onyige <b>A A</b> ennukuta zifuuke nnene era zitegeerekeke.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 1.2:</b> Nyiga Bayibuli, londa ekitabo (Matayo), oggulewo essuula 5.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 1.3:</b> Ggulawo ekitundu ky'Enkuŋŋaana onyige ekitundu ky'Omunaala gw'Omukuumi ekisomebwa mu kibiina wiiki eno.", bullet_style))
 
-    story.append(Paragraph("Ebiyamba Akulembera Kiraasi ku Ssomo 1", h2_style))
+    story.append(Paragraph("Ebiyamba Omulungamya ku Ssomo 1", h2_style))
     story.append(Paragraph(
         "Tegeka okuyambibwa okw'eddakiika 15 eri abatuuka nga bukyali abayambi bakakase nti Bayibuli n'Ekyawandiikibwa eky'Olunaku byetegefu. Ku ntandikwa ya kiraasi, "
         "kola okukebera okw'esikonda 30: saba abayizi bayimuse emikono bwe baba beetaaga obuyambi okuwanula abayambi "
-        "babayambe mpola nga weeyongerayo. Yigiriza okusirisa essimu oba kompyuta nga bukyali (eppeesa erikendeeza eddoboozi eriri ku mabbali ku ssimu; erisirisa ku kiwandiikiro kya kompyuta) "
+        "babayambe mpola nga weeyongerayo. Yigiriza okusirisa essimu oba kompyuta nga bukyali (eppeesa erikendeeza eddoboozi eriri ku mabbali ku ssimu; erisirisa ku kibodi kya kompyuta) "
         "okuggyawo okutya. Abayambi bakakase nti abayizi basobodde okugaziya ennukuta n'eppeesa A A.",
         body_style
     ))
@@ -425,18 +425,18 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Okutegeera Okukozesa Awatali Intaneeti: okusoma n'okuwuliriza awatali kakwate ka ssimu", bullet_style))
     story.append(Paragraph("&bull; Okuyunga ku Wi-Fi nga tonnawanula okukekkereza data y'essimu", bullet_style))
     story.append(Paragraph("&bull; Okuwanula ebitabo, amaloboozi ne vidiyo (okumanya akabonero k'Ekire)", bullet_style))
-    story.append(Paragraph("&bull; Okukozesa Ekizannya Amaloboozi n'okusirisa amangu mu kabenje (eppeesa erikendeeza eddoboozi ku ssimu; erisirisa ku kompyuta)", bullet_style))
+    story.append(Paragraph("&bull; Okukozesa Ekizannya Amaloboozi n'okusirisa amaloboozi amangu (eppeesa erikendeeza eddoboozi ku ssimu; erisirisa ku kompyuta)", bullet_style))
     story.append(Paragraph("&bull; <i>Omusomesa Alaga:</i> Okusengeka ng'osinziira ku Kisinga Obunene okukebera ekifo eky'okuterekamu n'okusangulamu fayiro", bullet_style))
 
-    story.append(Paragraph("Okwegezaamu Okukulu (eddakiika 5)", h2_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 2.1:</b> Kakasa waggulu ku ssirini nti essimu, tabbuleeti, oba kompyuta eyungiddwa ku Wi-Fi.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 2.2:</b> Nyiga akabonero k'Ekire ku kitabo eky'okusoma oba ku vidiyo okukiwanula.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 2.3:</b> Ggulawo Ekyawandiikibwa eky'Olunaku oba Bayibuli, nyiga Headphones owulirize; komya n'eppeesa erikendeeza eddoboozi oba erisirisa.", bullet_style))
+    story.append(Paragraph("Okwegezaamu (eddakiika 5)", h2_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 2.1:</b> Kakasa waggulu ku sikuliini nti essimu, tabbuleeti, oba kompyuta eyungiddwa ku Wi-Fi.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 2.2:</b> Nyiga akabonero k'Ekire ku kitabo eky'okusoma oba ku vidiyo okukiwanula.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 2.3:</b> Ggulawo Ekyawandiikibwa eky'Olunaku oba Bayibuli, nyiga Headphones owulirize; komya n'eppeesa erikendeeza eddoboozi oba erisirisa.", bullet_style))
 
-    story.append(Paragraph("Ebiyamba Akulembera Kiraasi ku Ssomo 2", h2_style))
+    story.append(Paragraph("Ebiyamba Omulungamya ku Ssomo 2", h2_style))
     story.append(Paragraph(
         "Gumya abayizi abalina data entono nti tebajja kukozesa data y'essimu mu nkuŋŋaana singa bawanula "
-        "nga bukyali ku Wi-Fi. Mwegezeemu mu lwatu okusirisa mu kabenje: abantu abatamanyidde tekinologiya batera okutya eddoboozi eriyinza okuvaayo mu butanwa; "
+        "nga bukyali ku Wi-Fi. Mwegezeemu mu lwatu okusirisa amaloboozi: abantu abatamanyidde tekinologiya batera okutya eddoboozi eriyinza okuvaayo mu butanwa; "
         "okumanya engeri y'okusirisa amangu (okunyweza eppeesa erikendeeza eddoboozi eriri ku mabbali ku ssimu oba okunyiga erisirisa ku kompyuta) kibawa emirembe mu mutima egijjuvu.",
         body_style
     ))
@@ -469,20 +469,20 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; <b>Okukuuma Ebiwandiiko:</b> Okukola fayiro y'ekkopi: By'Oyagala (Settings) &gt; Okutereka Kkopi n'Okugizzaawo", bullet_style))
     story.append(Paragraph("&bull; <i>Omusomesa Alaga:</i> Okwongerako ebiwandiiko, Ttaaga, n'okulaba ekitundu ky'Okwesomesa", bullet_style))
 
-    story.append(Paragraph("Okwegezaamu Okukulu (eddakiika 5)", h2_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 3.1:</b> Ggulawo ekitundu ky'Omunaala gw'Omukuumi ekiddako oteeke langi ya kyenvu ku ky'okuddamu mu katundu 1.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 3.2:</b> Nyiga eky'okuddamu ky'osizzaako langi okugikyusa ku bbulu, oba nyiga akabonero ka kasasiro okugiggyawo.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu Okukulu 3.3:</b> Ggulawo By'Oyagala (Settings) &gt; Okutereka Kkopi n'Okugizzaawo olwo onyige <b>Kola Kkopi</b>.", bullet_style))
+    story.append(Paragraph("Okwegezaamu (eddakiika 5)", h2_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 3.1:</b> Ggulawo ekitundu ky'Omunaala gw'Omukuumi ekiddako oteeke langi ya kyenvu ku ky'okuddamu mu katundu 1.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 3.2:</b> Nyiga eky'okuddamu ky'osizzaako langi okugikyusa ku bbulu, oba nyiga akabonero ka kasasiro okugiggyawo.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 3.3:</b> Ggulawo By'Oyagala (Settings) &gt; Okutereka Kkopi n'Okugizzaawo olwo onyige <b>Kola Kkopi</b>.", bullet_style))
 
-    story.append(Paragraph("Okufundikira n'Amagezi eri Akulembera Kiraasi (0:50 - 1:00)", h2_style))
+    story.append(Paragraph("Okufundikira n'Amagezi eri Omulungamya (0:50 - 1:00)", h2_style))
     story.append(Paragraph(
         "• <b>Okuyambibwa nga Kiraasi Tennatandika:</b> Okuggulawo enzigi eddakiika 15 nga bukyali abayambi okutegeka amasimu ne kompyuta kiziyiza akalippagano ku Wi-Fi.<br/>"
-        "• <b>Okumanyiira Okusirisa mu Kabenje:</b> Okuyigiriza eppeesa erikendeeza eddoboozi nga bukyali kiggyawo okutya eddoboozi eritasuubiddwa.<br/>"
+        "• <b>Okumanyiira Okusirisa Amaloboozi:</b> Okuyigiriza eppeesa erikendeeza eddoboozi nga bukyali kiggyawo okutya eddoboozi eritasuubiddwa.<br/>"
         "• <b>Eddakiika 10 ez'Enyongeza:</b> Kozesa eddakiika zino ez'okufundikira okuddamu okwetegereza ebituukiddwako, okuddamu ebibuuzo, oba okumalira ekiseera ekisukkiridde.<br/>"
         "• <b>Abayambi ku Mmeeza:</b> Okuba n'abayambi 1 oba 2 abatambulatambula mu kisenge nga bayamba abantu kinnoomu kiziyiza kiraasi okulwawo.<br/>"
         "• <b>Kkopi Ezikubiddwa mu Kyapa (Bwe kiba kyetaagisa):</b> Okussa kkopi z'Enteekateeka ya Kiraasi ey'olupapula 1 ku mmeeza kiyamba awali ddata oba Wi-Fi entono.<br/>"
-        "• <b>Koodi za QR ku Mmeeza oba ku Ssirini (Si kya buwaze):</b> Okulaga koodi ya QR ku ssirini oba okuteeka obukadi bwa QR ku mmeeza kiyamba abayizi okuggulawo ekitabo kino nga bakozesa kamera y'essimu.<br/>"
-        "• <b>Yongereza ku Ssirini Ey'omu Maaso (Si kya buwaze):</b> Okulaga abayizi \"Add to Home Screen\" kiterekera ekitabo kino ku ssimu, ne kisobola okusomebwa oluvannyuma ne bwe waba tewali Intaneeti.<br/>"
+        "• <b>Koodi za QR ku Mmeeza oba ku Sikuliini (Si kya buwaze):</b> Okulaga koodi ya QR ku sikuliini oba okuteeka obukadi bwa QR ku mmeeza kiyamba abayizi okuggulawo ekitabo kino nga bakozesa kamera y'essimu.<br/>"
+        "• <b>Yongereza ku Sikuliini Ey'omu Maaso (Si kya buwaze):</b> Okulaga abayizi \"Add to Home Screen\" kiterekera ekitabo kino ku ssimu, ne kisobola okusomebwa oluvannyuma ne bwe waba tewali Intaneeti.<br/>"
         "• <b>Okuyambibwa Oluvannyuma lwa Kiraasi:</b> Weewaayo okusigalawo eddakiika 15 oluvannyuma lwa kiraasi eri oyo yenna ayagala okuyambibwa ng'ali yekka ku fayiro ye ey'ekkopi.",
         body_style
     ))

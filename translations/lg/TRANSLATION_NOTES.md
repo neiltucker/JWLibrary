@@ -1,6 +1,18 @@
 # Translation Notes — Luganda
 
-Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Confidence: moderate. A fluent Luganda speaker should review and correct this before it is distributed** — expect some unnatural phrasing and grammar errors.
+Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and refined by Andrew Kalinaki (native Luganda speaker) on 22 Oct 2026.
+
+## Changes in this version (22 Oct 2026, update 5) — Review by Andrew Kalinaki (PR #1) with refinements
+Applied to `lg.html`, `JWLibrary_Class.md`, `generate_pdfs.py` (and the two regenerated Luganda PDFs), `README.md`, and `sw.js`:
+* **Screen:** *ssirini* → **sikuliini** (natural phonetic borrowing in Luganda).
+* **Keyboard:** *kiwandiikiro* → **kibodi** (natural contemporary usage).
+* **Emergency Silence:** *Okusirisa mu Kabenje* → **Okusirisa amaloboozi** (removes the alarming word *kabenje*, which literally denotes traffic disasters/catastrophes).
+* **Facilitator:** *Akulembera Kiraasi* → **Omulungamya** (accurate standard term from *okulungamya*).
+* **Exercise headings:** simplified from *Okwegezaamu Okukulu* (Core Exercise) to **Okwegezaamu** (Exercise).
+* **Backup:** *fayiro y'ekkopi* → **kkopi ya fayiro** (*kola kkopi ya fayiro*).
+* **Grammar & flow:** *Jjira essimu* → *Jangu n'essimu*; legal notice improved (*tewagirwa mu butongole kibiina kya Watch Tower...*); projector screen in Kingdom Hall facilitator tips rendered as *olutimbe*.
+* **Refinements on PR #1:** corrected domain `JW.RG` → `JW.ORG`; fixed missing period in silence tip; fixed stray apostrophe on line 1052; corrected orthography `koppi` → `kkopi`, `mweli` → `mw'eri`, and plural `Massimu` → `Amasimu`; standardized on `Intaneeti` (matching wol.jw.org); synchronized JavaScript device switcher strings to match new terms.
+* Both Luganda PDFs regenerated; `sw.js` cache version raised to `jw-tutorial-v9`.
 
 ## Changes in this version (17 Oct 2026, update 4)
 * **Settings:** the app's Settings button is now **By'Oyagala** *(Settings)* instead of *Entegeka*. *By'Oyagala* is the heading of the settings (preferences) page on the Luganda Online Library, wol.jw.org. In Luganda JW publications *entegeka* (128 results) and *ensengeka* (14 results) mean "arrangement" / "order" (e.g. *w22* October; *es22*; *mwbr26* January), never device or app settings. Where *entegeka* means "arrangement" (code comments; the phone's screen-timeout setting in `JWLibrary_Class.md`) it is unchanged.
