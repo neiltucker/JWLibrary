@@ -1,9 +1,10 @@
 # Translation Notes — Luganda
 
-Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and refined by Andrew Kalinaki (native Luganda speaker) on 22 Oct 2026.
+Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and approved by two local Luganda speakers (including Andrew Kalinaki, 22 Oct 2026). Draft notice removed.
 
 ## Changes in this version (22 Oct 2026, update 5) — Review by Andrew Kalinaki (PR #1) with refinements
 Applied to `lg.html`, `JWLibrary_Class.md`, `generate_pdfs.py` (and the two regenerated Luganda PDFs), `README.md`, and `sw.js`:
+* **Draft notice removed:** Reviewed and approved by two local Luganda speakers; "DRAFT TRANSLATION" banner removed from `lg.html`.
 * **Screen:** *ssirini* → **sikuliini** (natural phonetic borrowing in Luganda).
 * **Keyboard:** *kiwandiikiro* → **kibodi** (natural contemporary usage).
 * **Emergency Silence:** *Okusirisa mu Kabenje* → **Okusirisa amaloboozi** (removes the alarming word *kabenje*, which literally denotes traffic disasters/catastrophes).

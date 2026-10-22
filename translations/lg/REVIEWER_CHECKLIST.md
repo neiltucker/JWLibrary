@@ -37,7 +37,7 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 
 1. Whether the JW Library app shows its buttons in Luganda at all. If it does not, the English names should become the main bold label.
 2. *Olukuŋŋaana olwa wiikendi* (weekend meeting): is **wiikendi** the right spelling, or should it be worded another way (e.g. Saturday/Sunday)? (*Olukuŋŋaana olwa wakati mu wiiki* for the midweek meeting and *Akatabo k'Enkuŋŋaana* are taken from JW publications.)
-3. Draft notice: *Enkyusa esooka — tennakeberebwa* ("first draft — not yet reviewed"), and the sentence *Amannya g'obupeesa bw'apu gawandiikiddwa ne mu Lungereza osobole okubuzuula ku sikuliini yo.*
+3. Draft notice: Formerly *Enkyusa esooka — tennakeberebwa* ("first draft — not yet reviewed"). Removed following approval by two local language speakers. App button names remain in Luganda with English in brackets so learners can find them on any device.
 4. The exercise label **Okwegezaamu Okukulu 1.1** ("core exercise 1.1"). Is it natural? (Uganda school books use *Ekyokukola 1*.)
 5. Exercise 3.1, step 2: *nyiga era onyweze ekigambo ekisooka mu ky'okuddamu* ("press and hold the first word in the answer").
 6. App labels not found in JW publications: *okussaako langi* (highlight), *Okutereka Kkopi n'Okugizzaawo* / *Kola Kkopi* (Backup and Restore / Create Backup), *data y'essimu* (mobile data).
