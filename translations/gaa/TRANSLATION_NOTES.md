@@ -25,6 +25,13 @@ Of the audit's 12 recommendations, 9 were applied (one with a correction) and 3 
 
 `sw.js` was not changed. If the previous Ga package (cache `jw-tutorial-v11`) has already been published, raise the version to `jw-tutorial-v12` when publishing this update, as the comment at the top of `sw.js` asks.
 
+## Changes in this version (update 2) — native speaker feedback
+Applied corrections received from Ga native speakers:
+1. **Screen timeout heading:** *Be Ni Skrin Lɛ Gbeɔ:* → *Bɔ Ni Skrin Lɛ Gbeɔ:* (`gaa.html`, `JWLibrary_Class.md`, `README.md`). *Bɔ ni* ("how / the way that") is more idiomatic for a topic heading describing the screen timeout behavior than *Be ni* ("when / the time that"), which sounds like an incomplete temporal clause. (Within descriptive sentences indicating duration, *be* remains unchanged).
+2. **Imperative form for lesson introductions:** *Kase bɔ ni...* → *Kasemɔ bɔ ni...* (`gaa.html` Lesson 1, 2, and 3 intros). In Ga, affirmative singular commands/instructions require the imperative suffix *-mɔ* (*Kasemɔ* = "Learn!").
+
+`sw.js` cache version raised `jw-tutorial-v12` → `jw-tutorial-v13`.
+
 ## 1. How the app's button names are shown
 
 **Decision: English button names in bold, with the Ga meaning in brackets where JW.ORG gives one.** Examples: **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*, **Meetings** *(Asafoŋ Kpeei)*, **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)*, **Largest Size** *(Edalɛ)*.

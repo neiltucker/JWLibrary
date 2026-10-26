@@ -76,7 +76,7 @@ Koni onine ashɛ nibii hei kɛ bɔ ni abuɔ app lɛ he lɛ nɔ lɛ, kwɛmɔ akɛ
 ### Nibii Ni Esa Akɛ Ofee Dani Oba:
 * **Ba Mra (Miniti 10–15 Dani Klas Lɛ Bɔi):** Ba mra koni yelikɛbualɔi lɛ aye abua bo ni oya Wi-Fi lɛ nɔ, ni amɛkwɛ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ yɛ ofoŋ lɛ nɔ lo.
 * **Batri Lɛ Ayi Obɔ:** Kwɛmɔ ni ofoŋ, otablɛt, loo okɔmpiuta lɛ batri eyi obɔ dani oba (loo okɛ ochaaja aba).
-* **Be Ni Skrin Lɛ Gbeɔ:** Tsakemɔ be ni oskrin lɛ gbeɔ (screen timeout / auto-lock) lɛ kɛya miniti 2 loo 5 yɛ klas lɛ shishi, koni skrin lɛ akagbe be ni atsɔɔ nii lɛ.
+* **Bɔ Ni Skrin Lɛ Gbeɔ:** Tsakemɔ be ni oskrin lɛ gbeɔ (screen timeout / auto-lock) lɛ kɛya miniti 2 loo 5 yɛ klas lɛ shishi, koni skrin lɛ akagbe be ni atsɔɔ nii lɛ.
 * **App Lɛ Ayɛ Nɔ:** Daunlodimɔ *JW Library* app lɛ kɛjɛ app store ni sa lɛ nɔ owo ofoŋ, otablɛt, loo okɔmpiuta lɛ nɔ dani klas lɛ bɔi.
 * **Gbɛ Yɛ Ofoŋ Lɛ Nɔ:** Kwɛmɔ akɛ gbɛ ni shɛɔ **GB 2 kɛyashi 4** yɛ ofoŋ lɛ nɔ (loo SD card), koni onyɛ odaunlodi woji, nibii ni atswaa aboɔ toi, kɛ vidioi mlɛo.
 * **Wi-Fi:** Yaa Wi-Fi nɔ dani odaunlodi vidioi kɛ nibii ni atswaa aboɔ toi ni da, koni okafite omobail data.
