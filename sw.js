@@ -1,7 +1,7 @@
-// Service Worker for JW Library Tutorial (Offline PWA) - Version 10
+// Service Worker for JW Library Tutorial (Offline PWA) - Version 11
 // When you publish changes to any page or file listed below, raise the version
 // (e.g. 'jw-tutorial-v4' -> 'jw-tutorial-v5') so phones replace their saved copies.
-const CACHE_NAME = 'jw-tutorial-v10';
+const CACHE_NAME = 'jw-tutorial-v11';
 
 // How long to wait for the internet before showing the saved copy of a page.
 // Keeps the guide quick on a weak signal (e.g. one bar of mobile data).
@@ -14,10 +14,12 @@ const CORE_FILES = [
   './sw.html',
   './lg.html',
   './din.html',
+  './gaa.html',
   './manifest-en.json',
   './manifest-sw.json',
   './manifest-lg.json',
   './manifest-din.json',
+  './manifest-gaa.json',
   './icon-192.png',
   './icon-512.png'
 ];
@@ -36,10 +38,13 @@ const FACILITATOR_FILES = [
   './QR_Luganda_lg.svg',
   './QR_Dinka_din.png',
   './QR_Dinka_din.svg',
+  './QR_Ga_gaa.png',
+  './QR_Ga_gaa.svg',
   './Table_Cards_English_en.pdf',
   './Table_Cards_Kiswahili_sw.pdf',
   './Table_Cards_Luganda_lg.pdf',
-  './Table_Cards_Dinka_din.pdf'
+  './Table_Cards_Dinka_din.pdf',
+  './Table_Cards_Ga_gaa.pdf'
 ];
 
 const PRECACHE_FILES = SAVE_FACILITATOR_FILES_FOR_EVERYONE

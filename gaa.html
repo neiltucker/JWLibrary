@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="gaa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okɛ JW Library Lɛ Atsu Nii &mdash; Kasemɔ Wolo Kɛ Klas Lɛ He Gbɛjianɔtoo (Draft)</title>
+  <meta name="description" content="Kasemɔ wolo kɛ klas lɛ he gbɛjianɔtoo ni baaye abua bo ni okase bɔ ni akɛ JW Library app lɛ tsuɔ nii yɛ aŋkro nikasemɔ, asafoŋ kpeei, kɛ shiɛmɔ nitsumɔ lɛ mli. Draft Ga translation, not yet reviewed.">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="sw" href="sw.html">
+  <link rel="alternate" hreflang="lg" href="lg.html">
+  <link rel="alternate" hreflang="din" href="din.html">
+  <link rel="alternate" hreflang="gaa" href="gaa.html">
+  <link rel="manifest" href="manifest-gaa.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <script>
+    // Early theme and font size setup to prevent flash of wrong theme/size
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        var savedSize = localStorage.getItem('jw_tutorial_text_size');
+        var sizes = { small: '16px', normal: '19px', large: '22px', xlarge: '25px' };
+        if (savedSize && sizes[savedSize]) {
+          document.documentElement.style.setProperty('--font-base', sizes[savedSize]);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --primary: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-border: #bfdbfe;
+      --accent: #0f766e;
+      --accent-light: #f0fdfa;
+      --accent-text: #134e4a;
+      --tag-bg: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --font-base: 19px;
+
+      /* UI Controls */
+      --btn-bg: #f1f5f9;
+      --btn-border: #cbd5e1;
+      --btn-text: #1e293b;
+      --btn-active-bg: #1e40af;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #f8fafc;
+      --exercise-border: #e2e8f0;
+      --demo-bg: #f1f5f9;
+      --demo-border: #64748b;
+      --demo-title: #475569;
+      --demo-text: #475569;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #fefce8;
+      --tip-border: #eab308;
+      --tip-text: #713f12;
+      --check-bg: #dcfce7;
+      --check-text: #166534;
+      --facilitator-bg: #f0fdf4;
+      --facilitator-border: #16a34a;
+      --facilitator-text: #14532d;
+      --facilitator-title: #166534;
+      --table-th-bg: #f1f5f9;
+
+      /* Video Link */
+      --video-bg: #eff6ff;
+      --video-border: #bfdbfe;
+      --video-text: #1d4ed8;
+      --video-hover-bg: #dbeafe;
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      --header-text: #ffffff;
+      --header-subtext: #dbeafe;
+      --header-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+
+      /* Device selector */
+      --device-tab-bg: #f8fafc;
+      --device-tab-border: #cbd5e1;
+      --device-tab-text: #1e293b;
+      --device-tab-hover-bg: #eff6ff;
+
+      /* Links & Footer */
+      --link-item-bg: #f8fafc;
+      --link-item-border: #cbd5e1;
+      --footer-text: #64748b;
+      --footer-heading: #334155;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-light: #172554;
+      --primary-border: #60a5fa;
+      --accent: #2dd4bf;
+      --accent-light: #042f2e;
+      --accent-text: #5eead4;
+      --tag-bg: #334155;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+
+      /* UI Controls */
+      --btn-bg: #334155;
+      --btn-border: #475569;
+      --btn-text: #f1f5f9;
+      --btn-active-bg: #3b82f6;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #0f172a;
+      --exercise-border: #334155;
+      --demo-bg: #182234;
+      --demo-border: #94a3b8;
+      --demo-title: #cbd5e1;
+      --demo-text: #cbd5e1;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #221c04;
+      --tip-border: #eab308;
+      --tip-text: #fef08a;
+      --check-bg: #064e3b;
+      --check-text: #86efac;
+      --facilitator-bg: #052e16;
+      --facilitator-border: #22c55e;
+      --facilitator-text: #bbf7d0;
+      --facilitator-title: #86efac;
+      --table-th-bg: #0f172a;
+
+      /* Video Link */
+      --video-bg: #1e293b;
+      --video-border: #3b82f6;
+      --video-text: #93c5fd;
+      --video-hover-bg: rgba(37, 99, 235, 0.2);
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      --header-text: #ffffff;
+      --header-subtext: #bfdbfe;
+      --header-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+      /* Device selector */
+      --device-tab-bg: #0f172a;
+      --device-tab-border: #475569;
+      --device-tab-text: #f1f5f9;
+      --device-tab-hover-bg: #1e293b;
+
+      /* Links & Footer */
+      --link-item-bg: #0f172a;
+      --link-item-border: #334155;
+      --footer-text: #94a3b8;
+      --footer-heading: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: var(--font-base);
+      transition: font-size 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1.5rem 1rem 4rem;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .utility-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .util-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .util-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .select-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 0.85em;
+      transition: all 0.15s ease;
+    }
+
+    [data-theme="dark"] .select-control {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    }
+
+    .select-control:hover, .select-control:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+
+    .btn-control:hover, .btn-control:focus {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    .btn-control.active {
+      background-color: var(--btn-active-bg);
+      color: var(--btn-active-text);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-lang {
+      min-height: 2rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.92rem;
+    }
+
+    .btn-size {
+      min-width: 2.3rem;
+      text-align: center;
+    }
+
+    .btn-theme {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--header-shadow);
+      transition: background 0.2s ease;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+      color: var(--header-text);
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: var(--header-subtext);
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Device Selector Card */
+    .device-card {
+      background-color: var(--card-bg);
+      border: 2px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .device-card h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .device-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .device-tab {
+      background-color: var(--device-tab-bg);
+      border: 2px solid var(--device-tab-border);
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--device-tab-text);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .device-tab:hover {
+      border-color: var(--primary);
+      background-color: var(--device-tab-hover-bg);
+    }
+
+    .device-tab.active {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 6px -1px rgba(30, 64, 175, 0.3);
+    }
+
+    .device-note {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background-color: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      font-size: 1rem;
+      color: var(--accent-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Checklist Box */
+    .checklist-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .checklist-box h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checklist-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    .check-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--check-bg);
+      color: var(--check-text);
+      font-weight: 700;
+      border-radius: 50%;
+      width: 1.45rem;
+      height: 1.45rem;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Lesson Cards */
+    .lesson-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .lesson-header {
+      border-bottom: 2px solid var(--card-border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+
+    .lesson-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .lesson-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background-color: var(--btn-bg);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--card-border);
+    }
+
+    .lesson-intro {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .official-video-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--video-bg);
+      border: 1px solid var(--video-border);
+      color: var(--video-text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: all 0.15s ease;
+    }
+
+    .official-video-link:hover {
+      background-color: var(--video-hover-bg);
+      text-decoration: underline;
+    }
+
+    /* Steps */
+    .exercise-box {
+      background-color: var(--exercise-bg);
+      border: 1px solid var(--exercise-border);
+      border-radius: 10px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .exercise-box.demonstrated {
+      background-color: var(--demo-bg);
+      border-left: 4px solid var(--demo-border);
+    }
+
+    .exercise-box.demonstrated .exercise-title {
+      color: var(--demo-title);
+    }
+
+    .exercise-box.demonstrated p {
+      color: var(--demo-text);
+    }
+
+    .exercise-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .step-list {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .step-list li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.02rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    .step-num {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      width: 1.45rem;
+      height: 1.45rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-tip {
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      background-color: var(--tip-bg);
+      border-left: 3px solid var(--tip-border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: var(--tip-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Accordion for Facilitator Section */
+    details.instructor-guide {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    details.instructor-guide summary {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      user-select: none;
+    }
+
+    .instructor-content {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+      font-size: 1rem;
+      color: var(--text-muted);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .timing-table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .timing-table th, .timing-table td {
+      border: 1px solid var(--card-border);
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+
+    .timing-table th {
+      background-color: var(--table-th-bg);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .timing-table td {
+      color: var(--text);
+    }
+
+    .facilitator-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: var(--facilitator-bg);
+      border-left: 4px solid var(--facilitator-border);
+      border-radius: 6px;
+      color: var(--facilitator-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .facilitator-box h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      color: var(--facilitator-title);
+    }
+
+    /* Official Links Card */
+    .links-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .links-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .link-item {
+      display: block;
+      padding: 0.75rem 1rem;
+      background-color: var(--link-item-bg);
+      border: 1px solid var(--link-item-border);
+      border-radius: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      transition: all 0.15s ease;
+    }
+
+    .link-item:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Footer & Disclaimer */
+    footer {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--footer-text);
+      line-height: 1.6;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    footer h4 {
+      font-size: 1.05rem;
+      color: var(--footer-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        padding: 0 !important;
+      }
+
+      .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
+        display: none !important;
+      }
+
+      header {
+        background: none !important;
+        color: #000000 !important;
+        padding: 0 0 0.75rem 0;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 1.25rem;
+        box-shadow: none !important;
+      }
+
+      header h1 {
+        font-size: 18pt !important;
+        color: #000000 !important;
+      }
+
+      header p {
+        color: #333333 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .lesson-card, .exercise-box {
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 0.85rem;
+        padding: 0.85rem;
+      }
+
+      .lesson-title {
+        color: #000000 !important;
+        font-size: 13pt !important;
+      }
+
+      .step-num {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  
+/* Phone-width fixes: let long words wrap, and stop grids/menus from forcing sideways scrolling */
+body { overflow-wrap: anywhere; }
+.timing-table { overflow-wrap: normal; }
+.timing-table td:first-child { white-space: nowrap; }
+.lesson-title, .exercise-title, .device-card h2, .checklist-box h3, .links-card h3 { min-width: 0; }
+.device-tabs { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.checklist-items, .links-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.util-group { max-width: 100%; }
+.select-control { max-width: 100%; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+  .utility-bar { padding: 0.75rem; }
+  header { padding: 1.5rem 1.25rem; }
+  header h1 { font-size: 1.75rem; }
+  .lesson-card { padding: 1.25rem; }
+  .lesson-title { display: block; font-size: 1.3rem; }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Top Utility Controls -->
+    <div class="utility-bar">
+      <div class="util-group" role="navigation" aria-label="Wiemɔ (Language)">
+        <label for="lang-select" class="util-label"><span aria-hidden="true">🌐</span> Wiemɔ:</label>
+        <select id="lang-select" class="select-control select-lang" onchange="window.location.href=this.value" aria-label="Halamɔ wiemɔ (Select Language)">
+          <option value="index.html">English</option>
+          <option value="sw.html">Kiswahili</option>
+          <option value="lg.html">Luganda</option>
+          <option value="din.html">Thuɔŋjäŋ (Dinka)</option>
+          <option value="gaa.html" selected>Ga</option>
+        </select>
+      </div>
+      <div class="util-group">
+        <span class="util-label">Niŋmai Lɛ Adaramɔ:</span>
+        <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Niŋmai bibii" aria-label="Niŋmai bibii">A−</button>
+        <button class="btn-control btn-size active" id="btn-size-normal" onclick="setTextSize('normal')" title="Niŋmai ni afɔɔ" aria-label="Niŋmai ni afɔɔ">A</button>
+        <button class="btn-control btn-size" id="btn-size-large" onclick="setTextSize('large')" title="Niŋmai wuji" aria-label="Niŋmai wuji">A+</button>
+        <button class="btn-control btn-size" id="btn-size-xlarge" onclick="setTextSize('xlarge')" title="Niŋmai wuji waa" aria-label="Niŋmai wuji waa">A++</button>
+        <button class="btn-control btn-theme" id="btn-theme-toggle" onclick="toggleTheme()" title="Tsakemɔ kɛya Duŋ" aria-label="Tsakemɔ kɛya Duŋ">
+          <span id="theme-icon">🌙</span> <span id="theme-label">Duŋ</span>
+        </button>
+      </div>
+      <div class="util-group">
+        <button class="btn-control btn-print" onclick="window.print()" title="Printi kasemɔ wolo nɛɛ">
+          🖨️ Printi Kasemɔ Wolo Bibioo Lɛ
+        </button>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <h1>Okɛ JW Library Lɛ Atsu Nii</h1>
+      <p>Klas ko ni baaye ŋmɛlɛtswaa kome ni baaye abua bo ni onyɛ okɛ app lɛ atsu nii kɛkane Biblia lɛ, kɛsaa ohe kɛhã Kristofoi akpeei, ni okɛkane woji ni damɔ Biblia lɛ nɔ.</p>
+    </header>
+
+    <!-- Draft notice -->
+    <div class="step-tip" role="note" style="margin: 0 0 2rem 0;">
+      ⚠️ <strong>DRAFT TRANSLATION — NOT YET REVIEWED.</strong> This Ga text is an AI-produced first draft and must be checked by fluent Ga speakers before use. App button names are kept in English, with Ga meanings in brackets, as the Ga help pages on JW.ORG do.<br>
+      <strong>Enɛ ji klɛŋklɛŋ shishitsɔɔmɔ ni afee yɛ Ga mli; mɛi ni le Ga jogbaŋŋ kwɛko mli lolo.</strong> Akɛ app lɛ mli gbɛ́i lɛ ŋma yɛ Blɔfo mli, ni Ga shishitsɔɔmɔ lɛ yɛ biɛ.
+    </div>
+
+    <!-- Device Switcher -->
+    <section class="device-card">
+      <h2><span>📱</span> Halamɔ Ofoŋ, Tablɛt, loo Kɔmpiuta</h2>
+      <p style="font-size: 1rem; color: var(--text-muted);">Halamɔ nɔ ni okɛtsuɔ nii koni gbɛtsɔɔmɔi lɛ kɛ he ni okadii lɛ yɔɔ lɛ kɛ nɔ ni onaa yɛ oskrin lɛ nɔ lɛ akpã gbee:</p>
+
+      <div class="device-tabs">
+        <button class="device-tab active" id="tab-apple" onclick="selectDevice('apple')">
+          🍎 Apple (iPhone / iPad)
+        </button>
+        <button class="device-tab" id="tab-android" onclick="selectDevice('android')">
+          🤖 Android (Foŋ / Tablɛt)
+        </button>
+        <button class="device-tab" id="tab-windows" onclick="selectDevice('windows')">
+          💻 Windows Kɔmpiuta / Mac
+        </button>
+      </div>
+
+      <div class="device-note" id="device-note-text">
+        <strong>Nɔ ni ohala:</strong> Yɛ Apple iPhone kɛ iPad nɔ lɛ, kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ oskrin lɛ shishigbɛ (Bible, Publications, Meetings, Personal Study).
+      </div>
+    </section>
+
+    <!-- Quick Checklist -->
+    <section class="checklist-box">
+      <h3><span>✅</span> Nibii Ni Esa Akɛ Ofee Dani Klas Lɛ Bɔi</h3>
+      <div class="checklist-items">
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Ba Mra:</strong> Ba miniti 10–15 dani klas lɛ bɔi, koni yelikɛbualɔi lɛ akwɛ akɛ oyɛ Wi-Fi lɛ nɔ lo, ni amɛkwɛ akɛ odaunlodi Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ momo lo.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Hã Gbee Lɛ Sɛɛ Afo Oya Nɔŋŋ:</strong> Kɛ́ gbee ko je kpo be ni okpaaa gbɛ lɛ, <span id="check-silence-desc">nyɛɛ <strong>Volume Down</strong> ni yɔɔ ofoŋ loo otablɛt lɛ he lɛ nɔ ni oshi onine yɛ nɔ, nyɛɛ <strong>Mute (🔇)</strong> yɛ okiibɔd lɛ nɔ, loo onyɛ <strong>Pause (⏸️)</strong> nɔ</span>.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Batri:</strong> Kwɛmɔ ni ofoŋ, otablɛt, loo okɔmpiuta lɛ batri eyi obɔ dani oba (loo okɛ ochaaja aba).</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Be Ni Skrin Lɛ Gbeɔ:</strong> <span id="check-timeout-desc">Tsakemɔ be ni oskrin lɛ gbeɔ lɛ kɛya miniti 2 loo 5, koni skrin lɛ akagbe yɛ klas lɛ shishi.</span></span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Wi-Fi:</strong> Yaa Wi-Fi ni yɔɔ he ni afeɔ klas lɛ yɛ lɛ nɔ, koni onyɛ odaunlodi nibii ni okɛbaakase nii, ni okafite omobail data.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Gbɛ Yɛ Ofoŋ Lɛ Nɔ:</strong> Kwɛmɔ akɛ gbɛ ni shɛɔ GB 2 kɛ sɛɛ yɛ ofoŋ, otablɛt, loo okɔmpiuta lɛ nɔ lo, koni onyɛ odaunlodi nibii.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lesson 1: Finding Scriptures & Meetings -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>📖</span> Nikasemɔ 1: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii</h2>
+        <span class="lesson-time">Be: Miniti 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Kase bɔ ni obaafee oya app lɛ fãi titrii lɛ anɔ, ohã niŋmai lɛ adara koni onyɛ okane mlɛo, ogbele Biblia lɛ yitso fɛɛ yitso, ni oya nibii ni okɛbaasaa ohe kɛhã asafoŋ kpeei daa otsi lɛ anɔ oya nɔŋŋ.
+      </p>
+
+      <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+        ▶️ Kwɛmɔ Gbɛtsɔɔmɔ Ni Yɔɔ JW.ORG Nɔ (yɛ Blɔfo mli)
+      </a>
+
+      <!-- Exercise 1.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 1.1: Daa Gbi Ŋmalɛ Lɛ Kɛ Bɔ Ni Obaafee Ohã Niŋmai Lɛ Adara</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> <span class="nav-instruction">Kwɛmɔ kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ (<strong class="nav-location">yɛ oskrin lɛ shishigbɛ</strong>)</span>, ni onyɛ <strong>Daily Text</strong> (☀️) <em>(Daa Gbi Ŋmalɛ Lɛ)</em> lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Kwɛmɔ oskrin lɛ ŋwɛigbɛ, ni onyɛ <strong>Appearance / Text Size</strong> okadi lɛ (<strong><code>A A</code></strong>) <em>(Niŋmai lɛ adaramɔ)</em> nɔ.</li>
+          <li><span class="step-num">3</span> Tsi kpɔ lɛ kɛya ninejurɔgbɛ koni niŋmai lɛ adara, ni onyɛ okane mlɛo.</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Ŋaawoo Kɛhã Nikanemɔ:</strong> Kɛ́ ohala niŋmai lɛ adaramɔ ni osumɔɔ yɛ biɛ lɛ, nakai ebaapue yɛ Biblia yitsei kɛ saji fɛɛ amli.
+        </div>
+      </div>
+
+      <!-- Exercise 1.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 1.2: Gbelemɔ Biblia Wolo Ko Kɛ Yitso Ko</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ <strong>Bible</strong> (📖) <em>(Biblia)</em> lɛ nɔ yɛ kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Nyɛɛ Biblia woji lɛ eko nɔ (akɛ nɔkwɛmɔnɔ lɛ, <em>Mateo</em>).</li>
+          <li><span class="step-num">3</span> Nyɛɛ yitso <strong>5</strong> nɔ koni okane.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 1.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 1.3: Okɛ Meetings Fã Lɛ Atsu Nii</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ <strong>Meetings</strong> (📅) <em>(Asafoŋ Kpeei)</em> lɛ nɔ yɛ kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Kwɛmɔ asafoŋ kpeei enyɔ ni afeɔ daa otsi lɛ: <em>Otsi Teŋ Kpee</em> (Midweek) kɛ <em>Otsi Naagbee Kpee</em> (Weekend).</li>
+          <li><span class="step-num">3</span> Yɛ Otsi Naagbee Kpee lɛ shishi lɛ, nyɛɛ <strong>Buu-Mɔɔ Nikasemɔ</strong> <em>(Watchtower Study)</em> sane lɛ nɔ koni egbele ehã bo oya nɔŋŋ.</li>
+        </ul>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee: Bookmark, History, Kɛ Search</h3>
+        <p>
+          Tsɔɔlɔ lɛ baatsɔɔ bɔ ni akɛ <strong>Bookmark (🔖)</strong> kadiɔ he ni oshɛ, bɔ ni akɛ <strong>History (🕒)</strong> naa ŋmalɛi ni okane etsɛko tsɔ lɛ, kɛ bɔ ni akɛ <strong>Search (🔍)</strong> taoɔ wiemɔ ko. Obaanyɛ okase enɛɛmɛi yɛ shĩa!
+        </p>
+      </div>
+    </article>
+
+    <!-- Lesson 2: Downloading and Using Media -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>⬇️</span> Nikasemɔ 2: Nibii Ni Adaunlodiɔ Kɛ Bɔ Ni Akɛtsuɔ Nii</h2>
+        <span class="lesson-time">Be: Miniti 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Kase bɔ ni obaafee okane nibii kɛ́ obɛ Intanɛt lɛ nɔ po, odaunlodi woji be ni oyɛ Wi-Fi lɛ nɔ koni okafite omobail data, ni obo nibii ni atswaa aboɔ toi lɛ toi.
+      </p>
+
+      <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
+        ▶️ Kwɛmɔ Gbɛtsɔɔmɔ Ni Yɔɔ JW.ORG Nɔ (yɛ Blɔfo mli)
+      </a>
+
+      <!-- Exercise 2.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 2.1: Kwɛmɔ Wi-Fi Lɛ, Ni Okafite Omobail Data</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Kwɛmɔ oskrin lɛ ŋwɛigbɛ koni ona akɛ <strong>Wi-Fi okadi</strong> lɛ yɛ jɛmɛ, ni oyɛ Wi-Fi lɛ nɔ.</li>
+          <li><span class="step-num">2</span> <em>Mɛni hewɔ enɛ he hiaa:</em> Kɛ́ odaunlodi nibii be ni oyɛ Wi-Fi lɛ nɔ lɛ, ofiteŋ omobail data.</li>
+          <li><span class="step-num">3</span> <em>Toiŋjɔlɛ kɛ́ Intanɛt bɛ:</em> Kɛ́ odaunlodi woji kɛ nibii ni atswaa aboɔ toi ogbe naa lɛ, amɛhiɔ ofoŋ lɛ nɔ; ehe ehiaaa ni oya Intanɛt lɛ nɔ dani onyɛ okɛtsu nii yɛ asafoŋ kpeei ashishi!</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 2.2: Daunlodimɔ Nɔ Ko Koni Okɛtsu Nii Kɛ́ Intanɛt Bɛ</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ <strong>Publications</strong> (📚) <em>(Woji kɛ Nibii)</em> lɛ nɔ, loo oya <strong>Meetings</strong> (📅) <em>(Asafoŋ Kpeei)</em> fã lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Taomɔ nɔ ko ni <strong>atatu okadi</strong> (☁️) yɔɔ he (akɛ nɔkwɛmɔnɔ lɛ, <em>Wɔshiɛmɔ Kɛ Wɔshihilɛ Kpee Nifeemɔ Wolo</em> ni yɔɔ nɔ amrɔ nɛɛ lɛ, loo vidio bibioo ko).</li>
+          <li><span class="step-num">3</span> Nyɛɛ nɔ lɛ nɔ koni odaunlodi. Kɛ́ atatu okadi lɛ laaje lɛ, no tsɔɔ akɛ ekã ofoŋ lɛ nɔ, ni obaanyɛ okane kɛ́ Intanɛt bɛ po.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 2.3: Bo Toi, Ni Okase Bɔ Ni Obaafee Ohã Gbee Lɛ Sɛɛ Afo Oya Nɔŋŋ</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Gbelemɔ ŋmɛnɛ Daa Gbi Ŋmalɛ Lɛ, loo Biblia yitso ko.</li>
+          <li><span class="step-num">2</span> Nyɛɛ <strong>Headphones / Play</strong> okadi lɛ (🎧) ni yɔɔ oskrin lɛ ŋwɛigbɛ lɛ nɔ koni obo nɔ ni akaneɔ lɛ toi.</li>
+          <li><span class="step-num">3</span> <strong>Kasemɔ bɔ ni obaafee ohã gbee lɛ sɛɛ afo:</strong> Hã gbee lɛ sɛɛ afo oya nɔŋŋ: <span id="ex-silence-desc">nyɛɛ <strong>Pause (⏸️)</strong> ni yɔɔ oskrin lɛ nɔ lɛ nɔ, loo onyɛ <strong>Volume Down</strong> ni yɔɔ ofoŋ lɛ he lɛ nɔ (loo <strong>Mute</strong> yɛ kɔmpiuta okiibɔd lɛ nɔ)</span>.</li>
+        </ul>
+        <div class="step-tip">
+          🔇 <strong>Ŋaawoo Kɛhã Toiŋjɔlɛ:</strong> <span id="tip-silence-desc">Okashe gbeyei akɛ gbee ko baaje kpo be ni okpaaa gbɛ. Yɛ foŋ loo tablɛt nɔ lɛ, kɛ́ onyɛ <strong>Volume Down</strong> ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ lɛ, gbee lɛ sɛɛ baafo. Yɛ kɔmpiuta nɔ lɛ, nyɛɛ <strong>Mute (🔇)</strong> yɛ okiibɔd lɛ nɔ, loo okliki Pause (⏸️).</span>
+        </div>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee: Bɔ Ni Obaafee Oná Gbɛ Yɛ Ofoŋ Lɛ Nɔ</h3>
+        <p>
+          Tsɔɔlɔ lɛ baatsɔɔ bɔ ni obaafee oya <em>Publications &gt; Downloaded</em>, oto nibii lɛ anaa yɛ <strong>Largest Size</strong> <em>(Edalɛ)</em> naa, ni ojie vidioi ni ehe ehiaaa bo dɔŋŋ lɛ kɛ́ gbɛ ni yɔɔ ofoŋ lɛ nɔ lɛ miiba shi.
+        </p>
+      </div>
+    </article>
+
+    <!-- Lesson 3: Personal Study Tools -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>🖍️</span> Nikasemɔ 3: Nibii Ni Obaanyɛ Okɛtsu Nii Yɛ Aŋkro Nikasemɔ Mli</h2>
+        <span class="lesson-time">Be: Miniti 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Kase bɔ ni obaafee okɛ kɔla akadi hetoi kɛhã asafoŋ kpee, otsake kɔla lɛ loo ojie mlɛo, ni ofee backup fail koni nibii ni okɛkadi yɛ aŋkro nikasemɔ mli yɛ afii pii mli lɛ akalaaje.
+      </p>
+
+      <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
+        ▶️ Kwɛmɔ Gbɛtsɔɔmɔ Ni Yɔɔ JW.ORG Nɔ (yɛ Blɔfo mli)
+      </a>
+
+      <!-- Exercise 3.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 3.1: Okɛ Yɛlo Kɔla Akadi Hetoo Ko</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ <strong>Meetings</strong> (📅) <em>(Asafoŋ Kpeei)</em> lɛ nɔ, ni ogbele <em>Buu-Mɔɔ</em> lɛ mli sane ni abaakase yɛ Buu-Mɔɔ Nikasemɔ ni baaba lɛ shishi.</li>
+          <li><span class="step-num">2</span> Yɛ kuku 1 lɛ mli lɛ, nyɛɛ hetoo lɛ mli klɛŋklɛŋ wiemɔ lɛ nɔ ni oshi onine yɛ nɔ, ni ogbala onine lɛ kɛnyiɛ sane lɛ nɔ blɛoo.</li>
+          <li><span class="step-num">3</span> Nyɛɛ <strong>yɛlo</strong> kɔla lɛ nɔ yɛ kɔlai ni baapue lɛ ateŋ. Akɛ kɔla ekadi ohetoo lɛ!</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 3.2: Tsakemɔ Kɔla Lɛ, Loo Ojie</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ wiemɔi ni okɛ yɛlo kɔla kadi amrɔ nɛɛ lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Nyɛɛ kɔla kroko (tamɔ bluu loo grin) nɔ koni otsake.</li>
+          <li><span class="step-num">3</span> Kɛ́ ootao ojie kɔla lɛ kwraa lɛ, nyɛɛ <strong>Delete</strong> okadi lɛ (🗑️) nɔ.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Nifeemɔ 3.3: Fee Backup Fail Koni Onibii Akalaaje</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Nyɛɛ <strong>Settings</strong> (⚙️) lɛ nɔ yɛ oskrin lɛ nɔ.</li>
+          <li><span class="step-num">2</span> Nyɛɛ <strong>Backup and Restore</strong> lɛ nɔ.</li>
+          <li><span class="step-num">3</span> Nyɛɛ <strong>Create Backup</strong> lɛ nɔ.</li>
+          <li><span class="step-num">4</span> Nyiɛmɔ gbɛtsɔɔmɔi ni baapue yɛ oskrin lɛ nɔ lɛ asɛɛ koni okɛ obackup fail lɛ (<code>.jwlibrary</code> fail) afɔ̃ shi.</li>
+        </ul>
+        <div class="step-tip">
+          🛡️ <strong>Ŋaawoo Kɛhã Toiŋjɔlɛ:</strong> Nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ yɛ ofoŋ lɛ diɛŋtsɛ nɔ. Kɛ́ ofee backup fail daa nyɔɔŋ lɛ, kɛ́ oná foŋ loo tablɛt hee po lɛ, obaanyɛ oná onibii lɛ fɛɛ ekoŋŋ.
+        </div>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee: Nibii Ni Oŋmalaa, Tags, Kɛ Personal Study</h3>
+        <p>
+          Tsɔɔlɔ lɛ baatsɔɔ bɔ ni obaafee okɛ nibii ni oŋmala (📝) afata ŋmalɛi ahe, kɛ bɔ ni obaafee ona obookmark kɛ nibii fɛɛ ni okɛ kɔla kadi lɛ yɛ <strong>Personal Study</strong> <em>(Aŋkro Nikasemɔ)</em> fã lɛ nɔ.
+        </p>
+      </div>
+    </article>
+
+    <!-- Expandable Facilitator Schedule Guide -->
+    <details class="instructor-guide">
+      <summary><span>📋</span> Ŋaawoi Kɛhã Klas Lɛ Hiɛnyiɛlɔ Kɛ Tsɔɔlɔ (Gbɛjianɔtoo Kɛhã Miniti 60)</summary>
+      <div class="instructor-content">
+        <p>Gbɛjianɔtoo nɛɛ hãa nikasemɔ fɛɛ nikasemɔ miniti 15, ni eshwie <strong>miniti 10 kɛhã naagbee</strong> koni klas lɛ ayaa nɔ blɛoo.</p>
+
+        <table class="timing-table">
+          <thead>
+            <tr>
+              <th>Be</th>
+              <th>Fã</th>
+              <th>Nɔ Ni Abaakase Kɛ Nɔ Ni Abaafee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0:00 &ndash; 0:05</strong></td>
+              <td>Shishijee (miniti 5)</td>
+              <td>Akwɛ akɛ Biblia lɛ yɛ mɔ fɛɛ mɔ nɔ lo (yelikɛbualɔi yeɔ amɛbuaa mɛi ni esa akɛ amɛdaunlodi), ŋaawoo kɛhã bɔ ni akɛhãa gbee sɛɛ foɔ oya nɔŋŋ (Volume Down ni yɔɔ foŋ/tablɛt he; Mute yɛ kɔmpiuta nɔ), kɛ be ni skrin lɛ gbeɔ lɛ.</td>
+            </tr>
+            <tr>
+              <td><strong>0:05 &ndash; 0:20</strong></td>
+              <td>Nikasemɔ 1: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii (miniti 15)</td>
+              <td>Nifeemɔ 1.1: Daa Gbi Ŋmalɛ Lɛ kɛ niŋmai lɛ adaramɔ (<code>A A</code>) &bull; Nifeemɔ 1.2: Biblia wolo/yitso &bull; Nifeemɔ 1.3: Meetings.</td>
+            </tr>
+            <tr>
+              <td><strong>0:20 &ndash; 0:35</strong></td>
+              <td>Nikasemɔ 2: Nibii Ni Adaunlodiɔ Kɛ Bɔ Ni Akɛtsuɔ Nii (miniti 15)</td>
+              <td>Nifeemɔ 2.1: Wi-Fi kɛ mobail data &bull; Nifeemɔ 2.2: Daunlodimɔ koni okɛtsu nii kɛ́ Intanɛt bɛ &bull; Nifeemɔ 2.3: Nibii ni atswaa aboɔ toi (🎧) kɛ bɔ ni akɛhãa gbee sɛɛ foɔ.</td>
+            </tr>
+            <tr>
+              <td><strong>0:35 &ndash; 0:50</strong></td>
+              <td>Nikasemɔ 3: Nibii Ni Obaanyɛ Okɛtsu Nii Yɛ Aŋkro Nikasemɔ Mli (miniti 15)</td>
+              <td>Nifeemɔ 3.1: Yɛlo kɔla &bull; Nifeemɔ 3.2: Kɔla tsakemɔ/jiemɔ &bull; Nifeemɔ 3.3: Backup fail feemɔ.</td>
+            </tr>
+            <tr>
+              <td><strong>0:50 &ndash; 1:00</strong></td>
+              <td>Naagbee: Nɔ Ni Wɔkase Lɛ Akwɛ Ekoŋŋ, Kɛ Sanebimɔi (miniti 10)</td>
+              <td>Akwɛ nɔ ni akase lɛ ekoŋŋ, ahã sanebimɔi ahetoo, ni akɛ be nɛɛ atsu nii kɛ́ nifeemɔ ko ye be fe bɔ ni akpa gbɛ.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="facilitator-box">
+          <h4>Ŋaawoi Titrii Kɛhã Klas Lɛ Hiɛnyiɛlɔ:</h4>
+          <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
+            <li><strong>Yelikɛbuamɔ Dani Klas Lɛ Bɔi (Miniti 15 Dani):</strong> Bɔɔ mɛi amaniɛ akɛ abaagbele shinai lɛ miniti 15 dani klas lɛ bɔi, koni yelikɛbualɔi lɛ aye abua mɛi ni ba lɛ ni amɛya Wi-Fi lɛ nɔ, ni amɛkwɛ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ edaunlodi momo lo.</li>
+            <li><strong>Tsɔɔmɔ Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ Klɛŋklɛŋ:</strong> Yɛ klas lɛ shishijee lɛ, tsɔɔ nikaselɔi lɛ Volume Down ni yɔɔ amɛfoŋ lɛ he kɛ Pause okadi lɛ. Kɛ́ amɛle akɛ amɛbaanyɛ amɛhã gbee sɛɛ afo oya nɔŋŋ lɛ, amɛsheŋ gbeyei dani amɛgbele vidio loo nibii ni atswaa aboɔ toi.</li>
+            <li><strong>Yelikɛbualɔi Ni Yɔɔ Okpɔlɔi Lɛ Ahe:</strong> Too gbɛjianɔ koni yelikɛbualɔi 1 loo 2 anyiɛ tsũ lɛ mli dioo. Kɛ́ nikaselɔ ko jɛ app lɛ mli yɛ be ni etaooo lɛ, yelikɛbualɔ lɛ baanyɛ aye abua lɛ oya nɔŋŋ ni eku esɛɛ kɛya jɛmɛ, ni ehe ehiaaa ni klas lɛ adamɔ shi.</li>
+            <li><strong>Naagbee Miniti 10 Lɛ:</strong> Kɛ́ nifeemɔ ko ye be fe bɔ ni akpa gbɛ lɛ, ŋɔɔ miniti 3&ndash;5 kɛjɛ naagbee miniti 10 lɛ mli blɛoo; esaaa akɛ ojo foi.</li>
+            <li><strong>Yelikɛbuamɔ Yɛ Klas Lɛ Sɛɛ:</strong> Bɔɔ mɛi amaniɛ akɛ tsɔɔlɔ lɛ kɛ yelikɛbualɔi lɛ baahi jɛmɛ miniti 15 yɛ klas lɛ sɛɛ, koni amɛye amɛbua mɔ fɛɛ mɔ ni miitao yelikɛbuamɔ pɔtɛɛ.</li>
+            <li><strong>Woji Ni Aprinti (Kɛ́ Ehe Baahia):</strong> Kɛ́ oprinti Klas Lɛ He Gbɛjianɔtoo ni yɔɔ baafa kome nɔ lɛ ni ofɔ̃ okpɔlɔi lɛ anɔ lɛ, nikaselɔi lɛ baanyɛ amɛnyiɛ nifeemɔi lɛ fɛɛ asɛɛ oya nɔŋŋ, ni ehe ehiaaa ni amɛkɛ mobail data agbele wɛbsaiti nɛɛ.</li>
+            <li><strong>QR Okadi Yɛ Okpɔlɔi Lɛ Anɔ Loo Yɛ Skrin Lɛ Nɔ (Kɛ́ Osumɔ):</strong> Kɛ́ ojie QR okadi lɛ yɛ skrin lɛ nɔ, loo okɛ <a href="Table_Cards_Ga_gaa.pdf" target="_blank" rel="noopener">QR Wolo Bibii Kɛhã Okpɔlɔi (PDF)</a> ni aprinti lɛ fɔ̃ okpɔlɔi lɛ anɔ lɛ, nikaselɔi lɛ baanyɛ amɛkɛ amɛfoŋ kamera lɛ askani, ni amɛgbele kasemɔ wolo nɛɛ, ni ehe ehiaaa ni amɛtaipi wɛbsaiti lɛ adrɛs.</li>
+            <li><strong>Add to Home Screen (Ŋaawoo Kɛhã Be Ni Intanɛt Bɛ):</strong> Tsɔɔ nikaselɔi lɛ bɔ ni amɛaafee amɛkɛ "Share &gt; Add to Home Screen" (iPhone) loo "Menu &gt; Add to Home screen" (Android) atsu nii. <em>He hiaa:</em> Kɛ́ amɛfee nakai amɛgbe naa lɛ, esa akɛ amɛgbele okadi hee lɛ shii kome be ni amɛyɛ Intanɛt lɛ nɔ. No sɛɛ lɛ, kasemɔ wolo nɛɛ baagbele ni ebaatsu nii kɛ́ Intanɛt bɛ po (shi vidioi, PDF, kɛ JW.ORG nɔ saji lɛ ahe baahia Intanɛt lolo).</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Official Links Card -->
+    <section class="links-card">
+      <h3><span>🔗</span> Yelikɛbuamɔ Kɛ Gbɛtsɔɔmɔi Ni Yɔɔ JW.ORG Nɔ</h3>
+      <p style="font-size: 1rem; color: var(--text-muted);">Kɛ́ ootao vidioi kɛ gbɛtsɔɔmɔi ni jɛ JW.ORG lɛ, yaa hei nɛɛ <em>(ekomɛi yɛ Blɔfo mli)</em>:</p>
+
+      <div class="links-grid">
+        <a class="link-item" href="https://www.jw.org/gaa/" target="_blank" rel="noopener">
+          🌐 JW.ORG yɛ Ga Mli
+        </a>
+        <a class="link-item" href="https://www.jw.org/gaa/sait-l%C9%9B-n%C9%94-yelik%C9%9Bbuam%C9%94/jw-library/" target="_blank" rel="noopener">
+          📱 JW Library Gbɛtsɔɔmɔi yɛ Ga Mli
+        </a>
+        <a class="link-item" href="https://wol.jw.org/gaa/wol/h/r121/lp-ga" target="_blank" rel="noopener">
+          📚 Buu-Mɔɔ INTANƐT NƆ WOJIATOOHE (Ga)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/" target="_blank" rel="noopener">
+          🌐 JW.ORG Yelikɛbuamɔ (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+          ✨ JW Library Features (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/apple/" target="_blank" rel="noopener">
+          🍎 Yelikɛbuamɔ Kɛhã Apple (iOS / iPadOS) (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/android/" target="_blank" rel="noopener">
+          🤖 Yelikɛbuamɔ Kɛhã Android (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/windows/" target="_blank" rel="noopener">
+          💻 Yelikɛbuamɔ Kɛhã Windows (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/use-playlists/" target="_blank" rel="noopener">
+          🎵 Bɔ Ni Akɛ Playlists Tsuɔ Nii (Blɔfo)
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer & Disclaimer -->
+    <footer>
+      <h4>Mla He Saji (Legal &amp; Non-Affiliation Notice)</h4>
+      <p>
+        <em>JW Library</em> ji Watch Tower Bible and Tract Society of Pennsylvania kadimɔnɔ ni akɛwo mla shishi.
+        Kasemɔ wolo nɛɛ kɛ klas lɛ he gbɛjianɔtoo nɛɛ ji nitsumɔ ni yɔɔ ehe, ni jeee jarayeli nifeemɔ; afee lɛ koni ekɛye ebua mɛi ni amɛkase bɔ ni akɛ app lɛ tsuɔ nii pɛ. Nitsumɔ nɛɛ kɛ Watch Tower Bible and Tract Society of Pennsylvania loo Yehowa Odasefoi bɛ wekukpaa ko. Amɛ amɛfeee, amɛhãaa gbɛ akɛ afee, amɛkwɛɛɛ nɔ, amɛwoooo he shika, ni amɛkpɛlɛɛɛ nɔ. Mɔ fɛɛ mɔ ni tsake nɔ ko yɛ mli, loo ekɛ fee nɔ kroko loo klas kroko lɛ, lɛ diɛŋtsɛ sane ji, ni no tsɔɔɔ akɛ mɔ ni klɛŋklɛŋ efee kasemɔ wolo nɛɛ lɛ kpɛlɛ nɔ.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        <em>English original:</em> JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This training guide and class schedule is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Gbɛtsɔɔmɔi, woji, kɛ vidioi ni jɛ asafo lɛ ŋɔɔ lɛ, ayɛ <a href="https://www.jw.org/gaa/" target="_blank" rel="noopener" style="color: var(--primary);">JW.ORG</a> pɛ nɔ.
+      </p>
+    </footer>
+
+  </div>
+
+
+  <script>
+    // Text size configuration (Ga page: gaa.html)
+    const TEXT_SIZES = {
+      small: '16px',
+      normal: '19px',
+      large: '22px',
+      xlarge: '25px'
+    };
+
+    function setTextSize(size) {
+      const base = TEXT_SIZES[size] || TEXT_SIZES.normal;
+      document.documentElement.style.setProperty('--font-base', base);
+
+      document.querySelectorAll('.btn-size').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById('btn-size-' + size);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      try {
+        localStorage.setItem('jw_tutorial_text_size', size);
+      } catch (e) {}
+    }
+
+    // Theme (Dark Mode) switcher
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      const isDark = theme === 'dark';
+      if (isDark) {
+        root.setAttribute('data-theme', 'dark');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+
+      const iconEl = document.getElementById('theme-icon');
+      const labelEl = document.getElementById('theme-label');
+      const toggleBtn = document.getElementById('btn-theme-toggle');
+
+      if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+      if (labelEl) labelEl.textContent = isDark ? 'La' : 'Duŋ';
+      if (toggleBtn) {
+        toggleBtn.title = isDark ? 'Tsakemɔ kɛya La' : 'Tsakemɔ kɛya Duŋ';
+        toggleBtn.setAttribute('aria-label', toggleBtn.title);
+      }
+
+      try {
+        localStorage.setItem('jw_tutorial_theme', theme);
+      } catch (e) {}
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    }
+
+    // Initialize preferences from localStorage or system defaults
+    (function initPreferences() {
+      try {
+        const savedSize = localStorage.getItem('jw_tutorial_text_size');
+        if (savedSize && TEXT_SIZES[savedSize]) {
+          setTextSize(savedSize);
+        } else {
+          setTextSize('normal');
+        }
+
+        const savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          applyTheme(savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          applyTheme('dark');
+        } else {
+          applyTheme('light');
+        }
+
+        const savedDevice = localStorage.getItem('jw_tutorial_device');
+        if (savedDevice && (savedDevice === 'apple' || savedDevice === 'android' || savedDevice === 'windows')) {
+          selectDevice(savedDevice);
+        } else {
+          selectDevice('apple');
+        }
+      } catch (e) {
+        setTextSize('normal');
+        applyTheme('light');
+        selectDevice('apple');
+      }
+    })();
+
+    // Register Service Worker for true offline PWA capability
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+      });
+    }
+
+    // Device switcher
+    function selectDevice(device) {
+      try {
+        localStorage.setItem('jw_tutorial_device', device);
+      } catch (e) {}
+
+      document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + device);
+      if (activeTab) activeTab.classList.add('active');
+
+      const noteText = document.getElementById('device-note-text');
+      const navLocations = document.querySelectorAll('.nav-location');
+      const checkSilence = document.getElementById('check-silence-desc');
+      const checkTimeout = document.getElementById('check-timeout-desc');
+      const exSilence = document.getElementById('ex-silence-desc');
+      const tipSilence = document.getElementById('tip-silence-desc');
+      const videoL1 = document.getElementById('video-link-lesson1');
+      const videoL2 = document.getElementById('video-link-lesson2');
+      const videoL3 = document.getElementById('video-link-lesson3');
+
+      if (device === 'apple') {
+        noteText.innerHTML = '<strong>Nɔ ni ohala:</strong> Yɛ Apple iPhone kɛ iPad nɔ lɛ, kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ oskrin lɛ shishigbɛ (Bible, Publications, Meetings, Personal Study).';
+        navLocations.forEach(el => el.textContent = 'yɛ oskrin lɛ shishigbɛ');
+        if (checkSilence) checkSilence.innerHTML = 'nyɛɛ <strong>Volume Down</strong> ni yɔɔ oiPhone loo oiPad lɛ abɛkugbɛ lɛ nɔ ni oshi onine yɛ nɔ, loo onyɛ <strong>Pause (⏸️)</strong> nɔ';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsakemɔ <strong>Auto-Lock</strong> (yɛ <em>Settings &gt; Display &amp; Brightness</em> mli) kɛya miniti 2 loo 5, koni skrin lɛ akagbe yɛ klas lɛ shishi.';
+        if (exSilence) exSilence.innerHTML = 'nyɛɛ <strong>Pause (⏸️)</strong> ni yɔɔ oskrin lɛ nɔ lɛ nɔ, loo onyɛ <strong>Volume Down</strong> ni yɔɔ oiPhone loo oiPad lɛ abɛkugbɛ lɛ nɔ ni oshi onine yɛ nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Okashe gbeyei akɛ gbee ko baaje kpo be ni okpaaa gbɛ. Yɛ iPhone kɛ iPad nɔ lɛ, kɛ́ onyɛ <strong>Volume Down</strong> ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ lɛ, obaanyɛ ohã gbee lɛ sɛɛ afo, yɛ Maŋtsɛyeli Asa lɛ mli loo yɛ klas lɛ mli.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
+      } else if (device === 'android') {
+        noteText.innerHTML = '<strong>Nɔ ni ohala:</strong> Yɛ Android foŋ kɛ tablɛt nɔ lɛ, kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ oskrin lɛ shishigbɛ (loo nyɛɛ oskrin lɛ abɛkugbɛ kɛba ninejurɔgbɛ koni ona Menu lɛ).';
+        navLocations.forEach(el => el.textContent = 'yɛ oskrin lɛ shishigbɛ, loo yɛ Menu ni yɔɔ abɛkugbɛ lɛ mli');
+        if (checkSilence) checkSilence.innerHTML = 'nyɛɛ <strong>Volume Down</strong> ni yɔɔ ofoŋ loo otablɛt lɛ he lɛ nɔ ni oshi onine yɛ nɔ, loo onyɛ <strong>Pause (⏸️)</strong> nɔ';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsakemɔ <strong>Screen timeout</strong> (yɛ <em>Settings &gt; Display</em> mli) kɛya miniti 2 loo 5, koni skrin lɛ akagbe yɛ klas lɛ shishi.';
+        if (exSilence) exSilence.innerHTML = 'nyɛɛ <strong>Pause (⏸️)</strong> ni yɔɔ oskrin lɛ nɔ lɛ nɔ, loo onyɛ <strong>Volume Down</strong> ni yɔɔ oAndroid foŋ loo tablɛt lɛ he lɛ nɔ ni oshi onine yɛ nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Okashe gbeyei akɛ gbee ko baaje kpo be ni okpaaa gbɛ. Yɛ Android foŋ kɛ tablɛt nɔ lɛ, kɛ́ onyɛ <strong>Volume Down</strong> ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ lɛ, obaanyɛ ohã gbee lɛ sɛɛ afo, yɛ Maŋtsɛyeli Asa lɛ mli loo yɛ klas lɛ mli.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
+      } else if (device === 'windows') {
+        noteText.innerHTML = '<strong>Nɔ ni ohala:</strong> Yɛ Windows kɔmpiuta nɔ lɛ, kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ oskrin lɛ ŋwɛigbɛ (loo yɛ abɛkugbɛ).';
+        navLocations.forEach(el => el.textContent = 'yɛ oskrin lɛ ŋwɛigbɛ');
+        if (checkSilence) checkSilence.innerHTML = 'nyɛɛ <strong>Mute (🔇)</strong> loo <strong>Volume Down</strong> yɛ okiibɔd lɛ nɔ, okliki speaker okadi lɛ ni yɔɔ taskbar lɛ nɔ, loo okliki <strong>Pause (⏸️)</strong>';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsakemɔ <strong>Screen / Sleep</strong> (yɛ <em>Settings &gt; System &gt; Power &amp; battery</em> mli) kɛya miniti 2 loo 5, koni okɔmpiuta lɛ skrin akagbe.';
+        if (exSilence) exSilence.innerHTML = 'klikimɔ <strong>Pause (⏸️)</strong>, nyɛɛ <strong>Mute (🔇)</strong> yɛ okiibɔd lɛ nɔ, loo okliki speaker okadi lɛ ni yɔɔ taskbar lɛ nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Okashe gbeyei akɛ gbee ko baaje kpo be ni okpaaa gbɛ. Yɛ Windows kɔmpiuta nɔ lɛ, kɛ́ onyɛ <strong>Mute (🔇)</strong> yɛ okiibɔd lɛ nɔ, loo okliki Pause (⏸️) lɛ, gbee lɛ fɛɛ sɛɛ baafo oya nɔŋŋ.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';
+      }
+    }
+  </script>
+</body>
+</html>
