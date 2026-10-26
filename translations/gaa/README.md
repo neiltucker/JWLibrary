@@ -37,9 +37,9 @@ Nikasemɔi etɛ yɛ mli, ni eko fɛɛ eko yeɔ miniti 15. Yelikɛbuamɔ ni afeɔ
 
 1. **Nikasemɔ 1: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii (Miniti 15)**
    * Kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ, kɛ ŋmɛnɛ **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)* kanemɔ.
-   * **Niŋmai lɛ adaramɔ (`A A`)** tsakemɔ koni akane mlɛo.
+   * **Text Settings** (`A A`) *(Niŋmai lɛ adaramɔ)* nɔ nyɛmɔ koni niŋmai lɛ adara ni akane mlɛo.
    * **Biblia wolo kɛ yitso** pɔtɛɛ ko gbelemɔ.
-   * **Meetings** *(Asafoŋ Kpeei)* fã lɛ: oya *Wɔshiɛmɔ Kɛ Wɔshihilɛ Kpee Nifeemɔ Wolo* kɛhã Otsi Teŋ Kpee lɛ, kɛ *Buu-Mɔɔ* Nikasemɔ sane kɛhã Otsi Naagbee Kpee lɛ nɔ oya nɔŋŋ.
+   * **Meetings** *(Asafoŋ Kpeei)* fã lɛ: oya *Wɔshiɛmɔ Kɛ Wɔshihilɛ Kpee Nifeemɔ Wolo* kɛhã Otsi Teŋ Kpee (Midweek Meeting) lɛ, kɛ *Buu-Mɔɔ* Nikasemɔ sane kɛhã Otsi Naagbee Kpee (Weekend Meeting) lɛ nɔ oya nɔŋŋ.
    * *Tsɔɔlɔ lɛ baatsɔɔ:* Bookmark, History, kɛ Search.
 
 2. **Nikasemɔ 2: Nibii Ni Adaunlodiɔ Kɛ Bɔ Ni Akɛtsuɔ Nii (Miniti 15)**

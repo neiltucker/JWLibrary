@@ -50,11 +50,11 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 ### Nikasemɔ 1: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii (0:05 – 0:20)
 * **0:05** Fãi titrii lɛ: **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*, **Meetings** *(Asafoŋ Kpeei)*, kɛ **Personal Study** *(Aŋkro Nikasemɔ)*.
-* **0:07** **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)* gbelemɔ, kɛ **`A A`** okadi lɛ nɔ nyɛmɔ koni niŋmai lɛ adara ni akane mlɛo.
+* **0:07** **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)* gbelemɔ, kɛ **Text Settings** (**`A A`**) okadi lɛ nɔ nyɛmɔ koni niŋmai lɛ adara ni akane mlɛo.
 * **0:10** **Afee Nifeemɔ 1.1** (Daa Gbi Ŋmalɛ Lɛ kɛ niŋmai lɛ adaramɔ).
 * **0:12** **Biblia wolo kɛ yitso** pɔtɛɛ ko gbelemɔ (akɛ nɔkwɛmɔnɔ lɛ, Mateo yitso 5).
 * **0:14** **Afee Nifeemɔ 1.2** (Biblia yitso ko gbelemɔ).
-* **0:16** **Meetings fã** lɛ (oya *Wɔshiɛmɔ Kɛ Wɔshihilɛ Kpee Nifeemɔ Wolo* kɛhã Otsi Teŋ Kpee lɛ, kɛ *Buu-Mɔɔ* Nikasemɔ sane kɛhã Otsi Naagbee Kpee lɛ nɔ oya nɔŋŋ).
+* **0:16** **Meetings fã** lɛ (oya *Wɔshiɛmɔ Kɛ Wɔshihilɛ Kpee Nifeemɔ Wolo* kɛhã Otsi Teŋ Kpee (Midweek Meeting) lɛ, kɛ *Buu-Mɔɔ* Nikasemɔ sane kɛhã Otsi Naagbee Kpee (Weekend Meeting) lɛ nɔ oya nɔŋŋ).
 * **0:18** **Afee Nifeemɔ 1.3** (Meetings).
 * **0:20** *Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee:* Bookmark, History, kɛ Search (nikaselɔi lɛ baanyɛ amɛkase yɛ shĩa).
 
@@ -96,9 +96,9 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 ### 1. Nifeemɔi: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii
 
-* **Nifeemɔ 1.1. Daa Gbi Ŋmalɛ Lɛ Kɛ Niŋmai Lɛ Adaramɔ:** Nyɛɛ **Daily Text** (☀️) *(Daa Gbi Ŋmalɛ Lɛ)* nɔ. Yɛ ŋwɛigbɛ lɛ, nyɛɛ **`A A`** okadi lɛ nɔ, ni otsi kpɔ lɛ koni niŋmai lɛ adara ni onyɛ okane mlɛo.
+* **Nifeemɔ 1.1. Daa Gbi Ŋmalɛ Lɛ Kɛ Niŋmai Lɛ Adaramɔ:** Nyɛɛ **Daily Text** (☀️) *(Daa Gbi Ŋmalɛ Lɛ)* nɔ. Yɛ ŋwɛigbɛ lɛ, nyɛɛ **Text Settings** (**`A A`**) *(Niŋmai lɛ adaramɔ)* okadi lɛ nɔ, ni otsi kpɔ lɛ kɛya hiɛ (ninejurɔgbɛ) koni niŋmai lɛ adara ni onyɛ okane mlɛo.
 * **Nifeemɔ 1.2. Biblia Yitso:** Nyɛɛ **Bible** (📖) *(Biblia)* nɔ. Halamɔ Biblia wolo ko (akɛ nɔkwɛmɔnɔ lɛ, *Mateo*) kɛ yitso ko (akɛ nɔkwɛmɔnɔ lɛ, *5*) ni okane.
-* **Nifeemɔ 1.3. Meetings:** Nyɛɛ **Meetings** (📅) *(Asafoŋ Kpeei)* nɔ. Gbelemɔ otsi nɛɛ *Buu-Mɔɔ* Nikasemɔ sane lɛ kɛjɛ Otsi Naagbee Kpee lɛ he gbɛjianɔtoo lɛ mli oya nɔŋŋ.
+* **Nifeemɔ 1.3. Meetings:** Nyɛɛ **Meetings** (📅) *(Asafoŋ Kpeei)* nɔ. Gbelemɔ otsi nɛɛ *Buu-Mɔɔ* Nikasemɔ sane lɛ kɛjɛ Otsi Naagbee Kpee (Weekend Meeting) lɛ he gbɛjianɔtoo lɛ mli oya nɔŋŋ.
 * *Tsɔɔlɔ lɛ baatsɔɔ (kɛfata he):* Okɛ **Bookmark** okadi lɛ (🔖) akadi ŋmalɛ ko, okɛ **History** okadi lɛ (🕒) ana ŋmalɛi ni okane etsɛko tsɔ lɛ, loo okɛ **Search** okadi lɛ (🔍) atao wiemɔ ko.
 
 ---
@@ -114,7 +114,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 ### 3. Nifeemɔi: Nibii Ni Obaanyɛ Okɛtsu Nii Yɛ Aŋkro Nikasemɔ Mli
 
-* **Nifeemɔ 3.1. Okɛ Kɔla Akadi Hetoo Ko:** Yɛ otsi nɛɛ *Buu-Mɔɔ* Nikasemɔ sane lɛ mli lɛ, nyɛɛ hetoo ni yɔɔ kuku 1 lɛ mli lɛ klɛŋklɛŋ wiemɔ lɛ nɔ ni oshi onine yɛ nɔ, ogbala onine lɛ kɛnyiɛ nɔ, ni ohala **yɛlo**.
+* **Nifeemɔ 3.1. Okɛ Kɔla Akadi Hetoo Ko:** Yɛ otsi nɛɛ *Buu-Mɔɔ* Nikasemɔ sane lɛ mli lɛ, nyɛɛ hetoo ni yɔɔ kuku 1 lɛ mli lɛ klɛŋklɛŋ wiemɔ lɛ nɔ fioo, ni ogbala onine lɛ kɛnyiɛ nɔ, ni ohala **yɛlo**.
 * **Nifeemɔ 3.2. Tsakemɔ Kɔla Lɛ:** Nyɛɛ wiemɔi ni okɛ kɔla kadi lɛ nɔ ekoŋŋ. Halamɔ kɔla kroko (tamɔ bluu loo grin), loo onyɛ **Delete** okadi lɛ nɔ koni ojie kɔla lɛ.
 * **Nifeemɔ 3.3. Fee Backup Fail:** Nyɛɛ **Settings** (⚙️) > **Backup and Restore** > **Create Backup** nɔ. Kɛ obackup fail lɛ (`.jwlibrary`) afɔ̃ shi koni nibii ni okɛkadi yɛ onikasemɔ mli lɛ akalaaje.
 * *Tsɔɔlɔ lɛ baatsɔɔ (kɛfata he):* Nyɛɛ wiemɔi ni okɛ kɔla kadi lɛ nɔ, halamɔ **Add Note** (📝), ni oya **Personal Study** *(Aŋkro Nikasemɔ)* fã lɛ nɔ koni ona nibii fɛɛ ni oŋmala, obookmark, kɛ nibii ni okɛ kɔla kadi lɛ yɛ he kome.

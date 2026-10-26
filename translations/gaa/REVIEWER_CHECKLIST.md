@@ -19,7 +19,7 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 | Meetings | **Meetings** *(Asafoŋ Kpeei)* | | |
 | Personal Study | **Personal Study** *(Aŋkro Nikasemɔ)* | | |
 | Daily Text | **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)* | | |
-| Appearance / Text Size | **Appearance / Text Size** *(Niŋmai lɛ adaramɔ)* | | |
+| Text Settings (A A) | **Text Settings / Appearance** *(Niŋmai lɛ adaramɔ)* | | |
 | Bookmark | **Bookmark** | | |
 | History | **History** | | |
 | Search | **Search** | | |
@@ -42,7 +42,7 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 1. **Exercise and lesson labels:** *Nikasemɔ 1* (Lesson 1) and *Nifeemɔ 1.1* (Core Exercise 1.1, taken from *Kpee Nifeemɔ Wolo*). Are they natural? Would *Kasemɔ* or another word be better for "exercise"?
 2. **Facilitator / instructor:** *Klas Lɛ Hiɛnyiɛlɔ* (facilitator), *tsɔɔlɔ* (instructor), *Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee* (Instructor Demonstration), *yelikɛbualɔi* (helpers), *nikaselɔi* (students).
 3. **Silencing sound:** *Hã gbee lɛ sɛɛ afo (oya nɔŋŋ)* ("make the sound stop (at once)"), and the tip heading *Ŋaawoo Kɛhã Toiŋjɔlɛ* ("peace of mind tip"). Is there a more natural everyday way to say "silence the phone"?
-4. **Press and hold:** *nyɛɛ … nɔ ni oshi onine yɛ nɔ*. JW.ORG's Ga help uses *nyɛɛ … nɔ fioo* for a short press; is there a better phrase for holding a button down?
+4. **Press and hold (Volume Down button):** *nyɛɛ … nɔ ni oshi onine yɛ nɔ*. (For highlighting, the page now uses the Ga help's own wording *nyɛɛ … nɔ fioo, ni ogbala*.) Is there a better phrase for holding a physical button down?
 5. **Main navigation bar:** *kpɔ ni fãi titrii lɛ yɔɔ nɔ* ("the bar where the main sections are").
 6. **Loanwords:** *mobail data*, *chaaja*, *fail* / *backup fail*, *Wi-Fi okadi*, *speaker okadi*, *sisitɛm* (README table), *skani*, *adrɛs*. Spelling and naturalness.
 7. **Arrive early / welcome:** *Ba mra* ("arrive early") and *Ojekoo* at the start of the Class Program PDF.
@@ -51,8 +51,9 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 10. **Weekend / midweek meeting:** *Otsi Naagbee Kpee* / *Otsi Teŋ Kpee* (from *od* chap. 7 and *w23* April). Are these the terms Ga congregations use today?
 11. **Video title:** *"Mɛni Hewɔ Esa akɛ Okase Biblia Lɛ?"* (*Why Study the Bible?*) — taken from *km* 9/14 and *mwb16* May. Is there a newer Ga title?
 12. **Legal notice (exact meaning matters):** please compare the Ga notice with the English original under it (web page footer, `JWLibrary_Class.md`, README, PDFs). The phrase *kadimɔnɔ ni akɛwo mla shishi* (registered trademark) follows the Ga Terms of Use; the list of negatives (*amɛfeee, amɛhãaa gbɛ akɛ afee, amɛkwɛɛɛ nɔ, amɛwoooo he shika, amɛkpɛlɛɛɛ nɔ*) is the translator's own.
-13. **Imperatives and negatives in general:** e.g. *Tsɔɔmɔ*, *Bɔɔ mɛi amaniɛ*, *Nyɛkasea*, *Okashe gbeyei*, *akagbe*, *akalaaje*, *okafite*. Please correct any wrong forms.
-14. **Draft notice:** keep it until the review is finished; then delete the draft box at the top of `gaa.html`, the "(Draft)" in its `<title>` and "Draft Ga translation, not yet reviewed" in its description, and the draft notes at the top of `JWLibrary_Class.md` and `README.md`.
+13. **The label *KADIMƆ:*** ("NOTE:") at the top of `JWLibrary_Class.md` and both PDFs is the translator's own; it was not found as a label in Ga publications. (*Nɔ ni he hiaa:* is now used for "Important:" on the web page.)
+14. **Imperatives and negatives in general:** e.g. *Tsɔɔmɔ*, *Bɔɔ mɛi amaniɛ*, *Nyɛkasea*, *Okashe gbeyei*, *akagbe*, *akalaaje*, *okafite*. Please correct any wrong forms.
+15. **Draft notice:** keep it until the review is finished; then delete the draft box at the top of `gaa.html`, the "(Draft)" in its `<title>` and "Draft Ga translation, not yet reviewed" in its description, and the draft notes at the top of `JWLibrary_Class.md` and `README.md`.
 
 ## 3. General review
 

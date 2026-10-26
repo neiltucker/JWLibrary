@@ -1,7 +1,7 @@
-// Service Worker for JW Library Tutorial (Offline PWA) - Version 11
+// Service Worker for JW Library Tutorial (Offline PWA) - Version 12
 // When you publish changes to any page or file listed below, raise the version
 // (e.g. 'jw-tutorial-v4' -> 'jw-tutorial-v5') so phones replace their saved copies.
-const CACHE_NAME = 'jw-tutorial-v11';
+const CACHE_NAME = 'jw-tutorial-v12';
 
 // How long to wait for the internet before showing the saved copy of a page.
 // Keeps the guide quick on a weak signal (e.g. one bar of mobile data).

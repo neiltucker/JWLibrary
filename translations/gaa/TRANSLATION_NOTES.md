@@ -4,6 +4,27 @@
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
 
+## Changes in this version (26 Oct 2026, update 1) — first audit
+Of the audit's 12 recommendations, 9 were applied (one with a correction) and 3 were not. Files changed: `gaa.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py` and the two Ga PDFs it makes, this file, and `REVIEWER_CHECKLIST.md`.
+
+**Applied**
+1. Header: *kɛsaa ohe kɛhã Kristofoi akpeei* → *ni okɛsaa ohe kɛhã asafoŋ kpeei* (matches the rest of the page and the Ga phrase "mikɛsaa mihe kɛhã asafoŋ kpeei", *hdu* story 16).
+2. Text-size button: **Text Settings / Appearance** (web page), **Text Settings** (class outline, README, PDFs). Current English JW.ORG help says "Tap the Text Settings button" for Android, Apple and Windows; the Ga help says "Text Settings (Niŋmai lɛ adaramɔ)".
+3. Slider: *Tsi kpɔ lɛ kɛya hiɛ (ninejurɔgbɛ)* — "kɛya hiɛ" is the Ga help's wording.
+4. Meetings tab: *(Midweek Meeting)* / *(Weekend Meeting)* in full (web page, class outline, README, PDFs).
+5. Highlighting: *nyɛɛ … nɔ fioo, ni ogbala* — the Ga help's rendering of "touch and hold, then drag" (web page, class outline, PDF exercise 3.1).
+7. Checklist item 1: *aye abua bo ni oya Wi-Fi lɛ nɔ* instead of repeating *akwɛ*.
+9. *Akwɛ akɛ Biblia lɛ yɛ mɔ fɛɛ mɔ nɔ lo* → *Akwɛ akɛ mɔ fɛɛ mɔ edaunlodi Biblia lɛ lo* (web page timing table, Class Program PDF 0:00, curriculum facilitator notes). The audit's *owo* ("you put") was not used, because the subject is *mɔ fɛɛ mɔ* ("everyone").
+10. *He hiaa:* → *Nɔ ni he hiaa:* ("Important:"); both *nɔ ni he hiaa* and *ehe hiaa* occur often in Ga publications.
+12. Apple device note: Ga meanings added after the four tab names (both the initial page text and the device-switcher script). The Android and Windows notes do not list the tabs, as in the English page.
+
+**Not applied**
+* 6 — Settings gloss *(Bɔ Ni Misumɔɔ Lɛ Mihãa)*: this is the heading of the Online Library *website's* preferences page (language, media, search), not an app label, and it is first-person. The Ga JW Library help gives no Ga word for Settings. Left for the Ga reviewers to decide.
+* 8 — "GB 2 kɛyashi 4" on the web page: the English web page says "at least 2 GB" (*GB 2 kɛ sɛɛ*); only the README and curriculum PDF say 2–4 GB, in English as well. Change the English page too if one figure is wanted everywhere.
+* 11 — "JW Library Nifeemɔi Titrii (Features)": *Nifeemɔ* already means "Exercise" on this page; JW.ORG's Ga help index also keeps the title "JW Library Features" in English.
+
+`sw.js` was not changed. If the previous Ga package (cache `jw-tutorial-v11`) has already been published, raise the version to `jw-tutorial-v12` when publishing this update, as the comment at the top of `sw.js` asks.
+
 ## 1. How the app's button names are shown
 
 **Decision: English button names in bold, with the Ga meaning in brackets where JW.ORG gives one.** Examples: **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*, **Meetings** *(Asafoŋ Kpeei)*, **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)*, **Largest Size** *(Edalɛ)*.
@@ -57,7 +78,7 @@ Not confirmed: whether the JW Library app itself can show a Ga interface. See `R
 | registered trademark; non-commercial | *kadimɔnii ni akɛwo mla shishi*; *jeee jarayeli nifeemɔi* | Ga Terms of Use on jw.org (https://www.jw.org/finder?prefer=content&wtlocale=GA&docid=1011511) |
 
 ### 3b. Verified on JW.ORG's Ga JW Library help pages (older: app versions of 2014–2015)
-*nyɛɛ … nɔ* (tap), *nyɛɛ … nɔ fioo* (press briefly), *gbala* (drag), *tsi kpɔ nɛɛ kɛya hiɛ loo sɛɛ* (move the slider), *gbelemɔ* (open), *taipimɔ* (type), *halamɔ* (choose), *ŋɔ / daunlodi* (download), *ŋwɛigbɛ* (top), *shishigbɛ* (bottom/below), *abɛkugbɛ* (left), *ninejurɔgbɛ* (right), *okadi* (icon), *atatu okadi* (cloud icon), *laaje* (disappears), *kpɔbii etɛ* (three dots, "More"), *okiibɔd* (keyboard), *okɛ kɔla akadi* (highlight), *kɔlai* (colours), *nibii ni atswaa aboɔ toi* (audio recordings), *vidioi* (videos), *oná gbɛ yɛ ofoŋ loo tablɛt lɛ nɔ* (free up space), *Daa Gbi Ŋmalɛ Lɛ* (daily text), *Woji kɛ Nibii* (publications), *Edalɛ* (largest size). Tip 1.1 copies a sentence pattern from the "Text Settings" help page.
+*nyɛɛ … nɔ* (tap), *nyɛɛ … nɔ fioo* (press briefly), *gbala* (drag), *tsi kpɔ nɛɛ kɛya hiɛ loo sɛɛ* (move the slider), *gbelemɔ* (open), *taipimɔ* (type), *halamɔ* (choose), *ŋɔ / daunlodi* (download), *ŋwɛigbɛ* (top), *shishigbɛ* (bottom/below), *abɛkugbɛ* (left), *ninejurɔgbɛ* (right), *okadi* (icon), *atatu okadi* (cloud icon), *laaje* (disappears), *kpɔbii etɛ* (three dots, "More"), *okiibɔd* (keyboard), *okɛ kɔla akadi* (highlight), *kɔlai* (colours), *nibii ni atswaa aboɔ toi* (audio recordings), *vidioi* (videos), *oná gbɛ yɛ ofoŋ loo tablɛt lɛ nɔ* (free up space), *Daa Gbi Ŋmalɛ Lɛ* (daily text), *Woji kɛ Nibii* (publications), *Edalɛ* (largest size). Tip 1.1 copies a sentence pattern from the "Text Settings" help page. After the first audit, the page also uses the help pages' *tsi kpɔ lɛ kɛya hiɛ* (move the slider) and *nyɛɛ … nɔ fioo, ni ogbala* (touch and hold, then drag).
 
 ### 3c. From older Ga publications (before Oct 2023), used only where no recent wording was found
 * *mwb16* May pp. 2, 8: *okɛ kɔla akadi hetoi* (highlight answers), *kadimɔnii ni atsɛɔ lɛ bookmark*, *ehe ehiaaa ni oya Intanɛt lɛ nɔ dani onyɛ okɛtsu nii* (no internet needed once downloaded), *aŋkro nikasemɔ* (personal study), *Maŋtsɛyeli Asa* (Kingdom Hall). https://wol.jw.org/gaa/wol/d/r121/lp-ga/202016173 and .../202016164
@@ -69,7 +90,7 @@ Not confirmed: whether the JW Library app itself can show a Ga interface. See `R
 * **Nifeemɔ 1.1** etc. for "Core Exercise 1.1" (from *Kpee Nifeemɔ Wolo*, "meeting workbook"); **Nikasemɔ 1** for "Lesson 1"; **Klas Lɛ Hiɛnyiɛlɔ** for "facilitator"; **Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee** for "Instructor Demonstration".
 * **kpɔ ni fãi titrii lɛ yɔɔ nɔ** for "main navigation bar".
 * **Hã gbee lɛ sɛɛ afo** for "silence the sound" — built on the Bible's *"ahã afɔlei asɛɛ afo"* ("cause sacrifices to cease", Daniel 9:27). The English word "emergency" was not translated, to avoid alarming wording (the Luganda reviewer made the same choice).
-* **nyɛɛ … nɔ ni oshi onine yɛ nɔ** for "press and hold".
+* **nyɛɛ … nɔ ni oshi onine yɛ nɔ** for "press and hold" a physical button (Volume Down). Highlighting now uses the Ga help's *nyɛɛ … nɔ fioo*.
 * Loanwords not found: *mobail data* (found: *mobail foŋ*), *chaaja*, *fail* / *backup fail*, *Wi-Fi okadi*, *sisitɛm*, *speaker okadi*, *taskbar*.
 * Glosses in brackets that are not app labels: *(Asafoŋ Kpeei)* for Meetings (WOL menu), *(Aŋkro Nikasemɔ)* for Personal Study (*mwb16*), *(Biblia)* and *(Woji kɛ Nibii)* (help pages).
 * **Legal notice.** The Ga version follows the Terms of Use wording for "registered trademark" and "non-commercial", but the negative verbs (*amɛfeee, amɛhãaa gbɛ, amɛkwɛɛɛ nɔ, amɛwoooo he shika, amɛkpɛlɛɛɛ nɔ*) are my own. The English original is kept under it on every page.

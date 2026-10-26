@@ -194,16 +194,16 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=3))
 
     story.append(Paragraph("<b>Shishijee: (0:00 - 0:05)</b>", section_hdr))
-    story.append(Paragraph("0:00 &nbsp; Ojekoo; akwɛ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ yɛ mɔ fɛɛ mɔ nɔ lo (yelikɛbualɔi yeɔ amɛbuaa mɛi ni esa akɛ amɛdaunlodi).", timing_style))
+    story.append(Paragraph("0:00 &nbsp; Ojekoo; akwɛ akɛ mɔ fɛɛ mɔ edaunlodi Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ lo (yelikɛbualɔi yeɔ amɛbuaa mɛi ni esa akɛ amɛdaunlodi).", timing_style))
     story.append(Paragraph("0:02 &nbsp; Ŋaawoo kɛhã bɔ ni akɛhãa gbee sɛɛ foɔ: nyɛɛ Volume Down nɔ ni oshi onine yɛ nɔ (foŋ), loo nyɛɛ Mute (kɔmpiuta); kwɛmɔ he ni kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ.", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Nikasemɔ 1: Bɔ Ni Obaafee Ona Ŋmalɛi Kɛ Asafoŋ Kpeei Anibii (0:05 - 0:20)</b>", section_hdr))
     story.append(Paragraph("0:05 &nbsp; Asusu fãi titrii lɛ ahe (Bible, Publications, Meetings, Personal Study).", timing_style))
-    story.append(Paragraph("0:07 &nbsp; Agbele Daa Gbi Ŋmalɛ Lɛ, ni anyɛ <b>A A</b> okadi lɛ nɔ koni niŋmai lɛ adara.", timing_style))
+    story.append(Paragraph("0:07 &nbsp; Agbele Daa Gbi Ŋmalɛ Lɛ, ni anyɛ <b>Text Settings</b> (<b>A A</b>) okadi lɛ nɔ koni niŋmai lɛ adara.", timing_style))
     story.append(Paragraph("0:10 &nbsp; Afee Nifeemɔ 1.1 (Daa Gbi Ŋmalɛ Lɛ kɛ niŋmai lɛ adaramɔ).", timing_style))
     story.append(Paragraph("0:12 &nbsp; Agbele Biblia wolo ko kɛ yitso ko; afee Nifeemɔ 1.2.", timing_style))
-    story.append(Paragraph("0:15 &nbsp; Asusu Meetings fã lɛ he (Kpee Nifeemɔ Wolo kɛhã Otsi Teŋ Kpee, kɛ Buu-Mɔɔ Nikasemɔ kɛhã Otsi Naagbee Kpee).", timing_style))
+    story.append(Paragraph("0:15 &nbsp; Asusu Meetings fã lɛ he (Kpee Nifeemɔ Wolo kɛhã Otsi Teŋ Kpee [Midweek Meeting], kɛ Buu-Mɔɔ Nikasemɔ kɛhã Otsi Naagbee Kpee [Weekend Meeting]).", timing_style))
     story.append(Paragraph("0:18 &nbsp; Afee Nifeemɔ 1.3 (Meetings). (Tsɔɔlɔ lɛ tsɔɔ Bookmark kɛ Search.)", timing_style))
     story.append(Spacer(1, 2))
 
@@ -230,7 +230,7 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
     story.append(Paragraph("<b>NIFEEMƆI</b>", ex_hdr))
 
-    story.append(Paragraph("<b>1.1</b> Nyɛɛ <b>Daily Text</b> (Daa Gbi Ŋmalɛ Lɛ; hulu okadi) nɔ. Nyɛɛ <b>A A</b> okadi ni yɔɔ ŋwɛigbɛ lɛ nɔ, ni otsi kpɔ lɛ koni niŋmai lɛ adara.", ex_style))
+    story.append(Paragraph("<b>1.1</b> Nyɛɛ <b>Daily Text</b> (Daa Gbi Ŋmalɛ Lɛ; hulu okadi) nɔ. Nyɛɛ <b>Text Settings</b> (<b>A A</b>) okadi ni yɔɔ ŋwɛigbɛ lɛ nɔ, ni otsi kpɔ lɛ kɛya hiɛ koni niŋmai lɛ adara.", ex_style))
     story.append(Paragraph("<b>1.2</b> Nyɛɛ <b>Bible</b> (Biblia) nɔ. Halamɔ Biblia wolo ko (akɛ nɔkwɛmɔnɔ lɛ, <i>Mateo</i>) kɛ yitso ko (akɛ nɔkwɛmɔnɔ lɛ, <i>5</i>) ni okane.", ex_style))
     story.append(Paragraph("<b>1.3</b> Nyɛɛ <b>Meetings</b> (Asafoŋ Kpeei) nɔ. Nyɛɛ otsi nɛɛ <i>Buu-Mɔɔ</i> Nikasemɔ sane lɛ nɔ shii kome koni egbele oya nɔŋŋ.", ex_style))
     story.append(Spacer(1, 1.5))
@@ -240,7 +240,7 @@ def build_class_program(output_path):
     story.append(Paragraph("<b>2.3</b> Gbelemɔ Daa Gbi Ŋmalɛ Lɛ loo Biblia lɛ. Nyɛɛ <b>Headphones</b> nɔ ni obo toi; okɛ <b>Volume Down</b> (loo Mute) ahã gbee lɛ sɛɛ afo.", ex_style))
     story.append(Spacer(1, 1.5))
 
-    story.append(Paragraph("<b>3.1</b> Yɛ <i>Buu-Mɔɔ</i> Nikasemɔ sane lɛ kuku 1 lɛ mli lɛ, nyɛɛ hetoo lɛ nɔ ni ogbala onine lɛ kɛnyiɛ nɔ, ni onyɛ <b>yɛlo</b> nɔ.", ex_style))
+    story.append(Paragraph("<b>3.1</b> Yɛ <i>Buu-Mɔɔ</i> Nikasemɔ sane lɛ kuku 1 lɛ mli lɛ, nyɛɛ hetoo lɛ nɔ fioo ni ogbala onine lɛ kɛnyiɛ nɔ, ni onyɛ <b>yɛlo</b> nɔ.", ex_style))
     story.append(Paragraph("<b>3.2</b> Nyɛɛ wiemɔi ni okɛ kɔla kadi lɛ nɔ ekoŋŋ koni otsake kɔla lɛ (bluu loo grin), loo nyɛɛ Delete okadi lɛ nɔ koni ojie.", ex_style))
     story.append(Paragraph("<b>3.3</b> Gbelemɔ Settings &gt; Backup and Restore, ni onyɛ <b>Create Backup</b> nɔ koni okɛ onibii lɛ afɔ̃ shi.", ex_style))
     story.append(Spacer(1, 3))
@@ -396,19 +396,19 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Saji Ni Abaasusu He (miniti 10)", h2_style))
     story.append(Paragraph("&bull; Fãi Titrii Lɛ (Bible, Publications, Meetings, Personal Study)", bullet_style))
-    story.append(Paragraph("&bull; Daa Gbi Ŋmalɛ Lɛ kɛ niŋmai lɛ adaramɔ (A A okadi lɛ koni niŋmai lɛ adara)", bullet_style))
+    story.append(Paragraph("&bull; Daa Gbi Ŋmalɛ Lɛ kɛ niŋmai lɛ adaramɔ (Text Settings / A A okadi lɛ koni niŋmai lɛ adara)", bullet_style))
     story.append(Paragraph("&bull; Biblia wolo ko kɛ yitso ko gbelemɔ (akɛ nɔkwɛmɔnɔ lɛ, Mateo 5)", bullet_style))
-    story.append(Paragraph("&bull; Meetings fã lɛ (Kpee Nifeemɔ Wolo kɛhã Otsi Teŋ Kpee, kɛ Buu-Mɔɔ Nikasemɔ sane kɛhã Otsi Naagbee Kpee)", bullet_style))
+    story.append(Paragraph("&bull; Meetings fã lɛ (Kpee Nifeemɔ Wolo kɛhã Otsi Teŋ Kpee [Midweek Meeting], kɛ Buu-Mɔɔ Nikasemɔ sane kɛhã Otsi Naagbee Kpee [Weekend Meeting])", bullet_style))
     story.append(Paragraph("&bull; <i>Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee:</i> Bookmark, History, kɛ Search (amɛkase yɛ shĩa)", bullet_style))
 
     story.append(Paragraph("Nifeemɔi (miniti 5)", h2_style))
-    story.append(Paragraph("&bull; <b>Nifeemɔ 1.1:</b> Gbelemɔ Daa Gbi Ŋmalɛ Lɛ, ni onyɛ <b>A A</b> nɔ koni niŋmai lɛ adara ni ekã shi faŋŋ.", bullet_style))
+    story.append(Paragraph("&bull; <b>Nifeemɔ 1.1:</b> Gbelemɔ Daa Gbi Ŋmalɛ Lɛ, ni onyɛ <b>Text Settings</b> (<b>A A</b>) nɔ koni niŋmai lɛ adara ni ekã shi faŋŋ.", bullet_style))
     story.append(Paragraph("&bull; <b>Nifeemɔ 1.2:</b> Nyɛɛ Bible nɔ, halamɔ Biblia wolo ko (Mateo), ni ogbele yitso 5.", bullet_style))
     story.append(Paragraph("&bull; <b>Nifeemɔ 1.3:</b> Gbelemɔ Meetings fã lɛ, ni onyɛ otsi nɛɛ Buu-Mɔɔ Nikasemɔ sane lɛ nɔ.", bullet_style))
 
     story.append(Paragraph("Ŋaawoi Kɛhã Klas Lɛ Hiɛnyiɛlɔ Yɛ Nikasemɔ 1 Lɛ He", h2_style))
     story.append(Paragraph(
-        "Too gbɛjianɔ koni yelikɛbualɔi aye abua mɛi ni ba mra lɛ miniti 15 dani klas lɛ bɔi, koni amɛkwɛ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ yɛ nɔ lo. Yɛ klas lɛ shishijee lɛ, "
+        "Too gbɛjianɔ koni yelikɛbualɔi aye abua mɛi ni ba mra lɛ miniti 15 dani klas lɛ bɔi, koni amɛkwɛ akɛ mɔ fɛɛ mɔ edaunlodi Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ momo lo. Yɛ klas lɛ shishijee lɛ, "
         "kwɛmɔ yɛ sekɛnd 30 mli: bi nikaselɔi lɛ ni amɛwo amɛnine nɔ kɛ́ amɛmiitao yelikɛbuamɔ koni amɛdaunlodi nɔ ko, koni yelikɛbualɔi lɛ aye amɛbua amɛ dioo "
         "be ni oyaa nɔ lɛ. Tsɔɔmɔ bɔ ni akɛhãa gbee sɛɛ foɔ yɛ shishijee lɛ (Volume Down ni yɔɔ foŋ lɛ he; Mute yɛ kɔmpiuta okiibɔd lɛ nɔ) "
         "koni amɛshe gbeyei. Yelikɛbualɔi lɛ akwɛ akɛ nikaselɔi lɛ enyɛ amɛkɛ A A okadi lɛ ehã niŋmai lɛ edara lo.",
