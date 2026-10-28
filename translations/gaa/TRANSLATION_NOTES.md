@@ -38,6 +38,20 @@ Applied correction received from Ga language auditor:
 
 `sw.js` cache version raised `jw-tutorial-v13` → `jw-tutorial-v14`.
 
+## Changes in this version (28 Oct 2026, update 4) — completing update 3 and the command forms
+Files changed: `gaa.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py` and the two Ga PDFs it makes, `REVIEWER_CHECKLIST.md`, this file, and `sw.js`.
+
+1. **"backup fail" → "backup" everywhere**, completing update 3: `gaa.html` (Lesson 3 introduction, Exercise 3.3 step 4 and tip), `JWLibrary_Class.md` (0:44) and four lines of the curriculum PDF (pages 1 and 4). The only remaining *fail* is the README heading about repository files ("Fail Ni Yɔɔ Fã Nɛɛ Mli"), which is not about the backup; reviewers may change it.
+2. **Command forms**, following the same pattern as *Kasemɔ* / *Feemɔ*, each checked against Ga publications:
+   * *Tsɔɔ nikaselɔi* → **Tsɔɔmɔ nikaselɔi** (`gaa.html` facilitator tips 2 and 8; `JWLibrary_Class.md`, 2 places). Compare "Tsɔɔmɔ mi ogbɛi lɛ" (Psalm 25:4).
+   * *kɛɛ nikaselɔi* → **kɛɛmɔ nikaselɔi** (`JWLibrary_Class.md`, 0:01 readiness check and screen-timeout tip). Compare "Kɛɛmɔ Farao akɛ…" (Exodus 4:22).
+   * *Printi* → **Printimɔ** (`gaa.html` print button and tooltip; README). Compare "Printimɔ ni okɛha obi lɛ" (*km* 12/12) and *taipimɔ*, *klikimɔ*, *daunlodimɔ*.
+   * *Hi jɛmɛ* → **Hii jɛmɛ** (curriculum PDF p. 4). Compare "Hii Jɛmɛ Koni Oná He Sɛɛ" (*km* 11/02).
+3. **Spelling:** *Ha amɛna*, *Ha nikaselɔi* → **Hã** (curriculum PDF p. 3), the current spelling used everywhere else in the Ga files.
+4. **Clarification of update 3:** the *-mɔ* suffix is not used by every verb. Ga publications use bare or lengthened forms for short verbs: *Nyɛɛ … nɔ* (tap), *Bɔɔ mɔdɛŋ*, *Too gbɛjianɔ*, *Ŋɔɔ*, *Ba ni obakwɛ* (John 1:46), *Bo toi* (Isaiah 1:2), *Hã ayatao*, *tsi kpɔ nɛɛ* (Ga JW Library help). These are correct as they are and should not be changed to *-mɔ* forms. Also, the PDFs did not contain "Fee Backup Fail"; update 3 changed "backup fail feemɔ" → "backup feemɔ" in them.
+
+`sw.js` cache version raised `jw-tutorial-v14` → `jw-tutorial-v15`.
+
 ## 1. How the app's button names are shown
 
 **Decision: English button names in bold, with the Ga meaning in brackets where JW.ORG gives one.** Examples: **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*, **Meetings** *(Asafoŋ Kpeei)*, **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)*, **Largest Size** *(Edalɛ)*.

@@ -20,7 +20,7 @@ Nibii ni yɔɔ kasemɔ wolo ni yɔɔ wɛbsaiti lɛ nɔ lɛ:
 * **Halamɔ Nɔ Ni Okɛtsuɔ Nii:** Halamɔ **Apple (iOS / iPadOS)**, **Android**, loo **Windows Kɔmpiuta / Mac** koni ona app lɛ mli gbɛ́i kɛ he ni amɛyɔɔ yɛ nɔ ni okɛtsuɔ nii lɛ nɔ.
 * **Niŋmai Wuji Kɛ Niŋmai Lɛ Adaramɔ:** Afee lɛ koni akane mlɛo; obaanyɛ ohã niŋmai lɛ afee bibii loo wuji (`A−`, `A`, `A+`, `A++`).
 * **Duŋ Kɛ La:** Okadi kome yɛ ŋwɛigbɛ ni obaanyɛ okɛtsu nii kɛ́ okaneɔ nii yɛ he ni la fa.
-* **Kasemɔ Wolo Bibioo Ni Abaanyɛ Aprinti:** Printi woji bibii ni nikaselɔi lɛ baakwɛ be ni amɛkaseɔ nii lɛ.
+* **Kasemɔ Wolo Bibioo Ni Abaanyɛ Aprinti:** Printimɔ woji bibii ni nikaselɔi lɛ baakwɛ be ni amɛkaseɔ nii lɛ.
 * **Gbɛtsɔɔmɔi Ni Yɔɔ Faŋŋ:** Nifeemɔi ni ato naa 1-2-3, kɛ okadii (📖, 📚, 📅, ☀️, 🔍, 🔖, 🖍️, 🎧, 💾).
 
 ---

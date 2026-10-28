@@ -26,15 +26,15 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 * **Yelikɛbuamɔ Dani Klas Lɛ Bɔi (Miniti 15 Dani):** Bɔɔ mɛi amaniɛ akɛ abaagbele shinai lɛ miniti 15 dani klas lɛ bɔi. Yelikɛbualɔi lɛ ahere mɛi ni ba lɛ yɛ shinaa lɛ naa, ni amɛye amɛbua amɛ ni amɛya Wi-Fi ni yɔɔ he ni afeɔ klas lɛ yɛ lɛ nɔ, ni amɛkwɛ akɛ **Bible** *(Biblia)* kɛ **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)* lɛ edaunlodi momo lo, koni nikaselɔi lɛ anyɛ abɔi Nikasemɔ 1 ni naagba ko bɛ.
 * **Yelikɛbualɔi Ni Yɔɔ Okpɔlɔi Lɛ Ahe:** Too gbɛjianɔ koni **yelikɛbualɔi 1 loo 2** anyiɛ tsũ lɛ mli dioo be ni akaseɔ nii lɛ. Kɛ́ nikaselɔ ko jɛ app lɛ mli loo eskrin lɛ gbe yɛ be ni etaooo lɛ, yelikɛbualɔ lɛ baanyɛ aye abua lɛ yɛ sekɛnd 5 mli ni eku esɛɛ kɛya he ni sa lɛ, ni ehe ehiaaa ni klas lɛ adamɔ shi.
-* **Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ Oya Nɔŋŋ:** Mɛi ni le foŋ he nii fioo kɛ onukpai lɛ ekomɛi sheɔ gbeyei akɛ gbee ko baaje kpo waa be ni amɛkpaaa gbɛ yɛ asafoŋ kpee loo klas shishi. Dani okɛ vidio loo nibii ni atswaa aboɔ toi baatsu nii lɛ, tsɔɔ nikaselɔi lɛ bɔ ni amɛaafee amɛhã gbee sɛɛ afo yɛ nɔ ni amɛkɛtsuɔ nii lɛ nɔ:
+* **Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ Oya Nɔŋŋ:** Mɛi ni le foŋ he nii fioo kɛ onukpai lɛ ekomɛi sheɔ gbeyei akɛ gbee ko baaje kpo waa be ni amɛkpaaa gbɛ yɛ asafoŋ kpee loo klas shishi. Dani okɛ vidio loo nibii ni atswaa aboɔ toi baatsu nii lɛ, tsɔɔmɔ nikaselɔi lɛ bɔ ni amɛaafee amɛhã gbee sɛɛ afo yɛ nɔ ni amɛkɛtsuɔ nii lɛ nɔ:
   * **Foŋ Kɛ Tablɛt (Apple / Android):** Nyɛɛ **Volume Down** ni yɔɔ foŋ lɛ he lɛ nɔ ni oshi onine yɛ nɔ, loo onyɛ **Pause (⏸️)** ni yɔɔ skrin lɛ nɔ lɛ nɔ.
   * **Kɔmpiuta (Windows / Mac):** Nyɛɛ **Mute (🔇)** loo **Volume Down** yɛ okiibɔd lɛ nɔ (bei pii lɛ, amɛyɛ okiibɔd lɛ ŋwɛigbɛ), okliki speaker okadi lɛ ni yɔɔ taskbar/menu bar lɛ nɔ, loo okliki **Pause (⏸️)**.
-* **Bɔ Ni Skrin Lɛ Gbeɔ:** Yɛ klas lɛ shishijee lɛ, kɛɛ nikaselɔi lɛ ni amɛtsake be ni amɛskrin lɛ gbeɔ (screen timeout / auto-lock) lɛ kɛya **miniti 2 loo 5**, koni skrin lɛ akagbe be ni amɛnyiɛ sɛɛ lɛ.
+* **Bɔ Ni Skrin Lɛ Gbeɔ:** Yɛ klas lɛ shishijee lɛ, kɛɛmɔ nikaselɔi lɛ ni amɛtsake be ni amɛskrin lɛ gbeɔ (screen timeout / auto-lock) lɛ kɛya **miniti 2 loo 5**, koni skrin lɛ akagbe be ni amɛnyiɛ sɛɛ lɛ.
 * **Naagbee Miniti 10 Lɛ:** Kɛ́ nifeemɔ ko ye be fe miniti 15 lɛ, ŋɔɔ miniti 3–5 kɛjɛ naagbee miniti 10 lɛ mli blɛoo; esaaa akɛ ojo foi.
 * **Yelikɛbuamɔ Yɛ Klas Lɛ Sɛɛ:** Yɛ shishijee lɛ, bɔɔ mɛi amaniɛ akɛ tsɔɔlɔ lɛ kɛ yelikɛbualɔi lɛ baahi jɛmɛ **miniti 15 yɛ klas lɛ sɛɛ**, koni amɛye amɛbua mɔ fɛɛ mɔ ni miitao yelikɛbuamɔ pɔtɛɛ.
 * **Woji Ni Aprinti (Kɛ́ Ehe Baahia):** He ni mobail data loo Wi-Fi fa loo esa lɛ, kɛ́ oprinti Klas Lɛ He Gbɛjianɔtoo ni yɔɔ baafa kome nɔ lɛ ni ofɔ̃ okpɔlɔi lɛ anɔ lɛ, eyeɔ ebuaa waa; nikaselɔi lɛ baanyɛ amɛnyiɛ nifeemɔi lɛ fɛɛ asɛɛ oya nɔŋŋ, ni ehe ehiaaa ni amɛkɛ mobail data agbele wɛbsaiti lɛ.
 * **QR Okadi Yɛ Okpɔlɔi Lɛ Anɔ Loo Yɛ Skrin Lɛ Nɔ (Kɛ́ Osumɔ):** Kɛ́ ojie QR okadi lɛ yɛ skrin lɛ nɔ, loo okɛ QR wolo bibii ni aprinti lɛ fɔ̃ okpɔlɔi lɛ anɔ lɛ, nikaselɔi lɛ baanyɛ amɛkɛ amɛfoŋ kamera lɛ askani ni amɛgbele kasemɔ wolo lɛ, ni ehe ehiaaa ni amɛtaipi wɛbsaiti lɛ adrɛs.
-* **Add to Home Screen (Ŋaawoo Kɛhã Be Ni Intanɛt Bɛ):** Tsɔɔ nikaselɔi lɛ bɔ ni amɛaafee amɛkɛ "Share > Add to Home Screen" (iOS) loo "Menu > Add to Home screen" (Android) atsu nii. Akɛni kasemɔ wolo nɛɛ yɛ nɔ ko (Service Worker) ni kɛ efɔ̃ɔ shi yɛ foŋ lɛ nɔ hewɔ lɛ, okadi ni ajie yɛ home screen lɛ nɔ lɛ baagbele ni ebaatsu nii kɛ́ Intanɛt bɛ po.
+* **Add to Home Screen (Ŋaawoo Kɛhã Be Ni Intanɛt Bɛ):** Tsɔɔmɔ nikaselɔi lɛ bɔ ni amɛaafee amɛkɛ "Share > Add to Home Screen" (iOS) loo "Menu > Add to Home screen" (Android) atsu nii. Akɛni kasemɔ wolo nɛɛ yɛ nɔ ko (Service Worker) ni kɛ efɔ̃ɔ shi yɛ foŋ lɛ nɔ hewɔ lɛ, okadi ni ajie yɛ home screen lɛ nɔ lɛ baagbele ni ebaatsu nii kɛ́ Intanɛt bɛ po.
 
 ---
 
@@ -42,7 +42,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 ### Shishijee (0:00 – 0:05)
 * **0:00** Ojekoo; kwɛmɔ akɛ mɔ fɛɛ mɔ yɛ Wi-Fi ni yɔɔ he ni afeɔ klas lɛ yɛ lɛ nɔ lo.
-* **0:01** **Kwɛmɔ Akɛ Mɛi Fɛɛ Esaa Amɛhe Lo:** Kɛɛ nikaselɔi lɛ ni amɛnyɛ **Bible** (📖) *(Biblia)* nɔ. Kɛ́ amɛna Biblia woji lɛ (1 Mose, Mateo) lɛ, belɛ amɛsaa amɛhe. Kɛ́ mɔ ko na atatu okadi lɛ, loo ehe miihia yelikɛbuamɔ koni edaunlodi Biblia lɛ loo Daa Gbi Ŋmalɛ Lɛ, ewo enine nɔ, ni yelikɛbualɔ ko aye abua lɛ dioo yɛ he ni eta lɛ be ni klas lɛ eebɔi lɛ.
+* **0:01** **Kwɛmɔ Akɛ Mɛi Fɛɛ Esaa Amɛhe Lo:** Kɛɛmɔ nikaselɔi lɛ ni amɛnyɛ **Bible** (📖) *(Biblia)* nɔ. Kɛ́ amɛna Biblia woji lɛ (1 Mose, Mateo) lɛ, belɛ amɛsaa amɛhe. Kɛ́ mɔ ko na atatu okadi lɛ, loo ehe miihia yelikɛbuamɔ koni edaunlodi Biblia lɛ loo Daa Gbi Ŋmalɛ Lɛ, ewo enine nɔ, ni yelikɛbualɔ ko aye abua lɛ dioo yɛ he ni eta lɛ be ni klas lɛ eebɔi lɛ.
 * **0:03** **Toiŋjɔlɛ (Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ):** Tsɔɔmɔ bɔ ni akɛhãa gbee ni akpaaa gbɛ lɛ sɛɛ foɔ oya nɔŋŋ: yɛ foŋ kɛ tablɛt nɔ lɛ, nyɛɛ **Volume Down** ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ; yɛ kɔmpiuta nɔ lɛ, nyɛɛ **Mute (🔇)** yɛ okiibɔd lɛ nɔ; loo onyɛ/okliki **Pause (⏸️)**.
 * **0:04** Kwɛmɔ he ni kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ yɔɔ (shishigbɛ yɛ iOS / Android nɔ; ŋwɛigbɛ yɛ Windows nɔ); kwɛmɔ batri lɛ kɛ be ni skrin lɛ gbeɔ lɛ.
 
@@ -77,7 +77,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 * **0:37** **Afee Nifeemɔ 3.1** (Okɛ yɛlo kɔla akadi hetoo ko).
 * **0:40** Kɔla lɛ tsakemɔ (akɛ nɔkwɛmɔnɔ lɛ, kɛya bluu loo grin), loo **Delete** okadi lɛ nɔ nyɛmɔ koni ajie.
 * **0:42** **Afee Nifeemɔ 3.2** (Tsakemɔ kɔla lɛ loo ojie).
-* **0:44** **Bɔ Ni Abuɔ Nibii Ahe:** Nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ yɛ ofoŋ lɛ diɛŋtsɛ nɔ; tsɔɔmɔ bɔ ni afeɔ backup fail.
+* **0:44** **Bɔ Ni Abuɔ Nibii Ahe:** Nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ yɛ ofoŋ lɛ diɛŋtsɛ nɔ; tsɔɔmɔ bɔ ni afeɔ backup.
 * **0:46** **Afee Nifeemɔ 3.3** (Feemɔ `.jwlibrary` backup yɛ Settings mli).
 * **0:48** *Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee:* Nibii ni aŋmalaa afatamɔ ŋmalɛi ahe, Tags, kɛ Personal Study fã lɛ.
 

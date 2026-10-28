@@ -44,7 +44,7 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 3. **Silencing sound:** *Hã gbee lɛ sɛɛ afo (oya nɔŋŋ)* ("make the sound stop (at once)"), and the tip heading *Ŋaawoo Kɛhã Toiŋjɔlɛ* ("peace of mind tip"). Is there a more natural everyday way to say "silence the phone"?
 4. **Press and hold (Volume Down button):** *nyɛɛ … nɔ ni oshi onine yɛ nɔ*. (For highlighting, the page now uses the Ga help's own wording *nyɛɛ … nɔ fioo, ni ogbala*.) Is there a better phrase for holding a physical button down?
 5. **Main navigation bar:** *kpɔ ni fãi titrii lɛ yɔɔ nɔ* ("the bar where the main sections are").
-6. **Loanwords:** *mobail data*, *chaaja*, *fail* / *backup fail*, *Wi-Fi okadi*, *speaker okadi*, *sisitɛm* (README table), *skani*, *adrɛs*. Spelling and naturalness.
+6. **Loanwords:** *mobail data*, *chaaja*, *Wi-Fi okadi*, *speaker okadi*, *sisitɛm* (README table), *skani*, *adrɛs*. Spelling and naturalness. (*Resolved:* *backup fail* → *backup*, per the auditor, update 3–4. *fail* remains only in the README heading about repository files.)
 7. **Arrive early / welcome:** *Ba mra* ("arrive early") and *Ojekoo* at the start of the Class Program PDF.
 8. **Dark / light buttons:** *Duŋ* and *La* on the page's theme button, and *Printi Kasemɔ Wolo Bibioo Lɛ* on the print button.
 9. **Page title:** *Okɛ JW Library Lɛ Atsu Nii* (taken from the Ga help-page title "Okɛ JW Library lɛ Atsu Nii") and the subtitle *Kasemɔ Wolo Kɛ Klas Lɛ He Gbɛjianɔtoo*.
@@ -52,7 +52,7 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 11. **Video title:** *"Mɛni Hewɔ Esa akɛ Okase Biblia Lɛ?"* (*Why Study the Bible?*) — taken from *km* 9/14 and *mwb16* May. Is there a newer Ga title?
 12. **Legal notice (exact meaning matters):** please compare the Ga notice with the English original under it (web page footer, `JWLibrary_Class.md`, README, PDFs). The phrase *kadimɔnɔ ni akɛwo mla shishi* (registered trademark) follows the Ga Terms of Use; the list of negatives (*amɛfeee, amɛhãaa gbɛ akɛ afee, amɛkwɛɛɛ nɔ, amɛwoooo he shika, amɛkpɛlɛɛɛ nɔ*) is the translator's own.
 13. **The label *KADIMƆ:*** ("NOTE:") at the top of `JWLibrary_Class.md` and both PDFs is the translator's own; it was not found as a label in Ga publications. (*Nɔ ni he hiaa:* is now used for "Important:" on the web page.)
-14. **Imperatives and negatives in general:** e.g. *Tsɔɔmɔ*, *Bɔɔ mɛi amaniɛ*, *Nyɛkasea*, *Okashe gbeyei*, *akagbe*, *akalaaje*, *okafite*. Please correct any wrong forms.
+14. **Imperatives and negatives in general:** after updates 2–4, longer verbs and loanwords take *-mɔ* (*Kasemɔ, Feemɔ, Tsɔɔmɔ, Kɛɛmɔ, Printimɔ, Daunlodimɔ*), while short verbs lengthen or stay bare (*Nyɛɛ, Bɔɔ, Too, Ŋɔɔ, Hii, Ba, Bo toi, Hã, tsi kpɔ*). Please confirm these and other forms, e.g. *Bɔɔ mɛi amaniɛ*, *Nyɛkasea*, *Okashe gbeyei*, *akagbe*, *akalaaje*, *okafite*. Please correct any wrong forms.
 15. **Draft notice:** keep it until the review is finished; then delete the draft box at the top of `gaa.html`, the "(Draft)" in its `<title>` and "Draft Ga translation, not yet reviewed" in its description, and the draft notes at the top of `JWLibrary_Class.md` and `README.md`.
 
 ## 3. General review

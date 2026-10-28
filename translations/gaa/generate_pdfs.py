@@ -367,7 +367,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Amɛnu bɔ ni akaneɔ nii kɛ́ Intanɛt bɛ shishi, ni amɛdaunlodi woji yɛ Wi-Fi nɔ koni amɛkafite mobail data.", bullet_style))
     story.append(Paragraph("&bull; Amɛbo nibii ni atswaa aboɔ toi lɛ toi (headphones okadi), ni amɛhã gbee ni amɛkpaaa gbɛ lɛ sɛɛ afo oya nɔŋŋ.", bullet_style))
     story.append(Paragraph("&bull; Amɛkɛ kɔlai srɔtoi akadi hetoi yɛ saji ni akaseɔ lɛ amli, ni amɛjie kɔla lɛ.", bullet_style))
-    story.append(Paragraph("&bull; Amɛfee backup fail (.jwlibrary fail) koni nibii ni amɛkase lɛ akalaaje.", bullet_style))
+    story.append(Paragraph("&bull; Amɛfee backup (.jwlibrary) koni nibii ni amɛkase lɛ akalaaje.", bullet_style))
 
     story.append(Paragraph("Nibii Ni Esa Akɛ Afee Dani Klas Lɛ Bɔi", h1_style))
     story.append(Paragraph("Dani nikaselɔi lɛ baaba klas lɛ, esa akɛ:", body_style))
@@ -430,7 +430,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Nikasemɔ 2: Nibii Ni Adaunlodiɔ Kɛ Bɔ Ni Akɛtsuɔ Nii (Miniti 15)", h1_style))
     story.append(Paragraph(
         "Nikasemɔ nɛɛ tsɔɔ bɔ ni akaneɔ nii kɛ́ Intanɛt bɛ, ni etsɔɔ bɔ ni adaunlodiɔ woji, vidioi, kɛ nibii ni atswaa aboɔ toi. "
-        "Ha amɛna akɛ kɛ́ adaunlodi nɔ ko yɛ Wi-Fi nɔ lɛ, ehiɔ foŋ, tablɛt, loo kɔmpiuta lɛ nɔ, ni ehe ehiaaa Intanɛt "
+        "Hã amɛna akɛ kɛ́ adaunlodi nɔ ko yɛ Wi-Fi nɔ lɛ, ehiɔ foŋ, tablɛt, loo kɔmpiuta lɛ nɔ, ni ehe ehiaaa Intanɛt "
         "loo mobail data yɛ asafoŋ kpeei ashishi. Tsɔɔmɔ nibii ni atswaa aboɔ toi lɛ (headphones okadi) koni nikaselɔi lɛ anyɛ abo nɔ ni akaneɔ lɛ toi.",
         body_style
     ))
@@ -449,7 +449,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Ŋaawoi Kɛhã Klas Lɛ Hiɛnyiɛlɔ Yɛ Nikasemɔ 2 Lɛ He", h2_style))
     story.append(Paragraph(
-        "Ha nikaselɔi ni amɛmobail data fa lɛ ana akɛ kɛ́ amɛdaunlodi nibii yɛ Wi-Fi nɔ momo lɛ, amɛfiteŋ mobail data yɛ asafoŋ kpeei ashishi. "
+        "Hã nikaselɔi ni amɛmobail data fa lɛ ana akɛ kɛ́ amɛdaunlodi nibii yɛ Wi-Fi nɔ momo lɛ, amɛfiteŋ mobail data yɛ asafoŋ kpeei ashishi. "
         "Nyɛkasea bɔ ni akɛhãa gbee sɛɛ foɔ faŋŋ: mɛi ni le foŋ he nii fioo lɛ shea gbeyei akɛ gbee ko baaje kpo be ni amɛkpaaa gbɛ; "
         "kɛ́ amɛle bɔ ni amɛaafee amɛhã gbee lɛ sɛɛ afo oya nɔŋŋ (Volume Down ni yɔɔ foŋ lɛ he, loo Mute yɛ kɔmpiuta nɔ) lɛ, amɛjwɛŋmɔ jɔɔ.",
         body_style
@@ -471,7 +471,7 @@ def build_curriculum(output_path):
     story.append(Paragraph(
         "Nikasemɔ nɛɛ tsɔɔ bɔ ni akɛ kɔla kadiɔ hetoi yɛ saji ni akaseɔ kɛhã asafoŋ kpeei lɛ amli, kɛ bɔ ni abuɔ aŋkro nikasemɔ he nibii ahe. "
         "Tsɔɔmɔ bɔ ni akɛ yɛlo kɔla kadiɔ wiemɔi, bɔ ni atsakeɔ kɔla lɛ, kɛ bɔ ni ajieɔ. "
-        "Ŋɔɔ naagbee lɛ kɛtsɔɔ bɔ ni afeɔ <code>.jwlibrary</code> backup fail yɛ Settings mli, "
+        "Ŋɔɔ naagbee lɛ kɛtsɔɔ bɔ ni afeɔ <code>.jwlibrary</code> backup yɛ Settings mli, "
         "koni nibii ni nikaselɔi lɛ kadi yɛ amɛ aŋkro nikasemɔ mli lɛ akalaaje.",
         body_style
     ))
@@ -497,14 +497,14 @@ def build_curriculum(output_path):
         "• <b>Woji Ni Aprinti (Kɛ́ Ehe Baahia):</b> Kɛ́ akɛ Klas Lɛ He Gbɛjianɔtoo ni yɔɔ baafa kome nɔ lɛ fɔ̃ okpɔlɔi lɛ anɔ lɛ, eyeɔ ebuaa he ni data loo Wi-Fi fa.<br/>"
         "• <b>QR Okadii Yɛ Okpɔlɔi Lɛ Anɔ / Skrin Lɛ Nɔ (Kɛ́ Osumɔ):</b> Kɛ́ ajie QR okadi lɛ yɛ skrin lɛ nɔ loo akɛ QR wolo bibii fɔ̃ okpɔlɔi lɛ anɔ lɛ, nikaselɔi lɛ baanyɛ amɛkɛ amɛfoŋ kamera lɛ agbele kasemɔ wolo nɛɛ.<br/>"
         "• <b>Add to Home Screen (Kɛ́ Osumɔ):</b> Kɛ́ otsɔɔ nikaselɔi lɛ \"Add to Home Screen\" lɛ, kasemɔ wolo nɛɛ baahi amɛfoŋ lɛ nɔ, ni amɛbaanyɛ amɛkane kɛ́ Intanɛt bɛ po.<br/>"
-        "• <b>Yelikɛbuamɔ Yɛ Klas Lɛ Sɛɛ:</b> Hi jɛmɛ miniti 15 yɛ klas lɛ sɛɛ kɛhã mɔ fɛɛ mɔ ni miitao yelikɛbuamɔ pɔtɛɛ yɛ ebackup fail lɛ he.",
+        "• <b>Yelikɛbuamɔ Yɛ Klas Lɛ Sɛɛ:</b> Hii jɛmɛ miniti 15 yɛ klas lɛ sɛɛ kɛhã mɔ fɛɛ mɔ ni miitao yelikɛbuamɔ pɔtɛɛ yɛ ebackup lɛ he.",
         body_style
     ))
 
     story.append(Spacer(1, 4))
     story.append(Paragraph("Kɛ́ amɛgbe nikasemɔ nɛɛ naa lɛ, nikaselɔi lɛ baanyɛ:", h2_style))
     story.append(Paragraph("&bull; Amɛkɛ kɔla akadi hetoi kɛhã asafoŋ kpeei, ni amɛtsake kɔla lɛ loo amɛjie mlɛo.", bullet_style))
-    story.append(Paragraph("&bull; Amɛkɛ nibii ni amɛŋmala kɛ nibii ni amɛkɛ kɔla kadi lɛ awo .jwlibrary backup fail mli koni amɛkalaaje.", bullet_style))
+    story.append(Paragraph("&bull; Amɛkɛ nibii ni amɛŋmala kɛ nibii ni amɛkɛ kɔla kadi lɛ awo .jwlibrary backup mli koni amɛkalaaje.", bullet_style))
 
     doc.build(story, canvasmaker=NumberedCanvas)
 
