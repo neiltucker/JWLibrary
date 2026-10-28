@@ -32,6 +32,12 @@ Applied corrections received from Ga native speakers:
 
 `sw.js` cache version raised `jw-tutorial-v12` → `jw-tutorial-v13`.
 
+## Changes in this version (update 3) — native speaker feedback on Exercise 3.3
+Applied correction received from Ga language auditor:
+1. **Exercise 3.3 heading and terminology:** *Fee Backup Fail Koni Onibii Akalaaje* → *Feemɔ Backup Koni Onibii Akalaaje* (`gaa.html`), and *Fee Backup Fail* → *Feemɔ Backup* (`JWLibrary_Class.md`, PDFs). In Ga, affirmative singular commands and exercise headings require the imperative suffix *-mɔ* (*Feemɔ* = "Create / Make"), and "backup" directly represents the backup file/process without the awkward English loanword calque *fail*.
+
+`sw.js` cache version raised `jw-tutorial-v13` → `jw-tutorial-v14`.
+
 ## 1. How the app's button names are shown
 
 **Decision: English button names in bold, with the Ga meaning in brackets where JW.ORG gives one.** Examples: **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*, **Meetings** *(Asafoŋ Kpeei)*, **Daily Text** *(Daa Gbi Ŋmalɛ Lɛ)*, **Largest Size** *(Edalɛ)*.

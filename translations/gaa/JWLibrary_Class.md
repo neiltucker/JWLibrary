@@ -78,7 +78,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 * **0:40** Kɔla lɛ tsakemɔ (akɛ nɔkwɛmɔnɔ lɛ, kɛya bluu loo grin), loo **Delete** okadi lɛ nɔ nyɛmɔ koni ajie.
 * **0:42** **Afee Nifeemɔ 3.2** (Tsakemɔ kɔla lɛ loo ojie).
 * **0:44** **Bɔ Ni Abuɔ Nibii Ahe:** Nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ yɛ ofoŋ lɛ diɛŋtsɛ nɔ; tsɔɔmɔ bɔ ni afeɔ backup fail.
-* **0:46** **Afee Nifeemɔ 3.3** (Fee `.jwlibrary` backup fail yɛ Settings mli).
+* **0:46** **Afee Nifeemɔ 3.3** (Feemɔ `.jwlibrary` backup yɛ Settings mli).
 * **0:48** *Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee:* Nibii ni aŋmalaa afatamɔ ŋmalɛi ahe, Tags, kɛ Personal Study fã lɛ.
 
 ---
@@ -116,7 +116,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 * **Nifeemɔ 3.1. Okɛ Kɔla Akadi Hetoo Ko:** Yɛ otsi nɛɛ *Buu-Mɔɔ* Nikasemɔ sane lɛ mli lɛ, nyɛɛ hetoo ni yɔɔ kuku 1 lɛ mli lɛ klɛŋklɛŋ wiemɔ lɛ nɔ fioo, ni ogbala onine lɛ kɛnyiɛ nɔ, ni ohala **yɛlo**.
 * **Nifeemɔ 3.2. Tsakemɔ Kɔla Lɛ:** Nyɛɛ wiemɔi ni okɛ kɔla kadi lɛ nɔ ekoŋŋ. Halamɔ kɔla kroko (tamɔ bluu loo grin), loo onyɛ **Delete** okadi lɛ nɔ koni ojie kɔla lɛ.
-* **Nifeemɔ 3.3. Fee Backup Fail:** Nyɛɛ **Settings** (⚙️) > **Backup and Restore** > **Create Backup** nɔ. Kɛ obackup fail lɛ (`.jwlibrary`) afɔ̃ shi koni nibii ni okɛkadi yɛ onikasemɔ mli lɛ akalaaje.
+* **Nifeemɔ 3.3. Feemɔ Backup:** Nyɛɛ **Settings** (⚙️) > **Backup and Restore** > **Create Backup** nɔ. Kɛ obackup lɛ (`.jwlibrary`) afɔ̃ shi koni nibii ni okɛkadi yɛ onikasemɔ mli lɛ akalaaje.
 * *Tsɔɔlɔ lɛ baatsɔɔ (kɛfata he):* Nyɛɛ wiemɔi ni okɛ kɔla kadi lɛ nɔ, halamɔ **Add Note** (📝), ni oya **Personal Study** *(Aŋkro Nikasemɔ)* fã lɛ nɔ koni ona nibii fɛɛ ni oŋmala, obookmark, kɛ nibii ni okɛ kɔla kadi lɛ yɛ he kome.
 
 ---

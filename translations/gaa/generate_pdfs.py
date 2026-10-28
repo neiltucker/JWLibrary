@@ -219,7 +219,7 @@ def build_class_program(output_path):
     story.append(Paragraph("0:35 &nbsp; Bɔ ni akɛ kɔla kadiɔ hetoi yɛ saji ni akaseɔ lɛ amli.", timing_style))
     story.append(Paragraph("0:37 &nbsp; Afee Nifeemɔ 3.1 (Okɛ yɛlo kɔla akadi hetoo ko).", timing_style))
     story.append(Paragraph("0:40 &nbsp; Bɔ ni atsakeɔ kɔla lɛ loo ajieɔ; afee Nifeemɔ 3.2.", timing_style))
-    story.append(Paragraph("0:43 &nbsp; Bɔ ni abuɔ onibii lɛ ahe: backup fail (.jwlibrary) feemɔ yɛ Settings &gt; Backup and Restore.", timing_style))
+    story.append(Paragraph("0:43 &nbsp; Bɔ ni abuɔ onibii lɛ ahe: backup (.jwlibrary) feemɔ yɛ Settings &gt; Backup and Restore.", timing_style))
     story.append(Paragraph("0:46 &nbsp; Afee Nifeemɔ 3.3 (Create Backup). (Tsɔɔlɔ lɛ tsɔɔ nibii ni aŋmalaa kɛ Tags.)", timing_style))
     story.append(Spacer(1, 2))
 
@@ -480,7 +480,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Bɔ ni anyɛɔ wiemɔ nɔ fioo ni agbalaa kɛkɔlaa", bullet_style))
     story.append(Paragraph("&bull; Kɔlai halamɔ (yɛlo, bluu, grin)", bullet_style))
     story.append(Paragraph("&bull; Bɔ ni anyɛɔ wiemɔi ni akɛ kɔla kadi lɛ anɔ kɛtsakeɔ kɔla lɛ, loo akɛ Delete okadi lɛ jieɔ", bullet_style))
-    story.append(Paragraph("&bull; <b>Bɔ Ni Abuɔ Onibii Ahe:</b> Backup fail feemɔ (Settings &gt; Backup and Restore)", bullet_style))
+    story.append(Paragraph("&bull; <b>Bɔ Ni Abuɔ Onibii Ahe:</b> Backup feemɔ (Settings &gt; Backup and Restore)", bullet_style))
     story.append(Paragraph("&bull; <i>Nɔkwɛmɔnɔ Ni Tsɔɔlɔ Lɛ Baafee:</i> Nibii ni aŋmalaa afatamɔ he, Tags, kɛ Personal Study fã lɛ", bullet_style))
 
     story.append(Paragraph("Nifeemɔi (miniti 5)", h2_style))

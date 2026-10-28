@@ -52,7 +52,7 @@ Nikasemɔi etɛ yɛ mli, ni eko fɛɛ eko yeɔ miniti 15. Yelikɛbuamɔ ni afeɔ
 3. **Nikasemɔ 3: Nibii Ni Obaanyɛ Okɛtsu Nii Yɛ Aŋkro Nikasemɔ Mli (Miniti 15)**
    * Yɛlo kɔla ni akɛkadiɔ hetoi yɛ saji ni akaseɔ kɛ Biblia kukuji amli.
    * Kɔla lɛ tsakemɔ (akɛ nɔkwɛmɔnɔ lɛ, kɛya bluu loo grin), loo kɔla lɛ jiemɔ.
-   * **Bɔ Ni Abuɔ Nibii Ahe:** Backup fail (`.jwlibrary`) feemɔ yɛ *Settings > Backup and Restore* mli, koni nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ akalaaje.
+   * **Bɔ Ni Abuɔ Nibii Ahe:** Backup (`.jwlibrary`) feemɔ yɛ *Settings > Backup and Restore* mli, koni nibii ni oŋmala kɛ nibii ni okɛ kɔla kadi lɛ akalaaje.
    * *Tsɔɔlɔ lɛ baatsɔɔ:* Nibii ni aŋmalaa afatamɔ he, **Tags**, kɛ **Personal Study** *(Aŋkro Nikasemɔ)* fã lɛ.
 
 4. **Naagbee: Nɔ Ni Wɔkase Lɛ Akwɛ Ekoŋŋ, Kɛ Sanebimɔi (Miniti 10)**
