@@ -52,6 +52,18 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 
 8. **New in update 4 — please check:** the derivative-works sentence in the footer and README, *"Toleo lolote lililobadilishwa, nakala zilizotokana na mradi huu, au madarasa yanayotokana nao ni jukumu la waandishi wao wenyewe na hayamwakilishi msimamizi wa kiolezo hiki cha asili."* (English: "Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer."), and the new README section *Kutumia au Kurekebisha Mwongozo Huu*.
 
+9. **New in update 5 — please check:**
+    * The opening line now says **"Mafunzo ya dakika 60"** (was *"Mafunzo ya saa moja"*), so it clearly means a training that lasts one hour, not one held at *saa moja*. Is this clear?
+    * **IT words:** please list any technical words you would like replaced with simpler ones, and suggest the simpler word if you have one.
+
+| Word or phrase in the document | Where you saw it | Simpler word you suggest |
+| :--- | :--- | :--- |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
 *Resolved in update 3:* the video title *"Kwa Nini Ujifunze Biblia?"* is confirmed as official.
 
 ## 3. General review

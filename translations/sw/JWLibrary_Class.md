@@ -2,7 +2,7 @@
 
 > **KUMBUKA:** Maelekezo rasmi na kamili kuhusu kutumia *JW Library* yanapatikana kwenye [Msaada Mtandaoni wa JW.ORG](https://www.jw.org/sw/msaada-mtandaoni/jw-library/).
 
-Darasa hili limeandaliwa kuwa **mafunzo ya saa moja** yenye malengo maalumu, yakiwa na masomo matatu ya dakika 15 kila moja na **dakika 10 za kuhitimisha** zilizotengwa.
+Darasa hili limeandaliwa kuwa **mafunzo ya dakika 60** yenye malengo maalumu, yakiwa na masomo matatu ya dakika 15 kila moja na **dakika 10 za kuhitimisha** zilizotengwa.
 
 ---
 

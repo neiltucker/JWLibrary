@@ -2,6 +2,11 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Please have a fluent Swahili speaker review before distributing.**
 
+## Changes in this version (28 Oct 2026, update 5) — reviewer feedback
+* **One-hour wording:** the reviewer pointed out that *"Mafunzo ya saa moja"* could be read as a training **at** *saa moja* (7 o'clock in Swahili time) rather than a training **lasting** one hour. Changed to **"Mafunzo ya dakika 60"** in the opening line of `sw.html` and in the first paragraph of `JWLibrary_Class.md`. This matches the wording already used in the README, both PDFs, and the page's *Mpango Mkuu wa Dakika 60* schedule, so the PDFs did not need to be regenerated.
+* The reviewer has read the rest of the document and reported that it seems okay. She mentioned that it contains many IT words she is not familiar with; she has been asked which specific words, if any, should be simpler (see item 9 in `REVIEWER_CHECKLIST.md`).
+* `sw.js` cache version raised to `jw-tutorial-v17` so phones fetch the new `sw.html`.
+
 ## Changes in this version (17 Oct 2026, update 4)
 * **Grammar:** Windows screen-timeout tip now says "ili laptop **yako ibaki ikiwaka**" (was "laptop chako kibaki kikiwaka", left over from *kipakatalishi*).
 * **Derivative-works clause** added to the footer of `sw.html` (in Swahili, and in the *English original* paragraph), matching `index.html`, `lg.html` and `din.html`: *"Toleo lolote lililobadilishwa, nakala zilizotokana na mradi huu, au madarasa yanayotokana nao ni jukumu la waandishi wao wenyewe na hayamwakilishi msimamizi wa kiolezo hiki cha asili."*
