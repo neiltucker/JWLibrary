@@ -1,8 +1,17 @@
 # Translation Notes — Ga
 
-**Status: DRAFT — NOT YET REVIEWED.** Translated by Claude (AI) on 26 Oct 2026 from the English files in https://github.com/neiltucker/JWLibrary (as of 26 Oct 2026). Two Ga speakers are lined up to audit it. A visible draft notice is shown on `gaa.html`, in `JWLibrary_Class.md` and in `README.md`; remove it only after the review is complete.
+**Status: Reviewed and validated.** Translated by Claude (AI) on 26 Oct 2026 from the English files in https://github.com/neiltucker/JWLibrary (as of 26 Oct 2026); audited, reviewed, and validated by Ga speakers. Draft notices removed.
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
+
+## Changes in this version (update 5) — Reviewers' validation completed
+Applied to `gaa.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py`, `REVIEWER_CHECKLIST.md`, this file, and `sw.js`:
+* **Draft notice removed:** Reviewed and validated by the reviewers.
+* Removed the draft translation banner (`<div class="step-tip" role="note">`) from `gaa.html`.
+* Removed `(Draft)` from `<title>` and `"Draft Ga translation, not yet reviewed."` from `<meta name="description">` in `gaa.html`.
+* Removed draft notice blockquotes from `translations/gaa/JWLibrary_Class.md` and `translations/gaa/README.md`.
+* Updated `REVIEWER_CHECKLIST.md` and `TRANSLATION_NOTES.md`.
+* Service Worker cache version raised `jw-tutorial-v15` → `jw-tutorial-v16` in `sw.js`.
 
 ## Changes in this version (26 Oct 2026, update 1) — first audit
 Of the audit's 12 recommendations, 9 were applied (one with a correction) and 3 were not. Files changed: `gaa.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py` and the two Ga PDFs it makes, this file, and `REVIEWER_CHECKLIST.md`.
@@ -70,7 +79,7 @@ Not confirmed: whether the JW Library app itself can show a Ga interface. See `R
 
 | File | What was done |
 | :--- | :--- |
-| `gaa.html` (repository root) | New. Built from the current English `index.html` (not from `lg.html`, so the Luganda reviewer's Luganda-only choices are not carried over). All visible text, tooltips and device-switcher JavaScript text translated. CSS, element IDs and storage keys unchanged. `lang="gaa"`, own manifest, draft notice, English original of the legal notice kept under the Ga version. |
+| `gaa.html` (repository root) | Built from English `index.html`. All visible text, tooltips and device-switcher JavaScript text translated. CSS, element IDs and storage keys unchanged. `lang="gaa"`, own manifest, English original of the legal notice kept under the Ga version. Draft notice removed after reviewer validation. |
 | `manifest-gaa.json` (root) | New. Home-screen icon opens `gaa.html`. |
 | `sw.js` (root) | `gaa.html` and `manifest-gaa.json` added to the files saved for offline use; Ga QR and table-card files added to the facilitator list; cache version raised `jw-tutorial-v10` → `jw-tutorial-v11`. |
 | `index.html`, `sw.html`, `lg.html`, `din.html` (root) | Two lines each: "Ga" added to the language menu and a `hreflang="gaa"` link added. Nothing else changed. |

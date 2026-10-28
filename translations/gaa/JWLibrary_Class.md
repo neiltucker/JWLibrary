@@ -1,7 +1,5 @@
 <h1 align="center"><span style="font-variant: small-caps;">JW LIBRARY KLAS LƐ HE GBƐJIANƆTOO</span></h1>
 
-> **DRAFT — NOT YET REVIEWED.** This Ga text is an AI-produced first draft and must be checked by fluent Ga speakers before use. *Enɛ ji klɛŋklɛŋ shishitsɔɔmɔ ni afee yɛ Ga mli; mɛi ni le Ga jogbaŋŋ kwɛko mli lolo.*
-
 > **KADIMƆ:** Gbɛtsɔɔmɔi ni jɛ asafo lɛ ŋɔɔ yɛ bɔ ni akɛ *JW Library* tsuɔ nii lɛ he yɛ [JW.ORG nɔ yɛ Ga mli](https://www.jw.org/gaa/sait-l%C9%9B-n%C9%94-yelik%C9%9Bbuam%C9%94/jw-library/) kɛ [JW.ORG Online Help (yɛ Blɔfo mli)](https://www.jw.org/en/online-help/jw-library/).
 >
 > **App lɛ mli gbɛ́i:** Akɛ app lɛ mli gbɛ́i lɛ ŋma yɛ Blɔfo mli, ni Ga shishitsɔɔmɔ lɛ yɛ biɛ, taakɛ JW.ORG nɔ Ga yelikɛbuamɔ saji lɛ feɔ lɛ — akɛ nɔkwɛmɔnɔ lɛ, **Bible** *(Biblia)*, **Publications** *(Woji kɛ Nibii)*.

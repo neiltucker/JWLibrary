@@ -16,7 +16,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfgen import canvas
 import pypdf
 
-# Ga version (draft, not yet reviewed). It makes the Ga PDFs under their own
+# Ga version. It makes the Ga PDFs under their own
 # file names, so the English, Kiswahili, Luganda and Dinka PDFs are not overwritten.
 # The PDFs are written to the repository root (two folders up from this script).
 

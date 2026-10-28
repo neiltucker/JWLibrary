@@ -1,7 +1,5 @@
 # Okɛ JW Library Lɛ Atsu Nii
 
-> **DRAFT — NOT YET REVIEWED.** This Ga text is an AI-produced first draft and must be checked by fluent Ga speakers before use. *Enɛ ji klɛŋklɛŋ shishitsɔɔmɔ ni afee yɛ Ga mli; mɛi ni le Ga jogbaŋŋ kwɛko mli lolo.*
-
 Kasemɔ wolo kɛ klas lɛ he gbɛjianɔtoo ni yɔɔ ehe ni afee koni ekɛye ebua mɛi ni amɛkase bɔ ni akɛ **JW Library** app lɛ tsuɔ nii kɛkaneɔ Biblia lɛ yɛ amɛ diɛŋtsɛ amɛŋɔɔ, yɛ asafoŋ kpeei ashishi, kɛ yɛ shiɛmɔ nitsumɔ lɛ mli.
 
 Ato kasemɔ nɛɛ he gbɛjianɔ akɛ **klas ni yeɔ miniti 60**, ni **miniti 10 kɛhã naagbee** yɛ mli, ni abaanyɛ afee lɛ **miniti 75–90** kɛhã kuui ni miitao be ni fa kɛhã kasemɔ.
