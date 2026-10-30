@@ -31,18 +31,18 @@ Mtaala umepangwa katika masomo matatu ya dakika 15 kila moja, yakitanguliwa na k
    * **Kliniki ya Maandalizi kwa Wanaofika Mapema (dakika 15 kabla):** Wasaidizi wanawasalimu wanaohudhuria, wanaunganisha vifaa vyao kwenye Wi-Fi ya ukumbi, na wanahakikisha kwamba Biblia na Andiko la Siku la sasa vimepakuliwa kabla darasa halijaanza.
    * **Ukaguzi wa Utayari wa Sekunde 30:** Wanafunzi wanainua mikono haraka ili wasaidizi wamsaidie yeyote ambaye bado anahitaji kupakua Biblia wakati darasa linaanza.
    * **Utulivu wa Akili ("Kitufe cha Dharura"):** Kuwafundisha wanafunzi jinsi ya kunyamazisha mara moja sauti inayocheza bila kutarajiwa kwa kutumia **kitufe cha Kupunguza Sauti** *(Volume Down)* kilicho kando ya kifaa (kwenye simu/tablet), **kitufe cha Kunyamazisha (🔇)** *(Mute)* kwenye kibodi (kwenye kompyuta), au kitufe cha Simamisha (⏸️) *(Pause)* kilicho kwenye skrini.
-   * Kutambua mstari mkuu wa urambazaji na kurekebisha muda wa skrini kujifunga / kuzima.
+   * Kutambua menyu kuu na kurekebisha muda wa skrini kujifunga / kuzima.
 
 1. **Somo la 1: Kutafuta Maandiko na Mikutano (Dakika 15)**
-   * Kuchunguza mstari mkuu wa urambazaji na kusoma **Andiko la Siku** *(Daily Text)* la leo.
+   * Kuchunguza menyu kuu na kusoma **Andiko la Siku** *(Daily Text)* la leo.
    * Kurekebisha **Ukubwa wa Herufi (`A A`)** ili kusoma kwa starehe bila kujikaza.
    * Kufungua **kitabu na sura fulani ya Biblia**.
-   * Kutumia **kichupo cha Mikutano** *(Meetings)* kufungua kwa kubofya mara moja *Daftari la Mkutano wa Huduma na Maisha* (Mkutano wa Katikati ya Juma) na makala ya funzo ya *Mnara wa Mlinzi* ya Mkutano wa Mwisho Juma.
-   * *Mwalimu Anaonyesha:* Vialamisho, Historia, na Tafuta.
+   * Kutumia **sehemu ya Mikutano** *(Meetings)* kufungua kwa kubofya mara moja *Daftari la Mkutano wa Huduma na Maisha* (Mkutano wa Katikati ya Juma) na makala ya funzo ya *Mnara wa Mlinzi* ya Mkutano wa Mwisho Juma.
+   * *Mwalimu Anaonyesha:* Vialamisho (kurasa ulizohifadhi), Historia, na Tafuta.
 
-2. **Somo la 2: Kupakua na Kutumia Vyombo vya Habari (Dakika 15)**
+2. **Somo la 2: Kupakua na Kutumia Maudhui (Dakika 15)**
    * Kuunganisha kwenye Wi-Fi kabla ya kupakua ili kuokoa data ya simu.
-   * Kupakua machapisho au vyombo vya habari ili kuvitumia bila Intaneti (baada ya kupakua, huhitaji Intaneti mikutanoni).
+   * Kupakua machapisho, video, au rekodi za sauti ili kuvitumia bila Intaneti (baada ya kupakua, huhitaji Intaneti mikutanoni).
    * Kutumia **Kicheza Sauti (🎧)** kusikiliza sura za Biblia, Andiko la Siku, au makala za funzo zikisomwa kwa sauti.
    * **Kunyamazisha Haraka Wakati wa Dharura:** Kuzima sauti mara moja kwa kutumia vidhibiti vya sauti vya kifaa (kushikilia kitufe cha Kupunguza Sauti kilicho kando kwenye simu; kubonyeza kitufe cha Kunyamazisha kwenye kibodi ya kompyuta) au kitufe cha Simamisha kilicho kwenye skrini.
    * *Mwalimu Anaonyesha:* Kuangalia nafasi ya kuhifadhi na kupanga kulingana na **Kubwa Zaidi** *(Largest Size)* ili kuondoa faili zisizohitajika.
@@ -51,7 +51,7 @@ Mtaala umepangwa katika masomo matatu ya dakika 15 kila moja, yakitanguliwa na k
    * Kutia alama ya rangi ya njano kwenye mafungu ya funzo na mistari ya Biblia.
    * Kubadili rangi ya alama (kwa mfano, kuwa bluu au kijani) au kuondoa alama.
    * **Ulinzi Muhimu wa Habari Zako:** Kutengeneza faili ya nakala ya akiba (`.jwlibrary`) katika *Mapendezi > Hifadhi Nakala na Rejesha* *(Settings > Backup and Restore)* ili maelezo na alama zako za funzo zisipotee kamwe.
-   * *Mwalimu Anaonyesha:* Kuongeza maelezo ya funzo, kupanga kwa kutumia Vibandiko *(Tags)*, na kutumia kichupo kikuu cha Funzo la Kibinafsi *(Personal Study)*.
+   * *Mwalimu Anaonyesha:* Kuongeza maelezo ya funzo, kupanga kwa kutumia Vibandiko *(Tags)*, na kutumia sehemu kuu ya Funzo la Kibinafsi *(Personal Study)*.
 
 4. **Kuhitimisha, Kupitia Tena na Maswali (Dakika 10)**
    * Dakika 10 zilizotengwa kwa ajili ya kupitia tena, maswali, au muda wa ziada ikiwa mazoezi ya awali yamechukua muda mrefu zaidi.
@@ -77,7 +77,7 @@ Ili kuhakikisha kwamba vipengele vipya na masasisho ya usalama yanapatikana, hak
 * **Kurekebisha Muda wa Skrini Kuzima:** Fikiria kuweka kwa muda skrini ya kifaa chako ijifunge au izime baada ya dakika 2 au 5 ili skrini isizime wakati wa maonyesho.
 * **Programu Iliyosakinishwa:** Sakinisha programu ya *JW Library* kwenye kifaa chako kutoka kwenye duka rasmi la programu kabla ya darasa.
 * **Nafasi ya Kuhifadhi:** Hakikisha kifaa chako kina angalau **GB 2 hadi 4** za nafasi wazi ya ndani (au kadi ya SD iliyowekwa) ili uweze kupakua machapisho, rekodi za sauti, na video bila shida.
-* **Muunganisho wa Wi-Fi:** Unganisha kwenye mtandao wa Wi-Fi uliopo kabla ya kupakua faili kubwa za vyombo vya habari ili kuokoa data ya simu.
+* **Muunganisho wa Wi-Fi:** Unganisha kwenye mtandao wa Wi-Fi uliopo kabla ya kupakua faili kubwa za video na sauti ili kuokoa data ya simu.
 * **Dokezo la Kunyamazisha Wakati wa Dharura:** Kumbuka kwamba kubonyeza **kitufe cha Kupunguza Sauti** (kwenye simu/tablet) au **kitufe cha Kunyamazisha (🔇)** kwenye kibodi (kwenye laptop) kutanyamazisha sauti haraka ikiwa itacheza bila kutarajiwa.
 
 ---
@@ -122,6 +122,6 @@ Ukitaka kutafsiri, kurekebisha, au kuandaa darasa lako mwenyewe kwa kutumia mwon
 
 *JW Library* ni alama ya biashara iliyosajiliwa ya Watch Tower Bible and Tract Society of Pennsylvania.
 
-Hifadhi hii na mafunzo haya ni mradi wa kielimu unaojitegemea, usio wa kibiashara, ulioandaliwa kwa ajili ya habari na kujifunza binafsi tu. Mradi huu hauhusiani na, haudhaminiwi, hautunzwi, haujaidhinishwa, wala haukubaliwi rasmi na Watch Tower Bible and Tract Society of Pennsylvania au Mashahidi wa Yehova. Toleo lolote lililobadilishwa, nakala zilizotokana na mradi huu, au madarasa yanayotokana nao ni jukumu la waandishi wao wenyewe na hayamwakilishi msimamizi wa kiolezo hiki cha asili. Machapisho yote rasmi, vyombo vya habari, na mwongozo wenye mamlaka vinapaswa kupatikana moja kwa moja kutoka [JW.ORG](https://www.jw.org/sw/).
+Hifadhi hii na mafunzo haya ni mradi wa kielimu unaojitegemea, usio wa kibiashara, ulioandaliwa kwa ajili ya habari na kujifunza binafsi tu. Mradi huu hauhusiani na, haudhaminiwi, hautunzwi, haujaidhinishwa, wala haukubaliwi rasmi na Watch Tower Bible and Tract Society of Pennsylvania au Mashahidi wa Yehova. Toleo lolote lililobadilishwa, nakala zilizotokana na mradi huu, au madarasa yanayotokana nao ni jukumu la waandishi wao wenyewe na hayamwakilishi msimamizi wa kiolezo hiki cha asili. Machapisho yote rasmi, video na rekodi za sauti, na mwongozo wenye mamlaka vinapaswa kupatikana moja kwa moja kutoka [JW.ORG](https://www.jw.org/sw/).
 
 *English original:* JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This repository and tutorial are an independent, non-commercial educational training project created solely for informational and personal learning purposes. This project is not affiliated with, sponsored, maintained, authorized, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah's Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer. All official publications, media, and authoritative guidance must be obtained directly from JW.ORG.

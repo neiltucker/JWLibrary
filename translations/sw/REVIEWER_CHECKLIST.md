@@ -64,6 +64,13 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 | | | |
 | | | |
 
+10. **New in update 6 — please check:**
+    * **Bookmarks:** we kept **Vialamisho** as the button name (it is the name on jw.org's help pages) and added "kurasa ulizohifadhi" / "kuhifadhi ukurasa ili uupate tena kwa urahisi" to explain it. What does the bookmark button say on your phone? If it shows *Vilivyohifadhiwa* or another word, please write it in the table in section 1, and we will use it.
+    * Your example "My bookmarks (nilivyohifadhi)": the guide does not mention a "My Bookmarks" screen. Was this only an example, or is there a screen with that name?
+    * **Taskbar:** *upau wa kazi (taskbar)* is used for the bar at the bottom of a Windows computer. Is there a simpler word?
+    * **Home-screen icon:** "Fungua **alama hiyo mpya** (kwenye Skrini ya Kwanza)" for opening the new icon after *Add to Home Screen*. Is this clear?
+    * **Legal sentence (README):** "Machapisho yote rasmi, **video na rekodi za sauti**, na mwongozo wenye mamlaka vinapaswa kupatikana moja kwa moja kutoka JW.ORG." (English: "All official publications, media, and authoritative guidance should be obtained directly from JW.ORG.") Is the meaning correct?
+
 *Resolved in update 3:* the video title *"Kwa Nini Ujifunze Biblia?"* is confirmed as official.
 
 ## 3. General review

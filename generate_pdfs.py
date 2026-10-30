@@ -473,8 +473,9 @@ def build_curriculum(output_path):
 
 
 if __name__ == '__main__':
-    program_pdf = 'D:/cs/JWLibrary/JW Library Class Program.pdf'
-    curriculum_pdf = 'D:/cs/JWLibrary/JW Library Tutorial Curriculum.pdf'
+    _HERE = os.path.dirname(os.path.abspath(__file__))
+    program_pdf = os.path.join(_HERE, 'JW Library Class Program.pdf')
+    curriculum_pdf = os.path.join(_HERE, 'JW Library Tutorial Curriculum.pdf')
 
     build_class_program(program_pdf)
     build_curriculum(curriculum_pdf)

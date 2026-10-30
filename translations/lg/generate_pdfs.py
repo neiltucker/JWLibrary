@@ -496,8 +496,10 @@ def build_curriculum(output_path):
 
 
 if __name__ == '__main__':
-    program_pdf = 'D:/cs/JWLibrary/Enteekateeka ya Kiraasi ya JW Library.pdf'
-    curriculum_pdf = "D:/cs/JWLibrary/Enteekateeka y'Amasomo ga JW Library.pdf"
+    _HERE = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.normpath(os.path.join(_HERE, '..', '..'))
+    program_pdf = os.path.join(repo_root, 'Enteekateeka ya Kiraasi ya JW Library.pdf')
+    curriculum_pdf = os.path.join(repo_root, "Enteekateeka y'Amasomo ga JW Library.pdf")
 
     build_class_program(program_pdf)
     build_curriculum(curriculum_pdf)

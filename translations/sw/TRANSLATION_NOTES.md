@@ -2,6 +2,19 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Please have a fluent Swahili speaker review before distributing.**
 
+## Changes in this version (30 Oct 2026, update 6) — simpler words from the reviewer
+The reviewer (a local Kiswahili speaker) listed the technical words she found hard for ordinary readers and suggested simpler ones. Her suggestions were checked against the Swahili JW Library help pages on jw.org, which use the same wording for most of them. Applied to `sw.html`, `JWLibrary_Class.md`, `README.md` and `generate_pdfs.py` (both Swahili PDFs regenerated; still 1 and 4 pages).
+* **Main navigation:** *mstari mkuu wa urambazaji* → **menyu kuu** (e.g. "menyu kuu iko chini ya skrini"). *Vichupo vikuu vya urambazaji* in the PDFs → **sehemu kuu za programu** (jw.org: "sehemu kuu za programu").
+* **Top bar:** *upau wa juu* → **sehemu ya juu ya skrini** (jw.org: "Katika sehemu ya juu ya kifaa chako, bofya Andiko la Siku").
+* **Tabs:** *Bofya kichupo cha Mikutano* → **Bofya sehemu iliyoandikwa Mikutano** (jw.org: "Sehemu iliyoandikwa Biblia…", "Ukibofya sehemu iliyoandikwa Machapisho…"). Headings and short references now say **Sehemu ya Mikutano** and **sehemu ya Funzo la Kibinafsi**.
+* **Bookmarks:** the reviewer suggested *Vilivyohifadhiwa*. **Vialamisho** is kept as the button name, because it is the name jw.org's help pages use ("Tumia Vialamisho, au, Alama za Kukumbuka Ukurasa") and learners need to match the word on their screen. A plain explanation was added the way jw.org does it: "(yaani, kuhifadhi ukurasa ili uupate tena kwa urahisi)" in the lessons, and "(kurasa ulizohifadhi)" in short lists. *Vilivyohifadhiwa* was not used as the label because *hifadhi* already describes downloads and backups in this guide. See item 10 in `REVIEWER_CHECKLIST.md`.
+* **Icons:** *aikoni* → **alama** everywhere (Wi-Fi, cloud, `A A`, sun, speaker, headphones, History, Search, the new home-screen icon). "aikoni ya Simamisha" → **kitufe cha Simamisha** (it is a button). Fixed a leftover: update 3 changed *aikoni ya wingu* to *alama ya wingu*, but one sentence in `sw.html` (Msingi 2.2, step 3) still said *Aikoni ya wingu*.
+* **Media:** *vyombo vya habari* (which means news media such as radio, TV and newspapers) → **Maudhui** in the Lesson 2 title ("Somo la 2: Kupakua na Kutumia Maudhui"). In running text it now names the items: "video au rekodi za sauti", "faili za video na sauti", "machapisho, video, na rekodi za sauti".
+* **Legal sentence (README):** "Machapisho yote rasmi, vyombo vya habari, na mwongozo wenye mamlaka…" → "Machapisho yote rasmi, video na rekodi za sauti, na mwongozo wenye mamlaka…". Please confirm (item 10).
+* **Windows taskbar:** *upau wa kazi* is kept, with *(taskbar)* added in brackets; the Mac menu bar line now reads *upau wa kazi/upau wa menyu (taskbar/menu bar)*.
+* Output path in `generate_pdfs.py` now resolves relative to the script location instead of a hardcoded path.
+* `sw.js` cache version raised from `jw-tutorial-v17` to `jw-tutorial-v18`.
+
 ## Changes in this version (28 Oct 2026, update 5) — reviewer feedback
 * **One-hour wording:** the reviewer pointed out that *"Mafunzo ya saa moja"* could be read as a training **at** *saa moja* (7 o'clock in Swahili time) rather than a training **lasting** one hour. Changed to **"Mafunzo ya dakika 60"** in the opening line of `sw.html` and in the first paragraph of `JWLibrary_Class.md`. This matches the wording already used in the README, both PDFs, and the page's *Mpango Mkuu wa Dakika 60* schedule, so the PDFs did not need to be regenerated.
 * The reviewer has read the rest of the document and reported that it seems okay. She mentioned that it contains many IT words she is not familiar with; she has been asked which specific words, if any, should be simpler (see item 9 in `REVIEWER_CHECKLIST.md`).

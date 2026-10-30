@@ -138,19 +138,19 @@ def build_class_program(output_path):
     story.append(Spacer(1, 2))
 
     story.append(Paragraph('<b>Somo la 1: Kutafuta Maandiko na Mikutano (0:05 - 0:20)</b>', section_hdr))
-    story.append(Paragraph('0:05 &nbsp; Kuzungumzia vichupo vikuu vya urambazaji (Biblia, Machapisho, Mikutano, Funzo la Kibinafsi).', timing_style))
-    story.append(Paragraph('0:07 &nbsp; Kufungua Andiko la Siku na kubofya aikoni ya <b>A A</b> ili kuongeza ukubwa wa herufi kwa ajili ya kusoma kwa starehe.', timing_style))
+    story.append(Paragraph('0:05 &nbsp; Kuzungumzia sehemu kuu za programu kwenye menyu kuu (Biblia, Machapisho, Mikutano, Funzo la Kibinafsi).', timing_style))
+    story.append(Paragraph('0:07 &nbsp; Kufungua Andiko la Siku na kubofya alama ya <b>A A</b> ili kuongeza ukubwa wa herufi kwa ajili ya kusoma kwa starehe.', timing_style))
     story.append(Paragraph('0:10 &nbsp; Fanya Zoezi la Msingi 1.1 (Andiko la Siku na Ukubwa wa Herufi).', timing_style))
     story.append(Paragraph('0:12 &nbsp; Kufungua kitabu na sura ya Biblia; fanya Zoezi la Msingi 1.2.', timing_style))
-    story.append(Paragraph('0:15 &nbsp; Kuzungumzia kichupo cha Mikutano (Daftari la Mkutano wa Huduma na Maisha na funzo la Mnara wa Mlinzi la Mkutano wa Mwisho Juma).', timing_style))
-    story.append(Paragraph('0:18 &nbsp; Fanya Zoezi la Msingi 1.3 (Kichupo cha Mikutano). (Mwalimu anaonyesha Vialamisho na Tafuta).', timing_style))
+    story.append(Paragraph('0:15 &nbsp; Kuzungumzia sehemu ya Mikutano (Daftari la Mkutano wa Huduma na Maisha na funzo la Mnara wa Mlinzi la Mkutano wa Mwisho Juma).', timing_style))
+    story.append(Paragraph('0:18 &nbsp; Fanya Zoezi la Msingi 1.3 (Sehemu ya Mikutano). (Mwalimu anaonyesha Vialamisho, yaani kurasa ulizohifadhi, na Tafuta).', timing_style))
     story.append(Spacer(1, 2))
 
-    story.append(Paragraph('<b>Somo la 2: Kupakua na Kutumia Vyombo vya Habari (0:20 - 0:35)</b>', section_hdr))
+    story.append(Paragraph('<b>Somo la 2: Kupakua na Kutumia Maudhui (0:20 - 0:35)</b>', section_hdr))
     story.append(Paragraph('0:20 &nbsp; Kuelewa matumizi bila Intaneti: vitu vilivyopakuliwa kwa Wi-Fi vinabaki kwenye kifaa bila kuhitaji data ya simu.', timing_style))
     story.append(Paragraph('0:22 &nbsp; Fanya Zoezi la Msingi 2.1 (Kukagua Wi-Fi na usalama wa data ya simu).', timing_style))
     story.append(Paragraph('0:24 &nbsp; Kupakua kitu ili kukisoma/kukitazama bila Intaneti; fanya Zoezi la Msingi 2.2.', timing_style))
-    story.append(Paragraph('0:28 &nbsp; Kicheza Sauti (aikoni ya vipokea-sauti); kunyamazisha haraka kwa Kupunguza Sauti (simu) au Kunyamazisha (kompyuta).', timing_style))
+    story.append(Paragraph('0:28 &nbsp; Kicheza Sauti (alama ya vipokea-sauti); kunyamazisha haraka kwa Kupunguza Sauti (simu) au Kunyamazisha (kompyuta).', timing_style))
     story.append(Paragraph('0:31 &nbsp; Fanya Zoezi la Msingi 2.3 (Kusikiliza Sauti). (Mwalimu anaonyesha jinsi ya kukagua nafasi ya kuhifadhi).', timing_style))
     story.append(Spacer(1, 2))
 
@@ -169,7 +169,7 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
     story.append(Paragraph('<b>MAZOEZI YA MSINGI</b>', ex_hdr))
 
-    story.append(Paragraph('<b>1.1</b> Bofya <b>Andiko la Siku</b> (aikoni ya jua). Bofya kitufe cha <b>Ukubwa wa Herufi</b> (<b>A A</b>) kilicho juu kisha telezesha ili kuongeza ukubwa wa herufi.', ex_style))
+    story.append(Paragraph('<b>1.1</b> Bofya <b>Andiko la Siku</b> (alama ya jua). Bofya kitufe cha <b>Ukubwa wa Herufi</b> (<b>A A</b>) kilicho juu kisha telezesha ili kuongeza ukubwa wa herufi.', ex_style))
     story.append(Paragraph('<b>1.2</b> Bofya <b>Biblia</b>. Chagua kitabu (kwa mfano, <i>Mathayo</i>) na sura (kwa mfano, <i>5</i>) ili uanze kusoma.', ex_style))
     story.append(Paragraph('<b>1.3</b> Bofya <b>Mikutano</b>. Fungua moja kwa moja makala ya Funzo la <i>Mnara wa Mlinzi</i> la juma hili kwa kubofya mara moja.', ex_style))
     story.append(Spacer(1, 1.5))
@@ -273,7 +273,7 @@ def build_curriculum(output_path):
     story.append(Paragraph(
         'Mtaala huu umekusudiwa kwa ajili ya yeyote anayefundisha au kuwaongoza wanafunzi kwa kutumia '
         '<i>Mafunzo ya JW Library</i> yanayoambatana nao. Kozi imepangwa katika masomo matatu ya dakika 15 kila moja: '
-        '<b>Kutafuta Maandiko na Mikutano</b>, <b>Kupakua na Kutumia Vyombo vya Habari</b>, na <b>Vifaa vya Funzo la Kibinafsi</b>. '
+        '<b>Kutafuta Maandiko na Mikutano</b>, <b>Kupakua na Kutumia Maudhui</b>, na <b>Vifaa vya Funzo la Kibinafsi</b>. '
         'Dakika 10 za kuhitimisha zilizotengwa hutoa muda wa ziada wa kutosha ili walimu wasihisi wakiharakishwa kamwe. '
         'Kabla darasa halijaanza, wanafunzi wanapaswa kupewa nakala ya vitu vya mafunzo na '
         'kukumbushwa kuwa wamesakinisha programu kwenye kifaa chao mapema.',
@@ -300,9 +300,9 @@ def build_curriculum(output_path):
     story.append(Paragraph('Baada ya kukamilisha mafunzo haya, wanafunzi wataweza:', body_style))
     story.append(Paragraph('&bull; Kuhama kati ya Biblia, Machapisho, Mikutano, na Funzo la Kibinafsi.', bullet_style))
     story.append(Paragraph('&bull; Kufungua Andiko la Siku na kuongeza ukubwa wa herufi kwa kutumia kitufe cha A A.', bullet_style))
-    story.append(Paragraph('&bull; Kupata makala za funzo za mikutano ya kila juma kwa kubofya mara moja kutoka kwenye kichupo cha Mikutano.', bullet_style))
+    story.append(Paragraph('&bull; Kupata makala za funzo za mikutano ya kila juma kwa kubofya mara moja kutoka kwenye sehemu ya Mikutano.', bullet_style))
     story.append(Paragraph('&bull; Kuelewa usomaji bila Intaneti na kupakua machapisho kwa Wi-Fi ili kuokoa data ya simu.', bullet_style))
-    story.append(Paragraph('&bull; Kutumia kicheza sauti (aikoni ya vipokea-sauti) na kunyamazisha haraka sauti isiyotarajiwa.', bullet_style))
+    story.append(Paragraph('&bull; Kutumia kicheza sauti (alama ya vipokea-sauti) na kunyamazisha haraka sauti isiyotarajiwa.', bullet_style))
     story.append(Paragraph('&bull; Kutia alama majibu katika makala za funzo kwa rangi mbalimbali na kuondoa alama.', bullet_style))
     story.append(Paragraph('&bull; Kutengeneza nakala ya akiba (faili ya .jwlibrary) ili kulinda kumbukumbu za funzo.', bullet_style))
 
@@ -312,7 +312,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('&bull; Kuwa na kifaa kinachotumika chenye <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, au <b>Windows 10 v2004+</b>.', bullet_style))
     story.append(Paragraph('&bull; Kufika wakiwa na <b>betri yenye chaji kamili</b> (au walete chaja).', bullet_style))
     story.append(Paragraph('&bull; Kuweka kwa muda <b>skrini izime baada ya dakika 2 au 5</b> ili skrini isizime.', bullet_style))
-    story.append(Paragraph('&bull; Kuwa na angalau <b>GB 2 hadi 4</b> za nafasi ya kuhifadhi (au kadi ya SD iliyowekwa) kwa ajili ya faili za vyombo vya habari.', bullet_style))
+    story.append(Paragraph('&bull; Kuwa na angalau <b>GB 2 hadi 4</b> za nafasi ya kuhifadhi (au kadi ya SD iliyowekwa) kwa ajili ya faili za video na sauti.', bullet_style))
     story.append(Paragraph('&bull; Kuunganisha kwenye Wi-Fi kabla ya kupakua video au rekodi za sauti.', bullet_style))
 
     # ==================== UKURASA 2 ====================
@@ -325,23 +325,23 @@ def build_curriculum(output_path):
     story.append(Paragraph('Somo la 1: Kutafuta Maandiko na Mikutano (Dakika 15)', h1_style))
     story.append(Paragraph(
         'Somo hili linawajulisha wanafunzi jinsi ya kuhama kwa urahisi kati ya sehemu kuu za programu ya JW Library. '
-        'Walimu wanapaswa kueleza mahali mstari wa urambazaji ulipo kulingana na vifaa vilivyopo (mstari wa chini kwenye iOS '
-        'na Android za kisasa; menyu ya juu kwenye Windows). Onyesha jinsi kubofya aikoni ya <b>A A</b> kunavyoongeza ukubwa wa herufi ili '
-        'kusoma kwa starehe, na jinsi <b>kichupo cha Mikutano</b> kinavyowezesha kufungua kwa kubofya mara moja machapisho ya mikutano ya kila juma.',
+        'Walimu wanapaswa kueleza mahali menyu kuu ilipo kulingana na vifaa vilivyopo (chini kwenye iOS '
+        'na Android za kisasa; juu kwenye Windows). Onyesha jinsi kubofya alama ya <b>A A</b> kunavyoongeza ukubwa wa herufi ili '
+        'kusoma kwa starehe, na jinsi <b>sehemu ya Mikutano</b> inavyowezesha kufungua kwa kubofya mara moja machapisho ya mikutano ya kila juma.',
         body_style
     ))
 
     story.append(Paragraph('Mada (dakika 10)', h2_style))
-    story.append(Paragraph('&bull; Vichupo Vikuu vya Urambazaji (Biblia, Machapisho, Mikutano, Funzo la Kibinafsi)', bullet_style))
+    story.append(Paragraph('&bull; Sehemu Kuu za Programu kwenye Menyu Kuu (Biblia, Machapisho, Mikutano, Funzo la Kibinafsi)', bullet_style))
     story.append(Paragraph('&bull; Andiko la Siku na Kurekebisha Ukubwa wa Herufi (kitufe cha A A ili kuongeza ukubwa wa herufi)', bullet_style))
     story.append(Paragraph('&bull; Kufungua kitabu na sura fulani ya Biblia (kwa mfano, Mathayo 5)', bullet_style))
-    story.append(Paragraph('&bull; Kichupo cha Mikutano (kufungua Daftari la Mkutano wa Huduma na Maisha na makala ya funzo la Mnara wa Mlinzi la Mkutano wa Mwisho Juma)', bullet_style))
-    story.append(Paragraph('&bull; <i>Mwalimu Anaonyesha:</i> Vialamisho, Historia, na Tafuta (kwa ajili ya kuzoeza nyumbani)', bullet_style))
+    story.append(Paragraph('&bull; Sehemu ya Mikutano (kufungua Daftari la Mkutano wa Huduma na Maisha na makala ya funzo la Mnara wa Mlinzi la Mkutano wa Mwisho Juma)', bullet_style))
+    story.append(Paragraph('&bull; <i>Mwalimu Anaonyesha:</i> Vialamisho (kurasa ulizohifadhi), Historia, na Tafuta (kwa ajili ya kuzoeza nyumbani)', bullet_style))
 
     story.append(Paragraph('Mazoezi ya Msingi ya Vitendo (dakika 5)', h2_style))
     story.append(Paragraph('&bull; <b>Msingi 1.1:</b> Fungua Andiko la Siku na ubofye <b>A A</b> ili maandishi yawe makubwa na wazi.', bullet_style))
     story.append(Paragraph('&bull; <b>Msingi 1.2:</b> Bofya Biblia, chagua kitabu (Mathayo), na ufungue sura ya 5.', bullet_style))
-    story.append(Paragraph('&bull; <b>Msingi 1.3:</b> Fungua kichupo cha Mikutano na ubofye makala ya Funzo la Mnara wa Mlinzi la juma hili.', bullet_style))
+    story.append(Paragraph('&bull; <b>Msingi 1.3:</b> Fungua sehemu ya Mikutano na ubofye makala ya Funzo la Mnara wa Mlinzi la juma hili.', bullet_style))
 
     story.append(Paragraph('Maelezo kwa Mwezeshaji kwa Ajili ya Somo la 1', h2_style))
     story.append(Paragraph(
@@ -364,18 +364,18 @@ def build_curriculum(output_path):
     story.append(Spacer(1, 4))
     story.append(HRFlowable(width='100%', thickness=0.75, color=colors.HexColor('#cbd5e1'), spaceBefore=2, spaceAfter=8))
 
-    story.append(Paragraph('Somo la 2: Kupakua na Kutumia Vyombo vya Habari (Dakika 15)', h1_style))
+    story.append(Paragraph('Somo la 2: Kupakua na Kutumia Maudhui (Dakika 15)', h1_style))
     story.append(Paragraph(
-        'Somo hili linaeleza jinsi usomaji bila Intaneti unavyofanya kazi na linaonyesha jinsi ya kupakua machapisho na vyombo vya habari. '
+        'Somo hili linaeleza jinsi usomaji bila Intaneti unavyofanya kazi na linaonyesha jinsi ya kupakua machapisho, video, na rekodi za sauti. '
         'Kazia kwamba kitu kikishapakuliwa kwa Wi-Fi, kinabaki kwenye kifaa daima bila kuhitaji Intaneti '
-        'wala data ya simu mikutanoni. Tambulisha kicheza sauti (aikoni ya vipokea-sauti) ili wanafunzi waweze kusikiliza maandishi yakisomwa kwa sauti.',
+        'wala data ya simu mikutanoni. Tambulisha kicheza sauti (alama ya vipokea-sauti) ili wanafunzi waweze kusikiliza maandishi yakisomwa kwa sauti.',
         body_style
     ))
 
     story.append(Paragraph('Mada (dakika 10)', h2_style))
     story.append(Paragraph('&bull; Kuelewa Matumizi Bila Intaneti: kusoma na kusikiliza bila mtandao wa simu', bullet_style))
     story.append(Paragraph('&bull; Kuunganisha kwenye Wi-Fi kabla ya kupakua ili kuokoa kiwango cha data ya simu', bullet_style))
-    story.append(Paragraph('&bull; Kupakua machapisho na vyombo vya habari (kutambua alama ya wingu)', bullet_style))
+    story.append(Paragraph('&bull; Kupakua machapisho, video, na rekodi za sauti (kutambua alama ya wingu)', bullet_style))
     story.append(Paragraph('&bull; Kutumia Kicheza Sauti na kunyamazisha haraka wakati wa dharura (Kupunguza Sauti kwenye simu; Kunyamazisha kwenye kompyuta)', bullet_style))
     story.append(Paragraph('&bull; <i>Mwalimu Anaonyesha:</i> Kupanga kulingana na Kubwa Zaidi ili kukagua nafasi ya kuhifadhi na kufuta faili', bullet_style))
 
@@ -418,7 +418,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('&bull; Kuchagua rangi za alama (Njano, Bluu, Kijani)', bullet_style))
     story.append(Paragraph('&bull; Kubofya maandishi yenye alama ili kubadili rangi au kufuta kwa kitufe cha <b>Futa</b>', bullet_style))
     story.append(Paragraph('&bull; <b>Ulinzi wa Habari:</b> Kutengeneza faili ya nakala ya akiba (Mapendezi &gt; Hifadhi Nakala na Rejesha)', bullet_style))
-    story.append(Paragraph('&bull; <i>Mwalimu Anaonyesha:</i> Kuongeza maelezo, Vibandiko, na kuangalia kichupo cha Funzo la Kibinafsi', bullet_style))
+    story.append(Paragraph('&bull; <i>Mwalimu Anaonyesha:</i> Kuongeza maelezo, Vibandiko, na kuangalia sehemu ya Funzo la Kibinafsi', bullet_style))
 
     story.append(Paragraph('Mazoezi ya Msingi ya Vitendo (dakika 5)', h2_style))
     story.append(Paragraph('&bull; <b>Msingi 3.1:</b> Fungua makala inayofuata ya Mnara wa Mlinzi na utie alama ya njano kwenye jibu katika fungu la 1.', bullet_style))
@@ -449,8 +449,10 @@ def build_curriculum(output_path):
 
 
 if __name__ == '__main__':
-    program_pdf = 'D:/cs/JWLibrary/Ratiba ya Darasa la JW Library.pdf'
-    curriculum_pdf = 'D:/cs/JWLibrary/Mtaala wa Mafunzo ya JW Library.pdf'
+    _HERE = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.normpath(os.path.join(_HERE, '..', '..'))
+    program_pdf = os.path.join(repo_root, 'Ratiba ya Darasa la JW Library.pdf')
+    curriculum_pdf = os.path.join(repo_root, 'Mtaala wa Mafunzo ya JW Library.pdf')
 
     build_class_program(program_pdf)
     build_curriculum(curriculum_pdf)
