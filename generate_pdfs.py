@@ -8,34 +8,47 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfgen import canvas
 import pypdf
 
-# Unicode Font Registration for multi-language support (English, Swahili, Luganda, Dinka)
+# ---------------------------------------------------------------------------
+# Font setup.
+# The PDFs use DejaVu Sans from the shared "fonts" folder at the top of the
+# repository, so they look the same on every computer and carry their own
+# font. If that folder is missing, an installed font is used instead, and
+# Helvetica as a last resort.
+# ---------------------------------------------------------------------------
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-FONT_REG = 'Helvetica'
-FONT_BOLD = 'Helvetica-Bold'
-FONT_ITALIC = 'Helvetica-Oblique'
+_FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fonts')
+_DEJAVU = ('DejaVuSans.ttf', 'DejaVuSans-Bold.ttf', 'DejaVuSans-Oblique.ttf', 'DejaVuSans-BoldOblique.ttf')
+FONT_CANDIDATES = [
+    tuple(os.path.join(_FONT_DIR, n) for n in _DEJAVU),
+    tuple('/usr/share/fonts/truetype/dejavu/' + n for n in _DEJAVU),
+    ('C:/Windows/Fonts/arial.ttf', 'C:/Windows/Fonts/arialbd.ttf', 'C:/Windows/Fonts/ariali.ttf', 'C:/Windows/Fonts/arialbi.ttf'),
+    ('C:/Windows/Fonts/segoeui.ttf', 'C:/Windows/Fonts/segoeuib.ttf', 'C:/Windows/Fonts/segoeuii.ttf', 'C:/Windows/Fonts/segoeuiz.ttf'),
+    ('/System/Library/Fonts/Supplemental/Arial.ttf', '/System/Library/Fonts/Supplemental/Arial Bold.ttf',
+     '/System/Library/Fonts/Supplemental/Arial Italic.ttf', '/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf'),
+]
 
-for base_dir, r_file, b_file, i_file in [
-    ('C:/Windows/Fonts', 'segoeui.ttf', 'segoeuib.ttf', 'segoeuii.ttf'),
-    ('C:/Windows/Fonts', 'arial.ttf', 'arialbd.ttf', 'ariali.ttf'),
-]:
-    r_path = os.path.join(base_dir, r_file)
-    b_path = os.path.join(base_dir, b_file)
-    i_path = os.path.join(base_dir, i_file)
-    if os.path.exists(r_path) and os.path.exists(b_path):
+
+def setup_fonts():
+    names = ('UniSans', 'UniSans-Bold', 'UniSans-Italic', 'UniSans-BoldItalic')
+    for paths in FONT_CANDIDATES:
+        if not all(os.path.isfile(p) for p in paths):
+            continue
         try:
-            pdfmetrics.registerFont(TTFont('AppRegular', r_path))
-            pdfmetrics.registerFont(TTFont('AppBold', b_path))
-            pdfmetrics.registerFont(TTFont('AppItalic', i_path if os.path.exists(i_path) else r_path))
-            from reportlab.pdfbase.pdfmetrics import registerFontFamily
-            registerFontFamily('AppRegular', normal='AppRegular', bold='AppBold', italic='AppItalic', boldItalic='AppBold')
-            FONT_REG = 'AppRegular'
-            FONT_BOLD = 'AppBold'
-            FONT_ITALIC = 'AppItalic'
-            break
+            fonts = [TTFont(n, p) for n, p in zip(names, paths)]
         except Exception:
-            pass
+            continue
+        for f in fonts:
+            pdfmetrics.registerFont(f)
+        pdfmetrics.registerFontFamily(names[0], normal=names[0], bold=names[1], italic=names[2], boldItalic=names[3])
+        print(f'Font: {paths[0]}')
+        return names
+    print('WARNING: the shared "fonts" folder was not found; using Helvetica, which is not embedded in the PDF.')
+    return ('Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Helvetica-BoldOblique')
+
+
+FONT_REG, FONT_BOLD, FONT_ITALIC, FONT_BOLD_ITALIC = setup_fonts()
 
 # Numbered canvas for "Page X of Y" on Curriculum
 class NumberedCanvas(canvas.Canvas):
@@ -63,7 +76,13 @@ class NumberedCanvas(canvas.Canvas):
         self.drawRightString(letter[0] - 45, letter[1] - 30, f"Page {self._pageNumber} of {page_count}")
         # Bottom disclaimer on each page
         disclaimer = "JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. Independent, non-commercial training aid."
+        # Shrink the notice slightly if needed so it always fits across the page.
+        size = 8
+        while size > 5 and pdfmetrics.stringWidth(disclaimer, FONT_REG, size) > letter[0] - 60:
+            size -= 0.25
+        self.setFont(FONT_REG, size)
         self.drawCentredString(letter[0] / 2.0, 20, disclaimer)
+        self.setFont(FONT_REG, 8)
         self.restoreState()
 
 

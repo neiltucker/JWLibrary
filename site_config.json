@@ -1,0 +1,4 @@
+{
+  "_help": "Web address where this guide is published. It is used for the QR codes, the table cards and the guide links in the README files (run: python make_qr_and_cards.py). Leave base_url blank to use this repository's GitHub Pages address, https://<user>.github.io/<repository>/. For a custom domain or another host, enter the full address, ending in /.",
+  "base_url": ""
+}

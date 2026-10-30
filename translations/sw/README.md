@@ -12,7 +12,9 @@ Mafunzo haya yamepangwa kuwa **darasa la dakika 60** lisilo na haraka, pamoja na
 
 Toleo shirikishi na rahisi kutumia la mafunzo haya—linalofaa skrini za ukubwa wowote, lenye maelekezo kulingana na kifaa unachochagua na maandishi makubwa—linapatikana hapa:
 
-**[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/)** *(toleo la Kiingereza)*
+**[https://neiltucker.github.io/JWLibrary/sw.html](https://neiltucker.github.io/JWLibrary/sw.html)**
+
+[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/) *(toleo la Kiingereza)*
 
 Mwongozo wa mtandaoni una:
 * **Kichaguzi cha Kifaa:** Chagua **Apple (iOS / iPadOS)**, **Android**, au **Kompyuta ya Windows / Mac** ili kuona majina kamili ya vitufe na mpangilio wa menyu za kifaa chako.
@@ -93,7 +95,6 @@ Ili kuhakikisha kwamba vipengele vipya na masasisho ya usalama yanapatikana, hak
 * **`JW Library Class Program.pdf`**: Ratiba ya darasa ya ukurasa 1 inayoweza kuchapishwa na karatasi ya marejeo ya mazoezi *(kwa Kiingereza katika hifadhi ya asili)*.
 * **`JW Library Tutorial Curriculum.pdf`**: Mtaala kamili wa kurasa 4 na mwongozo wa kufundisha kwa walimu *(kwa Kiingereza katika hifadhi ya asili)*.
 * **`generate_pdfs.py`**: Programu ya Python inayotumia ReportLab kutengeneza upya PDF hizo. Katika tafsiri hii, programu hii hutengeneza PDF za Kiswahili (`Ratiba ya Darasa la JW Library.pdf` na `Mtaala wa Mafunzo ya JW Library.pdf`) bila kuandika juu ya PDF za Kiingereza.
-* **`tinyurl.txt`**: Kiungo kifupi cha kuelekeza.
 
 ---
 

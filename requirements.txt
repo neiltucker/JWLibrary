@@ -1,0 +1,6 @@
+# Python libraries for the scripts that make the PDFs, QR codes and table cards.
+# Install once with:  pip install -r requirements.txt
+reportlab
+pypdf
+qrcode
+pillow

@@ -14,6 +14,8 @@ Kasemɔ nɛɛ yɛ wɛbsaiti lɛ nɔ yɛ Ga mli. Etsuɔ nii jogbaŋŋ yɛ skrin f
 
 **[https://neiltucker.github.io/JWLibrary/gaa.html](https://neiltucker.github.io/JWLibrary/gaa.html)**
 
+[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/) *(Blɔfo)*
+
 Nibii ni yɔɔ kasemɔ wolo ni yɔɔ wɛbsaiti lɛ nɔ lɛ:
 * **Halamɔ Nɔ Ni Okɛtsuɔ Nii:** Halamɔ **Apple (iOS / iPadOS)**, **Android**, loo **Windows Kɔmpiuta / Mac** koni ona app lɛ mli gbɛ́i kɛ he ni amɛyɔɔ yɛ nɔ ni okɛtsuɔ nii lɛ nɔ.
 * **Niŋmai Wuji Kɛ Niŋmai Lɛ Adaramɔ:** Afee lɛ koni akane mlɛo; obaanyɛ ohã niŋmai lɛ afee bibii loo wuji (`A−`, `A`, `A+`, `A++`).
@@ -88,7 +90,7 @@ Koni onine ashɛ nibii hei kɛ bɔ ni abuɔ app lɛ he lɛ nɔ lɛ, kwɛmɔ akɛ
 * **`manifest-gaa.json`**: Koni okadi ni ajie yɛ home screen lɛ nɔ lɛ agbele Ga kasemɔ wolo lɛ.
 * **`JWLibrary_Class.md`**: Klas lɛ he gbɛjianɔtoo, ŋaawoi kɛhã klas lɛ hiɛnyiɛlɔ, kɛ nifeemɔi kɛhã nikaselɔi.
 * **`generate_pdfs.py`**: Python program ni feɔ PDF enyɔ ni yɔɔ Ga mli lɛ: `JW Library Class Program (Ga).pdf` (baafa 1) kɛ `JW Library Tutorial Curriculum (Ga).pdf` (baafa 4).
-* **`make_qr_and_cards.py`**: Python program ni feɔ `QR_Ga_gaa.png`, `QR_Ga_gaa.svg`, kɛ `Table_Cards_Ga_gaa.pdf` (QR wolo bibii kɛhã okpɔlɔi).
+* **`make_qr_and_cards.py`** (yɛ repository lɛ shishijee): Python program ni feɔ `QR_Ga_gaa.png`, `QR_Ga_gaa.svg`, kɛ `Table_Cards_Ga_gaa.pdf` (QR wolo bibii kɛhã okpɔlɔi).
 * **`TRANSLATION_NOTES.md`**: Bɔ ni afee shishitsɔɔmɔ lɛ, kɛ he ni wiemɔi lɛ jɛ (in English).
 * **`REVIEWER_CHECKLIST.md`**: Wolo kɛhã mɛi ni le Ga jogbaŋŋ ni baakwɛ shishitsɔɔmɔ lɛ mli (in English).
 

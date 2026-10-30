@@ -8,6 +8,48 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfgen import canvas
 import pypdf
 
+# ---------------------------------------------------------------------------
+# Font setup.
+# The PDFs use DejaVu Sans from the shared "fonts" folder at the top of the
+# repository, so they look the same on every computer and carry their own
+# font. If that folder is missing, an installed font is used instead, and
+# Helvetica as a last resort.
+# ---------------------------------------------------------------------------
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+_FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'fonts')
+_DEJAVU = ('DejaVuSans.ttf', 'DejaVuSans-Bold.ttf', 'DejaVuSans-Oblique.ttf', 'DejaVuSans-BoldOblique.ttf')
+FONT_CANDIDATES = [
+    tuple(os.path.join(_FONT_DIR, n) for n in _DEJAVU),
+    tuple('/usr/share/fonts/truetype/dejavu/' + n for n in _DEJAVU),
+    ('C:/Windows/Fonts/arial.ttf', 'C:/Windows/Fonts/arialbd.ttf', 'C:/Windows/Fonts/ariali.ttf', 'C:/Windows/Fonts/arialbi.ttf'),
+    ('C:/Windows/Fonts/segoeui.ttf', 'C:/Windows/Fonts/segoeuib.ttf', 'C:/Windows/Fonts/segoeuii.ttf', 'C:/Windows/Fonts/segoeuiz.ttf'),
+    ('/System/Library/Fonts/Supplemental/Arial.ttf', '/System/Library/Fonts/Supplemental/Arial Bold.ttf',
+     '/System/Library/Fonts/Supplemental/Arial Italic.ttf', '/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf'),
+]
+
+
+def setup_fonts():
+    names = ('UniSans', 'UniSans-Bold', 'UniSans-Italic', 'UniSans-BoldItalic')
+    for paths in FONT_CANDIDATES:
+        if not all(os.path.isfile(p) for p in paths):
+            continue
+        try:
+            fonts = [TTFont(n, p) for n, p in zip(names, paths)]
+        except Exception:
+            continue
+        for f in fonts:
+            pdfmetrics.registerFont(f)
+        pdfmetrics.registerFontFamily(names[0], normal=names[0], bold=names[1], italic=names[2], boldItalic=names[3])
+        print(f'Font: {paths[0]}')
+        return names
+    print('WARNING: the shared "fonts" folder was not found; using Helvetica, which is not embedded in the PDF.')
+    return ('Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Helvetica-BoldOblique')
+
+
+FONT_REG, FONT_BOLD, FONT_ITALIC, FONT_BOLD_ITALIC = setup_fonts()
+
 # Toleo la Kiswahili. Hutengeneza PDF za Kiswahili zenye majina tofauti
 # na PDF za Kiingereza, ili zisiandikwe juu ya faili za asili.
 
@@ -31,13 +73,19 @@ class NumberedCanvas(canvas.Canvas):
 
     def draw_page_number(self, page_count):
         self.saveState()
-        self.setFont("Helvetica", 8)
+        self.setFont(FONT_REG, 8)
         self.setFillColor(colors.HexColor('#64748b'))
         # Kichwa cha juu kulia
         self.drawRightString(letter[0] - 45, letter[1] - 30, f"Ukurasa {self._pageNumber} kati ya {page_count}")
         # Taarifa ya kisheria chini ya kila ukurasa
         disclaimer = "JW Library ni alama ya biashara iliyosajiliwa ya Watch Tower Bible and Tract Society of Pennsylvania. Msaada wa mafunzo unaojitegemea, usio wa kibiashara."
+        # Shrink the notice slightly if needed so it always fits across the page.
+        size = 8
+        while size > 5 and pdfmetrics.stringWidth(disclaimer, FONT_REG, size) > letter[0] - 60:
+            size -= 0.25
+        self.setFont(FONT_REG, size)
         self.drawCentredString(letter[0] / 2.0, 20, disclaimer)
+        self.setFont(FONT_REG, 8)
         self.restoreState()
 
 
@@ -56,7 +104,7 @@ def build_class_program(output_path):
     title_style = ParagraphStyle(
         'DocTitle',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=13,
         leading=15,
         alignment=1,
@@ -66,7 +114,7 @@ def build_class_program(output_path):
     note_style = ParagraphStyle(
         'DocNote',
         parent=styles['Normal'],
-        fontName='Helvetica-Oblique',
+        fontName=FONT_ITALIC,
         fontSize=7,
         leading=9,
         alignment=1,
@@ -76,7 +124,7 @@ def build_class_program(output_path):
     section_hdr = ParagraphStyle(
         'SectionHdr',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=8,
         leading=10,
         textColor=colors.HexColor('#1e40af'),
@@ -86,7 +134,7 @@ def build_class_program(output_path):
     timing_style = ParagraphStyle(
         'TimingLine',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=7,
         leading=9,
         textColor=colors.HexColor('#1e293b')
@@ -95,7 +143,7 @@ def build_class_program(output_path):
     ex_hdr = ParagraphStyle(
         'ExHdr',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=8,
         leading=10,
         textColor=colors.HexColor('#0f766e'),
@@ -106,7 +154,7 @@ def build_class_program(output_path):
     ex_style = ParagraphStyle(
         'ExLine',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=7,
         leading=8.8,
         textColor=colors.HexColor('#1e293b')
@@ -115,7 +163,7 @@ def build_class_program(output_path):
     disclaimer_style = ParagraphStyle(
         'Disclaimer',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=6,
         leading=7.5,
         alignment=1,
@@ -204,7 +252,7 @@ def build_curriculum(output_path):
     doc_title = ParagraphStyle(
         'DocTitle',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=15,
         leading=18,
         textColor=colors.HexColor('#1e3a8a')
@@ -213,7 +261,7 @@ def build_curriculum(output_path):
     note_style = ParagraphStyle(
         'DocNote',
         parent=styles['Normal'],
-        fontName='Helvetica-Oblique',
+        fontName=FONT_ITALIC,
         fontSize=8.5,
         leading=11,
         textColor=colors.HexColor('#475569')
@@ -222,7 +270,7 @@ def build_curriculum(output_path):
     h1_style = ParagraphStyle(
         'H1',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=12,
         leading=15,
         textColor=colors.HexColor('#1e40af'),
@@ -233,7 +281,7 @@ def build_curriculum(output_path):
     h2_style = ParagraphStyle(
         'H2',
         parent=styles['Normal'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=10,
         leading=13,
         textColor=colors.HexColor('#0f766e'),
@@ -244,7 +292,7 @@ def build_curriculum(output_path):
     body_style = ParagraphStyle(
         'Body',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=9.5,
         leading=13.5,
         textColor=colors.HexColor('#1e293b')
@@ -253,7 +301,7 @@ def build_curriculum(output_path):
     bullet_style = ParagraphStyle(
         'Bullet',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REG,
         fontSize=9.5,
         leading=13.5,
         leftIndent=15,

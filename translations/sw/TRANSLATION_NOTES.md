@@ -2,6 +2,14 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Please have a fluent Swahili speaker review before distributing.**
 
+## Changes in this version (30 Oct 2026, update 7) — shared fonts, QR script and template setup
+These changes affect every language. The translated wording of the guide is unchanged.
+* **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Kiswahili PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Helvetica, which is not embedded in the PDF).
+* **Page footer:** the legal notice at the bottom of each curriculum page now shrinks slightly when needed, so it always fits across the page.
+* **QR code and table cards:** now made for every language by the shared `make_qr_and_cards.py` at the top of the repository (`python make_qr_and_cards.py sw` for this language only). It reads the web address from `site_config.json`, or works it out from the repository's GitHub address. The card wording and layout are unchanged, and the QR code still opens https://neiltucker.github.io/JWLibrary/sw.html (checked by decoding it).
+* **README:** the online guide link now opens the Kiswahili page (`sw.html`), with the English page on a second line, labelled *(toleo la Kiingereza)* as before. `tinyurl.txt` was removed from the repository and from the file list.
+* `sw.js` cache version raised to `v19`. Each copy of the guide now keeps its own offline files, so copies published under the same GitHub account no longer remove each other's saved pages.
+
 ## Changes in this version (30 Oct 2026, update 6) — simpler words from the reviewer
 The reviewer (a local Kiswahili speaker) listed the technical words she found hard for ordinary readers and suggested simpler ones. Her suggestions were checked against the Swahili JW Library help pages on jw.org, which use the same wording for most of them. Applied to `sw.html`, `JWLibrary_Class.md`, `README.md` and `generate_pdfs.py` (both Swahili PDFs regenerated; still 1 and 4 pages).
 * **Main navigation:** *mstari mkuu wa urambazaji* → **menyu kuu** (e.g. "menyu kuu iko chini ya skrini"). *Vichupo vikuu vya urambazaji* in the PDFs → **sehemu kuu za programu** (jw.org: "sehemu kuu za programu").

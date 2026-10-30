@@ -10,6 +10,15 @@ To make review easier:
 * The legal disclaimer appears in Dinka **and** in the original English, because its exact wording matters.
 * A reviewer can compare line-by-line with the English files in the original repo.
 
+## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
+These changes affect every language. The translated wording of the guide is unchanged.
+* **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Dinka PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).
+* **Output path:** the script writes its PDFs to the repository root using a path relative to the script, instead of the fixed `D:/cs/JWLibrary/` path.
+* **Page footer:** the legal notice at the bottom of each curriculum page now shrinks slightly when needed, so it always fits across the page.
+* **QR code and table cards:** now made for every language by the shared `make_qr_and_cards.py` at the top of the repository (`python make_qr_and_cards.py din` for this language only). It reads the web address from `site_config.json`, or works it out from the repository's GitHub address. The card wording and layout are unchanged, and the QR code still opens https://neiltucker.github.io/JWLibrary/din.html (checked by decoding it).
+* **README:** the online guide link now opens the Dinka page (`din.html`), with the English page on a second line, labelled *(ë Thoŋ ë Liŋliŋ / English)* as before. `tinyurl.txt` was removed from the repository and from the file list.
+* `sw.js` cache version raised to `v19`. Each copy of the guide now keeps its own offline files, so copies published under the same GitHub account no longer remove each other's saved pages.
+
 ## Changes in this version (17 Oct 2026, update 5)
 * **Watchtower Study (web page, Exercise 1.3 step 3):** now *Ɣönbɛ̈ɛ̈rtïët (Watchtower Study)*, matching the Dinka-plus-English labels used elsewhere.
 * **Table assistants:** "Kɔc ye Kuɔny në **Tëëbil**" in `JWLibrary_Class.md` and `generate_pdfs.py` (curriculum PDF page 4), matching the web page. "në mëth nhial" in the keyboard tip is a different phrase and was left unchanged. Neither word was found in Dinka JW publications, so the reviewer is asked to confirm.

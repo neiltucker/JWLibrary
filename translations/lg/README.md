@@ -12,7 +12,9 @@ Okuyiga kuno kutegekeddwa okuba **kiraasi ya ddakiika 60** etali ya kanyigo, nga
 
 Enkyusa ey'oku mukutu ey'okuyiga kuno—ekola obulungi ku sikuliini za buli bunene, erimu ebiragiro ebisinziira ku ssimu, tabbuleeti, oba kompyuta gy'olonze, era ng'ennukuta nnene—esangibwa wano:
 
-**[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/)** *(mu Lungereza)*
+**[https://neiltucker.github.io/JWLibrary/lg.html](https://neiltucker.github.io/JWLibrary/lg.html)**
+
+[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/) *(mu Lungereza)*
 
 Ekitabo ky'oku mukutu kirimu:
 * **Okulonda Essimu, Tabbuleeti, oba Kompyuta:** Londa **Apple (iOS / iPadOS)**, **Android**, oba **Kompyuta ya Windows / Mac** olabe amannya g'obupeesa n'engeri menu gye zitegekeddwamu ku ssimu yo, tabbuleeti, oba kompyuta yo.
@@ -93,7 +95,6 @@ Okukakasa nti ebipya n'ebirongoosa eby'obukuumi bifunika, kakasa nti essimu yo, 
 * **`JW Library Class Program.pdf`**: Enteekateeka ya kiraasi ey'olupapula 1 esobola okukubibwa mu kyapa n'olupapula olujjukiza okwegezaamu *(mu Lungereza mu tterekero eryasooka)*.
 * **`JW Library Tutorial Curriculum.pdf`**: Enteekateeka y'amasomo enzijuvu ey'empapula 4 n'ekitabo ekiyamba abasomesa *(mu Lungereza mu tterekero eryasooka)*.
 * **`generate_pdfs.py`**: Pulogulaamu ya Python ekozesa ReportLab okuddamu okukola PDF ezo. Mu nkyusa eno, ekola PDF za Luganda (`Enteekateeka ya Kiraasi ya JW Library.pdf` ne `Enteekateeka y'Amasomo ga JW Library.pdf`) awatali kusangulawo PDF ez'Olungereza.
-* **`tinyurl.txt`**: Link empi ey'okuyitamu.
 
 ---
 

@@ -2,6 +2,15 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and approved by two local Luganda speakers (including Andrew Kalinaki, 22 Oct 2026). Draft notice removed.
 
+## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
+These changes affect every language. The translated wording of the guide is unchanged.
+* **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Luganda PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).
+* **Output path:** the script writes its PDFs to the repository root using a path relative to the script, instead of the fixed `D:/cs/JWLibrary/` path.
+* **Page footer:** the legal notice at the bottom of each curriculum page now shrinks slightly when needed, so it always fits across the page.
+* **QR code and table cards:** now made for every language by the shared `make_qr_and_cards.py` at the top of the repository (`python make_qr_and_cards.py lg` for this language only). It reads the web address from `site_config.json`, or works it out from the repository's GitHub address. The card wording and layout are unchanged, and the QR code still opens https://neiltucker.github.io/JWLibrary/lg.html (checked by decoding it).
+* **README:** the online guide link now opens the Luganda page (`lg.html`), with the English page on a second line, labelled *(mu Lungereza)* as before. `tinyurl.txt` was removed from the repository and from the file list.
+* `sw.js` cache version raised to `v19`. Each copy of the guide now keeps its own offline files, so copies published under the same GitHub account no longer remove each other's saved pages.
+
 ## Changes in this version (22 Oct 2026, update 5) — Review by Andrew Kalinaki (PR #1) with refinements
 Applied to `lg.html`, `JWLibrary_Class.md`, `generate_pdfs.py` (and the two regenerated Luganda PDFs), `README.md`, and `sw.js`:
 * **Draft notice removed:** Reviewed and approved by two local Luganda speakers; "DRAFT TRANSLATION" banner removed from `lg.html`.

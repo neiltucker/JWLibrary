@@ -4,6 +4,14 @@
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
 
+## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
+These changes affect every language. The translated wording of the guide is unchanged.
+* **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Ga PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).
+* **Page footer:** the legal notice at the bottom of each curriculum page now shrinks slightly when needed, so it always fits across the page.
+* **QR code and table cards:** now made for every language by the shared `make_qr_and_cards.py` at the top of the repository (`python make_qr_and_cards.py gaa` for this language only). It reads the web address from `site_config.json`, or works it out from the repository's GitHub address. It replaces `translations/gaa/make_qr_and_cards.py`, which was removed. The Ga card now uses the same layout as the other languages (larger QR code, wording wrapped automatically, so the second line now starts at *ogbele* instead of *koni*). The wording is unchanged, and the QR code still opens https://neiltucker.github.io/JWLibrary/gaa.html (checked by decoding it).
+* **README:** the online guide link already opened `gaa.html`; the English page was added on a second line, labelled *(Blɔfo)* (the label already used for the legacy link). The `make_qr_and_cards.py` entry in the file list now says it is at the repository root (*yɛ repository lɛ shishijee*). `tinyurl.txt` was removed from the repository.
+* `sw.js` cache version raised to `v19`. Each copy of the guide now keeps its own offline files, so copies published under the same GitHub account no longer remove each other's saved pages.
+
 ## Changes in this version (update 5) — Reviewers' validation completed
 Applied to `gaa.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py`, `REVIEWER_CHECKLIST.md`, this file, and `sw.js`:
 * **Draft notice removed:** Reviewed and validated by the reviewers.
@@ -86,8 +94,8 @@ Not confirmed: whether the JW Library app itself can show a Ga interface. See `R
 | `QR_Ga_gaa.png`, `QR_Ga_gaa.svg`, `Table_Cards_Ga_gaa.pdf` (root) | New. QR code for https://neiltucker.github.io/JWLibrary/gaa.html (checked by decoding the PNG, the SVG and all four cards). Same size and layout as the other languages. |
 | `JW Library Class Program (Ga).pdf`, `JW Library Tutorial Curriculum (Ga).pdf` (root) | New. Made by `generate_pdfs.py`: 1 page and 4 pages, same as the English. ASCII file names (as for Dinka) so links and downloads work everywhere. |
 | `translations/gaa/README.md`, `JWLibrary_Class.md` | Translated in full from the English. |
-| `translations/gaa/generate_pdfs.py` | Ga text; same layout as the English. Uses the Unicode font search from the Luganda script (now requiring ɛ ɔ ŋ). Writes the PDFs to the repository root using a path relative to the script, instead of the fixed `D:/cs/JWLibrary/` path used in the other scripts. |
-| `translations/gaa/make_qr_and_cards.py` | New helper that makes the QR code and the table cards (there was no script for these in the repository). Change `PAGE_URL` if the guide is hosted elsewhere. |
+| `translations/gaa/generate_pdfs.py` | Ga text; same layout as the English. Uses the Unicode font search from the Luganda script (now requiring ɛ ɔ ŋ). Writes the PDFs to the repository root using a path relative to the script (all the PDF scripts now do this). |
+| `translations/gaa/make_qr_and_cards.py` | New helper that makes the QR code and the table cards (there was no script for these in the repository). Change `PAGE_URL` if the guide is hosted elsewhere. *Replaced in update 6 by the shared `make_qr_and_cards.py` at the repository root.* |
 | `translations/gaa/REVIEWER_CHECKLIST.md` | Form for the Ga reviewers. |
 
 ## 3. Terminology

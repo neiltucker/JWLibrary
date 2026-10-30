@@ -18,16 +18,16 @@ from reportlab.pdfbase.ttfonts import TTFont
 # Unicode font setup.
 # The built-in Helvetica font cannot print letters such as ŋ (used in Luganda).
 # This looks for a TrueType font that contains them and uses it instead.
-# To guarantee correct output on any computer, put the four DejaVu Sans files
-# (DejaVuSans.ttf, DejaVuSans-Bold.ttf, DejaVuSans-Oblique.ttf,
-# DejaVuSans-BoldOblique.ttf) in a folder named "fonts" next to this script.
+# It uses DejaVu Sans from the shared "fonts" folder at the top of the
+# repository first, so the PDFs look the same on every computer and carry
+# their own font. If that folder is missing, an installed font is used.
 # ---------------------------------------------------------------------------
 REQUIRED_CHARS = "ŋŊ"
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _DEJAVU = ('DejaVuSans.ttf', 'DejaVuSans-Bold.ttf', 'DejaVuSans-Oblique.ttf', 'DejaVuSans-BoldOblique.ttf')
 FONT_CANDIDATES = [
-    tuple(os.path.join(_HERE, 'fonts', n) for n in _DEJAVU),
+    tuple(os.path.join(_HERE, '..', '..', 'fonts', n) for n in _DEJAVU),
     tuple('/usr/share/fonts/truetype/dejavu/' + n for n in _DEJAVU),
     ('C:/Windows/Fonts/arial.ttf', 'C:/Windows/Fonts/arialbd.ttf', 'C:/Windows/Fonts/ariali.ttf', 'C:/Windows/Fonts/arialbi.ttf'),
     ('C:/Windows/Fonts/segoeui.ttf', 'C:/Windows/Fonts/segoeuib.ttf', 'C:/Windows/Fonts/segoeuii.ttf', 'C:/Windows/Fonts/segoeuiz.ttf'),
@@ -54,7 +54,7 @@ def setup_fonts():
         return names
     print('WARNING: no installed font contains all the required letters (' + REQUIRED_CHARS + '). '
           'Falling back to Helvetica, so some letters will not print correctly. '
-          'Place the DejaVu Sans .ttf files in a "fonts" folder next to this script.')
+          'Make sure the "fonts" folder at the top of the repository contains the DejaVu Sans .ttf files.')
     return ('Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Helvetica-BoldOblique')
 
 
@@ -86,7 +86,13 @@ class NumberedCanvas(canvas.Canvas):
         self.drawRightString(letter[0] - 45, letter[1] - 30, f"Olupapula {self._pageNumber} ku {page_count}")
         # Ebikwata ku mateeka wansi ku buli lupapula
         disclaimer = "JW Library kabonero k'obusuubuzi akaawandiisibwa aka Watch Tower Bible and Tract Society of Pennsylvania. Kiyamba kyetongodde."
+        # Shrink the notice slightly if needed so it always fits across the page.
+        size = 8
+        while size > 5 and pdfmetrics.stringWidth(disclaimer, FONT, size) > letter[0] - 60:
+            size -= 0.25
+        self.setFont(FONT, size)
         self.drawCentredString(letter[0] / 2.0, 20, disclaimer)
+        self.setFont(FONT, 8)
         self.restoreState()
 
 

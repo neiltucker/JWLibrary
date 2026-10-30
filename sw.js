@@ -1,7 +1,16 @@
-// Service Worker for JW Library Tutorial (Offline PWA) - Version 18
+// Service Worker for JW Library Tutorial (Offline PWA) - Version 19
 // When you publish changes to any page or file listed below, raise the version
-// (e.g. 'jw-tutorial-v4' -> 'jw-tutorial-v5') so phones replace their saved copies.
-const CACHE_NAME = 'jw-tutorial-v18';
+// (e.g. 'v4' -> 'v5') so phones replace their saved copies.
+const CACHE_VERSION = 'v19';
+
+// Each copy of this guide keeps its own saved files. Copies published under the
+// same GitHub account share one web address (yourname.github.io), and so share
+// the browser's storage; including this copy's folder in the name keeps them apart.
+const CACHE_PREFIX = 'jw-tutorial ' + self.registration.scope + ' ';
+const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
+
+// Names used before Version 19 (one name for every copy), removed on update.
+const OLD_SHARED_NAME = /^jw-tutorial-v\d+$/;
 
 // How long to wait for the internet before showing the saved copy of a page.
 // Keeps the guide quick on a weak signal (e.g. one bar of mobile data).
@@ -76,7 +85,11 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+        // Remove only this copy's older saved files (and pre-Version 19 names),
+        // never the saved files of another copy published on the same address.
+        keys.filter((key) => key !== CACHE_NAME &&
+          (key.startsWith(CACHE_PREFIX) || OLD_SHARED_NAME.test(key)))
+          .map((key) => caches.delete(key))
       );
     }).then(() => self.clients.claim())
   );
@@ -84,10 +97,15 @@ self.addEventListener('activate', (event) => {
 
 // Find the saved copy of a page (ignoring anything after "?", e.g. from a QR or shared link).
 // orHomePage: if that page was never saved, use the saved English home page instead.
+// Look only in this copy's own saved files.
+function matchSaved(request, options) {
+  return caches.open(CACHE_NAME).then((cache) => cache.match(request, options));
+}
+
 function findSavedPage(url, orHomePage) {
-  return caches.match(url.origin + url.pathname, { ignoreSearch: true }).then((saved) => {
+  return matchSaved(url.origin + url.pathname, { ignoreSearch: true }).then((saved) => {
     if (saved || !orHomePage) return saved;
-    return caches.match('./index.html');
+    return matchSaved('./index.html');
   });
 }
 
@@ -163,7 +181,7 @@ self.addEventListener('fetch', (event) => {
   event.waitUntil(fetchPromise.catch(() => null));
 
   event.respondWith(
-    caches.match(event.request, { ignoreSearch: true }).then((cachedResponse) => {
+    matchSaved(event.request, { ignoreSearch: true }).then((cachedResponse) => {
       return cachedResponse || fetchPromise.catch(() => Response.error());
     })
   );

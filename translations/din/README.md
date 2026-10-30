@@ -14,7 +14,9 @@ Piööc kënë acï guiir bï ya **class ë degiik 60** ke cïn riɛl, ku **degi
 
 Piööc kënë ë nɛt—kë ye luui apiɛth në skrin ëbën, kë nɔŋ wël tënë device du, ku wël dït—anɔŋ tɛ̈ɛ̈n:
 
-**[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/)** *(ë Thoŋ ë Liŋliŋ / English)*
+**[https://neiltucker.github.io/JWLibrary/din.html](https://neiltucker.github.io/JWLibrary/din.html)**
+
+[https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/) *(ë Thoŋ ë Liŋliŋ / English)*
 
 Piööc ë nɛt anɔŋ:
 * **Lɔc Device Du:** Lɔc **Apple (iOS / iPadOS)**, **Android**, ka **Windows PC / Mac** ba rin ë button ku menu ë device du tïŋ.
@@ -95,7 +97,6 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 * **`JW Library Class Program.pdf`**: Thaa ë class ë page tök bï print *(ë English në repository ë thɛɛr)*.
 * **`JW Library Tutorial Curriculum.pdf`**: Piööc cï thöŋ ë page 4 tënë kɔc ye piööc *(ë English në repository ë thɛɛr)*.
 * **`generate_pdfs.py`**: Python script ë ReportLab bï PDF kɔ̈k looi aya. Në waar kënë, ayee PDF ë Thuɔŋjäŋ looi (`JW Library Class Program (Dinka).pdf` ku `JW Library Tutorial Curriculum (Dinka).pdf`), ku acïï PDF ë English nyaai.
-* **`tinyurl.txt`**: Link koor.
 
 ---
 

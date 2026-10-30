@@ -4,7 +4,7 @@ Thank you for reviewing this translation. It is an AI-produced first draft, so p
 
 **Reviewer name:** ____________________ **Date:** ____________
 
-Files to review: `gaa.html` (web page), `translations/gaa/JWLibrary_Class.md`, `translations/gaa/README.md`, the text inside `translations/gaa/generate_pdfs.py` (the two Ga PDFs), and the table cards (`translations/gaa/make_qr_and_cards.py`).
+Files to review: `gaa.html` (web page), `translations/gaa/JWLibrary_Class.md`, `translations/gaa/README.md`, the text inside `translations/gaa/generate_pdfs.py` (the two Ga PDFs), and the table cards (`Table_Cards_Ga_gaa.pdf`, made by `make_qr_and_cards.py` at the repository root).
 
 ## 1. What does the app actually show?
 
