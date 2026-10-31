@@ -30,7 +30,7 @@ Mwongozo wa mtandaoni una:
 Mtaala umepangwa katika masomo matatu ya dakika 15 kila moja, yakitanguliwa na kliniki ya maandalizi ya dakika 15 kabla ya darasa, dakika 5 za kuwakaribisha wanafunzi, na dakika 10 za kuhitimisha:
 
 0. **Kliniki ya Kabla ya Darasa na Utangulizi (Dakika 5–15)**
-   * **Kliniki ya Maandalizi kwa Wanaofika Mapema (dakika 15 kabla):** Wasaidizi wanawasalimu wanaohudhuria, wanaunganisha vifaa vyao kwenye Wi-Fi ya ukumbi, na wanahakikisha kwamba Biblia na Andiko la Siku la sasa vimepakuliwa kabla darasa halijaanza.
+   * **Kliniki ya Maandalizi kwa Wanaofika Mapema (dakika 15 kabla):** Wasaidizi wanawasalimu wanaohudhuria, wanaunganisha vifaa vyao kwenye Wi-Fi ya ukumbi, na wanahakikisha kwamba Biblia na Andiko la Siku la sasa vimepakuliwa kabla darasa halijaanza. Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha **Lugha** *(Languages)* (A/あ) na uchague lugha hiyo.
    * **Ukaguzi wa Utayari wa Sekunde 30:** Wanafunzi wanainua mikono haraka ili wasaidizi wamsaidie yeyote ambaye bado anahitaji kupakua Biblia wakati darasa linaanza.
    * **Utulivu wa Akili ("Kitufe cha Dharura"):** Kuwafundisha wanafunzi jinsi ya kunyamazisha mara moja sauti inayocheza bila kutarajiwa kwa kutumia **kitufe cha Kupunguza Sauti** *(Volume Down)* kilicho kando ya kifaa (kwenye simu/tablet), **kitufe cha Kunyamazisha (🔇)** *(Mute)* kwenye kibodi (kwenye kompyuta), au kitufe cha Simamisha (⏸️) *(Pause)* kilicho kwenye skrini.
    * Kutambua menyu kuu na kurekebisha muda wa skrini kujifunga / kuzima.

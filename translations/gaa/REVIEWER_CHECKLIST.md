@@ -54,6 +54,7 @@ Open **JW Library** on a phone, tablet or computer the way Ga-speaking learners 
 13. **The label *KADIMƆ:*** ("NOTE:") at the top of `JWLibrary_Class.md` and both PDFs is the translator's own; it was not found as a label in Ga publications. (*Nɔ ni he hiaa:* is now used for "Important:" on the web page.)
 14. **Imperatives and negatives in general:** after updates 2–4, longer verbs and loanwords take *-mɔ* (*Kasemɔ, Feemɔ, Tsɔɔmɔ, Kɛɛmɔ, Printimɔ, Daunlodimɔ*), while short verbs lengthen or stay bare (*Nyɛɛ, Bɔɔ, Too, Ŋɔɔ, Hii, Ba, Bo toi, Hã, tsi kpɔ*). Please confirm these and other forms, e.g. *Bɔɔ mɛi amaniɛ*, *Nyɛkasea*, *Okashe gbeyei*, *akagbe*, *akalaaje*, *okafite*. Please correct any wrong forms.
 15. **Draft notice:** Formerly *Enɛ ji klɛŋklɛŋ shishitsɔɔmɔ ni afee yɛ Ga mli; mɛi ni le Ga jogbaŋŋ kwɛko mli lolo* ("first draft — not yet reviewed"). Removed following validation and approval by reviewers. Draft box at top of `gaa.html`, "(Draft)" in `<title>`, "Draft Ga translation, not yet reviewed" in description, and draft notes in `JWLibrary_Class.md` and `README.md` removed.
+16. **New in update 7 (31 Oct 2026) — please check:** the language-help sentence added to the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README, curriculum PDF page 4): *Kɛ́ nikaselɔ ko miitao woji yɛ wiemɔ kroko mli lɛ, nyɛɛ **Languages** okadi lɛ (A/あ) *(Wiemɔi)* nɔ, ni ohala wiemɔ lɛ.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.")
 
 ## 3. General review
 

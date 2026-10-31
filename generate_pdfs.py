@@ -472,7 +472,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph('Wrap-Up &amp; Facilitator Recommendations (0:50 - 1:00)', h2_style))
     story.append(Paragraph(
-        '• <b>Pre-Class Setup Clinic:</b> Opening doors 15 minutes early for helper setup prevents Wi-Fi bottlenecks.<br/>'
+        '• <b>Pre-Class Setup Clinic:</b> Opening doors 15 minutes early for helper setup prevents Wi-Fi bottlenecks. If a learner needs publications in another language, tap the <b>Languages</b> icon and choose that language.<br/>'
         '• <b>Emergency Silencing Reflex:</b> Teaching the Volume Down button early eliminates fear of unexpected audio.<br/>'
         '• <b>10-Minute Flex Buffer:</b> Use this wrap-up buffer to review accomplishments, answer questions, or absorb extra time.<br/>'
         '• <b>Table Assistants (Helpers):</b> Having 1 or 2 assistants walking the room to help individuals prevents class delays.<br/>'

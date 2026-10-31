@@ -20,7 +20,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 ## 🧑‍🏫 Facilitator & Trainer Operating Notes
 
-* **Pre-Class Setup Clinic (15 Mins Early):** Announce that doors open 15 minutes before class. Have helpers greet attendees at the door, connect their devices to venue Wi-Fi, and verify that the **Bible** and current **Daily Text** are downloaded so learners can dive into Lesson 1 without tech bottlenecks.
+* **Pre-Class Setup Clinic (15 Mins Early):** Announce that doors open 15 minutes before class. Have helpers greet attendees at the door, connect their devices to venue Wi-Fi, and verify that the **Bible** and current **Daily Text** are downloaded so learners can dive into Lesson 1 without tech bottlenecks. If a learner needs publications in another language, tap the **Languages** icon (A/あ) and choose that language.
 * **Table Assistants (Helpers):** Recruit **1 or 2 assistants** to walk the room quietly during practice. When a student accidentally leaves an app or locks their screen, a helper can lean in and tap them back to the right view in 5 seconds without stopping the class.
 * **Emergency Silencing ("Panic Button") Guidance:** Non-tech and elderly users often harbor acute anxiety that media will play unexpectedly and loudly during meetings or class. Before touching media features, teach students the device-appropriate "emergency brake":
   * **Phones & Tablets (Apple / Android):** Press and hold the physical **Volume Down button** on the side of the device, or tap on-screen **Pause (⏸️)**.

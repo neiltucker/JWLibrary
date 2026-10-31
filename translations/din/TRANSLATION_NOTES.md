@@ -10,6 +10,25 @@ To make review easier:
 * The legal disclaimer appears in Dinka **and** in the original English, because its exact wording matters.
 * A reviewer can compare line-by-line with the English files in the original repo.
 
+## Changes in this version (31 Oct 2026, update 7) — language help, Daily Text, Study Edition, review of jw.org/din
+Applied to `din.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py` (and the two Dinka PDFs it makes), `REVIEWER_CHECKLIST.md`, this file, `make_qr_and_cards.py` (Dinka card wording) and `Table_Cards_Dinka_din.pdf`. Sources were checked on jw.org/din and wol.jw.org on 31 Oct 2026.
+* **Language help (all five tutorials):** one sentence added to the pre-class clinic tip on the web page, in the class outline, README and curriculum PDF page 4: *Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë* (English beside it). The same sentence was added to the English, Kiswahili, Luganda and Ga tutorials. The PDFs leave out "(A/あ)" because the PDF font has no Japanese letters.
+* **Daily Text:** *Examining the Scriptures Daily—2027* was published in Dinka on jw.org/din (What's New, 3 Oct 2026), but only as a PDF; it cannot be downloaded in Dinka in JW Library (checked in the app by the project owner). "Daily Text acïn ë Thuɔŋjäŋ" became **"Daily Text acïn ë Thuɔŋjäŋ në JW Library yic"** (not in Dinka *in JW Library*) in Exercises 1.1 and 2.3, the "Thok ë Baibol" tip, the class outline, README and PDF page 2. The facilitator tip now mentions the 2027 PDF on jw.org/din (opens outside the app).
+* **Bible:** still no Dinka Bible (confirmed by the project owner). The default is now the ***New World Translation (Study Edition)*** in English, unless the facilitator recommends another Bible (pre-class checklist, Exercise 1.2, "Thok ë Baibol" tip, class outline, README, PDF page 2). Storage guidance is unchanged.
+* **Text-size button:** "Appearance / Text Size icon" → **Text Settings / Appearance** (web page) and **Text Settings** (class outline, README, PDFs), the name used in current JW.ORG help ("Change Text Settings", iOS help). The Ga guide made the same change.
+* **Dinka meanings beside English button names**, only where jw.org/din uses the word in its menus: **Bible** *(Baibol)*, **Search** *(Wïc)*, and *(Kuɔny)* (Help) on the JW.ORG help link.
+* **Bible references:** examples now read *Mathayo 5*, as the Dinka meeting workbook writes references with numbers only (e.g. *JEREMIA 47-48*, 26 Oct–1 Nov 2026).
+* **Exercise 2.2:** *ë pɛɛi kënë* ("this month") → *ë ëmën* *(the current issue)*, because each Dinka workbook issue covers two months (e.g. *Pɛɛi ë Dhoŋuan–Pɛɛi ë Thiëër 2026*).
+* **Class Program PDF:** section heading *Tɔ̈ɔ̈k ku Nyuɔɔth ë Skrin* → *… ë Device*, as on the web page and in the outline; History added to the 0:18 demonstration (Bookmarks, History ku Search), as in the other files.
+* **Class outline 0:22:** *Settings > Cellular Data* (iPhone) now also names *Mobile data* (Android).
+* **Mac requirement:** "macOS 13 or later, with Apple Silicon (M1 or newer)" in the README and curriculum PDF, as on the App Store listing (version 15.9.2, checked 31 Oct 2026).
+* **README:** `gaa.html` added to the "same folder" note; "four guide pages" → five.
+* **Web page:** English passages marked `lang="en"` (draft notice, bracketed English notes, English legal notice, help links) so screen readers pronounce them correctly; each help link now says *(English)*. Dark/Light and Print buttons are unchanged: no Dinka words for them were found in JW publications.
+* **QR table cards:** *"camera ë phone du"* → **"camera ë telapundu"** in `make_qr_and_cards.py`; `Table_Cards_Dinka_din.pdf` regenerated (QR code unchanged).
+* **Reviewer checklist:** section 2 restructured like the Ga checklist: "Wording to check first (not found in any Dinka publication)", with the source of each item. The settled question about *Yakoba* / *Yekoba* was removed: the jw.org/din home page heading and the newest article (13 Oct 2026) use *Yakoba*.
+* **Checked and unchanged:** *degiik* (minutes), *pɛɛi* (month) and *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* are all used in the October 2026 workbook. jw.org/din spells the *Watchtower* both *Ɣönbɛ̈ɛ̈rtïët* (Online Library) and possibly *Ɣönbɛ̈ɛ̈rtiët* (magazines page heading, as read by a text tool); the guide keeps *Ɣönbɛ̈ɛ̈rtïët*.
+* `sw.js` cache version raised to `v20`.
+
 ## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
 These changes affect every language. The translated wording of the guide is unchanged.
 * **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Dinka PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).
@@ -42,7 +61,7 @@ Applied to `din.html`, `JWLibrary_Class.md`, `generate_pdfs.py` (and the two Din
 * **PDFs:** both Dinka PDFs now carry a "DRAFT — NOT YET REVIEWED" line (on every page of the curriculum) and a link to https://www.jw.org/din/; the curriculum ends with the English original of the legal notice.
 * **Manifest:** "program de JW Library" → "app de JW Library".
 * **Jehovah's Witnesses:** *Ciëëtke Yakoba* is kept. The newest 2026 publications (July–August) use *Yakoba*; *Yekoba* also still appears in 2026 and in the jw.org/din header. (This corrects the conflicting note in the first 16 Oct update.)
-* **Not changed (for the reviewer):** *ka* vs JW's *awu* ("or"); *amat* vs JW's plural *amɛtmɛɛt*; *cuɔ̈ɔ̈t ë röl* vs JW's "dhuɔ̈k röl piny" (turn the sound down, *w26* June). `Table_Cards_Dinka_din.pdf` still says "phone"; the script that made it is not in this repository.
+* **Not changed (for the reviewer):** *ka* vs JW's *awu* ("or"); *amat* vs JW's plural *amɛtmɛɛt*; *cuɔ̈ɔ̈t ë röl* vs JW's "dhuɔ̈k röl piny" (turn the sound down, *w26* June). `Table_Cards_Dinka_din.pdf` still says "phone"; the script that made it is not in this repository. *(Fixed in update 7: the card now says* telapundu*.)*
 * **App interface:** JW Library has no Dinka interface (Dinka is not in the App Store's language list), so English button names remain correct.
 
 ## Changes in this version (16 Oct 2026, update 3)
@@ -77,16 +96,15 @@ Applied to `din.html`, `JWLibrary_Class.md`, `generate_pdfs.py` (and the two Din
 | `din.html` (was `index.html`) | Visible text and device-switcher text translated (draft); draft notice added under the header; CSS, IDs, and storage keys unchanged. `lang="din"`. |
 | `generate_pdfs.py` | Printed text translated (draft). Code changes: output file names and a Unicode font setup. |
 | `REVIEWER_CHECKLIST.md` | New: form for native-speaker reviewers. |
-| `tinyurl.txt` | Copied unchanged. |
 
 Running `generate_pdfs.py` creates `JW Library Class Program (Dinka).pdf` and `JW Library Tutorial Curriculum (Dinka).pdf` without overwriting the English PDFs. Tested: 1 page and 4 pages.
 
-**Font change:** Helvetica cannot print Dinka letters such as ɛ, ɔ, ɣ, ŋ, or ɛ̈/ɔ̈. The script looks for a font that contains them and warns if none is found. Arial on Windows may not contain them all; for guaranteed results, put the four DejaVu Sans `.ttf` files in a `fonts` folder next to the script.
+**Fonts:** Helvetica cannot print Dinka letters such as ɛ, ɔ, ɣ, ŋ, or ɛ̈/ɔ̈. The script uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (see update 6) and warns if no suitable font is found.
 
 ## Terminology
-**Seen in recent Dinka JW publications (2024–2026, wol.jw.org):** Baibol (Bible), Nhialic (God), Yakoba / Yekoba (Jehovah; both spellings occur), *Ciëëtke Yakoba* (Jehovah's Witnesses), *Ɣönbɛ̈ɛ̈rtïët* (Watchtower; study edition *Ɣönbɛ̈ɛ̈rtïët (Awereŋ ë piööc)*), *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* (meeting workbook), Kërthiaan (Christian), *amat* / *amɛtmɛɛt* (meeting / meetings), *degiik* (minutes), *abër* (paragraph), *luaŋ ë Bääny ë Nhialic* (Kingdom Hall), *app*, *liep* (open), *tuany* (tap), *jatpiny* (download), *telapun* (phone), *nɛt* (internet), *bideo* / *Bideoth* (video / videos), *Mathayo* (Matthew), *thanduŋ* (box; seen in the tag tip, not confirmed as "tag"). Meanings were inferred from context.
+**Seen in recent Dinka JW publications (2024–2026, wol.jw.org):** Baibol (Bible), Nhialic (God), Yakoba / Yekoba (Jehovah; both spellings occur), *Ciëëtke Yakoba* (Jehovah's Witnesses), *Ɣönbɛ̈ɛ̈rtïët* (Watchtower; study edition *Ɣönbɛ̈ɛ̈rtïët (Awereŋ ë piööc)*), *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* (meeting workbook), Kërthiaan (Christian), *amat* / *amɛtmɛɛt* (meeting / meetings), *degiik* (minutes), *abër* (paragraph), *luaŋ ë Bääny ë Nhialic* (Kingdom Hall), *app*, *liep* (open), *tuany* (tap), *jatpiny* (download), *telapun* (phone), *nɛt* (internet), *bideo* / *Bideoth* (video / videos), *Mathayo* (Matthew), *pɛɛi* (month), *Wïc* (Search) and *Kuɔny* (Help) (jw.org/din menus), *thanduŋ* (box; seen in the tag tip, not confirmed as "tag"). Meanings were inferred from context.
 
-**Everything else is my own wording and unverified**, including the new sentences added in update 4 (they carry the English in brackets).
+**Everything else is my own wording and unverified**, including the new sentences added in updates 4 and 7 (they carry the English in brackets).
 
 ## Links
 All JW.ORG help links remain on the English pages; I did not find Dinka JW Library help pages.

@@ -32,17 +32,17 @@ Piööc ë nɛt anɔŋ:
 Piööc anɔŋ piööc kadiäk, piööc tök ë degiik 15. Kɔ̈k aye ke kuɔny ë degiik 15 ke class ŋoot ke kën jɔ̈k, degiik 5 ë tɔ̈ɔ̈k, ku degiik 10 ë thök:
 
 0. **Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Degiik 5–15)**
-   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye device ke mat në Wi-Fi, ku aye tïŋ lɔn cï Baibol (English ka thok dɛ̈t) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny ke class ŋoot ke kën jɔ̈k. *(English: there is no Bible or Daily Text in Dinka; English is the default Bible language, and the instructor may choose another language a learner reads better.)*
+   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye device ke mat në Wi-Fi, ku aye tïŋ lɔn cï Baibol (English ka thok dɛ̈t) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny ke class ŋoot ke kën jɔ̈k. *(English: there is no Bible in Dinka, and the Daily Text is not available in Dinka in JW Library; the default Bible is the New World Translation (Study Edition) in English, unless the instructor recommends another.)* Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë. *(If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.)*
    * **Thëm ë Second 30:** Kɔc ye piɔ̈ɔ̈c aye ciin ke jɔt enɔn, bï kɔc ye kuɔny raan kɔɔr jatpiny ë Baibol kuɔny.
    * **Dɔ̈ɔ̈r ë Piɔ̈u ("Panic Button"):** Piööc kɔc të bïk röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn: **Volume Down button** tɔ̈ në lɔ̈ŋ ë telapun/tablet, **Mute key (🔇)** në keyboard ë computer, ka **Pause (⏸️)** në skrin.
    * Yök navigation bar ë apɛi, ku guiir thaa bï skrin thiök (auto-lock / timeout).
 
 1. **Piööc 1: Yök ë Wël ë Baibol ku Amat (Degiik 15)**
-   * Tïŋ navigation bar ë apɛi ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ *(the Daily Text is not published in Dinka)*.
-   * Guiir **Text Size (`A A`)** bï kuɛ̈n ya piɛth.
-   * Liep **athör ku chapter ë Baibol** *(English, or another language the learner reads; the instructor decides)*.
+   * Tïŋ navigation bar ë apɛi ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ *(the Daily Text is not available in Dinka in JW Library)*.
+   * Guiir **Text Settings (`A A`)** bï kuɛ̈n ya piɛth.
+   * Liep **athör ku chapter ë Baibol** *(the New World Translation (Study Edition) in English, unless the instructor recommends another Bible)*.
    * Luɔ̈ɔ̈i **Meetings tab** bï *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* (Midweek) ku piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Weekend liep ë tuany tök.
-   * *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search.
+   * *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search *(Wïc)*.
 
 2. **Piööc 2: Jatpiny ku Luɔ̈i ë Röl ku Bideoth (Degiik 15)**
    * Mat device në Wi-Fi ke yïn ŋoot ke kën jatpiny, bï data ë telapundu cïï thök.
@@ -72,7 +72,7 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 | :--- | :--- |
 | **Android** | Android 8.0 ka kë yam |
 | **Apple iOS / iPadOS** | iOS 15.0 ka kë yam |
-| **Mac** | macOS ke Apple Silicon (M1 chip ka kë yam) |
+| **Mac** | macOS 13 ka kë yam, ke Apple Silicon (M1 chip ka kë yam) |
 | **Windows** | Windows 10 Version 2004 ka kë yam |
 
 ### Kä Piɛth ke Yïn Ŋoot ke Kën Bɔ̈:
@@ -89,8 +89,8 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 ## 📁 Kë Tɔ̈ në Repository Kënë
 
 * **`din.html`**: Piööc ë nɛt ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï device lɔc (device cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
-  *Put `din.html` in the same folder as `index.html` (English), `sw.html`, and `lg.html` so the language menu works.*
-* **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn nɛt *(without internet)*. After a learner opens the guide once while online, the four guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
+  *Put `din.html` in the same folder as `index.html` (English), `sw.html`, `lg.html`, and `gaa.html` so the language menu works.*
+* **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn nɛt *(without internet)*. After a learner opens the guide once while online, the five guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
 * **`Table_Cards_Dinka_din.pdf`**: Printable QR table cards (4 per page) that open `din.html`.
 * **`QR_Dinka_din.png` & `QR_Dinka_din.svg`**: QR code that opens the Dinka page (PNG for screens, SVG for printing).
 * **`JWLibrary_Class.md`**: Thaa ë piööc ë Markdown: thaa tënë raan ye piööc, wël ë kuɔny tënë raan ye class wɛ̈t, ku them ë kɔc ye piɔ̈ɔ̈c.

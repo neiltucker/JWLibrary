@@ -482,7 +482,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Okufundikira n'Amagezi eri Omulungamya (0:50 - 1:00)", h2_style))
     story.append(Paragraph(
-        "• <b>Okuyambibwa nga Kiraasi Tennatandika:</b> Okuggulawo enzigi eddakiika 15 nga bukyali abayambi okutegeka amasimu ne kompyuta kiziyiza akalippagano ku Wi-Fi.<br/>"
+        "• <b>Okuyambibwa nga Kiraasi Tennatandika:</b> Okuggulawo enzigi eddakiika 15 nga bukyali abayambi okutegeka amasimu ne kompyuta kiziyiza akalippagano ku Wi-Fi. Omuyizi bw'aba yeetaaga ebitabo mu lulimi olulala, nyiga akabonero ka <b>Ennimi</b> (Languages) olonde olulimi olwo.<br/>"
         "• <b>Okumanyiira Okusirisa Amaloboozi:</b> Okuyigiriza eppeesa erikendeeza eddoboozi nga bukyali kiggyawo okutya eddoboozi eritasuubiddwa.<br/>"
         "• <b>Eddakiika 10 ez'Enyongeza:</b> Kozesa eddakiika zino ez'okufundikira okuddamu okwetegereza ebituukiddwako, okuddamu ebibuuzo, oba okumalira ekiseera ekisukkiridde.<br/>"
         "• <b>Abayambi ku Mmeeza:</b> Okuba n'abayambi 1 oba 2 abatambulatambula mu kisenge nga bayamba abantu kinnoomu kiziyiza kiraasi okulwawo.<br/>"

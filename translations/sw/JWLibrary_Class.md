@@ -20,7 +20,7 @@ Darasa hili limeandaliwa kuwa **mafunzo ya dakika 60** yenye malengo maalumu, ya
 
 ## 🧑‍🏫 Maelezo ya Utendaji kwa Mwezeshaji na Mwalimu
 
-* **Kliniki ya Maandalizi Kabla ya Darasa (Dakika 15 Mapema):** Tangaza kwamba milango itafunguliwa dakika 15 kabla ya darasa. Wasaidizi wawasalimu wanaohudhuria mlangoni, waunganishe vifaa vyao kwenye Wi-Fi ya ukumbi, na wahakikishe kwamba **Biblia** na **Andiko la Siku** la sasa vimepakuliwa ili wanafunzi waanze Somo la 1 bila matatizo ya kiufundi.
+* **Kliniki ya Maandalizi Kabla ya Darasa (Dakika 15 Mapema):** Tangaza kwamba milango itafunguliwa dakika 15 kabla ya darasa. Wasaidizi wawasalimu wanaohudhuria mlangoni, waunganishe vifaa vyao kwenye Wi-Fi ya ukumbi, na wahakikishe kwamba **Biblia** na **Andiko la Siku** la sasa vimepakuliwa ili wanafunzi waanze Somo la 1 bila matatizo ya kiufundi. Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha **Lugha** *(Languages)* (A/あ) na uchague lugha hiyo.
 * **Wasaidizi wa Mezani:** Tafuta **wasaidizi 1 au 2** watakaozunguka chumbani kwa utulivu wakati wa mazoezi. Mwanafunzi akitoka kwenye programu kwa bahati mbaya au skrini yake ikijifunga, msaidizi anaweza kumkaribia na kumrudisha kwenye ukurasa sahihi kwa sekunde 5 bila kusimamisha darasa.
 * **Mwongozo wa Kunyamazisha Wakati wa Dharura ("Kitufe cha Dharura"):** Watu wasiozoea teknolojia na wazee mara nyingi huogopa sana kwamba sauti au video itacheza ghafla kwa sauti kubwa wakati wa mikutano au darasa. Kabla ya kufungua video au rekodi za sauti, wafundishe wanafunzi "breki ya dharura" inayofaa kifaa chao:
   * **Simu na Tablet (Apple / Android):** Bonyeza na ushikilie **kitufe cha Kupunguza Sauti** *(Volume Down)* kilicho kando ya kifaa, au bofya **Simamisha (⏸️)** *(Pause)* kwenye skrini.

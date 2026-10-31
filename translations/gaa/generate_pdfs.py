@@ -496,7 +496,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Naagbee Kɛ Ŋaawoi Kɛhã Klas Lɛ Hiɛnyiɛlɔ (0:50 - 1:00)", h2_style))
     story.append(Paragraph(
-        "• <b>Yelikɛbuamɔ Dani Klas Lɛ Bɔi:</b> Kɛ́ agbele shinai lɛ miniti 15 dani klas lɛ bɔi koni yelikɛbualɔi aye abua lɛ, mɛi fɛɛ ataoŋ Wi-Fi be kome.<br/>"
+        "• <b>Yelikɛbuamɔ Dani Klas Lɛ Bɔi:</b> Kɛ́ agbele shinai lɛ miniti 15 dani klas lɛ bɔi koni yelikɛbualɔi aye abua lɛ, mɛi fɛɛ ataoŋ Wi-Fi be kome. Kɛ́ nikaselɔ ko miitao woji yɛ wiemɔ kroko mli lɛ, nyɛɛ <b>Languages</b> okadi lɛ (Wiemɔi) nɔ, ni ohala wiemɔ lɛ.<br/>"
         "• <b>Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ:</b> Kɛ́ atsɔɔ nikaselɔi lɛ Volume Down lɛ yɛ shishijee lɛ, amɛsheŋ gbeyei akɛ gbee ko baaje kpo.<br/>"
         "• <b>Naagbee Miniti 10 Lɛ:</b> Okɛ miniti nɛɛ atsu nii kɛkwɛ nɔ ni akase lɛ ekoŋŋ, kɛhã sanebimɔi ahetoo, loo kɛ́ nifeemɔ ko ye be fe bɔ ni akpa gbɛ.<br/>"
         "• <b>Yelikɛbualɔi Ni Yɔɔ Okpɔlɔi Lɛ Ahe:</b> Kɛ́ yelikɛbualɔi 1 loo 2 nyiɛɔ tsũ lɛ mli kɛyeɔ amɛbuaa mɛi pɔtɛɛ lɛ, klas lɛ damɔŋ shi.<br/>"

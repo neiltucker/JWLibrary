@@ -192,18 +192,18 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=3))
 
     # Schedule
-    story.append(Paragraph("<b>Tɔ̈ɔ̈k ku Nyuɔɔth ë Skrin: (0:00 - 0:05)</b>", section_hdr))
+    story.append(Paragraph("<b>Tɔ̈ɔ̈k ku Nyuɔɔth ë Device: (0:00 - 0:05)</b>", section_hdr))
     story.append(Paragraph("0:00 &nbsp; Tɔ̈ɔ̈k; thëm ë Baibol (English ka thok dɛ̈t) ku Ɣönbɛ̈ɛ̈rtïët (kɔc ye kuɔny aye jatpiny kuɔny).", timing_style))
     story.append(Paragraph("0:02 &nbsp; Cuɔ̈ɔ̈t ë röl: muk Volume Down (telapun) ka nyiɛ̈n Mute key (PC); yök navigation bar.", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Piööc 1: Yök ë Wël ë Baibol ku Amat (0:05 - 0:20)</b>", section_hdr))
     story.append(Paragraph("0:05 &nbsp; Jam ë navigation tabs dïït (Bible, Publications, Meetings, Personal Study).", timing_style))
-    story.append(Paragraph("0:07 &nbsp; Liep Ɣönbɛ̈ɛ̈rtïët (Meetings) ku tuany <b>A A</b> icon bï wël ya dït ku kuɛ̈n ya piɛth.", timing_style))
+    story.append(Paragraph("0:07 &nbsp; Liep Ɣönbɛ̈ɛ̈rtïët (Meetings) ku tuany <b>Text Settings</b> (A A) bï wël ya dït ku kuɛ̈n ya piɛth.", timing_style))
     story.append(Paragraph("0:10 &nbsp; Looi Them 1.1 (Text Size).", timing_style))
     story.append(Paragraph("0:12 &nbsp; Liep athör ku chapter ë Baibol (English ka thok dɛ̈t); looi Them 1.2.", timing_style))
     story.append(Paragraph("0:15 &nbsp; Jam ë Meetings tab (athör ë Midweek ku piööc ë Ɣönbɛ̈ɛ̈rtïët ë Weekend).", timing_style))
-    story.append(Paragraph("0:18 &nbsp; Looi Them 1.3 (Meetings tab). (Raan ye piööc abï Bookmarks ku Search nyuɔɔth).", timing_style))
+    story.append(Paragraph("0:18 &nbsp; Looi Them 1.3 (Meetings tab). (Raan ye piööc abï Bookmarks, History ku Search nyuɔɔth).", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Piööc 2: Jatpiny ku Luɔ̈i ë Röl ku Bideoth (0:20 - 0:35)</b>", section_hdr))
@@ -229,8 +229,8 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
     story.append(Paragraph("<b>THEM DÏÏT</b>", ex_hdr))
 
-    story.append(Paragraph("<b>1.1</b> Tuany <b>Meetings</b> ku liep <i>Ɣönbɛ̈ɛ̈rtïët</i>. Tuany <b>A A</b> icon nhial ku cuɔ̈ɔ̈t bï wël ya dït.", ex_style))
-    story.append(Paragraph("<b>1.2</b> Tuany <b>Bible</b> (English ka thok dɛ̈t). Lɔc athör (cït <i>Matthew</i> — <i>Mathayo</i>) ku chapter (cït <i>5</i>) ba kuɛ̈n jɔ̈k.", ex_style))
+    story.append(Paragraph("<b>1.1</b> Tuany <b>Meetings</b> ku liep <i>Ɣönbɛ̈ɛ̈rtïët</i>. Tuany <b>Text Settings</b> (A A) nhial ku cuɔ̈ɔ̈t bï wël ya dït.", ex_style))
+    story.append(Paragraph("<b>1.2</b> Tuany <b>Bible</b> (English ka thok dɛ̈t). Lɔc athör (cït <i>Matthew</i> — <i>Mathayo</i>) ku chapter (cït <i>5</i>: <i>Mathayo 5</i>) ba kuɛ̈n jɔ̈k.", ex_style))
     story.append(Paragraph("<b>1.3</b> Tuany <b>Meetings</b>. Liep piööc ë <i>Ɣönbɛ̈ɛ̈rtïët</i> enɔn ë tuany tök.", ex_style))
     story.append(Spacer(1, 1.5))
 
@@ -359,7 +359,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Kë bï Kɔc Lëu", h1_style))
     story.append(Paragraph("Të cï kek piööc kënë thök, kɔc ye piɔ̈ɔ̈c abï lëu:", body_style))
     story.append(Paragraph("&bull; Bïk lɔ në Bible, Publications, Meetings, ku Personal Study.", bullet_style))
-    story.append(Paragraph("&bull; Bïk wël juak ke A A button.", bullet_style))
+    story.append(Paragraph("&bull; Bïk wël juak ke Text Settings (A A).", bullet_style))
     story.append(Paragraph("&bull; Bïk piööc ë amat yök ë tuany tök në Meetings tab.", bullet_style))
     story.append(Paragraph("&bull; Bïk kuɛ̈n ke cïn nɛt deet ku athör jatpiny në Wi-Fi bï data cïï thök.", bullet_style))
     story.append(Paragraph("&bull; Bïk audio player (headphones icon) luɔ̈ɔ̈i ku röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn.", bullet_style))
@@ -369,7 +369,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Kä Kɔɔr ku Kuɔny ë Guiir", h1_style))
     story.append(Paragraph("Ke kek ŋoot ke kën class bɛ̈n, kɔc ye piɔ̈ɔ̈c abï:", body_style))
     story.append(Paragraph("&bull; Bïk bɛ̈n <b>degiik 10–15 ke ŋoot</b> bï kɔc ye kuɔny ke kuɔny ë Wi-Fi ku Baibol (English ka thok dɛ̈t).", bullet_style))
-    story.append(Paragraph("&bull; Bïk device nɔŋ <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, ka <b>Windows 10 v2004+</b>.", bullet_style))
+    story.append(Paragraph("&bull; Bïk device nɔŋ <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, ka <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Bïk bɛ̈n ke <b>battery cï thiäŋ</b> (ka bïk charger bɛ̈ɛ̈i).", bullet_style))
     story.append(Paragraph("&bull; Bïk <b>screen timeout guiir bï ya degiik 2 ka 5</b> bï skrin cïï thiök.", bullet_style))
     story.append(Paragraph("&bull; Bïk <b>GB 2 agut 4</b> ë storage (ka SD card) tënë file ë röl ku bideoth.", bullet_style))
@@ -386,29 +386,29 @@ def build_curriculum(output_path):
     story.append(Paragraph(
         "Piööc kënë aye kɔc nyuɔɔth të ye kek lɔ në kä dïït ë JW Library app yic apiɛth. "
         "Kɔc ye piööc abï tɛ̈ tɔ̈ navigation bar thïn lueel në device tɔ̈ thïn (piny në iOS "
-        "ku Android yam; nhial në Windows). Nyuɔɔth të ye tuany ë <b>A A</b> icon wël juak bï kuɛ̈n "
+        "ku Android yam; nhial në Windows). Nyuɔɔth të ye tuany ë <b>Text Settings</b> (A A) wël juak bï kuɛ̈n "
         "ya piɛth, ku të ye <b>Meetings tab</b> athör ë amat liep ë tuany tök.",
         body_style
     ))
 
     story.append(Paragraph("Kä bï Piööc (degiik 10)", h2_style))
     story.append(Paragraph("&bull; Navigation Tabs Dïït (Bible, Publications, Meetings, Personal Study)", bullet_style))
-    story.append(Paragraph("&bull; Guiir ë Text Size në Ɣönbɛ̈ɛ̈rtïët (A A button bï wël juak)", bullet_style))
+    story.append(Paragraph("&bull; Guiir ë Text Settings në Ɣönbɛ̈ɛ̈rtïët (A A bï wël juak)", bullet_style))
     story.append(Paragraph("&bull; Liep ë athör ku chapter ë Baibol (cït Matthew 5 — Mathayo 5; Baibol ë English ka thok dɛ̈t)", bullet_style))
     story.append(Paragraph("&bull; Meetings Tab (liep ë athör ë Midweek ku piööc ë Ɣönbɛ̈ɛ̈rtïët ë Weekend)", bullet_style))
     story.append(Paragraph("&bull; <i>Raan ye Piööc Abï Nyuɔɔth:</i> Bookmarks, History, ku Search (bï them baai)", bullet_style))
 
     story.append(Paragraph("Them Dïït (degiik 5)", h2_style))
-    story.append(Paragraph("&bull; <b>Them 1.1:</b> Liep Ɣönbɛ̈ɛ̈rtïët ku tuany <b>A A</b> bï wël ya dït ku tïŋ apiɛth.", bullet_style))
+    story.append(Paragraph("&bull; <b>Them 1.1:</b> Liep Ɣönbɛ̈ɛ̈rtïët ku tuany <b>Text Settings</b> (A A) bï wël ya dït ku tïŋ apiɛth.", bullet_style))
     story.append(Paragraph("&bull; <b>Them 1.2:</b> Tuany Bible, lɔc athör (Matthew — Mathayo), ku liep chapter 5.", bullet_style))
     story.append(Paragraph("&bull; <b>Them 1.3:</b> Liep Meetings tab ku tuany piööc ë Ɣönbɛ̈ɛ̈rtïët.", bullet_style))
 
     story.append(Paragraph("Wël tënë Raan ye Class Wɛ̈t: Piööc 1", h2_style))
     story.append(Paragraph(
-        "Guiir kuɔny ë degiik 15 tënë kɔc bɔ̈ ë thɛɛ bï kɔc ye kuɔny tïŋ lɔn cï Baibol ku Ɣönbɛ̈ɛ̈rtïët guiir. Baibol ku Daily Text acïn ë Thuɔŋjäŋ (English: there is no Bible or Daily Text in Dinka; use the English New World Translation by default, or whatever language you judge best for each learner; some learners may need verses read with them). Të jɔ̈k class, "
+        "Guiir kuɔny ë degiik 15 tënë kɔc bɔ̈ ë thɛɛ bï kɔc ye kuɔny tïŋ lɔn cï Baibol ku Ɣönbɛ̈ɛ̈rtïët guiir. Baibol acïn ë Thuɔŋjäŋ, ku Daily Text acïn ë Thuɔŋjäŋ në JW Library yic (English: there is no Bible in Dinka, and the Daily Text is not available in Dinka in JW Library; use the New World Translation (Study Edition) in English by default, unless you recommend another Bible; some learners may need verses read with them; the 2027 Dinka Daily Text is only a PDF on jw.org/din). Të jɔ̈k class, "
         "looi thëm ë second 30: lueel tënë kɔc bïk ciin ke jɔt të kɔɔr kek kuɔny ë jatpiny, bï kɔc ye kuɔny "
         "ke kuɔny amääth ke yïn ŋoot ke piööc. Piööc cuɔ̈ɔ̈t ë röl enɔn (Volume Down në lɔ̈ŋ ë telapun; Mute key në keyboard ë PC) "
-        "bï riɔ̈ɔ̈c thök. Kɔc ye kuɔny abï tïŋ lɔn cï kɔc wël juak ke A A button.",
+        "bï riɔ̈ɔ̈c thök. Kɔc ye kuɔny abï tïŋ lɔn cï kɔc wël juak ke Text Settings (A A).",
         body_style
     ))
 
@@ -487,7 +487,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Thök ku Wël tënë Raan ye Class Wɛ̈t (0:50 - 1:00)", h2_style))
     story.append(Paragraph(
-        "• <b>Kuɔny ke Class Ŋoot ke Kën Jɔ̈k:</b> Liep ë ɣöt degiik 15 ke ŋoot bï kɔc ye kuɔny device guiir, ka Wi-Fi acïï bï cuɔ̈ɔ̈t.<br/>"
+        "• <b>Kuɔny ke Class Ŋoot ke Kën Jɔ̈k:</b> Liep ë ɣöt degiik 15 ke ŋoot bï kɔc ye kuɔny device guiir, ka Wi-Fi acïï bï cuɔ̈ɔ̈t. Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany <b>Languages</b> icon ku lɔc thok kënë.<br/>"
         "• <b>Cuɔ̈ɔ̈t ë Röl Tueŋ:</b> Piööc ë Volume Down button ke ŋoot aye riɔ̈ɔ̈c ë röl cï bɔ̈ ke kën ye tak nyaai.<br/>"
         "• <b>Degiik 10 ë Juak:</b> Luɔ̈ɔ̈i degiik kɔ̈k ë thök bï dhuk cök në kä cï looi, bï thiëc bëër, ka bï thaa juak dɔm.<br/>"
         "• <b>Kɔc ye Kuɔny në Tëëbil:</b> Kɔc 1 ka 2 ye kuɔny ke cath në ɣöt yic ke kɔc kuɔny ë rɔt, ka class acïï bï kääc.<br/>"

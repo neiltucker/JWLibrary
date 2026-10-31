@@ -4,6 +4,12 @@
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
 
+## Changes in this version (31 Oct 2026, update 7) — language help in the pre-class clinic tip
+These changes affect every language. Nothing else in this language's guide changed.
+* **Language help:** one sentence added to the end of the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README and curriculum PDF page 4), the same in all five tutorials: *Kɛ́ nikaselɔ ko miitao woji yɛ wiemɔ kroko mli lɛ, nyɛɛ **Languages** okadi lɛ (A/あ) *(Wiemɔi)* nɔ, ni ohala wiemɔ lɛ.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.") The PDF leaves out "(A/あ)" because the PDF font has no Japanese letters. The icon and the word *Languages* are the same on Android, Apple and Windows (checked by the project owner).
+* **Wording:** Built from wording already in the Ga guide and the Ga JW Library help: *Languages (Wiemɔi)*, *nyɛɛ … nɔ* (tap), *okadi* (icon), *halamɔ* (choose), *nikaselɔ* (learner), *kroko* (another), *woji* (publications, as in *Woji kɛ Nibii*). It was written after the Ga review and has **not yet been checked by the Ga reviewers**; it is listed in `REVIEWER_CHECKLIST.md` (item 16) for the next audit.
+* The curriculum PDF was regenerated (same page count). `sw.js` cache version raised to `v20`.
+
 ## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
 These changes affect every language. The translated wording of the guide is unchanged.
 * **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Ga PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).

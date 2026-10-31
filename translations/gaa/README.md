@@ -30,7 +30,7 @@ Nibii ni yɔɔ kasemɔ wolo ni yɔɔ wɛbsaiti lɛ nɔ lɛ:
 Nikasemɔi etɛ yɛ mli, ni eko fɛɛ eko yeɔ miniti 15. Yelikɛbuamɔ ni afeɔ miniti 15 dani klas lɛ bɔi, shishijee ni yeɔ miniti 5, kɛ naagbee ni yeɔ miniti 10 hu yɛ mli:
 
 0. **Yelikɛbuamɔ Dani Klas Lɛ Bɔi Kɛ Shishijee (Miniti 5–15)**
-   * **Yelikɛbuamɔ Kɛhã Mɛi Ni Ba Mra (miniti 15 dani klas lɛ bɔi):** Yelikɛbualɔi lɛ hereɔ mɛi ni ba lɛ, amɛyeɔ amɛbuaa amɛ ni amɛyaa Wi-Fi ni yɔɔ he ni afeɔ klas lɛ yɛ lɛ nɔ, ni amɛkwɛɔ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ edaunlodi momo lo.
+   * **Yelikɛbuamɔ Kɛhã Mɛi Ni Ba Mra (miniti 15 dani klas lɛ bɔi):** Yelikɛbualɔi lɛ hereɔ mɛi ni ba lɛ, amɛyeɔ amɛbuaa amɛ ni amɛyaa Wi-Fi ni yɔɔ he ni afeɔ klas lɛ yɛ lɛ nɔ, ni amɛkwɛɔ akɛ Biblia lɛ kɛ Daa Gbi Ŋmalɛ Lɛ edaunlodi momo lo. Kɛ́ nikaselɔ ko miitao woji yɛ wiemɔ kroko mli lɛ, nyɛɛ **Languages** okadi lɛ (A/あ) *(Wiemɔi)* nɔ, ni ohala wiemɔ lɛ.
    * **Akwɛ Yɛ Sekɛnd 30 Mli:** Nikaselɔi lɛ woɔ amɛnine nɔ kɛ́ amɛmiitao yelikɛbuamɔ koni amɛdaunlodi Biblia lɛ, ni yelikɛbualɔi lɛ yeɔ amɛbuaa amɛ be ni klas lɛ eebɔi lɛ.
    * **Toiŋjɔlɛ (Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ):** Atsɔɔ nikaselɔi lɛ bɔ ni amɛaafee amɛhã gbee ni amɛkpaaa gbɛ lɛ sɛɛ afo oya nɔŋŋ: **Volume Down** ni yɔɔ foŋ/tablɛt lɛ he, **Mute (🔇)** yɛ kɔmpiuta okiibɔd lɛ nɔ, loo **Pause (⏸️)** yɛ skrin lɛ nɔ.
    * Akwɛ he ni kpɔ ni fãi titrii lɛ yɔɔ nɔ lɛ (navigation bar) yɔɔ, ni atsake be ni skrin lɛ gbeɔ lɛ.

@@ -22,8 +22,8 @@ Class kënë acï guiir bï ya **piööc ë thaa tök**, ke nɔŋ piööc kadiä
 
 ## 🧑‍🏫 Wël tënë Raan ye Class Wɛ̈t ku Raan ye Piööc
 
-* **Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Degiik 15 ke Ŋoot):** Lueel lɔn bï ɣöt liep ë degiik 15 ke class ŋoot ke kën jɔ̈k. Kɔc ye kuɔny abï kɔc bɔ̈ muɔ̈th në thok ë ɣöt, abïk device ke mat në Wi-Fi, ku abïk tïŋ lɔn cï **Baibol** (English ka thok dɛ̈t ye kek kuɛ̈n) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny, bï kɔc ye piɔ̈ɔ̈c Piööc 1 jɔ̈k ke cïn kë ë technology ye ke dɔm. *(English: the Bible in English or another language they read, and this week's Dinka Watchtower.)*
-* **Thok ë Baibol (Bible Language):** Baibol ku Daily Text acïn ë Thuɔŋjäŋ. *(English: There is no Bible or Daily Text in Dinka. Use the New World Translation in English by default, or whatever language you judge best for each learner or group. Helpers should ask each learner which language they read and jatpiny that Bible on the venue Wi-Fi before class. Some learners may need you to read verses with them; Dinka publications print the key verses in Dinka.)*
+* **Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Degiik 15 ke Ŋoot):** Lueel lɔn bï ɣöt liep ë degiik 15 ke class ŋoot ke kën jɔ̈k. Kɔc ye kuɔny abï kɔc bɔ̈ muɔ̈th në thok ë ɣöt, abïk device ke mat në Wi-Fi, ku abïk tïŋ lɔn cï **Baibol** (English ka thok dɛ̈t ye kek kuɛ̈n) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny, bï kɔc ye piɔ̈ɔ̈c Piööc 1 jɔ̈k ke cïn kë ë technology ye ke dɔm. *(English: the Bible — the New World Translation (Study Edition) in English, unless the facilitator recommends another — and this week's Dinka Watchtower.)* Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë. *(If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.)*
+* **Thok ë Baibol (Bible Language):** Baibol acïn ë Thuɔŋjäŋ, ku Daily Text acïn ë Thuɔŋjäŋ në JW Library yic. *(English: There is no Bible in Dinka, and the Daily Text is not available in Dinka in JW Library. Use the New World Translation (Study Edition) in English by default, unless you recommend another Bible for a learner or group. Helpers should ask each learner which language they read and jatpiny that Bible on the venue Wi-Fi before class. Some learners may need you to read verses with them; Dinka publications print the key verses in Dinka. The 2027 Dinka Daily Text, Examining the Scriptures Daily—2027, is published only as a PDF on jw.org/din; it opens outside the app and needs internet and a PDF reader.)*
 * **Kɔc ye Kuɔny në Tëëbil:** Lɔc **kɔc 1 ka 2** bïk cath në ɣöt yic ke cïn röl të ye kɔc them. Të cï raan ye piɔ̈ɔ̈c app nyaai ke kën ye tak, ka skrin du cï thiök, raan ye kuɔny alëu bï bɛ̈n ku dhuk ye tɛ̈ piɛth ë second 5, ke class cïï kääc.
 * **Kuɔny ë Cuɔ̈ɔ̈t ë Röl ("Panic Button"):** Kɔc cïï ŋic technology ku kɔc cï dhiɔp ariɔ̈ɔ̈c arëët lɔn bï röl ka bideoth bɛ̈n ke kën ye tak ku röl dït në luaŋ ë Bääny ë Nhialic ka class. Ke ŋoot ke kën röl ku bideoth jɔ̈k, piööc kɔc "brake ë riɔ̈ɔ̈c" tënë device ke:
   * **Telapun ku Tablet (Apple / Android):** Nyiɛ̈n **Volume Down button** tɔ̈ në lɔ̈ŋ ë device ku muk ë thaa, ka tuany **Pause (⏸️)** në skrin.
@@ -49,19 +49,19 @@ Class kënë acï guiir bï ya **piööc ë thaa tök**, ke nɔŋ piööc kadiä
 
 ### Piööc 1: Yök ë Wël ë Baibol ku Amat (0:05 – 0:20)
 * **0:05** Tïŋ ë kä dïït: **Bible**, **Publications**, **Meetings**, ku **Personal Study**.
-* **0:07** Liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* (Meetings) ku tuany **`A A`** bï wël ya dït ku kuɛ̈n ya piɛth.
+* **0:07** Liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* (Meetings) ku tuany **Text Settings** (`A A`) bï wël ya dït ku kuɛ̈n ya piɛth.
 * **0:10** **Looi Them 1.1** (Text Size).
-* **0:12** Liep **athör ku chapter ë Baibol** (cït Matthew — Mathayo — chapter 5; Baibol ë English ka thok dɛ̈t).
+* **0:12** Liep **athör ku chapter ë Baibol** (cït Matthew 5 — Mathayo 5; Baibol ë English ka thok dɛ̈t).
 * **0:14** **Looi Them 1.2** (Liep chapter ë Baibol).
 * **0:16** Tïŋ **Meetings tab** (liep ë *Athör Amat ë Lon ë Piööc ku Ciɛɛŋda* ë Midweek ku piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Weekend enɔn).
 * **0:18** **Looi Them 1.3** (Meetings tab).
-* **0:20** *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search (alëu bïk ke them baai).
+* **0:20** *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search *(Wïc)* (alëu bïk ke them baai).
 
 ---
 
 ### Piööc 2: Jatpiny ku Luɔ̈i ë Röl ku Bideoth (0:20 – 0:35)
 * **0:20** Deet ë luɔ̈i ke cïn nɛt: të cï kë jatpiny në Wi-Fi, ka döŋ në device, ku data ë telapun acïï kɔɔr në amat.
-* **0:22** Tïŋ Wi-Fi ku tiit ë data ë telapun (kä bï tak në *Settings > Cellular Data*).
+* **0:22** Tïŋ Wi-Fi ku tiit ë data ë telapun (kä bï tak në *Settings > Cellular Data* (iPhone) ka *Mobile data* (Android)).
 * **0:24** **Looi Them 2.1** (Tïŋ Wi-Fi).
 * **0:26** Jatpiny athör ka bideo koor ë piööc (cït *"Ye Wɛ̈tŋö Ye Yïn Baibol Piɔ̈ɔ̈cë?"* — *"Why Study the Bible?"*).
 * **0:29** **Looi Them 2.2** (Jatpiny bï luɔ̈ɔ̈i ke cïn nɛt).
@@ -95,10 +95,10 @@ Class kënë acï guiir bï ya **piööc ë thaa tök**, ke nɔŋ piööc kadiä
 
 ### 1. Them ë Yök ë Wël ë Baibol ku Amat
 
-* **Them 1.1. Text Size:** Tuany **Meetings** (📅) ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët*. *(The Daily Text is not published in Dinka.)* Në bar nhial, tuany **`A A`** icon ku cuɔ̈ɔ̈t bar bï wël ya dït ku kuɛ̈n ya piɛth.
-* **Them 1.2. Chapter ë Baibol:** Tuany **Bible** (📖) *(English, or another language you read)*. Lɔc athör (cït *Matthew* — *Mathayo*) ku chapter (cït *5*) ba kuɛ̈n jɔ̈k.
+* **Them 1.1. Text Size:** Tuany **Meetings** (📅) ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët*. *(The Daily Text is not available in Dinka in JW Library.)* Në bar nhial, tuany **Text Settings** (`A A`) icon ku cuɔ̈ɔ̈t bar bï wël ya dït ku kuɛ̈n ya piɛth.
+* **Them 1.2. Chapter ë Baibol:** Tuany **Bible** *(Baibol)* (📖) *(the New World Translation (Study Edition) in English, unless the facilitator recommends another Bible)*. Lɔc athör (cït *Matthew* — *Mathayo*) ku chapter (cït *5*: *Mathayo 5*) ba kuɛ̈n jɔ̈k.
 * **Them 1.3. Meetings Tab:** Tuany **Meetings** tab (📅). Liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* enɔn. *(This week's study article, under the Weekend Meeting.)*
-* *Nyuɔɔth (Juak):* Luɔ̈ɔ̈i **Bookmark** icon (🔖) ba wël ë Baibol gät nyin, **History** icon (🕒) ba dhuk në wël cï kuɛ̈n, ka **Search** icon (🔍) ba wël yök.
+* *Nyuɔɔth (Juak):* Luɔ̈ɔ̈i **Bookmark** icon (🔖) ba wël ë Baibol gät nyin, **History** icon (🕒) ba dhuk në wël cï kuɛ̈n, ka **Search** icon (🔍) *(Wïc)* ba wël yök.
 
 ---
 
@@ -106,7 +106,7 @@ Class kënë acï guiir bï ya **piööc ë thaa tök**, ke nɔŋ piööc kadiä
 
 * **Them 2.1. Tïŋ Wi-Fi:** Tïŋ lɔn cï device du mat në Wi-Fi ke yïn ŋoot ke kën kë jatpiny, bï data ë telapundu cïï thök.
 * **Them 2.2. Jatpiny bï Luɔ̈ɔ̈i ke Cïn Nɛt:** Tuany **Publications** (📚) ka thaa ë amat. Tuany **Cloud icon (☁️)** në athör ë piööc ka bideo koor bï jatpiny ku luɔ̈ɔ̈i ke cïn nɛt.
-* **Them 2.3. Piŋ Röl ku Cuɔ̈ɔ̈t Enɔn:** Liep chapter ë Baibol (English ka thok dɛ̈t), ka bideo koor ë Thuɔŋjäŋ *(Dinka has no Daily Text or Bible audio)*. Tuany **Headphones / Play button (🎧)** nhial në skrin ba kuɛ̈n piŋ. Them ba röl cuɔ̈ɔ̈t enɔn: në telapun ka tablet, nyiɛ̈n **Volume Down button** tɔ̈ në lɔ̈ŋ ku muk; në laptop/PC, nyiɛ̈n **Mute key (🔇)** në keyboard; ka tuany **Pause (⏸️)**.
+* **Them 2.3. Piŋ Röl ku Cuɔ̈ɔ̈t Enɔn:** Liep chapter ë Baibol (English ka thok dɛ̈t), ka bideo koor ë Thuɔŋjäŋ *(JW Library has no Dinka Daily Text or Dinka Bible audio)*. Tuany **Headphones / Play button (🎧)** nhial në skrin ba kuɛ̈n piŋ. Them ba röl cuɔ̈ɔ̈t enɔn: në telapun ka tablet, nyiɛ̈n **Volume Down button** tɔ̈ në lɔ̈ŋ ku muk; në laptop/PC, nyiɛ̈n **Mute key (🔇)** në keyboard; ka tuany **Pause (⏸️)**.
 * *Nyuɔɔth (Juak):* Në **Publications** > **Downloaded**, waar sort bï ya **Largest Size** ba storage tïŋ ku ba tïŋ të ye file cïï kɔɔr nyaai.
 
 ---

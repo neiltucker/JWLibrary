@@ -26,7 +26,7 @@ The web guide includes:
 The curriculum is structured into three focused 15-minute lessons, framed by a 15-minute pre-class setup clinic, a 5-minute welcome, and a 10-minute wrap-up buffer:
 
 0. **Pre-Class Clinic & Orientation (5–15 Mins)**
-   * **Early Arrival Setup Clinic (15 mins prior):** Helpers greet attendees, connect devices to venue Wi-Fi, and verify the Bible and current Daily Text are downloaded before start time.
+   * **Early Arrival Setup Clinic (15 mins prior):** Helpers greet attendees, connect devices to venue Wi-Fi, and verify the Bible and current Daily Text are downloaded before start time. If a learner needs publications in another language, tap the **Languages** icon (A/あ) and choose that language.
    * **30-Second Readiness Check:** Quick show of hands so helpers can assist anyone still needing a Bible download while class begins.
    * **Peace of Mind ("Panic Button"):** Teaching students how to immediately silence unexpected audio using the device's physical **Volume Down** button (on phones/tablets), keyboard **Mute key (🔇)** (on computers), or on-screen Pause (⏸️).
    * Locating the main navigation bar and adjusting screen auto-lock / timeout.

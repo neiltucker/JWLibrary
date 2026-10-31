@@ -2,6 +2,12 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and approved by two local Luganda speakers (including Andrew Kalinaki, 22 Oct 2026). Draft notice removed.
 
+## Changes in this version (31 Oct 2026, update 7) — language help in the pre-class clinic tip
+These changes affect every language. Nothing else in this language's guide changed.
+* **Language help:** one sentence added to the end of the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README and curriculum PDF page 4), the same in all five tutorials: *Omuyizi bw'aba yeetaaga ebitabo mu lulimi olulala, nyiga akabonero ka **Ennimi** (Languages) (A/あ) olonde olulimi olwo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.") The PDF leaves out "(A/あ)" because the PDF font has no Japanese letters. The icon and the word *Languages* are the same on Android, Apple and Windows (checked by the project owner).
+* **Wording:** Built from wording already in the Luganda guide: *omuyizi* (learner), *ebitabo* (publications), *nyiga* (tap), *akabonero* (icon), *olulimi* (language, as in the guide's language menu). *Ennimi* (Languages) is the plural of *olulimi*; it was not checked against the app. It was written after the Luganda review and has **not yet been checked by the Luganda reviewers**; it is listed in `REVIEWER_CHECKLIST.md` (item 11) for the next audit.
+* The curriculum PDF was regenerated (same page count). `sw.js` cache version raised to `v20`.
+
 ## Changes in this version (30 Oct 2026, update 6) — shared fonts, QR script and template setup
 These changes affect every language. The translated wording of the guide is unchanged.
 * **Fonts:** `generate_pdfs.py` now uses DejaVu Sans from the shared `fonts/` folder at the top of the repository (with its license file), so the PDFs look the same and print every letter correctly on any computer, with no other downloads. Installed fonts are still used as a backup. Both Luganda PDFs were regenerated with the same words and page counts (1 and 4 pages); only the font changed (was Arial).

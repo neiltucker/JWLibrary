@@ -30,7 +30,7 @@ Ekitabo ky'oku mukutu kirimu:
 Amasomo gategekeddwa mu masomo asatu, buli limu lya ddakiika 15, nga gasookebwako okuyambibwa okw'eddakiika 15 nga kiraasi tennatandika, eddakiika 5 ez'okwaniriza, n'eddakiika 10 ez'okufundikira:
 
 0. **Okuyambibwa nga Kiraasi Tennatandika n'Okumanyiira (Eddakiika 5–15)**
-   * **Okuyambibwa kw'Abo Abatuuka nga Bukyali (eddakiika 15 nga tennatandika):** Abayambi babaniriza abazze, bayunga amasimu, tabbuleeti, ne kompyuta zaabwe ku Wi-Fi y'ekifo, era bakakasa nti Bayibuli n'Ekyawandiikibwa eky'Olunaku ekiriwo biwanuddwa nga kiraasi tennatandika.
+   * **Okuyambibwa kw'Abo Abatuuka nga Bukyali (eddakiika 15 nga tennatandika):** Abayambi babaniriza abazze, bayunga amasimu, tabbuleeti, ne kompyuta zaabwe ku Wi-Fi y'ekifo, era bakakasa nti Bayibuli n'Ekyawandiikibwa eky'Olunaku ekiriwo biwanuddwa nga kiraasi tennatandika. Omuyizi bw'aba yeetaaga ebitabo mu lulimi olulala, nyiga akabonero ka **Ennimi** *(Languages)* (A/あ) olonde olulimi olwo.
    * **Okukebera mu Sikonda 30 oba Abantu Beetegese:** Abayizi bayimusa emikono mangu abayambi basobole okuyamba oyo yenna akyetaaga okuwanula Bayibuli nga kiraasi etandika.
    * **Emirembe mu Mutima ("Eppeesa erisirisa"):** Okuyigiriza abayizi engeri y'okusirisa amangu eddoboozi eritasuubiddwa nga bakozesa **eppeesa erikendeeza eddoboozi** *(Volume Down)* eriri ku mabbali g'essimu oba tabbuleeti, **eppeesa erisirisa (🔇)** *(Mute)* ku kibodi kya kompyuta, oba **Yimiriza (⏸️)** *(Pause)* ku sikuliini.
    * Okuzuula olukalala olukulu olw'okutambuliramu (navigation bar) n'okutereeza ekiseera sikuliini mw'eggalirwa / mw'ezikira.

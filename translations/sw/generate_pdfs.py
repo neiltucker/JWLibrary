@@ -475,7 +475,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph('Kuhitimisha na Mapendekezo kwa Mwezeshaji (0:50 - 1:00)', h2_style))
     story.append(Paragraph(
-        '• <b>Kliniki ya Maandalizi Kabla ya Darasa:</b> Kufungua milango dakika 15 mapema ili wasaidizi waandae vifaa kunazuia msongamano wa Wi-Fi.<br/>'
+        '• <b>Kliniki ya Maandalizi Kabla ya Darasa:</b> Kufungua milango dakika 15 mapema ili wasaidizi waandae vifaa kunazuia msongamano wa Wi-Fi. Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha <b>Lugha</b> (Languages) na uchague lugha hiyo.<br/>'
         '• <b>Mazoea ya Kunyamazisha Wakati wa Dharura:</b> Kufundisha kitufe cha Kupunguza Sauti mapema kunaondoa hofu ya sauti isiyotarajiwa.<br/>'
         '• <b>Dakika 10 za Ziada:</b> Tumia dakika hizi za kuhitimisha kupitia tena yaliyotimizwa, kujibu maswali, au kufidia muda wa ziada.<br/>'
         '• <b>Wasaidizi wa Mezani:</b> Kuwa na wasaidizi 1 au 2 wanaozunguka chumbani kuwasaidia watu mmoja mmoja kunazuia darasa lisicheleweshwe.<br/>'
