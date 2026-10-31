@@ -46,7 +46,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 ### Lesson 1: Finding Scriptures & Meetings (0:05 – 0:20)
 * **0:05** Overview of primary sections: **Bible**, **Publications**, **Meetings**, and **Personal Study**.
-* **0:07** Accessing the **Daily Text** and tapping **`A A`** to enlarge text for comfortable reading.
+* **0:07** Accessing the **Daily Text** and tapping **Text Settings** (`A A`) to enlarge text for comfortable reading.
 * **0:10** **Perform Core Exercise 1.1** (Daily Text & Text Size).
 * **0:12** Opening a specific **Bible book and chapter** (e.g., Matthew chapter 5).
 * **0:14** **Perform Core Exercise 1.2** (Opening a Bible chapter).
@@ -92,7 +92,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 ### 1. Finding Scriptures & Meetings Exercises
 
-* **Core 1.1. Daily Text & Text Size:** Tap **Daily Text** (☀️). In the upper bar, tap the **`A A`** icon and slide the bar to make the text larger and comfortable to read.
+* **Core 1.1. Daily Text & Text Size:** Tap **Daily Text** (☀️). In the upper bar, tap the **Text Settings** (`A A`) icon and slide the bar to make the text larger and comfortable to read.
 * **Core 1.2. Bible Chapter:** Tap **Bible** (📖). Select a book (e.g., *Matthew*) and chapter (e.g., *5*) to begin reading.
 * **Core 1.3. Meetings Tab:** Tap the **Meetings** tab (📅). Open this week’s *Watchtower* Study article directly from the weekend meeting schedule.
 * *Demonstrated (Bonus):* Use the **Bookmark** icon (🔖) to mark a verse, the **History** icon (🕒) to retrace recent scriptures, or the **Search** icon (🔍) to find a phrase.

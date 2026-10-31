@@ -46,7 +46,7 @@ Kiraasi eno etegekeddwa okuba **okuyiga okw'essaawa emu** okulina ekigendererwa,
 
 ### Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana (0:05 – 0:20)
 * **0:05** Okulaba mu bufunze ebitundu ebikulu: **Bayibuli** *(Bible)*, **Ebitabo** *(Publications)*, **Enkuŋŋaana** *(Meetings)*, n'**Okwesomesa** *(Personal Study)*.
-* **0:07** Okuggulawo **Ekyawandiikibwa eky'Olunaku** *(Daily Text)* n'okunyiga **`A A`** okwongera ku bunene bw'ennukuta osobole okusoma bulungi.
+* **0:07** Okuggulawo **Ekyawandiikibwa eky'Olunaku** *(Daily Text)* n'okunyiga **Obunene bw'Ennukuta (Text Settings)** (`A A`) okwongera ku bunene bw'ennukuta osobole okusoma bulungi.
 * **0:10** **Kola Okwegezaamu 1.1** (Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta).
 * **0:12** Okuggulawo **ekitabo n'essuula ya Bayibuli** (okugeza, Matayo essuula 5).
 * **0:14** **Kola Okwegezaamu 1.2** (Okuggulawo essuula ya Bayibuli).
@@ -92,7 +92,7 @@ Kiraasi eno etegekeddwa okuba **okuyiga okw'essaawa emu** okulina ekigendererwa,
 
 ### 1. Okwegezaamu Okuzuula Ebyawandiikibwa n'Enkuŋŋaana
 
-* **Okwegezaamu 1.1. Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta:** Nyiga **Ekyawandiikibwa eky'Olunaku** (☀️) *(Daily Text)*. Ku lukalala olwa waggulu, nyiga akabonero **`A A`** era osereze akasaaliro ennukuta zifuuke nnene era nnyangu okusoma.
+* **Okwegezaamu 1.1. Ekyawandiikibwa eky'Olunaku n'Obunene bw'Ennukuta:** Nyiga **Ekyawandiikibwa eky'Olunaku** (☀️) *(Daily Text)*. Ku lukalala olwa waggulu, nyiga akabonero **Obunene bw'Ennukuta (Text Settings)** (`A A`) era osereze akasaaliro ennukuta zifuuke nnene era nnyangu okusoma.
 * **Okwegezaamu 1.2. Essuula ya Bayibuli:** Nyiga **Bayibuli** (📖) *(Bible)*. Londa ekitabo (okugeza, *Matayo*) n'essuula (okugeza, *5*) otandike okusoma.
 * **Okwegezaamu 1.3. Ekitundu ky'Enkuŋŋaana:** Nyiga ekitundu ky'**Enkuŋŋaana** (📅) *(Meetings)*. Ggulawo butereevu ekitundu ky'*Omunaala gw'Omukuumi* ekisomebwa mu kibiina wiiki eno *(Watchtower Study)* okuva ku nteekateeka y'olukuŋŋaana olwa wiikendi.
 * *Kirageddwa (Eky'enyongeza):* Kozesa akabonero **akalaga w'okomye okusoma** (🔖) *(Bookmark)* okussa akabonero ku lunyiriri, **History** (🕒) okuddayo amangu ku byawandiikibwa by'obadde osoma, oba akabonero ka **Noonya** (🔍) *(Search)* okunoonya ebigambo.

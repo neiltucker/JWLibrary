@@ -28,6 +28,7 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 | Add Note | Yongerako Ekiwandiiko | | |
 | Tags | Ttaaga | | |
 | Playlists | Playlists (English) | | |
+| Text Settings (A A) | Obunene bw'Ennukuta (Text Settings) | | |
 
 **How the answers are used:**
 - If the app shows Luganda words, the documents will use those exact words, with the English name in brackets.
@@ -49,6 +50,7 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 9. **From update 2 — please check these sentences** (web page facilitator guide, `JWLibrary_Class.md`, README and PDF page 4): the three facilitator tips on printed handouts, QR table cards, and Add to Home Screen, including the new sentence telling learners to open the home-screen icon once while still online.
 10. The link text *Obukadi bw'okummeeza (PDF)* on the web page: should it be written *bw'oku mmeeza*? The new support-file text uses *obukadi bwa QR ku mmeeza*. Please choose one form for both.
 11. **New in update 7 (31 Oct 2026) — please check:** the language-help sentence added to the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README, curriculum PDF page 4): *Omuyizi bw'aba yeetaaga ebitabo mu lulimi olulala, nyiga akabonero ka **Ennimi** (Languages) (A/あ) olonde olulimi olwo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.")
+12. **New in update 8 — please check:** the Text Settings button name includes **(Text Settings)** in brackets after the approved Luganda words (*Obunene bw'Ennukuta (Text Settings)*) in `lg.html`, `JWLibrary_Class.md`, and `README.md`.
 
 ## 3. General review
 

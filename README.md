@@ -33,7 +33,7 @@ The curriculum is structured into three focused 15-minute lessons, framed by a 1
 
 1. **Lesson 1: Finding Scriptures & Meetings (15 Mins)**
    * Exploring the main navigation bar and reading today's **Daily Text**.
-   * Adjusting **Text Size (`A A`)** for comfortable, effortless reading.
+   * Adjusting **Text Settings (`A A`)** for comfortable, effortless reading.
    * Opening a specific **Bible book and chapter**.
    * Using the **Meetings tab** for one-tap access to the Midweek Meeting workbook and Weekend *Watchtower* study article.
    * *Demonstrated by Instructor:* Bookmarks, History, and Search.
@@ -65,7 +65,7 @@ To ensure the latest features and security updates are available, verify that yo
 | :--- | :--- |
 | **Android** | Android 8.0 or later |
 | **Apple iOS / iPadOS** | iOS 15.0 or later |
-| **Mac** | macOS with Apple Silicon (M1 chip or newer) |
+| **Mac** | macOS 13 or later, with Apple Silicon (M1 chip or newer) |
 | **Windows** | Windows 10 Version 2004 or later |
 
 ### Recommendations Before Attending:
@@ -111,7 +111,7 @@ The scripts use only free, open-source tools and the fonts in the `fonts/` folde
 | `python make_qr_and_cards.py` | QR codes and table cards for every language, and updated README links |
 | `python make_qr_and_cards.py sw` | QR codes and table cards for one language only |
 
-3. After publishing changed pages or files, raise the version number at the top of `sw.js` (for example `v19` → `v20`) so devices that saved the guide for offline use pick up the new copies.
+3. After publishing changed pages or files, raise the version number at the top of `sw.js` (for example `v20` → `v21`) so devices that saved the guide for offline use pick up the new copies.
 
 Tested with Python 3.13, reportlab 5.0.1, pypdf 6.17.0, qrcode 8.2, and pillow 12.3.0.
 

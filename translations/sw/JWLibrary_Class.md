@@ -46,7 +46,7 @@ Darasa hili limeandaliwa kuwa **mafunzo ya dakika 60** yenye malengo maalumu, ya
 
 ### Somo la 1: Kutafuta Maandiko na Mikutano (0:05 – 0:20)
 * **0:05** Muhtasari wa sehemu kuu: **Biblia** *(Bible)*, **Machapisho** *(Publications)*, **Mikutano** *(Meetings)*, na **Funzo la Kibinafsi** *(Personal Study)*.
-* **0:07** Kufungua **Andiko la Siku** *(Daily Text)* na kubofya **`A A`** ili kuongeza ukubwa wa herufi kwa ajili ya kusoma kwa starehe.
+* **0:07** Kufungua **Andiko la Siku** *(Daily Text)* na kubofya **Ukubwa wa Herufi (Text Settings)** (`A A`) ili kuongeza ukubwa wa herufi kwa ajili ya kusoma kwa starehe.
 * **0:10** **Fanya Zoezi la Msingi 1.1** (Andiko la Siku na Ukubwa wa Herufi).
 * **0:12** Kufungua **kitabu na sura fulani ya Biblia** (kwa mfano, Mathayo sura ya 5).
 * **0:14** **Fanya Zoezi la Msingi 1.2** (Kufungua sura ya Biblia).
@@ -92,7 +92,7 @@ Darasa hili limeandaliwa kuwa **mafunzo ya dakika 60** yenye malengo maalumu, ya
 
 ### 1. Mazoezi ya Kutafuta Maandiko na Mikutano
 
-* **Msingi 1.1. Andiko la Siku na Ukubwa wa Herufi:** Bofya **Andiko la Siku** (☀️) *(Daily Text)*. Katika sehemu ya juu ya skrini, bofya alama ya **`A A`** na usogeze kitelezi ili maandishi yawe makubwa na rahisi kusoma.
+* **Msingi 1.1. Andiko la Siku na Ukubwa wa Herufi:** Bofya **Andiko la Siku** (☀️) *(Daily Text)*. Katika sehemu ya juu ya skrini, bofya kitufe cha **Ukubwa wa Herufi (Text Settings)** (`A A`) na usogeze kitelezi ili maandishi yawe makubwa na rahisi kusoma.
 * **Msingi 1.2. Sura ya Biblia:** Bofya **Biblia** (📖) *(Bible)*. Chagua kitabu (kwa mfano, *Mathayo*) na sura (kwa mfano, *5*) ili uanze kusoma.
 * **Msingi 1.3. Sehemu ya Mikutano:** Bofya sehemu iliyoandikwa **Mikutano** (📅) *(Meetings)*. Fungua moja kwa moja makala ya Funzo la *Mnara wa Mlinzi* la juma hili kutoka kwenye ratiba ya mkutano wa mwisho juma.
 * *Inaonyeshwa (Ziada):* Tumia **Vialamisho** (🔖) *(Bookmarks)* kuweka alama ya kukumbuka ukurasa kwenye mstari (yaani, kuhifadhi ukurasa ili uupate tena kwa urahisi), alama ya **Historia** (🕒) *(History)* kurudi kwenye maandiko uliyosoma karibuni, au alama ya **Tafuta** (🔍) *(Search)* kutafuta maneno.

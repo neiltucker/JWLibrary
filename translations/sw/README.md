@@ -37,7 +37,7 @@ Mtaala umepangwa katika masomo matatu ya dakika 15 kila moja, yakitanguliwa na k
 
 1. **Somo la 1: Kutafuta Maandiko na Mikutano (Dakika 15)**
    * Kuchunguza menyu kuu na kusoma **Andiko la Siku** *(Daily Text)* la leo.
-   * Kurekebisha **Ukubwa wa Herufi (`A A`)** ili kusoma kwa starehe bila kujikaza.
+   * Kurekebisha **Ukubwa wa Herufi (Text Settings) (`A A`)** ili kusoma kwa starehe bila kujikaza.
    * Kufungua **kitabu na sura fulani ya Biblia**.
    * Kutumia **sehemu ya Mikutano** *(Meetings)* kufungua kwa kubofya mara moja *Daftari la Mkutano wa Huduma na Maisha* (Mkutano wa Katikati ya Juma) na makala ya funzo ya *Mnara wa Mlinzi* ya Mkutano wa Mwisho Juma.
    * *Mwalimu Anaonyesha:* Vialamisho (kurasa ulizohifadhi), Historia, na Tafuta.
@@ -70,7 +70,7 @@ Ili kuhakikisha kwamba vipengele vipya na masasisho ya usalama yanapatikana, hak
 | :--- | :--- |
 | **Android** | Android 8.0 au toleo jipya zaidi |
 | **Apple iOS / iPadOS** | iOS 15.0 au toleo jipya zaidi |
-| **Mac** | macOS yenye Apple Silicon (chipu ya M1 au mpya zaidi) |
+| **Mac** | macOS 13 au toleo jipya zaidi, yenye Apple Silicon (chipu ya M1 au mpya zaidi) |
 | **Windows** | Windows 10 Toleo la 2004 au jipya zaidi |
 
 ### Mapendekezo Kabla ya Kuhudhuria:
@@ -87,8 +87,8 @@ Ili kuhakikisha kwamba vipengele vipya na masasisho ya usalama yanapatikana, hak
 ## 📁 Yaliyomo Katika Hifadhi Hii
 
 * **`sw.html`**: Mafunzo kamili ya mtandaoni kwa Kiswahili yanayojirekebisha kulingana na skrini, yenye menyu ya lugha, vitufe vya kuchagua kifaa (kifaa ulichochagua hukumbukwa), kubadili ukubwa wa herufi, mwongozo wa muda kwa mwezeshaji, na mwongozo mfupi unaoweza kuchapishwa.
-  *Weka `sw.html` katika folda ileile pamoja na `index.html` (Kiingereza), `lg.html`, na `din.html` ili menyu ya lugha ifanye kazi.*
-* **`manifest-sw.json` na `sw.js`**: Faili zinazoruhusu mwongozo huu kuwekwa kwenye skrini ya kwanza ya simu na kufunguka kwa Kiswahili. Baada ya mwanafunzi kufungua mwongozo mara moja akiwa na Intaneti, kurasa nne za mwongozo huhifadhiwa kwenye kifaa na kufunguka bila Intaneti. PDF, video, na viungo vya JW.ORG bado vinahitaji Intaneti.
+  *Weka `sw.html` katika folda ileile pamoja na `index.html` (Kiingereza), `lg.html`, `din.html`, na `gaa.html` ili menyu ya lugha ifanye kazi.*
+* **`manifest-sw.json` na `sw.js`**: Faili zinazoruhusu mwongozo huu kuwekwa kwenye skrini ya kwanza ya simu na kufunguka kwa Kiswahili. Baada ya mwanafunzi kufungua mwongozo mara moja akiwa na Intaneti, kurasa za mwongozo huu huhifadhiwa kwenye kifaa na kufunguka bila Intaneti. PDF, video, na viungo vya JW.ORG bado vinahitaji Intaneti.
 * **`Table_Cards_Kiswahili_sw.pdf`**: Kadi za mezani za kuchapisha (kadi 4 kwa kila ukurasa) zenye msimbo wa QR unaofungua `sw.html`.
 * **`QR_Kiswahili_sw.png` na `QR_Kiswahili_sw.svg`**: Msimbo wa QR unaofungua ukurasa wa Kiswahili (PNG kwa skrini, SVG kwa kuchapisha).
 * **`JWLibrary_Class.md`**: Mtaala wa Markdown wenye mgawanyo wa muda kwa mwalimu, ushauri kwa mwezeshaji, na mazoezi ya msingi ya vitendo kwa wanafunzi.

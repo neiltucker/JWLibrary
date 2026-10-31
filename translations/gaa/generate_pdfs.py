@@ -378,7 +378,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Nibii Ni Esa Akɛ Afee Dani Klas Lɛ Bɔi", h1_style))
     story.append(Paragraph("Dani nikaselɔi lɛ baaba klas lɛ, esa akɛ:", body_style))
     story.append(Paragraph("&bull; Amɛba <b>miniti 10–15 dani klas lɛ bɔi</b> koni yelikɛbualɔi aye amɛbua amɛ yɛ Wi-Fi kɛ Biblia lɛ/Daa Gbi Ŋmalɛ Lɛ he.", bullet_style))
-    story.append(Paragraph("&bull; Amɛfoŋ, amɛtablɛt, loo amɛkɔmpiuta lɛ ji <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, loo <b>Windows 10 v2004+</b>.", bullet_style))
+    story.append(Paragraph("&bull; Amɛfoŋ, amɛtablɛt, loo amɛkɔmpiuta lɛ ji <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, loo <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Batri lɛ <b>eyi obɔ</b> dani amɛba (loo amɛkɛ amɛchaaja aba).", bullet_style))
     story.append(Paragraph("&bull; Amɛtsake <b>be ni skrin lɛ gbeɔ lɛ kɛya miniti 2 loo 5</b> koni skrin lɛ akagbe.", bullet_style))
     story.append(Paragraph("&bull; Gbɛ ni shɛɔ <b>GB 2 kɛyashi 4</b> yɛ amɛfoŋ lɛ nɔ (loo SD card) kɛhã vidioi kɛ nibii ni atswaa aboɔ toi.", bullet_style))

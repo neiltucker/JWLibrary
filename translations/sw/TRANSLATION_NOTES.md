@@ -2,6 +2,12 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Please have a fluent Swahili speaker review before distributing.**
 
+## Changes in this version (update 9) — Text Settings, Mac requirement, peer file list
+* **Text Settings button:** added the English button label in brackets to match app interface conventions and current JW.ORG help: **Ukubwa wa Herufi (Text Settings) (`A A`)** in `sw.html`, `JWLibrary_Class.md`, `README.md`, and `generate_pdfs.py`.
+* **Mac requirement:** updated to **macOS 13 au toleo jipya zaidi, yenye Apple Silicon (chipu ya M1 au mpya zaidi)** in the README, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements.
+* **Peer file list & offline caching:** added `gaa.html` to line 90 of `README.md` and generalized line 91 to *"kurasa za mwongozo huu"* (matching `JWLibrary_Class.md`), making it future-proof.
+* Kiswahili PDFs regenerated (still 1 and 4 pages).
+
 ## Changes in this version (31 Oct 2026, update 8) — language help in the pre-class clinic tip
 These changes affect every language. Nothing else in this language's guide changed.
 * **Language help:** one sentence added to the end of the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README and curriculum PDF page 4), the same in all five tutorials: *Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha **Lugha** (Languages) (A/あ) na uchague lugha hiyo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.") The PDF leaves out "(A/あ)" because the PDF font has no Japanese letters. The icon and the word *Languages* are the same on Android, Apple and Windows (checked by the project owner).

@@ -217,7 +217,7 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
     story.append(Paragraph('<b>MAZOEZI YA MSINGI</b>', ex_hdr))
 
-    story.append(Paragraph('<b>1.1</b> Bofya <b>Andiko la Siku</b> (alama ya jua). Bofya kitufe cha <b>Ukubwa wa Herufi</b> (<b>A A</b>) kilicho juu kisha telezesha ili kuongeza ukubwa wa herufi.', ex_style))
+    story.append(Paragraph('<b>1.1</b> Bofya <b>Andiko la Siku</b> (alama ya jua). Bofya kitufe cha <b>Ukubwa wa Herufi (Text Settings)</b> (<b>A A</b>) kilicho juu kisha telezesha ili kuongeza ukubwa wa herufi.', ex_style))
     story.append(Paragraph('<b>1.2</b> Bofya <b>Biblia</b>. Chagua kitabu (kwa mfano, <i>Mathayo</i>) na sura (kwa mfano, <i>5</i>) ili uanze kusoma.', ex_style))
     story.append(Paragraph('<b>1.3</b> Bofya <b>Mikutano</b>. Fungua moja kwa moja makala ya Funzo la <i>Mnara wa Mlinzi</i> la juma hili kwa kubofya mara moja.', ex_style))
     story.append(Spacer(1, 1.5))
@@ -357,7 +357,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('Mahitaji ya Awali na Madokezo ya Maandalizi', h1_style))
     story.append(Paragraph('Kabla ya kuhudhuria kozi hii, wanafunzi wanapaswa:', body_style))
     story.append(Paragraph('&bull; Kufika <b>dakika 10–15 mapema</b> ili wasaidizi wawasaidie kuhusu Wi-Fi na kuandaa Biblia/Andiko la Siku.', bullet_style))
-    story.append(Paragraph('&bull; Kuwa na kifaa kinachotumika chenye <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, au <b>Windows 10 v2004+</b>.', bullet_style))
+    story.append(Paragraph('&bull; Kuwa na kifaa kinachotumika chenye <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, au <b>Windows 10 v2004+</b>.', bullet_style))
     story.append(Paragraph('&bull; Kufika wakiwa na <b>betri yenye chaji kamili</b> (au walete chaja).', bullet_style))
     story.append(Paragraph('&bull; Kuweka kwa muda <b>skrini izime baada ya dakika 2 au 5</b> ili skrini isizime.', bullet_style))
     story.append(Paragraph('&bull; Kuwa na angalau <b>GB 2 hadi 4</b> za nafasi ya kuhifadhi (au kadi ya SD iliyowekwa) kwa ajili ya faili za video na sauti.', bullet_style))

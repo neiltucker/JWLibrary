@@ -37,7 +37,7 @@ Amasomo gategekeddwa mu masomo asatu, buli limu lya ddakiika 15, nga gasookebwak
 
 1. **Essomo 1: Okuzuula Ebyawandiikibwa n'Enkuŋŋaana (Eddakiika 15)**
    * Okwetegereza olukalala olukulu olw'okutambuliramu n'okusoma **Ekyawandiikibwa eky'Olunaku** *(Daily Text)* eky'olwaleero.
-   * Okutereeza **Obunene bw'Ennukuta (`A A`)** osobole okusoma bulungi awatali kufuba.
+   * Okutereeza **Obunene bw'Ennukuta (Text Settings) (`A A`)** osobole okusoma bulungi awatali kufuba.
    * Okuggulawo **ekitabo n'essuula ya Bayibuli**.
    * Okukozesa **ekitundu ky'Enkuŋŋaana** *(Meetings)* okuggulawo omulundi gumu *Akatabo k'Enkuŋŋaana* ak'olukuŋŋaana olwa wakati mu wiiki *(Midweek)* n'ekitundu ky'*Omunaala gw'Omukuumi* ekisomebwa ku lukuŋŋaana olwa wiikendi *(Weekend)*.
    * *Omusomesa Alaga:* Obubonero obulaga w'okomye okusoma *(Bookmarks)*, **History** (🕒), ne Noonya *(Search)*.
@@ -70,7 +70,7 @@ Okukakasa nti ebipya n'ebirongoosa eby'obukuumi bifunika, kakasa nti essimu yo, 
 | :--- | :--- |
 | **Android** | Android 8.0 oba empya okusingawo |
 | **Apple iOS / iPadOS** | iOS 15.0 oba empya okusingawo |
-| **Mac** | macOS erina Apple Silicon (chip ya M1 oba empya okusingawo) |
+| **Mac** | macOS 13 oba empya okusingawo, erina Apple Silicon (chip ya M1 oba empya okusingawo) |
 | **Windows** | Windows 10 Version 2004 oba empya okusingawo |
 
 ### Bye Tukuwa Amagezi Okukola nga Tonnajja:
@@ -87,8 +87,8 @@ Okukakasa nti ebipya n'ebirongoosa eby'obukuumi bifunika, kakasa nti essimu yo, 
 ## 📁 Ebiri mu Tterekero Lino
 
 * **`lg.html`**: Okuyiga kw'oku mukutu okujjuvu mu Luganda, okwekyusa okusinziira ku sikuliini, okulimu menu ey'okulonda olulimi, obupeesa obulonda essimu, tabbuleeti, oba kompyuta (ky'olonze kijjukirwa), okukyusa obunene bw'ennukuta, ekitabo ky'ekiseera eky'omulungamya, n'ekitabo ekimpi ekisobola okukubibwa mu kyapa.
-  *Teeka `lg.html` mu folda y'emu ne `index.html` (Olungereza), `sw.html`, ne `din.html` menu y'olulimi esobole okukola.*
-* **`manifest-lg.json` ne `sw.js`**: Fayiro ezisobozesa ekitabo kino okuteekebwa ku sikuliini ey'omu maaso ey'essimu n'okugguka mu Luganda. Omuyizi bw'amala okuggulawo ekitabo kino omulundi gumu nga waliwo Intaneeti, empapula ennya ez'ekitabo kino ziterekebwa ku ssimu oba kompyuta ne zigguka nga tewali Intaneeti. PDF, vidiyo, ne link za JW.ORG bikyetaaga Intaneeti.
+  *Teeka `lg.html` mu folda y'emu ne `index.html` (Olungereza), `sw.html`, `din.html`, ne `gaa.html` menu y'olulimi esobole okukola.*
+* **`manifest-lg.json` ne `sw.js`**: Fayiro ezisobozesa ekitabo kino okuteekebwa ku sikuliini ey'omu maaso ey'essimu n'okugguka mu Luganda. Omuyizi bw'amala okuggulawo ekitabo kino omulundi gumu nga waliwo Intaneeti, empapula z'ekitabo kino ziterekebwa ku ssimu oba kompyuta ne zigguka nga tewali Intaneeti. PDF, vidiyo, ne link za JW.ORG bikyetaaga Intaneeti.
 * **`Table_Cards_Luganda_lg.pdf`**: Obukadi bwa QR obw'okukuba mu kyapa (obukadi 4 ku lupapula lumu) obuggulawo `lg.html`.
 * **`QR_Luganda_lg.png` ne `QR_Luganda_lg.svg`**: Koodi ya QR eggulawo olupapula olw'Oluganda (PNG ya sikuliini, SVG ya kukuba mu kyapa).
 * **`JWLibrary_Class.md`**: Enteekateeka y'amasomo mu Markdown erimu engeri ekiseera gye kigabanyizibwamu eri omusomesa, amagezi eri akulembera kiraasi, n'okwegezaamu okukulu okw'abayizi.

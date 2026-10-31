@@ -30,7 +30,7 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 | Playlists | Zitakazochezwa | | |
 | Pause | Simamisha | | |
 | Delete (remove highlight) | Futa | | |
-| Text size | Ukubwa wa Herufi | | |
+| Text Settings (A A) | Ukubwa wa Herufi (Text Settings) | | |
 
 **How the answers are used:**
 - If the app shows Kiswahili words, the documents will use those exact words, with the English name in brackets.
@@ -73,6 +73,7 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 
 *Resolved in update 3:* the video title *"Kwa Nini Ujifunze Biblia?"* is confirmed as official.
 11. **New in update 8 (31 Oct 2026) — please check:** the language-help sentence added to the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README, curriculum PDF page 4): *Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha **Lugha** (Languages) (A/あ) na uchague lugha hiyo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.")
+12. **New in update 9 — please check:** the Text Settings button name is written **Ukubwa wa Herufi (Text Settings)** (web page, `JWLibrary_Class.md`, README, and curriculum PDF) to match JW.ORG help and English interface settings.
 
 ## 3. General review
 

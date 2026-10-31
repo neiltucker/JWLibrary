@@ -364,7 +364,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Ebyetaagisa n'Amagezi ag'Okwetegeka", h1_style))
     story.append(Paragraph("Nga tebannajja ku kiraasi eno, abayizi balina:", body_style))
     story.append(Paragraph("&bull; Okutuuka <b>eddakiika 10–15 nga bukyali</b> abayambi babayambe ku Wi-Fi n'okutegeka Bayibuli/Ekyawandiikibwa eky'Olunaku.", bullet_style))
-    story.append(Paragraph("&bull; Okuba n'essimu, tabbuleeti, oba kompyuta ekozesa <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, oba <b>Windows 10 v2004+</b>.", bullet_style))
+    story.append(Paragraph("&bull; Okuba n'essimu, tabbuleeti, oba kompyuta ekozesa <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, oba <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Okujja nga <b>bbaatule ejjudde</b> (oba okuleeta ecaajinga).", bullet_style))
     story.append(Paragraph("&bull; Okuteekawo okumala akaseera <b>sikuliini ezikire oluvannyuma lw'eddakiika 2 oba 5</b> sikuliini ereme kuzikira.", bullet_style))
     story.append(Paragraph("&bull; Waakiri <b>GB 2 okutuuka ku 4</b> ez'ekifo eky'okuterekamu (oba SD card eteekeddwamu) ku lwa fayiro z'amaloboozi ne vidiyo.", bullet_style))

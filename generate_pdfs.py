@@ -184,7 +184,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph('<b>Lesson 1: Finding Scriptures &amp; Meetings (0:05 - 0:20)</b>', section_hdr))
     story.append(Paragraph('0:05 &nbsp; Discuss main navigation tabs (Bible, Publications, Meetings, Personal Study).', timing_style))
-    story.append(Paragraph('0:07 &nbsp; Access Daily Text and tap <b>A A</b> icon to enlarge print for comfortable reading.', timing_style))
+    story.append(Paragraph('0:07 &nbsp; Access Daily Text and tap <b>Text Settings</b> (A A) icon to enlarge print for comfortable reading.', timing_style))
     story.append(Paragraph('0:10 &nbsp; Perform Core Exercise 1.1 (Daily Text &amp; Text Size).', timing_style))
     story.append(Paragraph('0:12 &nbsp; Open a Bible book and chapter; perform Core Exercise 1.2.', timing_style))
     story.append(Paragraph('0:15 &nbsp; Discuss Meetings tab (Midweek workbook &amp; Weekend Watchtower study).', timing_style))
@@ -214,7 +214,7 @@ def build_class_program(output_path):
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
     story.append(Paragraph('<b>CORE EXERCISES</b>', ex_hdr))
 
-    story.append(Paragraph('<b>1.1</b> Tap <b>Daily Text</b> (sun icon). Tap the <b>A A</b> icon at top and slide to enlarge the text.', ex_style))
+    story.append(Paragraph('<b>1.1</b> Tap <b>Daily Text</b> (sun icon). Tap the <b>Text Settings</b> (A A) icon at top and slide to enlarge the text.', ex_style))
     story.append(Paragraph('<b>1.2</b> Tap <b>Bible</b>. Select a book (e.g., <i>Matthew</i>) and chapter (e.g., <i>5</i>) to begin reading.', ex_style))
     story.append(Paragraph('<b>1.3</b> Tap <b>Meetings</b>. Open this week\'s <i>Watchtower</i> Study article directly with one tap.', ex_style))
     story.append(Spacer(1, 1.5))
@@ -344,7 +344,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('Learning Outcomes', h1_style))
     story.append(Paragraph('Upon completing this tutorial, students will be able to:', body_style))
     story.append(Paragraph('&bull; Navigate between Bible, Publications, Meetings, and Personal Study.', bullet_style))
-    story.append(Paragraph('&bull; Access the Daily Text and enlarge reading text using the A A button.', bullet_style))
+    story.append(Paragraph('&bull; Access the Daily Text and enlarge reading text using the Text Settings (A A) button.', bullet_style))
     story.append(Paragraph('&bull; Locate weekly meeting study articles with one tap from the Meetings tab.', bullet_style))
     story.append(Paragraph('&bull; Understand offline reading and download publications on Wi-Fi to preserve mobile data.', bullet_style))
     story.append(Paragraph('&bull; Use the audio player (headphones icon) and quickly silence unexpected audio.', bullet_style))
@@ -354,7 +354,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('Prerequisites &amp; Setup Tips', h1_style))
     story.append(Paragraph('Before attending this course, students should have:', body_style))
     story.append(Paragraph('&bull; Arrive <b>10–15 minutes early</b> for helper assistance with Wi-Fi and Bible/Daily Text setup.', bullet_style))
-    story.append(Paragraph('&bull; A supported device running <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS M1+</b>, or <b>Windows 10 v2004+</b>.', bullet_style))
+    story.append(Paragraph('&bull; A supported device running <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, or <b>Windows 10 v2004+</b>.', bullet_style))
     story.append(Paragraph('&bull; Arrive with a <b>fully charged battery</b> (or bring a charger).', bullet_style))
     story.append(Paragraph('&bull; Temporarily set device <b>screen timeout to 2 or 5 minutes</b> to prevent the screen turning off.', bullet_style))
     story.append(Paragraph('&bull; At least <b>2 to 4 GB</b> of available storage (or an installed SD card) for media files.', bullet_style))
@@ -371,20 +371,20 @@ def build_curriculum(output_path):
     story.append(Paragraph(
         'This lesson introduces students to moving smoothly between the primary sections of the JW Library app. '
         'Instructors should explain the placement of the navigation bar based on the devices present (bottom bar on iOS '
-        'and modern Android; top menu on Windows). Demonstrate how tapping the <b>A A</b> icon enlarges text for comfortable '
+        'and modern Android; top menu on Windows). Demonstrate how tapping the <b>Text Settings</b> (A A) icon enlarges text for comfortable '
         'reading, and how the <b>Meetings tab</b> provides one-tap access to weekly meeting publications.',
         body_style
     ))
 
     story.append(Paragraph('Topics (10 minutes)', h2_style))
     story.append(Paragraph('&bull; Main Navigation Tabs (Bible, Publications, Meetings, Personal Study)', bullet_style))
-    story.append(Paragraph('&bull; Daily Text &amp; Adjusting Text Size (A A button to increase font size)', bullet_style))
+    story.append(Paragraph('&bull; Daily Text &amp; Text Settings (A A button to increase font size)', bullet_style))
     story.append(Paragraph('&bull; Opening a specific Bible book and chapter (e.g., Matthew 5)', bullet_style))
     story.append(Paragraph('&bull; Meetings Tab (accessing Midweek workbook and Weekend Watchtower study article)', bullet_style))
     story.append(Paragraph('&bull; <i>Instructor Demonstration:</i> Bookmarks, History, and Search (for practice at home)', bullet_style))
 
     story.append(Paragraph('Hands-On Core Exercises (5 minutes)', h2_style))
-    story.append(Paragraph('&bull; <b>Core 1.1:</b> Open Daily Text and tap <b>A A</b> to make the print large and clear.', bullet_style))
+    story.append(Paragraph('&bull; <b>Core 1.1:</b> Open Daily Text and tap <b>Text Settings</b> (A A) to make the print large and clear.', bullet_style))
     story.append(Paragraph('&bull; <b>Core 1.2:</b> Tap Bible, choose a book (Matthew), and open chapter 5.', bullet_style))
     story.append(Paragraph('&bull; <b>Core 1.3:</b> Open the Meetings tab and tap this week\'s Watchtower Study article.', bullet_style))
 
@@ -393,7 +393,7 @@ def build_curriculum(output_path):
         'Host a 15-minute early arrival clinic so helpers ensure the Bible and Daily Text are ready. At the start of class, '
         'conduct a 30-second readiness check: have students raise hands if they need download assistance so helpers can '
         'assist quietly while you proceed. Teach device silencing early (side Volume Down on mobile; keyboard Mute key on PC) '
-        'to eliminate anxiety. Have assistants verify that students successfully enlarge text with the A A button.',
+        'to eliminate anxiety. Have assistants verify that students successfully enlarge text with the Text Settings (A A) button.',
         body_style
     ))
 

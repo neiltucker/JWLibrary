@@ -70,7 +70,7 @@ Koni onine ashɛ nibii hei kɛ bɔ ni abuɔ app lɛ he lɛ nɔ lɛ, kwɛmɔ akɛ
 | :--- | :--- |
 | **Android** | Android 8.0 loo nɔ ni yɛ hiɛ fe nakai |
 | **Apple iOS / iPadOS** | iOS 15.0 loo nɔ ni yɛ hiɛ fe nakai |
-| **Mac** | macOS ni Apple Silicon (M1 chip loo nɔ ni yɛ hiɛ fe nakai) yɔɔ mli |
+| **Mac** | macOS 13 loo nɔ ni yɛ hiɛ fe nakai, ni Apple Silicon (M1 chip loo nɔ ni yɛ hiɛ fe nakai) yɔɔ mli |
 | **Windows** | Windows 10 Version 2004 loo nɔ ni yɛ hiɛ fe nakai |
 
 ### Nibii Ni Esa Akɛ Ofee Dani Oba:
