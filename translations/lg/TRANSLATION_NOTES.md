@@ -2,11 +2,12 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and approved by two local Luganda speakers (including Andrew Kalinaki, 22 Oct 2026). Draft notice removed.
 
-## Changes in this version (update 8) — Text Settings, Mac requirement, peer file list
-* **Text Settings button:** added the English button label in brackets to match app interface conventions and current JW.ORG help: **Obunene bw'Ennukuta (Text Settings) (`A A`)** in `lg.html`, `JWLibrary_Class.md`, and `README.md`.
+## Changes in this version (31 Oct 2026, update 8) — Text Settings, Mac requirement, peer file list
+* **Text Settings button:** added the English button label in brackets to match app interface conventions and current JW.ORG help: **Obunene bw'Ennukuta (Text Settings) (`A A`)** in `lg.html`, `JWLibrary_Class.md`, `README.md`, and `generate_pdfs.py` (both PDFs: Class Program 0:07 and exercise 1.1; curriculum page 1 learning goal, page 2 lesson text, topic list, exercise 1.1 and facilitator note). The PDF wording was added in a follow-up fix, so the PDFs match the other Luganda files.
 * **Mac requirement:** updated to **macOS 13 oba empya okusingawo, erina Apple Silicon (chip ya M1 oba empya okusingawo)** in the README, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements.
 * **Peer file list & offline caching:** added `gaa.html` to line 90 of `README.md` and generalized line 91 to *"empapula z'ekitabo kino"* (matching `JWLibrary_Class.md`), making it future-proof.
 * Luganda PDFs regenerated (still 1 and 4 pages).
+* **For the reviewers:** the Text Settings label and the Mac wording are listed as items 12 and 13 in `REVIEWER_CHECKLIST.md`.
 
 ## Changes in this version (31 Oct 2026, update 7) — language help in the pre-class clinic tip
 These changes affect every language. Nothing else in this language's guide changed.

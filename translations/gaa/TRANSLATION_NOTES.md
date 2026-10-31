@@ -4,9 +4,10 @@
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
 
-## Changes in this version (update 8) — Mac requirement
+## Changes in this version (31 Oct 2026, update 8) — Mac requirement
 * **Mac requirement:** updated to **macOS 13 loo nɔ ni yɛ hiɛ fe nakai, ni Apple Silicon (M1 chip loo nɔ ni yɛ hiɛ fe nakai) yɔɔ mli** in `README.md`, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements. (Ga already uses *Text Settings* from update 1.)
 * Ga curriculum PDF regenerated (still 4 pages).
+* **For the reviewers:** the new README wording is listed as item 17 in `REVIEWER_CHECKLIST.md`. It reuses *loo nɔ ni yɛ hiɛ fe nakai* from the same row, but the sentence order changed, so please confirm it reads correctly.
 
 ## Changes in this version (31 Oct 2026, update 7) — language help in the pre-class clinic tip
 These changes affect every language. Nothing else in this language's guide changed.
