@@ -106,7 +106,7 @@ Class kënë acï guiir bï ya **piööc ë thaa tök**, ke nɔŋ piööc kadiä
 
 * **Them 2.1. Tïŋ Wi-Fi:** Tïŋ lɔn cï device du mat në Wi-Fi ke yïn ŋoot ke kën kë jatpiny, bï data ë telapundu cïï thök.
 * **Them 2.2. Jatpiny bï Luɔ̈ɔ̈i ke Cïn Nɛt:** Tuany **Publications** (📚) ka thaa ë amat. Tuany **Cloud icon (☁️)** në athör ë piööc ka bideo koor bï jatpiny ku luɔ̈ɔ̈i ke cïn nɛt.
-* **Them 2.3. Piŋ Röl ku Cuɔ̈ɔ̈t Enɔn:** Liep chapter ë Baibol (English ka thok dɛ̈t), ka bideo koor ë Thuɔŋjäŋ *(JW Library has no Dinka Daily Text or Dinka Bible audio)*. Tuany **Headphones / Play button (🎧)** nhial në skrin ba kuɛ̈n piŋ. Them ba röl cuɔ̈ɔ̈t enɔn: në telapun ka tablet, nyiɛ̈n **Volume Down button** tɔ̈ në lɔ̈ŋ ku muk; në laptop/PC, nyiɛ̈n **Mute key (🔇)** në keyboard; ka tuany **Pause (⏸️)**.
+* **Them 2.3. Piŋ Röl ku Cuɔ̈ɔ̈t Enɔn:** Liep chapter ë Baibol (English ka thok dɛ̈t), ka bideo koor ë Thuɔŋjäŋ *(JW Library has no Dinka Bible audio)*. Tuany **Headphones / Play button (🎧)** nhial në skrin ba kuɛ̈n piŋ. Them ba röl cuɔ̈ɔ̈t enɔn: në telapun ka tablet, nyiɛ̈n **Volume Down button** tɔ̈ në lɔ̈ŋ ku muk; në laptop/PC, nyiɛ̈n **Mute key (🔇)** në keyboard; ka tuany **Pause (⏸️)**.
 * *Nyuɔɔth (Juak):* Në **Publications** > **Downloaded**, waar sort bï ya **Largest Size** ba storage tïŋ ku ba tïŋ të ye file cïï kɔɔr nyaai.
 
 ---

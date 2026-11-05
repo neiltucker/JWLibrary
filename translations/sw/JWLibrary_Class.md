@@ -103,7 +103,7 @@ Darasa hili limeandaliwa kuwa **mafunzo ya dakika 60** yenye malengo maalumu, ya
 
 * **Msingi 2.1. Kukagua Wi-Fi:** Hakikisha kwamba kifaa chako kimeunganishwa kwenye Wi-Fi kabla ya kuanza kupakua chochote ili kuokoa data ya simu.
 * **Msingi 2.2. Kupakua Ili Kutumia Bila Intaneti:** Bofya **Machapisho** (📚) *(Publications)* au ratiba ya mkutano. Bofya **alama ya wingu (☁️)** kwenye chapisho la funzo au video fupi ili kuipakua na kuitumia bila Intaneti.
-* **Msingi 2.3. Kusikiliza Sauti na Kunyamazisha Haraka:** Fungua Andiko la Siku au sura ya Biblia. Bofya **kitufe cha Vipokea-sauti / Cheza (🎧)** kilicho juu ya skrini ili kusikiliza usomaji. Zoeza kuzima sauti mara moja: kwenye simu au tablet, bonyeza na ushikilie **kitufe cha Kupunguza Sauti** kilicho kando; kwenye kompyuta, bonyeza **kitufe cha Kunyamazisha (🔇)** kwenye kibodi; au bofya **Simamisha (⏸️)**.
+* **Msingi 2.3. Kusikiliza Sauti na Kunyamazisha Haraka:** Fungua sura yoyote ya Biblia. Bofya **kitufe cha Vipokea-sauti / Cheza (🎧)** kilicho juu ya skrini ili kusikiliza usomaji. Zoeza kuzima sauti mara moja: kwenye simu au tablet, bonyeza na ushikilie **kitufe cha Kupunguza Sauti** kilicho kando; kwenye kompyuta, bonyeza **kitufe cha Kunyamazisha (🔇)** kwenye kibodi; au bofya **Simamisha (⏸️)**.
 * *Inaonyeshwa (Ziada):* Katika **Machapisho** > **Zilizopakuliwa** *(Publications > Downloaded)*, badili mpangilio uwe **Kubwa Zaidi** *(Largest Size)* ili kuangalia matumizi ya nafasi ya kuhifadhi na kuona jinsi ya kufuta faili zisizohitajika.
 
 ---

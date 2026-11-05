@@ -2,6 +2,12 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI). **Please have a fluent Swahili speaker review before distributing.**
 
+## Changes in this version (5 Nov 2026, update 10) — Exercise 2.3 uses the Bible only
+These changes affect every language. Nothing else in this language's guide changed.
+* **Why:** the Daily Text has no headphones/audio option, even in English (checked by the project owner on Android and Windows; iPhone was not checked, but the wording is the same on all devices so the tutorials stay uniform).
+* **Change:** Exercise 2.3 step 1 is now *Fungua sura yoyote ya Biblia.* (English: "Open any Bible chapter.") on the web page, in `JWLibrary_Class.md` and in both PDFs. The README's audio line no longer lists the Daily Text. Both PDFs were regenerated. Listed as item 14 in `REVIEWER_CHECKLIST.md`.
+* `sw.js` cache version raised to `v23`.
+
 ## Changes in this version (31 Oct 2026, update 9) — Text Settings, Mac requirement, peer file list
 * **Text Settings button:** added the English button label in brackets to match app interface conventions and current JW.ORG help: **Ukubwa wa Herufi (Text Settings) (`A A`)** in `sw.html`, `JWLibrary_Class.md`, `README.md`, and `generate_pdfs.py`.
 * **Mac requirement:** updated to **macOS 13 au toleo jipya zaidi, yenye Apple Silicon (chipu ya M1 au mpya zaidi)** in the README, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements.

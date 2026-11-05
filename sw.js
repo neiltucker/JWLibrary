@@ -1,7 +1,7 @@
-// Service Worker for JW Library Tutorial (Offline PWA) - Version 21
+// Service Worker for JW Library Tutorial (Offline PWA) - Version 23
 // When you publish changes to any page or file listed below, raise the version
 // (e.g. 'v4' -> 'v5') so phones replace their saved copies.
-const CACHE_VERSION = 'v21';
+const CACHE_VERSION = 'v23';
 
 // Each copy of this guide keeps its own saved files. Copies published under the
 // same GitHub account share one web address (yourname.github.io), and so share
@@ -24,11 +24,13 @@ const CORE_FILES = [
   './lg.html',
   './din.html',
   './gaa.html',
+  './ada.html',
   './manifest-en.json',
   './manifest-sw.json',
   './manifest-lg.json',
   './manifest-din.json',
   './manifest-gaa.json',
+  './manifest-ada.json',
   './icon-192.png',
   './icon-512.png'
 ];
@@ -49,11 +51,14 @@ const FACILITATOR_FILES = [
   './QR_Dinka_din.svg',
   './QR_Ga_gaa.png',
   './QR_Ga_gaa.svg',
+  './QR_Dangme_ada.png',
+  './QR_Dangme_ada.svg',
   './Table_Cards_English_en.pdf',
   './Table_Cards_Kiswahili_sw.pdf',
   './Table_Cards_Luganda_lg.pdf',
   './Table_Cards_Dinka_din.pdf',
-  './Table_Cards_Ga_gaa.pdf'
+  './Table_Cards_Ga_gaa.pdf',
+  './Table_Cards_Dangme_ada.pdf'
 ];
 
 const PRECACHE_FILES = SAVE_FACILITATOR_FILES_FOR_EVERYONE

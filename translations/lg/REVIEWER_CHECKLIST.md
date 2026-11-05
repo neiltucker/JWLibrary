@@ -52,6 +52,7 @@ Set a phone (or computer) to **Luganda** in its language settings, open **JW Lib
 11. **New in update 7 (31 Oct 2026) — please check:** the language-help sentence added to the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README, curriculum PDF page 4): *Omuyizi bw'aba yeetaaga ebitabo mu lulimi olulala, nyiga akabonero ka **Ennimi** (Languages) (A/あ) olonde olulimi olwo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.")
 12. **New in update 8 (31 Oct 2026) — please check:** the Text Settings button name includes **(Text Settings)** in brackets after the approved Luganda words (*Obunene bw'Ennukuta (Text Settings)*) in `lg.html`, `JWLibrary_Class.md`, `README.md`, and both PDFs (`generate_pdfs.py`). In the PDFs it reads e.g. *nyiga akabonero **Obunene bw'Ennukuta (Text Settings)** (A A)* and *eppeesa Obunene bw'Ennukuta (Text Settings) (A A)*.
 13. **New in update 8 (31 Oct 2026) — please check:** the Mac requirement row in `README.md`: *macOS 13 oba empya okusingawo, erina Apple Silicon (chip ya M1 oba empya okusingawo)* (English: "macOS 13 or later, with Apple Silicon (M1 chip or newer)"). *oba empya okusingawo* is reused from the same row.
+14. **New in update 9 (5 Nov 2026) — please check:** Exercise 2.3 step 1 is now *Ggulawo essuula yonna eya Bayibuli.* (English: "Open any Bible chapter."), because the Daily Text has no audio option. The words were already in the guide.
 
 ## 3. General review
 

@@ -10,6 +10,12 @@ To make review easier:
 * The legal disclaimer appears in Dinka **and** in the original English, because its exact wording matters.
 * A reviewer can compare line-by-line with the English files in the original repo.
 
+## Changes in this version (5 Nov 2026, update 8) — Exercise 2.3 uses the Bible only
+These changes affect every language. Nothing else in this language's guide changed.
+* **Why:** the Daily Text has no headphones/audio option, even in English (checked by the project owner on Android and Windows; iPhone was not checked, but the wording is the same on all devices so the tutorials stay uniform).
+* **Change:** The Dinka wording of Exercise 2.3 already opened a Bible chapter, so it is unchanged. The English note on the web page and in `JWLibrary_Class.md` no longer mentions the Daily Text. The option of practising with a short Dinka video stays, because there is no Dinka Bible audio. The PDFs did not mention the Daily Text in this exercise and were not regenerated.
+* `sw.js` cache version raised to `v23`.
+
 ## Changes in this version (31 Oct 2026, update 7) — language help, Daily Text, Study Edition, review of jw.org/din
 Applied to `din.html`, `JWLibrary_Class.md`, `README.md`, `generate_pdfs.py` (and the two Dinka PDFs it makes), `REVIEWER_CHECKLIST.md`, this file, `make_qr_and_cards.py` (Dinka card wording) and `Table_Cards_Dinka_din.pdf`. Sources were checked on jw.org/din and wol.jw.org on 31 Oct 2026.
 * **Language help (all five tutorials):** one sentence added to the pre-class clinic tip on the web page, in the class outline, README and curriculum PDF page 4: *Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë* (English beside it). The same sentence was added to the English, Kiswahili, Luganda and Ga tutorials. The PDFs leave out "(A/あ)" because the PDF font has no Japanese letters.

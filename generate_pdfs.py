@@ -221,7 +221,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph('<b>2.1</b> Verify your device is connected to Wi-Fi to preserve mobile cellular data.', ex_style))
     story.append(Paragraph('<b>2.2</b> In Publications or Meetings, tap the <b>Cloud icon</b> on a study item to download it for offline use.', ex_style))
-    story.append(Paragraph('<b>2.3</b> Open Daily Text or Bible. Tap <b>Headphones</b> to listen; stop with <b>Volume Down</b> (or Mute key).', ex_style))
+    story.append(Paragraph('<b>2.3</b> Open any Bible chapter. Tap <b>Headphones</b> to listen; stop with <b>Volume Down</b> (or Mute key).', ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph('<b>3.1</b> In paragraph 1 of the <i>Watchtower</i> study, press and drag across an answer and tap <b>Yellow</b>.', ex_style))
@@ -427,7 +427,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('Hands-On Core Exercises (5 minutes)', h2_style))
     story.append(Paragraph('&bull; <b>Core 2.1:</b> Confirm the device is connected to Wi-Fi at the top of the screen.', bullet_style))
     story.append(Paragraph('&bull; <b>Core 2.2:</b> Tap the Cloud icon on a study publication or video to download it.', bullet_style))
-    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open Daily Text or Bible, tap Headphones to listen; stop with Volume Down or Mute key.', bullet_style))
+    story.append(Paragraph('&bull; <b>Core 2.3:</b> Open any Bible chapter, tap Headphones to listen; stop with Volume Down or Mute key.', bullet_style))
 
     story.append(Paragraph('Facilitator Notes for Lesson 2', h2_style))
     story.append(Paragraph(

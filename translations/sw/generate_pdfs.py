@@ -224,7 +224,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph('<b>2.1</b> Hakikisha kifaa chako kimeunganishwa kwenye Wi-Fi ili kuokoa data ya simu.', ex_style))
     story.append(Paragraph('<b>2.2</b> Katika Machapisho au Mikutano, bofya <b>alama ya wingu</b> kwenye kitu cha funzo ili ukipakue na kukitumia bila Intaneti.', ex_style))
-    story.append(Paragraph('<b>2.3</b> Fungua Andiko la Siku au Biblia. Bofya <b>Vipokea-sauti</b> ili kusikiliza; zima kwa <b>Kupunguza Sauti</b> (au kitufe cha Kunyamazisha).', ex_style))
+    story.append(Paragraph('<b>2.3</b> Fungua sura yoyote ya Biblia. Bofya <b>Vipokea-sauti</b> ili kusikiliza; zima kwa <b>Kupunguza Sauti</b> (au kitufe cha Kunyamazisha).', ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph('<b>3.1</b> Katika fungu la 1 la funzo la <i>Mnara wa Mlinzi</i>, bonyeza na uburute kidole kwenye jibu kisha bofya <b>Njano</b>.', ex_style))
@@ -430,7 +430,7 @@ def build_curriculum(output_path):
     story.append(Paragraph('Mazoezi ya Msingi ya Vitendo (dakika 5)', h2_style))
     story.append(Paragraph('&bull; <b>Msingi 2.1:</b> Hakikisha juu ya skrini kwamba kifaa kimeunganishwa kwenye Wi-Fi.', bullet_style))
     story.append(Paragraph('&bull; <b>Msingi 2.2:</b> Bofya alama ya wingu kwenye chapisho la funzo au video ili kulipakua.', bullet_style))
-    story.append(Paragraph('&bull; <b>Msingi 2.3:</b> Fungua Andiko la Siku au Biblia, bofya Vipokea-sauti ili kusikiliza; zima kwa Kupunguza Sauti au Kunyamazisha.', bullet_style))
+    story.append(Paragraph('&bull; <b>Msingi 2.3:</b> Fungua sura yoyote ya Biblia, bofya Vipokea-sauti ili kusikiliza; zima kwa Kupunguza Sauti au Kunyamazisha.', bullet_style))
 
     story.append(Paragraph('Maelezo kwa Mwezeshaji kwa Ajili ya Somo la 2', h2_style))
     story.append(Paragraph(

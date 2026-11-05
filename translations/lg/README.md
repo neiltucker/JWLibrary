@@ -45,7 +45,7 @@ Amasomo gategekeddwa mu masomo asatu, buli limu lya ddakiika 15, nga gasookebwak
 2. **Essomo 2: Okuwanula n'Okukozesa Amaloboozi ne Vidiyo (Eddakiika 15)**
    * Okuyunga ku Wi-Fi nga tonnawanula, osobole okukekkereza data y'essimu.
    * Okuwanula ebitabo oba amaloboozi ne vidiyo okubikozesa nga tolina Intaneeti (bw'omala okubiwanula, teweetaaga Intaneeti mu nkuŋŋaana).
-   * Okukozesa **Ekizannya Amaloboozi (🎧)** *(Audio Player)* okuwuliriza essuula za Bayibuli, Ekyawandiikibwa eky'Olunaku, oba ebitundu eby'okusoma nga bisomebwa mu ddoboozi.
+   * Okukozesa **Ekizannya Amaloboozi (🎧)** *(Audio Player)* okuwuliriza essuula za Bayibuli oba ebitundu eby'okusoma nga bisomebwa mu ddoboozi.
    * **Okusirisa Amaloboozi Amangu:** Okukomya eddoboozi amangu ddala ng'okozesa obupeesa bw'eddoboozi obw'essimu oba kompyuta (okunyweza eppeesa erikendeeza eddoboozi eriri ku mabbali g'essimu; okunyiga eppeesa erisirisa ku kibodi kya kompyuta) oba Yimiriza ku sikuliini.
    * *Omusomesa Alaga:* Okukebera ekifo eky'okuterekamu n'okusengeka ng'osinziira ku **Esinga Obunene** *(Largest Size)* okuggyawo fayiro ezitali nneetaagisa.
 
@@ -87,7 +87,7 @@ Okukakasa nti ebipya n'ebirongoosa eby'obukuumi bifunika, kakasa nti essimu yo, 
 ## 📁 Ebiri mu Tterekero Lino
 
 * **`lg.html`**: Okuyiga kw'oku mukutu okujjuvu mu Luganda, okwekyusa okusinziira ku sikuliini, okulimu menu ey'okulonda olulimi, obupeesa obulonda essimu, tabbuleeti, oba kompyuta (ky'olonze kijjukirwa), okukyusa obunene bw'ennukuta, ekitabo ky'ekiseera eky'omulungamya, n'ekitabo ekimpi ekisobola okukubibwa mu kyapa.
-  *Teeka `lg.html` mu folda y'emu ne `index.html` (Olungereza), `sw.html`, `din.html`, ne `gaa.html` menu y'olulimi esobole okukola.*
+  *Teeka `lg.html` mu folda y'emu ne `index.html` (Olungereza), `sw.html`, `din.html`, `gaa.html`, ne `ada.html` menu y'olulimi esobole okukola.*
 * **`manifest-lg.json` ne `sw.js`**: Fayiro ezisobozesa ekitabo kino okuteekebwa ku sikuliini ey'omu maaso ey'essimu n'okugguka mu Luganda. Omuyizi bw'amala okuggulawo ekitabo kino omulundi gumu nga waliwo Intaneeti, empapula z'ekitabo kino ziterekebwa ku ssimu oba kompyuta ne zigguka nga tewali Intaneeti. PDF, vidiyo, ne link za JW.ORG bikyetaaga Intaneeti.
 * **`Table_Cards_Luganda_lg.pdf`**: Obukadi bwa QR obw'okukuba mu kyapa (obukadi 4 ku lupapula lumu) obuggulawo `lg.html`.
 * **`QR_Luganda_lg.png` ne `QR_Luganda_lg.svg`**: Koodi ya QR eggulawo olupapula olw'Oluganda (PNG ya sikuliini, SVG ya kukuba mu kyapa).

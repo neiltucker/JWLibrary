@@ -103,7 +103,7 @@ This class is designed as a focused **one-hour tutorial** with three 15-minute l
 
 * **Core 2.1. Wi-Fi Check:** Verify that your device is connected to Wi-Fi before initiating any media download to preserve mobile cellular data.
 * **Core 2.2. Download for Offline Use:** Tap **Publications** (📚) or the meeting schedule. Tap the **Cloud icon (☁️)** on a study publication or short video to download it for offline use.
-* **Core 2.3. Listen to Audio & Quick Silence:** Open the Daily Text or a Bible chapter. Tap the **Headphones / Play button (🎧)** at the top of the screen to listen to the reading. Practice stopping the sound instantly: on a phone or tablet, press and hold the physical **Volume Down button** on the side; on a laptop/PC, press the keyboard **Mute key (🔇)**; or tap/click **Pause (⏸️)**.
+* **Core 2.3. Listen to Audio & Quick Silence:** Open any Bible chapter. Tap the **Headphones / Play button (🎧)** at the top of the screen to listen to the reading. Practice stopping the sound instantly: on a phone or tablet, press and hold the physical **Volume Down button** on the side; on a laptop/PC, press the keyboard **Mute key (🔇)**; or tap/click **Pause (⏸️)**.
 * *Demonstrated (Bonus):* In **Publications** > **Downloaded**, change the sort order to **Largest Size** to check storage use and see how to delete unneeded files.
 
 ---

@@ -231,7 +231,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph("<b>2.1</b> Kakasa nti essimu yo, tabbuleeti, oba kompyuta yo eyungiddwa ku Wi-Fi osobole okukekkereza data y'essimu.", ex_style))
     story.append(Paragraph("<b>2.2</b> Mu Ebitabo oba Enkuŋŋaana, nyiga <b>akabonero k'Ekire</b> ku kintu eky'okusoma okukiwanula okukikozesa awatali Intaneeti.", ex_style))
-    story.append(Paragraph("<b>2.3</b> Ggulawo Ekyawandiikibwa eky'Olunaku oba Bayibuli. Nyiga <b>Headphones</b> owulirize; komya n'<b>eppeesa erikendeeza eddoboozi</b> (oba erisirisa).", ex_style))
+    story.append(Paragraph("<b>2.3</b> Ggulawo essuula yonna eya Bayibuli. Nyiga <b>Headphones</b> owulirize; komya n'<b>eppeesa erikendeeza eddoboozi</b> (oba erisirisa).", ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph("<b>3.1</b> Mu katundu 1 ak'okusoma <i>Omunaala gw'Omukuumi</i>, nyiga owalule engalo ku ky'okuddamu olwo onyige <b>Kyenvu</b>.", ex_style))
@@ -437,7 +437,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Okwegezaamu (eddakiika 5)", h2_style))
     story.append(Paragraph("&bull; <b>Okwegezaamu 2.1:</b> Kakasa waggulu ku sikuliini nti essimu, tabbuleeti, oba kompyuta eyungiddwa ku Wi-Fi.", bullet_style))
     story.append(Paragraph("&bull; <b>Okwegezaamu 2.2:</b> Nyiga akabonero k'Ekire ku kitabo eky'okusoma oba ku vidiyo okukiwanula.", bullet_style))
-    story.append(Paragraph("&bull; <b>Okwegezaamu 2.3:</b> Ggulawo Ekyawandiikibwa eky'Olunaku oba Bayibuli, nyiga Headphones owulirize; komya n'eppeesa erikendeeza eddoboozi oba erisirisa.", bullet_style))
+    story.append(Paragraph("&bull; <b>Okwegezaamu 2.3:</b> Ggulawo essuula yonna eya Bayibuli, nyiga Headphones owulirize; komya n'eppeesa erikendeeza eddoboozi oba erisirisa.", bullet_style))
 
     story.append(Paragraph("Ebiyamba Omulungamya ku Ssomo 2", h2_style))
     story.append(Paragraph(

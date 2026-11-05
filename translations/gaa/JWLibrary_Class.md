@@ -105,7 +105,7 @@ Afee klas nɛɛ akɛ **klas ni yeɔ ŋmɛlɛtswaa kome**: nikasemɔi etɛ, ni ek
 
 * **Nifeemɔ 2.1. Wi-Fi Lɛ Kwɛmɔ:** Dani odaunlodi vidio loo nibii ni atswaa aboɔ toi lɛ, kwɛmɔ akɛ ofoŋ, otablɛt, loo okɔmpiuta lɛ yɛ Wi-Fi lɛ nɔ lo, koni okafite omobail data.
 * **Nifeemɔ 2.2. Daunlodimɔ Koni Okɛtsu Nii Kɛ́ Intanɛt Bɛ:** Nyɛɛ **Publications** (📚) *(Woji kɛ Nibii)* loo asafoŋ kpeei ahe gbɛjianɔtoo lɛ nɔ. Nyɛɛ **atatu okadi (☁️)** lɛ nɔ yɛ wolo loo vidio bibioo ko he koni odaunlodi ni okɛtsu nii kɛ́ Intanɛt bɛ.
-* **Nifeemɔ 2.3. Bo Toi, Ni Ohã Gbee Lɛ Sɛɛ Afo:** Gbelemɔ Daa Gbi Ŋmalɛ Lɛ loo Biblia yitso ko. Nyɛɛ **Headphones / Play (🎧)** okadi ni yɔɔ skrin lɛ ŋwɛigbɛ lɛ nɔ koni obo toi. Kasemɔ bɔ ni obaafee ohã gbee lɛ sɛɛ afo oya nɔŋŋ: yɛ foŋ loo tablɛt nɔ lɛ, nyɛɛ **Volume Down** ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ; yɛ kɔmpiuta nɔ lɛ, nyɛɛ **Mute (🔇)** yɛ okiibɔd lɛ nɔ; loo onyɛ/okliki **Pause (⏸️)**.
+* **Nifeemɔ 2.3. Bo Toi, Ni Ohã Gbee Lɛ Sɛɛ Afo:** Gbelemɔ Biblia yitso ko. Nyɛɛ **Headphones / Play (🎧)** okadi ni yɔɔ skrin lɛ ŋwɛigbɛ lɛ nɔ koni obo toi. Kasemɔ bɔ ni obaafee ohã gbee lɛ sɛɛ afo oya nɔŋŋ: yɛ foŋ loo tablɛt nɔ lɛ, nyɛɛ **Volume Down** ni yɔɔ he lɛ nɔ ni oshi onine yɛ nɔ; yɛ kɔmpiuta nɔ lɛ, nyɛɛ **Mute (🔇)** yɛ okiibɔd lɛ nɔ; loo onyɛ/okliki **Pause (⏸️)**.
 * *Tsɔɔlɔ lɛ baatsɔɔ (kɛfata he):* Yɛ **Publications** > **Downloaded** mli lɛ, too nibii lɛ anaa yɛ **Largest Size** *(Edalɛ)* naa koni okwɛ gbɛ ni nibii lɛ eŋɔ, ni ona bɔ ni ojieɔ nibii ni ehe ehiaaa bo.
 
 ---

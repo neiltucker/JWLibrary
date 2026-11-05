@@ -45,7 +45,7 @@ Mtaala umepangwa katika masomo matatu ya dakika 15 kila moja, yakitanguliwa na k
 2. **Somo la 2: Kupakua na Kutumia Maudhui (Dakika 15)**
    * Kuunganisha kwenye Wi-Fi kabla ya kupakua ili kuokoa data ya simu.
    * Kupakua machapisho, video, au rekodi za sauti ili kuvitumia bila Intaneti (baada ya kupakua, huhitaji Intaneti mikutanoni).
-   * Kutumia **Kicheza Sauti (🎧)** kusikiliza sura za Biblia, Andiko la Siku, au makala za funzo zikisomwa kwa sauti.
+   * Kutumia **Kicheza Sauti (🎧)** kusikiliza sura za Biblia au makala za funzo zikisomwa kwa sauti.
    * **Kunyamazisha Haraka Wakati wa Dharura:** Kuzima sauti mara moja kwa kutumia vidhibiti vya sauti vya kifaa (kushikilia kitufe cha Kupunguza Sauti kilicho kando kwenye simu; kubonyeza kitufe cha Kunyamazisha kwenye kibodi ya kompyuta) au kitufe cha Simamisha kilicho kwenye skrini.
    * *Mwalimu Anaonyesha:* Kuangalia nafasi ya kuhifadhi na kupanga kulingana na **Kubwa Zaidi** *(Largest Size)* ili kuondoa faili zisizohitajika.
 
@@ -87,7 +87,7 @@ Ili kuhakikisha kwamba vipengele vipya na masasisho ya usalama yanapatikana, hak
 ## 📁 Yaliyomo Katika Hifadhi Hii
 
 * **`sw.html`**: Mafunzo kamili ya mtandaoni kwa Kiswahili yanayojirekebisha kulingana na skrini, yenye menyu ya lugha, vitufe vya kuchagua kifaa (kifaa ulichochagua hukumbukwa), kubadili ukubwa wa herufi, mwongozo wa muda kwa mwezeshaji, na mwongozo mfupi unaoweza kuchapishwa.
-  *Weka `sw.html` katika folda ileile pamoja na `index.html` (Kiingereza), `lg.html`, `din.html`, na `gaa.html` ili menyu ya lugha ifanye kazi.*
+  *Weka `sw.html` katika folda ileile pamoja na `index.html` (Kiingereza), `lg.html`, `din.html`, `gaa.html`, na `ada.html` ili menyu ya lugha ifanye kazi.*
 * **`manifest-sw.json` na `sw.js`**: Faili zinazoruhusu mwongozo huu kuwekwa kwenye skrini ya kwanza ya simu na kufunguka kwa Kiswahili. Baada ya mwanafunzi kufungua mwongozo mara moja akiwa na Intaneti, kurasa za mwongozo huu huhifadhiwa kwenye kifaa na kufunguka bila Intaneti. PDF, video, na viungo vya JW.ORG bado vinahitaji Intaneti.
 * **`Table_Cards_Kiswahili_sw.pdf`**: Kadi za mezani za kuchapisha (kadi 4 kwa kila ukurasa) zenye msimbo wa QR unaofungua `sw.html`.
 * **`QR_Kiswahili_sw.png` na `QR_Kiswahili_sw.svg`**: Msimbo wa QR unaofungua ukurasa wa Kiswahili (PNG kwa skrini, SVG kwa kuchapisha).

@@ -243,7 +243,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph("<b>2.1</b> Kwɛmɔ akɛ ofoŋ, otablɛt, loo okɔmpiuta lɛ yɛ Wi-Fi lɛ nɔ lo, koni okafite omobail data.", ex_style))
     story.append(Paragraph("<b>2.2</b> Yɛ Publications loo Meetings mli lɛ, nyɛɛ <b>atatu okadi</b> lɛ nɔ yɛ nɔ ko ni okɛkaseɔ nii lɛ he, koni odaunlodi ni okɛtsu nii kɛ́ Intanɛt bɛ.", ex_style))
-    story.append(Paragraph("<b>2.3</b> Gbelemɔ Daa Gbi Ŋmalɛ Lɛ loo Biblia lɛ. Nyɛɛ <b>Headphones</b> nɔ ni obo toi; okɛ <b>Volume Down</b> (loo Mute) ahã gbee lɛ sɛɛ afo.", ex_style))
+    story.append(Paragraph("<b>2.3</b> Gbelemɔ Biblia yitso ko. Nyɛɛ <b>Headphones</b> nɔ ni obo toi; okɛ <b>Volume Down</b> (loo Mute) ahã gbee lɛ sɛɛ afo.", ex_style))
     story.append(Spacer(1, 1.5))
 
     story.append(Paragraph("<b>3.1</b> Yɛ <i>Buu-Mɔɔ</i> Nikasemɔ sane lɛ kuku 1 lɛ mli lɛ, nyɛɛ hetoo lɛ nɔ fioo ni ogbala onine lɛ kɛnyiɛ nɔ, ni onyɛ <b>yɛlo</b> nɔ.", ex_style))
@@ -451,7 +451,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("Nifeemɔi (miniti 5)", h2_style))
     story.append(Paragraph("&bull; <b>Nifeemɔ 2.1:</b> Kwɛmɔ skrin lɛ ŋwɛigbɛ koni ona akɛ foŋ, tablɛt, loo kɔmpiuta lɛ yɛ Wi-Fi lɛ nɔ.", bullet_style))
     story.append(Paragraph("&bull; <b>Nifeemɔ 2.2:</b> Nyɛɛ atatu okadi lɛ nɔ yɛ wolo loo vidio ko he koni odaunlodi.", bullet_style))
-    story.append(Paragraph("&bull; <b>Nifeemɔ 2.3:</b> Gbelemɔ Daa Gbi Ŋmalɛ Lɛ loo Biblia lɛ, nyɛɛ Headphones nɔ ni obo toi; okɛ Volume Down loo Mute ahã gbee lɛ sɛɛ afo.", bullet_style))
+    story.append(Paragraph("&bull; <b>Nifeemɔ 2.3:</b> Gbelemɔ Biblia yitso ko, nyɛɛ Headphones nɔ ni obo toi; okɛ Volume Down loo Mute ahã gbee lɛ sɛɛ afo.", bullet_style))
 
     story.append(Paragraph("Ŋaawoi Kɛhã Klas Lɛ Hiɛnyiɛlɔ Yɛ Nikasemɔ 2 Lɛ He", h2_style))
     story.append(Paragraph(

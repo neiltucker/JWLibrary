@@ -55,12 +55,15 @@ LANGUAGES = {
     'gaa': dict(name='Ga', file='Ga_gaa', page='gaa.html',
                 title='Okɛ JW Library Lɛ Atsu Nii',
                 text='Okɛ ofoŋ kamera lɛ askani okadi nɛɛ koni ogbele kasemɔ wolo lɛ.'),
+    'ada': dict(name='Dangme', file='Dangme_ada', page='ada.html',
+                title='Ngɔɔ JW Library ɔ Kɛ Tsu Ní',
+                text='Ngɔɔ o fon kamera a kɛ skani okadi nɛ ɔ konɛ o bli ní kasemi womi ɔ. (Scan with your phone camera.)'),
 }
 FOOTER = 'Independent training aid. Not affiliated with Watch Tower or JW.ORG.'
 
 # Web pages of this guide. Links in the README files that end in one of these
 # (or in "/") are treated as links to the guide and get the new address.
-PAGES = ['index.html', 'sw.html', 'lg.html', 'din.html', 'gaa.html']
+PAGES = ['index.html', 'sw.html', 'lg.html', 'din.html', 'gaa.html', 'ada.html']
 
 
 # ---------------------------------------------------------------------------

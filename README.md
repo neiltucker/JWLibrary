@@ -41,7 +41,7 @@ The curriculum is structured into three focused 15-minute lessons, framed by a 1
 2. **Lesson 2: Downloading and Using Media (15 Mins)**
    * Connecting to Wi-Fi before downloading to preserve mobile cellular data.
    * Downloading publications or media for offline use (no internet needed at meetings once downloaded).
-   * Using the **Audio Player (🎧)** to listen to Bible chapters, Daily Text, or study articles read aloud.
+   * Using the **Audio Player (🎧)** to listen to Bible chapters or study articles read aloud.
    * Mastering **Emergency Quick-Silencing**: Stopping sound instantly using device volume controls (holding side Volume Down on mobile; pressing keyboard Mute key on PC) or on-screen pause.
    * *Demonstrated by Instructor:* Checking storage space and sorting by **Largest Size** to remove unneeded files.
 
@@ -90,7 +90,7 @@ To ensure the latest features and security updates are available, verify that yo
 * **`site_config.json`**: The web address used for the QR codes, table cards, and README links. Leave it blank to use this repository's GitHub Pages address automatically.
 * **`requirements.txt`**: The free Python libraries the scripts need.
 * **`fonts/`**: The free DejaVu Sans fonts (with their license) used by all the PDF scripts, so the PDFs look the same and print every letter correctly on any computer.
-* **`translations/`**: Kiswahili, Luganda, Dinka, and Ga versions of the class outline, README, and PDF script, with translation notes and reviewer checklists.
+* **`translations/`**: Kiswahili, Luganda, Dinka, Ga, and Dangme (draft) versions of the class outline, README, and PDF script, with translation notes and reviewer checklists.
 
 ---
 
@@ -107,7 +107,7 @@ The scripts use only free, open-source tools and the fonts in the `fonts/` folde
 | Command | What it makes |
 | :--- | :--- |
 | `python generate_pdfs.py` | English class program and curriculum PDFs |
-| `python translations/sw/generate_pdfs.py` | Kiswahili PDFs (likewise `lg`, `din`, and `gaa`) |
+| `python translations/sw/generate_pdfs.py` | Kiswahili PDFs (likewise `lg`, `din`, `gaa`, and `ada`) |
 | `python make_qr_and_cards.py` | QR codes and table cards for every language, and updated README links |
 | `python make_qr_and_cards.py sw` | QR codes and table cards for one language only |
 

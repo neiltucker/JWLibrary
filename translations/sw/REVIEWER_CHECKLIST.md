@@ -75,6 +75,7 @@ Set a phone (or computer) to **Kiswahili** in its language settings, open **JW L
 11. **New in update 8 (31 Oct 2026) — please check:** the language-help sentence added to the facilitator's pre-class clinic tip (web page, `JWLibrary_Class.md`, README, curriculum PDF page 4): *Ikiwa mwanafunzi anahitaji machapisho katika lugha nyingine, bofya kitufe cha **Lugha** (Languages) (A/あ) na uchague lugha hiyo.* (English: "If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.")
 12. **New in update 9 (31 Oct 2026) — please check:** the Text Settings button name is written **Ukubwa wa Herufi (Text Settings)** (web page, `JWLibrary_Class.md`, README, and curriculum PDF) to match JW.ORG help and English interface settings.
 13. **New in update 9 (31 Oct 2026) — please check:** the Mac requirement row in `README.md`: *macOS 13 au toleo jipya zaidi, yenye Apple Silicon (chipu ya M1 au mpya zaidi)* (English: "macOS 13 or later, with Apple Silicon (M1 chip or newer)").
+14. **New in update 10 (5 Nov 2026) — please check:** Exercise 2.3 step 1 is now *Fungua sura yoyote ya Biblia.* (English: "Open any Bible chapter."), because the Daily Text has no audio option. The words were already in the guide.
 
 ## 3. General review
 

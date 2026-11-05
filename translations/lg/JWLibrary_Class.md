@@ -103,7 +103,7 @@ Kiraasi eno etegekeddwa okuba **okuyiga okw'essaawa emu** okulina ekigendererwa,
 
 * **Okwegezaamu 2.1. Okukebera Wi-Fi:** Kakasa nti essimu yo, tabbuleeti, oba kompyuta yo eyungiddwa ku Wi-Fi nga tonnatandika kuwanula kintu kyonna, osobole okukekkereza data y'essimu.
 * **Okwegezaamu 2.2. Okuwanula Okukozesa Awatali Intaneeti:** Nyiga **Ebitabo** (📚) *(Publications)* oba enteekateeka y'olukuŋŋaana. Nyiga **akabonero k'Ekire (☁️)** ku kitabo eky'okusoma oba ku vidiyo empi okukiwanula okukikozesa awatali Intaneeti.
-* **Okwegezaamu 2.3. Okuwuliriza Amaloboozi n'Okusirisa Amangu:** Ggulawo Ekyawandiikibwa eky'Olunaku oba essuula ya Bayibuli. Nyiga **eppeesa lya Headphones / Zannya (🎧)** *(Play)* eriri waggulu ku sikuliini owulirize okusoma. Weegezeemu okukomya eddoboozi amangu ddala: ku ssimu oba tabbuleeti, nyiga era onyweze **eppeesa erikendeeza eddoboozi** eriri ku mabbali; ku laputopu/kompyuta, nyiga **eppeesa erisirisa (🔇)** ku kibodi; oba nyiga **Yimiriza (⏸️)**.
+* **Okwegezaamu 2.3. Okuwuliriza Amaloboozi n'Okusirisa Amangu:** Ggulawo essuula yonna eya Bayibuli. Nyiga **eppeesa lya Headphones / Zannya (🎧)** *(Play)* eriri waggulu ku sikuliini owulirize okusoma. Weegezeemu okukomya eddoboozi amangu ddala: ku ssimu oba tabbuleeti, nyiga era onyweze **eppeesa erikendeeza eddoboozi** eriri ku mabbali; ku laputopu/kompyuta, nyiga **eppeesa erisirisa (🔇)** ku kibodi; oba nyiga **Yimiriza (⏸️)**.
 * *Kirageddwa (Eky'enyongeza):* Mu **Ebitabo** > **Ebiwanuddwa** *(Publications > Downloaded)*, kyusa engeri gye bisengekeddwamu ofune **Esinga Obunene** *(Largest Size)* okukebera ekifo ekikozeseddwa n'okulaba engeri y'okusangulamu fayiro ezitali nneetaagisa.
 
 ---

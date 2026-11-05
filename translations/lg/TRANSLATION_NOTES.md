@@ -2,6 +2,12 @@
 
 Source: https://github.com/neiltucker/JWLibrary (files as of 16 Oct 2026). Translated by Claude (AI); reviewed and approved by two local Luganda speakers (including Andrew Kalinaki, 22 Oct 2026). Draft notice removed.
 
+## Changes in this version (5 Nov 2026, update 9) — Exercise 2.3 uses the Bible only
+These changes affect every language. Nothing else in this language's guide changed.
+* **Why:** the Daily Text has no headphones/audio option, even in English (checked by the project owner on Android and Windows; iPhone was not checked, but the wording is the same on all devices so the tutorials stay uniform).
+* **Change:** Exercise 2.3 step 1 is now *Ggulawo essuula yonna eya Bayibuli.* (English: "Open any Bible chapter.") on the web page, in `JWLibrary_Class.md` and in both PDFs. The README's audio line no longer lists the Daily Text. Both PDFs were regenerated. Listed as item 14 in `REVIEWER_CHECKLIST.md`.
+* `sw.js` cache version raised to `v23`.
+
 ## Changes in this version (31 Oct 2026, update 8) — Text Settings, Mac requirement, peer file list
 * **Text Settings button:** added the English button label in brackets to match app interface conventions and current JW.ORG help: **Obunene bw'Ennukuta (Text Settings) (`A A`)** in `lg.html`, `JWLibrary_Class.md`, `README.md`, and `generate_pdfs.py` (both PDFs: Class Program 0:07 and exercise 1.1; curriculum page 1 learning goal, page 2 lesson text, topic list, exercise 1.1 and facilitator note). The PDF wording was added in a follow-up fix, so the PDFs match the other Luganda files.
 * **Mac requirement:** updated to **macOS 13 oba empya okusingawo, erina Apple Silicon (chip ya M1 oba empya okusingawo)** in the README, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements.

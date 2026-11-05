@@ -4,6 +4,12 @@
 
 Ga is a language with far less written material online than English, Kiswahili or Luganda, and the translator is not a fluent Ga speaker. Every sentence was built as far as possible from wording found in Ga publications on JW.ORG and the Ga Online Library (wol.jw.org/gaa). Sentences that could not be modelled on a published example are listed in `REVIEWER_CHECKLIST.md` section 2 so the reviewers can check them first.
 
+## Changes in this version (5 Nov 2026, update 9) — Exercise 2.3 uses the Bible only
+These changes affect every language. Nothing else in this language's guide changed.
+* **Why:** the Daily Text has no headphones/audio option, even in English (checked by the project owner on Android and Windows; iPhone was not checked, but the wording is the same on all devices so the tutorials stay uniform).
+* **Change:** Exercise 2.3 step 1 is now *Gbelemɔ Biblia yitso ko.* (English: "Open any Bible chapter.") on the web page, in `JWLibrary_Class.md` and in both PDFs. The README's audio line no longer lists *Daa Gbi Ŋmalɛ Lɛ*. Both PDFs were regenerated. This was made after the Ga review; it only shortens the sentence and uses words already in the guide. Listed as item 18 in `REVIEWER_CHECKLIST.md`.
+* `sw.js` cache version raised to `v23`.
+
 ## Changes in this version (31 Oct 2026, update 8) — Mac requirement
 * **Mac requirement:** updated to **macOS 13 loo nɔ ni yɛ hiɛ fe nakai, ni Apple Silicon (M1 chip loo nɔ ni yɛ hiɛ fe nakai) yɔɔ mli** in `README.md`, and **macOS 13+ (M1+)** in `generate_pdfs.py` to match current App Store minimum requirements. (Ga already uses *Text Settings* from update 1.)
 * Ga curriculum PDF regenerated (still 4 pages).

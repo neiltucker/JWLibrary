@@ -1,0 +1,36 @@
+{
+  "name": "Ngɔɔ JW Library ɔ Kɛ Tsu Ní",
+  "short_name": "JW Ní Kasemi",
+  "description": "Ní kasemi womi kɛ klas ɔ he blɔ nya tomi kɛ ha bɔ nɛ a kɛ JW Library app ɔ tsuɔ ní ha.",
+  "start_url": "./ada.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

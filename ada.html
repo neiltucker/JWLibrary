@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="ada">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ngɔɔ JW Library ɔ Kɛ Tsu Ní &mdash; Ní Kasemi Womi Kɛ Klas ɔ He Blɔ Nya Tomi (Draft)</title>
+  <meta name="description" content="Ní kasemi womi kɛ klas ɔ he blɔ nya tomi nɛ maa ye bua mo konɛ o kase bɔ nɛ a kɛ JW Library app ɔ tsuɔ ní ha ngɛ dɛ he ní kasemi, asafo mi kpehi, kɛ fiɛɛmi ní tsumi mi. Draft Dangme translation, not yet reviewed.">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="sw" href="sw.html">
+  <link rel="alternate" hreflang="lg" href="lg.html">
+  <link rel="alternate" hreflang="din" href="din.html">
+  <link rel="alternate" hreflang="gaa" href="gaa.html">
+  <link rel="alternate" hreflang="ada" href="ada.html">
+  <link rel="manifest" href="manifest-ada.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <script>
+    // Early theme and font size setup to prevent flash of wrong theme/size
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        var savedSize = localStorage.getItem('jw_tutorial_text_size');
+        var sizes = { small: '16px', normal: '19px', large: '22px', xlarge: '25px' };
+        if (savedSize && sizes[savedSize]) {
+          document.documentElement.style.setProperty('--font-base', sizes[savedSize]);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #475569;
+      --primary: #1e40af;
+      --primary-light: #eff6ff;
+      --primary-border: #bfdbfe;
+      --accent: #0f766e;
+      --accent-light: #f0fdfa;
+      --accent-text: #134e4a;
+      --tag-bg: #f1f5f9;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --font-base: 19px;
+
+      /* UI Controls */
+      --btn-bg: #f1f5f9;
+      --btn-border: #cbd5e1;
+      --btn-text: #1e293b;
+      --btn-active-bg: #1e40af;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #f8fafc;
+      --exercise-border: #e2e8f0;
+      --demo-bg: #f1f5f9;
+      --demo-border: #64748b;
+      --demo-title: #475569;
+      --demo-text: #475569;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #fefce8;
+      --tip-border: #eab308;
+      --tip-text: #713f12;
+      --check-bg: #dcfce7;
+      --check-text: #166534;
+      --facilitator-bg: #f0fdf4;
+      --facilitator-border: #16a34a;
+      --facilitator-text: #14532d;
+      --facilitator-title: #166534;
+      --table-th-bg: #f1f5f9;
+
+      /* Video Link */
+      --video-bg: #eff6ff;
+      --video-border: #bfdbfe;
+      --video-text: #1d4ed8;
+      --video-hover-bg: #dbeafe;
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+      --header-text: #ffffff;
+      --header-subtext: #dbeafe;
+      --header-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.2);
+
+      /* Device selector */
+      --device-tab-bg: #f8fafc;
+      --device-tab-border: #cbd5e1;
+      --device-tab-text: #1e293b;
+      --device-tab-hover-bg: #eff6ff;
+
+      /* Links & Footer */
+      --link-item-bg: #f8fafc;
+      --link-item-border: #cbd5e1;
+      --footer-text: #64748b;
+      --footer-heading: #334155;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-light: #172554;
+      --primary-border: #60a5fa;
+      --accent: #2dd4bf;
+      --accent-light: #042f2e;
+      --accent-text: #5eead4;
+      --tag-bg: #334155;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+
+      /* UI Controls */
+      --btn-bg: #334155;
+      --btn-border: #475569;
+      --btn-text: #f1f5f9;
+      --btn-active-bg: #3b82f6;
+      --btn-active-text: #ffffff;
+
+      /* Exercise & Demonstration Boxes */
+      --exercise-bg: #0f172a;
+      --exercise-border: #334155;
+      --demo-bg: #182234;
+      --demo-border: #94a3b8;
+      --demo-title: #cbd5e1;
+      --demo-text: #cbd5e1;
+
+      /* Tips & Facilitator Boxes */
+      --tip-bg: #221c04;
+      --tip-border: #eab308;
+      --tip-text: #fef08a;
+      --check-bg: #064e3b;
+      --check-text: #86efac;
+      --facilitator-bg: #052e16;
+      --facilitator-border: #22c55e;
+      --facilitator-text: #bbf7d0;
+      --facilitator-title: #86efac;
+      --table-th-bg: #0f172a;
+
+      /* Video Link */
+      --video-bg: #1e293b;
+      --video-border: #3b82f6;
+      --video-text: #93c5fd;
+      --video-hover-bg: rgba(37, 99, 235, 0.2);
+
+      /* Header */
+      --header-bg: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      --header-text: #ffffff;
+      --header-subtext: #bfdbfe;
+      --header-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+      /* Device selector */
+      --device-tab-bg: #0f172a;
+      --device-tab-border: #475569;
+      --device-tab-text: #f1f5f9;
+      --device-tab-hover-bg: #1e293b;
+
+      /* Links & Footer */
+      --link-item-bg: #0f172a;
+      --link-item-border: #334155;
+      --footer-text: #94a3b8;
+      --footer-heading: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: var(--font-base);
+      transition: font-size 0.15s ease, background-color 0.2s ease, color 0.2s ease;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      line-height: 1.65;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 1.5rem 1rem 4rem;
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Top Utility Bar */
+    .utility-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .util-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .util-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    .select-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.42rem 2.1rem 0.42rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 0.85em;
+      transition: all 0.15s ease;
+    }
+
+    [data-theme="dark"] .select-control {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    }
+
+    .select-control:hover, .select-control:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-control {
+      background-color: var(--btn-bg);
+      border: 1px solid var(--btn-border);
+      color: var(--btn-text);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s ease;
+    }
+
+    .btn-control:hover, .btn-control:focus {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      outline: none;
+    }
+
+    .btn-control.active {
+      background-color: var(--btn-active-bg);
+      color: var(--btn-active-text);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-border);
+    }
+
+    .btn-lang {
+      min-height: 2rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.92rem;
+    }
+
+    .btn-size {
+      min-width: 2.3rem;
+      text-align: center;
+    }
+
+    .btn-theme {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
+    .btn-print {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      border-radius: var(--radius);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--header-shadow);
+      transition: background 0.2s ease;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.02em;
+      color: var(--header-text);
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: var(--header-subtext);
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Device Selector Card */
+    .device-card {
+      background-color: var(--card-bg);
+      border: 2px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .device-card h2 {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .device-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .device-tab {
+      background-color: var(--device-tab-bg);
+      border: 2px solid var(--device-tab-border);
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--device-tab-text);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .device-tab:hover {
+      border-color: var(--primary);
+      background-color: var(--device-tab-hover-bg);
+    }
+
+    .device-tab.active {
+      background-color: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 6px -1px rgba(30, 64, 175, 0.3);
+    }
+
+    .device-note {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background-color: var(--accent-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      font-size: 1rem;
+      color: var(--accent-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Checklist Box */
+    .checklist-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .checklist-box h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .checklist-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    .check-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--check-bg);
+      color: var(--check-text);
+      font-weight: 700;
+      border-radius: 50%;
+      width: 1.45rem;
+      height: 1.45rem;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Lesson Cards */
+    .lesson-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .lesson-header {
+      border-bottom: 2px solid var(--card-border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+
+    .lesson-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .lesson-time {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background-color: var(--btn-bg);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--card-border);
+    }
+
+    .lesson-intro {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .official-video-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: var(--video-bg);
+      border: 1px solid var(--video-border);
+      color: var(--video-text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+      transition: all 0.15s ease;
+    }
+
+    .official-video-link:hover {
+      background-color: var(--video-hover-bg);
+      text-decoration: underline;
+    }
+
+    /* Steps */
+    .exercise-box {
+      background-color: var(--exercise-bg);
+      border: 1px solid var(--exercise-border);
+      border-radius: 10px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .exercise-box.demonstrated {
+      background-color: var(--demo-bg);
+      border-left: 4px solid var(--demo-border);
+    }
+
+    .exercise-box.demonstrated .exercise-title {
+      color: var(--demo-title);
+    }
+
+    .exercise-box.demonstrated p {
+      color: var(--demo-text);
+    }
+
+    .exercise-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .step-list {
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .step-list li {
+      position: relative;
+      padding-left: 2rem;
+      font-size: 1.02rem;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    .step-num {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      width: 1.45rem;
+      height: 1.45rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .step-tip {
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      background-color: var(--tip-bg);
+      border-left: 3px solid var(--tip-border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      color: var(--tip-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    /* Accordion for Facilitator Section */
+    details.instructor-guide {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    details.instructor-guide summary {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      user-select: none;
+    }
+
+    .instructor-content {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+      font-size: 1rem;
+      color: var(--text-muted);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .timing-table {
+      width: 100%;
+      min-width: 520px;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .timing-table th, .timing-table td {
+      border: 1px solid var(--card-border);
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+    }
+
+    .timing-table th {
+      background-color: var(--table-th-bg);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .timing-table td {
+      color: var(--text);
+    }
+
+    .facilitator-box {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: var(--facilitator-bg);
+      border-left: 4px solid var(--facilitator-border);
+      border-radius: 6px;
+      color: var(--facilitator-text);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .facilitator-box h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      color: var(--facilitator-title);
+    }
+
+    /* Official Links Card */
+    .links-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .links-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .link-item {
+      display: block;
+      padding: 0.75rem 1rem;
+      background-color: var(--link-item-bg);
+      border: 1px solid var(--link-item-border);
+      border-radius: 8px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.98rem;
+      transition: all 0.15s ease;
+    }
+
+    .link-item:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      text-decoration: underline;
+    }
+
+    /* Footer & Disclaimer */
+    footer {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: var(--footer-text);
+      line-height: 1.6;
+      box-shadow: var(--shadow);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    footer h4 {
+      font-size: 1.05rem;
+      color: var(--footer-heading);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt !important;
+        padding: 0 !important;
+      }
+
+      .utility-bar, .device-tabs, .device-note, .official-video-link, details.instructor-guide, footer, .links-card {
+        display: none !important;
+      }
+
+      header {
+        background: none !important;
+        color: #000000 !important;
+        padding: 0 0 0.75rem 0;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 1.25rem;
+        box-shadow: none !important;
+      }
+
+      header h1 {
+        font-size: 18pt !important;
+        color: #000000 !important;
+      }
+
+      header p {
+        color: #333333 !important;
+        font-size: 10.5pt !important;
+      }
+
+      .lesson-card, .exercise-box {
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 0.85rem;
+        padding: 0.85rem;
+      }
+
+      .lesson-title {
+        color: #000000 !important;
+        font-size: 13pt !important;
+      }
+
+      .step-num {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  
+/* Phone-width fixes: let long words wrap, and stop grids/menus from forcing sideways scrolling */
+body { overflow-wrap: anywhere; }
+.timing-table { overflow-wrap: normal; }
+.timing-table td:first-child { white-space: nowrap; }
+.lesson-title, .exercise-title, .device-card h2, .checklist-box h3, .links-card h3 { min-width: 0; }
+.device-tabs { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.checklist-items, .links-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+.util-group { max-width: 100%; }
+.select-control { max-width: 100%; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+  .utility-bar { padding: 0.75rem; }
+  header { padding: 1.5rem 1.25rem; }
+  header h1 { font-size: 1.75rem; }
+  .lesson-card { padding: 1.25rem; }
+  .lesson-title { display: block; font-size: 1.3rem; }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Top Utility Controls -->
+    <div class="utility-bar">
+      <div class="util-group" role="navigation" aria-label="Gbi (Language)">
+        <label for="lang-select" class="util-label"><span aria-hidden="true">🌐</span> Gbi:</label>
+        <select id="lang-select" class="select-control select-lang" onchange="window.location.href=this.value" aria-label="Hla gbi (Select Language)">
+          <option value="index.html">English</option>
+          <option value="sw.html">Kiswahili</option>
+          <option value="lg.html">Luganda</option>
+          <option value="din.html">Thuɔŋjäŋ (Dinka)</option>
+          <option value="gaa.html">Ga</option>
+          <option value="ada.html" selected>Dangme</option>
+        </select>
+      </div>
+      <div class="util-group">
+        <span class="util-label">Ningma Amɛ A Klemi:</span>
+        <button class="btn-control btn-size" id="btn-size-small" onclick="setTextSize('small')" title="Ningma nyafii" aria-label="Ningma nyafii">A−</button>
+        <button class="btn-control btn-size active" id="btn-size-normal" onclick="setTextSize('normal')" title="Ningma nɛ a kɛ tsuɔ ní daa" aria-label="Ningma nɛ a kɛ tsuɔ ní daa">A</button>
+        <button class="btn-control btn-size" id="btn-size-large" onclick="setTextSize('large')" title="Ningma agbo" aria-label="Ningma agbo">A+</button>
+        <button class="btn-control btn-size" id="btn-size-xlarge" onclick="setTextSize('xlarge')" title="Ningma agbo wawɛɛ" aria-label="Ningma agbo wawɛɛ">A++</button>
+        <button class="btn-control btn-theme" id="btn-theme-toggle" onclick="toggleTheme()" title="Tsake kɛ ya Dun" aria-label="Tsake kɛ ya Dun">
+          <span id="theme-icon">🌙</span> <span id="theme-label">Dun</span>
+        </button>
+      </div>
+      <div class="util-group">
+        <button class="btn-control btn-print" onclick="window.print()" title="Moo printi ní kasemi womi nɛ ɔ">
+          🖨️ Moo Printi Ní Kasemi Womi Nyafii ɔ
+        </button>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <h1>Ngɔɔ JW Library ɔ Kɛ Tsu Ní</h1>
+      <p>Klas ko nɛ maa ngɛ hɛngm. 60 nɛ maa ye bua mo konɛ o kɛ app ɔ nɛ tsu ní kɛ kane Baiblo ɔ, kɛ dla o he kɛ ha asafo mi kpehi, nɛ o kɛ kane womihi nɛ da Baiblo ɔ nɔ.</p>
+    </header>
+
+    <!-- Draft notice -->
+    <div class="step-tip" role="note" style="margin: 0 0 2rem 0;">
+      ⚠️ <strong lang="en">DRAFT TRANSLATION — NOT YET REVIEWED.</strong> <span lang="en">This Dangme text is an AI-produced first draft and must be checked by a fluent Dangme speaker before use. App button names are kept in English, with the Dangme meaning in brackets where JW.ORG gives one.</span><br>
+      <strong>Nɛ ɔ ji sisije tsɔɔmi nɛ a pee ngɛ Dangme mi.</strong> Nihi nɛ a le Dangme a hyɛ we mi loko.
+    </div>
+
+    <!-- Device Switcher -->
+    <section class="device-card">
+      <h2><span>📱</span> Hla O Fon, O Tablɛti, Loo O Kɔmpiuta</h2>
+      <p style="font-size: 1rem; color: var(--text-muted);">Hla klama nɛ o kɛ tsuɔ ní, konɛ blɔ tsɔɔmihi kɛ he nɛ okadihi ɔmɛ ngɛ ɔ nɛ kɔ nɔ́ nɛ o naa ngɛ o skrin ɔ nɔ ɔ he:</p>
+
+      <div class="device-tabs">
+        <button class="device-tab active" id="tab-apple" onclick="selectDevice('apple')">
+          🍎 Apple (iPhone / iPad)
+        </button>
+        <button class="device-tab" id="tab-android" onclick="selectDevice('android')">
+          🤖 Android (Fon / Tablɛti)
+        </button>
+        <button class="device-tab" id="tab-windows" onclick="selectDevice('windows')">
+          💻 Windows Kɔmpiuta / Mac
+        </button>
+      </div>
+
+      <div class="device-note" id="device-note-text">
+        <strong>Nɔ́ nɛ o hla:</strong> Ngɛ Apple iPhone kɛ iPad nɔ ɔ, navigation bar (kpɔ nɛ fãhi ɔmɛ ngɛ nɔ ɔ) ngɛ o skrin ɔ sisi (Bible [Baiblo], Publications [Womihi], Meetings [Asafo Mi Kpehi], Personal Study [Dɛ He Ní Kasemi]).
+      </div>
+    </section>
+
+    <!-- Quick Checklist -->
+    <section class="checklist-box">
+      <h3><span>✅</span> Níhi Nɛ E Sa Kaa O Pee Loko Klas ɔ Maa Je Sisi</h3>
+      <div class="checklist-items">
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Ba Ngɛ Be Mi:</strong> Ba hɛngm. 10–15 loko klas ɔ maa je sisi, konɛ nihi nɛ yeɔ bua a nɛ ye bua mo nɛ o ya Wi-Fi ɔ nɔ, nɛ a hyɛ kaa o gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Ha Gbi ɔ Nɛ Kpa Amlɔ Nɛ ɔ:</strong> Ke gbi ko je kpo be nɛ o hyɛ we blɔ ɔ, <span id="check-silence-desc">moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o fon loo o tablɛti ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, moo nyɛ <strong>Mute (🔇)</strong> ngɛ o kiibɔd ɔ nɔ, loo moo nyɛ <strong>Pause (⏸️)</strong> nɔ</span>.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Batri:</strong> Hyɛ nɛ o fon, o tablɛti, loo o kɔmpiuta a batri ɔ nɛ ye loko o maa ba (loo ngɔɔ o chaaja a kɛ ba).</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Bɔ Nɛ Skrin ɔ Gbeɔ Ha:</strong> <span id="check-timeout-desc">Tsake be nɛ o skrin ɔ gbeɔ ɔ kɛ ya hɛngm. 2 loo 5, konɛ skrin ɔ ko gbe ngɛ klas ɔ mi.</span></span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Wi-Fi:</strong> Yaa Wi-Fi nɛ ngɛ he nɛ a peeɔ klas ɔ ngɛ ɔ nɔ, konɛ o gbla níhi nɛ o maa kɛ kase ní, nɛ o mobail data a ko puɛ.</span>
+        </div>
+        <div class="check-item">
+          <span class="check-badge">✓</span>
+          <span><strong>Blɔ Ngɛ O Klama a Nɔ:</strong> Hyɛ kaa blɔ nɛ se GB 2 ngɛ o fon, o tablɛti, loo o kɔmpiuta a nɔ lo, konɛ o nyɛ nɛ o gbla níhi.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lesson 1: Finding Scriptures & Meetings -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>📖</span> Ní Kasemi 1: Bɔ Nɛ O Maa Na Ngmami Ɔmɛ Kɛ Asafo Mi Kpehi A Níhi Ha</h2>
+        <span class="lesson-time">Be: Hɛngm. 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Moo kase bɔ nɛ o maa ya app ɔ fãhi ɔmɛ a nɔ ha, bɔ nɛ o maa ha ningma amɛ nɛ hi agbo konɛ o nyɛ nɛ o kane ha, bɔ nɛ o maa bli Baiblo ɔ yi tsuaa yi ha, kɛ bɔ nɛ o maa ya níhi nɛ o maa kɛ dla o he kɛ ha asafo mi kpehi daa otsi ɔ a nɔ ha.
+      </p>
+
+      <a id="video-link-lesson1" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+        ▶️ Hyɛ Blɔ Tsɔɔmi Nɛ Ngɛ JW.ORG Nɔ (Ngɛ Blɔfo Mi)
+      </a>
+
+      <!-- Exercise 1.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 1.1: Daa Ligbi Ngmami ɔ Kɛ Bɔ Nɛ O Maa Ha Ningma Amɛ Nɛ Hi Agbo Ha</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> <span class="nav-instruction">Hyɛ navigation bar ɔ (<strong class="nav-location">ngɛ o skrin ɔ sisi</strong>)</span>, nɛ o nyɛ <strong>Daily Text</strong> (☀️) <em>(Daa Ligbi Ngmami)</em> okadi ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Hyɛ o skrin ɔ yiti je ɔ, nɛ o nyɛ <strong>Text Settings / Appearance</strong> okadi ɔ (<strong><code>A A</code></strong>) <em>(Ningma amɛ a klemi)</em> nɔ.</li>
+          <li><span class="step-num">3</span> Gbla kpɔ ɔ kɛ ya hɛ mi (right) konɛ ningma amɛ nɛ hi agbo, nɛ o nyɛ nɛ o kane.</li>
+        </ul>
+        <div class="step-tip">
+          💡 <strong>Ga Womi Kɛ Ha Kanemi:</strong> Ke o hla ningma amɛ a klemi nɛ o suɔ ngɛ biɛ ɔ, jã nɔuu e maa ngɛ ngɛ Baiblo yi ɔmɛ kɛ munyuhi tsuo a mi.
+        </div>
+      </div>
+
+      <!-- Exercise 1.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 1.2: Bli Baiblo Womi Ko Kɛ Yi Ko</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ <strong>Bible</strong> (📖) <em>(Baiblo)</em> okadi ɔ nɔ ngɛ navigation bar ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Moo nyɛ Baiblo womi ɔmɛ a eko nɔ (kaa nɔ́ hyɛmi nɔ́ ɔ, <em>Mateo</em>).</li>
+          <li><span class="step-num">3</span> Moo nyɛ yi <strong>5</strong> nɔ konɛ o kane.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 1.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 1.3: Ngɔɔ Meetings Fã ɔ Kɛ Tsu Ní</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ <strong>Meetings</strong> (📅) <em>(Asafo Mi Kpehi)</em> okadi ɔ nɔ ngɛ navigation bar ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Hyɛ asafo mi kpehi enyɔ nɛ a peeɔ daa otsi ɔ: <em>Si Himi Kɛ Sɔmɔmi Ní Tsumi Kpe</em> (Midweek Meeting) kɛ <em>Otsi Nyagbe Kpe</em> (Weekend Meeting).</li>
+          <li><span class="step-num">3</span> Ngɛ Otsi Nyagbe Kpe ɔ sisi ɔ, moo nyɛ <strong>Hwɔɔmi Mɔ Ní Kasemi</strong> <em>(Watchtower Study)</em> munyu ɔ nɔ konɛ e bli amlɔ nɛ ɔ.</li>
+        </ul>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔ́ Nɛ Tsɔɔlɔ ɔ Maa Tsɔɔ: Bookmark, History, Kɛ Search</h3>
+        <p>
+          Tsɔɔlɔ ɔ maa tsɔɔ bɔ nɛ a kɛ <strong>Bookmark (🔖)</strong> kadiɔ he nɛ o su ɔ ha, bɔ nɛ a kɛ <strong>History (🕒)</strong> naa ngmamihi kɛ munyuhi nɛ o kane hyɛ ɔ ha, kɛ bɔ nɛ a kɛ <strong>Search (🔍)</strong> hlaa munyu ko ha. O ma nyɛ maa kase nɛ ɔmɛ ngɛ we!
+        </p>
+      </div>
+    </article>
+
+    <!-- Lesson 2: Downloading and Using Media -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>⬇️</span> Ní Kasemi 2: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha</h2>
+        <span class="lesson-time">Be: Hɛngm. 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Moo kase bɔ nɛ o maa kane níhi ha ke o be intanɛti ɔ nɔ po ɔ, bɔ nɛ o maa gbla womihi ha be nɛ o ngɛ Wi-Fi ɔ nɔ konɛ o mobail data a ko puɛ, kɛ bɔ nɛ o maa bu munyuhi nɛ a fiaa nɛ a buɔ tue ɔ tue ha.
+      </p>
+
+      <a id="video-link-lesson2" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/publications/" target="_blank" rel="noopener">
+        ▶️ Hyɛ Blɔ Tsɔɔmi Nɛ Ngɛ JW.ORG Nɔ (Ngɛ Blɔfo Mi)
+      </a>
+
+      <!-- Exercise 2.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 2.1: Hyɛ Wi-Fi ɔ, Konɛ O Mobail Data a Ko Puɛ</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Hyɛ o skrin ɔ yiti je ɔ konɛ o na kaa <strong>Wi-Fi okadi</strong> ɔ ngɛ jamɛ a he, nɛ o ngɛ Wi-Fi ɔ nɔ.</li>
+          <li><span class="step-num">2</span> <em>Mɛni he je nɛ nɛ ɔ he hia:</em> Ke o gbla níhi be nɛ o ngɛ Wi-Fi ɔ nɔ ɔ, o mobail data a puɛ we.</li>
+          <li><span class="step-num">3</span> <em>Tue mi jɔmi ke o be intanɛti ɔ nɔ:</em> Ke o gbla womihi kɛ munyuhi nɛ a buɔ tue ɔ, a hiɔ o klama a nɔ; e he hia we kaa o ya intanɛti ɔ nɔ loko o kɛ tsu ní ngɛ asafo mi kpehi a sisi!</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 2.2: Gbla Nɔ́ Ko Konɛ O Kɛ Tsu Ní Ke O Be Intanɛti ɔ Nɔ Po</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ <strong>Publications</strong> (📚) <em>(Womihi)</em> okadi ɔ nɔ, loo moo ya <strong>Meetings</strong> (📅) <em>(Asafo Mi Kpehi)</em> fã ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Hla nɔ́ ko nɛ <strong>okadi nɛ ngɛ kaa bɔku ɔ</strong> (☁️) ngɛ he (kaa nɔ́ hyɛmi nɔ́ ɔ, <em>Ní Kasemi Womi</em> nɛ ngɛ amlɔ nɛ ɔ, loo video nyafii ko).</li>
+          <li><span class="step-num">3</span> Moo nyɛ nɔ́ ɔ nɔ konɛ o gbla. Ke bɔku okadi ɔ je jamɛ a he ɔ, e tsɔɔ kaa e ngɛ o klama a nɔ, nɛ o ma nyɛ maa kane ke o be intanɛti ɔ nɔ po ɔ.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 2.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 2.3: Bu Tue, Nɛ O Kase Bɔ Nɛ O Maa Ha Gbi ɔ Nɛ Kpa Amlɔ Nɛ ɔ Ha</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Bli Baiblo yi ko.</li>
+          <li><span class="step-num">2</span> Moo nyɛ <strong>Headphones / Play</strong> okadi ɔ (🎧) nɛ ngɛ o skrin ɔ yiti je ɔ nɔ konɛ o bu nɔ́ nɛ a ngɛ kanee ɔ tue.</li>
+          <li><span class="step-num">3</span> <strong>Moo kase bɔ nɛ o maa ha gbi ɔ nɛ kpa ha:</strong> Ha gbi ɔ nɛ kpa amlɔ nɛ ɔ: <span id="ex-silence-desc">moo nyɛ <strong>Pause (⏸️)</strong> nɛ ngɛ o skrin ɔ nɔ ɔ nɔ, loo moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o fon ɔ he ɔ nɔ (loo <strong>Mute</strong> ngɛ kɔmpiuta kiibɔd ɔ nɔ)</span>.</li>
+        </ul>
+        <div class="step-tip">
+          🔇 <strong>Ga Womi Kɛ Ha Tue Mi Jɔmi:</strong> <span id="tip-silence-desc">Ko ye gbeye kaa gbi ko maa je kpo be nɛ o hyɛ we blɔ. Ngɛ fon loo tablɛti nɔ ɔ, ke o nyɛ <strong>Volume Down</strong> nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ ɔ, gbi ɔ maa kpa. Ngɛ kɔmpiuta nɔ ɔ, moo nyɛ <strong>Mute (🔇)</strong> ngɛ o kiibɔd ɔ nɔ, loo moo kliki Pause (⏸️).</span>
+        </div>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔ́ Nɛ Tsɔɔlɔ ɔ Maa Tsɔɔ: Bɔ Nɛ O Maa Ná Blɔ Ngɛ O Klama a Nɔ Ha</h3>
+        <p>
+          Tsɔɔlɔ ɔ maa tsɔɔ bɔ nɛ o maa ya <em>Publications &gt; Downloaded</em> ha, nɛ o to níhi ɔmɛ a nya kɛ <strong>Largest Size</strong>, nɛ o je videohi nɛ a he hia mo hu ɔ ke blɔ nɛ ngɛ o klama a nɔ ɔ ngɛ bee ɔ.
+        </p>
+      </div>
+    </article>
+
+    <!-- Lesson 3: Personal Study Tools -->
+    <article class="lesson-card">
+      <div class="lesson-header">
+        <h2 class="lesson-title"><span>🖍️</span> Ní Kasemi 3: Níhi Nɛ O Ma Nyɛ Maa Kɛ Tsu Ní Ngɛ Dɛ He Ní Kasemi Mi</h2>
+        <span class="lesson-time">Be: Hɛngm. 15</span>
+      </div>
+
+      <p class="lesson-intro">
+        Moo kase bɔ nɛ o maa ngɔ kɔla kɛ kadi hetohi kɛ ha asafo mi kpe ha, bɔ nɛ o maa tsake kɔla a loo o je ha, kɛ bɔ nɛ o maa pee backup ha konɛ níhi nɛ o kadi ngɛ dɛ he ní kasemi mi jehahi babauu a ko laa.
+      </p>
+
+      <a id="video-link-lesson3" class="official-video-link" href="https://www.jw.org/en/online-help/jw-library/android/highlight-text/" target="_blank" rel="noopener">
+        ▶️ Hyɛ Blɔ Tsɔɔmi Nɛ Ngɛ JW.ORG Nɔ (Ngɛ Blɔfo Mi)
+      </a>
+
+      <!-- Exercise 3.1 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 3.1: Ngɔɔ Yɛlo Kɔla Kɛ Kadi Heto Ko</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ <strong>Meetings</strong> (📅) <em>(Asafo Mi Kpehi)</em> okadi ɔ nɔ, nɛ o bli <em>Hwɔɔmi Mɔ</em> munyu nɛ a maa kase ngɛ Hwɔɔmi Mɔ Ní Kasemi nɛ maa ba ɔ sisi ɔ.</li>
+          <li><span class="step-num">2</span> Ngɛ kuku 1 ɔ mi ɔ, o kɛ o nine nɛ pi heto ɔ mi munyungu klɛdɛɛ ɔ nɔ, nɛ o ngɔ o nine kɛ pi munyu ɔ nɔ bɔɔ.</li>
+          <li><span class="step-num">3</span> Moo nyɛ <strong>yɛlo</strong> kɔla a nɔ ngɛ kɔlahi nɛ maa je kpo ɔ a kpɛti. A kɛ kɔla kadi o heto ɔ!</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.2 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 3.2: Tsake Kɔla a, Loo O Je</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ munyu nɛ o kɛ yɛlo kɔla kadi amlɔ nɛ ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Moo nyɛ kɔla kpa ko (kaa bluu loo grin) nɔ konɛ o tsake.</li>
+          <li><span class="step-num">3</span> Ke o suɔ nɛ o je kɔla a kulaa a, moo nyɛ <strong>Delete</strong> okadi ɔ (🗑️) nɔ.</li>
+        </ul>
+      </div>
+
+      <!-- Exercise 3.3 -->
+      <div class="exercise-box">
+        <h3 class="exercise-title">Ní Peemi 3.3: Moo Pee Backup Konɛ O Níhi Ko Laa</h3>
+        <ul class="step-list">
+          <li><span class="step-num">1</span> Moo nyɛ <strong>Settings</strong> (⚙️) nɔ ngɛ o skrin ɔ nɔ.</li>
+          <li><span class="step-num">2</span> Moo nyɛ <strong>Backup and Restore</strong> nɔ.</li>
+          <li><span class="step-num">3</span> Moo nyɛ <strong>Create Backup</strong> nɔ.</li>
+          <li><span class="step-num">4</span> Moo ya nɔ kɛ blɔ tsɔɔmihi nɛ maa je kpo ngɛ o skrin ɔ nɔ ɔ konɛ o ngɔ o backup ɔ (<code>.jwlibrary</code>) kɛ to.</li>
+        </ul>
+        <div class="step-tip">
+          🛡️ <strong>Ga Womi Kɛ Ha Tue Mi Jɔmi:</strong> Níhi nɛ o ngma kɛ níhi nɛ o kɛ kɔla kadi ɔ ngɛ o klama a nɔ. Ke o peeɔ backup daa ɔ, ke o ná fon loo tablɛti hee po ɔ, o ma nyɛ maa ná o níhi ɔmɛ tsuo ekohu.
+        </div>
+      </div>
+
+      <!-- Demonstrated Box -->
+      <div class="exercise-box demonstrated">
+        <h3 class="exercise-title">Nɔ́ Nɛ Tsɔɔlɔ ɔ Maa Tsɔɔ: Níhi Nɛ O Ngmaa, Tags, Kɛ Personal Study</h3>
+        <p>
+          Tsɔɔlɔ ɔ maa tsɔɔ bɔ nɛ o maa ngɔ níhi nɛ o ngma (📝) kɛ piɛɛ ngmami ɔmɛ a he ha, kɛ bɔ nɛ o maa na o bookmark ɔmɛ kɛ níhi tsuo nɛ o kɛ kɔla kadi ɔ ha ngɛ <strong>Personal Study</strong> <em>(Dɛ He Ní Kasemi)</em> fã ɔ nɔ.
+        </p>
+      </div>
+    </article>
+
+    <!-- Expandable Facilitator Schedule Guide -->
+    <details class="instructor-guide">
+      <summary><span>📋</span> Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ Kɛ Tsɔɔlɔ (Blɔ Nya Tomi Kɛ Ha Hɛngm. 60)</summary>
+      <div class="instructor-content">
+        <p>Blɔ nya tomi nɛ ɔ haa ní kasemi tsuaa ní kasemi hɛngm. 15, nɛ e to <strong>hɛngm. 10 kɛ ha nyagbe</strong> konɛ klas ɔ nɛ ya nɔ blɛuu.</p>
+
+        <table class="timing-table">
+          <thead>
+            <tr>
+              <th>Be</th>
+              <th>Fã</th>
+              <th>Nɔ́ Nɛ A Maa Kase Kɛ Nɔ́ Nɛ A Maa Pee</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0:00 &ndash; 0:05</strong></td>
+              <td>Sisije (hɛngm. 5)</td>
+              <td>A hyɛ kaa nɔ tsuaa nɔ gbla Baiblo ɔ lo (nihi nɛ yeɔ bua a yeɔ nihi nɛ e sa kaa a gbla a bua), ga womi kɛ ha bɔ nɛ a haa gbi nɛ kpa ha (Volume Down nɛ ngɛ fon/tablɛti he; Mute ngɛ kɔmpiuta nɔ), kɛ be nɛ skrin ɔ gbeɔ ɔ.</td>
+            </tr>
+            <tr>
+              <td><strong>0:05 &ndash; 0:20</strong></td>
+              <td>Ní Kasemi 1: Bɔ Nɛ O Maa Na Ngmami Ɔmɛ Kɛ Asafo Mi Kpehi A Níhi Ha (hɛngm. 15)</td>
+              <td>Ní Peemi 1.1: Daa Ligbi Ngmami ɔ kɛ ningma amɛ a klemi (<code>A A</code>) &bull; Ní Peemi 1.2: Baiblo womi/yi &bull; Ní Peemi 1.3: Meetings.</td>
+            </tr>
+            <tr>
+              <td><strong>0:20 &ndash; 0:35</strong></td>
+              <td>Ní Kasemi 2: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha (hɛngm. 15)</td>
+              <td>Ní Peemi 2.1: Wi-Fi kɛ mobail data &bull; Ní Peemi 2.2: Gblami konɛ o kɛ tsu ní ke o be intanɛti ɔ nɔ po &bull; Ní Peemi 2.3: Munyuhi nɛ a buɔ tue (🎧) kɛ bɔ nɛ a haa gbi nɛ kpa ha.</td>
+            </tr>
+            <tr>
+              <td><strong>0:35 &ndash; 0:50</strong></td>
+              <td>Ní Kasemi 3: Níhi Nɛ O Ma Nyɛ Maa Kɛ Tsu Ní Ngɛ Dɛ He Ní Kasemi Mi (hɛngm. 15)</td>
+              <td>Ní Peemi 3.1: Yɛlo kɔla &bull; Ní Peemi 3.2: Kɔla tsakemi/jemi &bull; Ní Peemi 3.3: Backup peemi.</td>
+            </tr>
+            <tr>
+              <td><strong>0:50 &ndash; 1:00</strong></td>
+              <td>Nyagbe: Wa Maa Hyɛ Nɔ́ Nɛ Wa Kase ɔ Ekohu, Kɛ Sane Bimihi (hɛngm. 10)</td>
+              <td>A hyɛ nɔ́ nɛ a kase ɔ ekohu, a ha sane bimihi a heto, nɛ a kɛ be nɛ ɔ tsu ní ke ní peemi ko he be pe bɔ nɛ a hyɛ blɔ ɔ.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="facilitator-box">
+          <h4>Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ:</h4>
+          <ul style="padding-left: 1.25rem; line-height: 1.6; font-size: 0.96rem;">
+            <li><strong>Yemi Kɛ Buami Loko Klas ɔ Maa Je Sisi (Hɛngm. 15 Loko):</strong> Bɔ nihi amaniɛ kaa a maa bli agbo ɔmɛ hɛngm. 15 loko klas ɔ maa je sisi, konɛ nihi nɛ yeɔ bua a nɛ ye nihi nɛ ba a bua nɛ a ya Wi-Fi ɔ nɔ, nɛ a hyɛ kaa a gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ <strong>Languages</strong> okadi ɔ (A/あ) <em>(Gbi)</em> nɔ, nɛ o hla gbi ɔ.</li>
+            <li><strong>Tsɔɔ Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Klɛdɛɛ:</strong> Ngɛ klas ɔ sisije ɔ, tsɔɔ ní kaseli ɔmɛ Volume Down nɛ ngɛ a fon ɔ he ɔ kɛ Pause okadi ɔ. Ke a le kaa a ma nyɛ maa ha gbi ɔ nɛ kpa amlɔ nɛ ɔ, a ye we gbeye loko a bli video loo munyuhi nɛ a buɔ tue.</li>
+            <li><strong>Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:</strong> To blɔ nya konɛ nihi 1 loo 2 nɛ yeɔ bua a nɛ nyɛɛ tsu ɔ mi blɛuu. Ke ní kaselɔ ko je app ɔ mi be nɛ e suɔ we ɔ, nɔ nɛ yeɔ bua a ma nyɛ maa ye e bua amlɔ nɛ ɔ nɛ e kpale kɛ ya jamɛ a he, nɛ e he hia we kaa klas ɔ nɛ da si.</li>
+            <li><strong>Nyagbe Hɛngm. 10 ɔ:</strong> Ke ní peemi ko he be pe bɔ nɛ a hyɛ blɔ ɔ, ngɔɔ hɛngm. 3&ndash;5 kɛ je nyagbe hɛngm. 10 ɔ mi blɛuu; e sɛ nɛ o ngmɛ fo.</li>
+            <li><strong>Yemi Kɛ Buami Ngɛ Klas ɔ Se:</strong> Bɔ nihi amaniɛ kaa tsɔɔlɔ ɔ kɛ nihi nɛ yeɔ bua a maa hi jamɛ a he hɛngm. 15 ngɛ klas ɔ se, konɛ a ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua.</li>
+            <li><strong>Womihi Nɛ A Printi (Ke E He Maa Hia):</strong> Ke o printi Klas ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ nɛ o to okplɔ ɔmɛ a nɔ ɔ, ní kaseli ɔmɛ ma nyɛ maa nyɛɛ ní peemi ɔmɛ tsuo a se amlɔ nɛ ɔ, nɛ e he hia we kaa a ngɔ mobail data kɛ bli wɛbsaiti nɛ ɔ.</li>
+            <li><strong>QR Okadi Ngɛ Okplɔ Ɔmɛ A Nɔ Loo Ngɛ Skrin ɔ Nɔ (Ke O Suɔ):</strong> Ke o je QR okadi ɔ kpo ngɛ skrin ɔ nɔ, loo o ngɔ <a href="Table_Cards_Dangme_ada.pdf" target="_blank" rel="noopener">QR Womi Nyafii Kɛ Ha Okplɔ Ɔmɛ (PDF)</a> nɛ a printi ɔ kɛ to okplɔ ɔmɛ a nɔ ɔ, ní kaseli ɔmɛ ma nyɛ maa ngɔ a fon kamera a kɛ skani, nɛ a bli ní kasemi womi nɛ ɔ, nɛ e he hia we kaa a fia wɛbsaiti ɔ adrɛsi.</li>
+            <li><strong>Add to Home Screen (Ga Womi Kɛ Ha Be Nɛ Intanɛti Be):</strong> Tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ngɔ "Share &gt; Add to Home Screen" (iPhone) loo "Menu &gt; Add to Home screen" (Android) kɛ tsu ní ha. <em>Nɔ́ nɛ he hia:</em> Ke a pee jã a, e sa kaa a bli okadi hee ɔ si kake be nɛ a ngɛ intanɛti ɔ nɔ. Lɔ ɔ se ɔ, ní kasemi womi nɛ ɔ maa bli ke intanɛti be po ɔ (se videohi, PDF, kɛ JW.ORG nɔ níhi a he maa hia intanɛti).</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Official Links Card -->
+    <section class="links-card">
+      <h3><span>🔗</span> Yemi Kɛ Buami Kɛ Blɔ Tsɔɔmihi Nɛ Ngɛ JW.ORG Nɔ</h3>
+      <p style="font-size: 1rem; color: var(--text-muted);">Ke o ngɛ videohi kɛ blɔ tsɔɔmihi nɛ je JW.ORG hlae ɔ, yaa he nɛ ɔmɛ <em>(ekomɛ ngɛ Blɔfo mi)</em>:</p>
+
+      <div class="links-grid">
+        <a class="link-item" href="https://www.jw.org/ada/" target="_blank" rel="noopener">
+          🌐 JW.ORG Ngɛ Dangme Mi
+        </a>
+        <a class="link-item" href="https://www.jw.org/ada/intan%C9%9Bti-n%C9%94-yemi-k%C9%9B-buami/jw-library/" target="_blank" rel="noopener">
+          📱 JW Library Blɔ Tsɔɔmihi Ngɛ Dangme Mi
+        </a>
+        <a class="link-item" href="https://wol.jw.org/ada/wol/h/r217/lp-dg" target="_blank" rel="noopener">
+          📚 Hwɔɔmi Mɔ INTANƐTI NƆ NITO HE (Dangme)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/" target="_blank" rel="noopener">
+          🌐 JW.ORG Yemi Kɛ Buami (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/features/" target="_blank" rel="noopener">
+          ✨ JW Library Features (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/apple/" target="_blank" rel="noopener">
+          🍎 Yemi Kɛ Buami Kɛ Ha Apple (iOS / iPadOS) (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/android/" target="_blank" rel="noopener">
+          🤖 Yemi Kɛ Buami Kɛ Ha Android (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/windows/" target="_blank" rel="noopener">
+          💻 Yemi Kɛ Buami Kɛ Ha Windows (Blɔfo)
+        </a>
+        <a class="link-item" href="https://www.jw.org/en/online-help/jw-library/use-playlists/" target="_blank" rel="noopener">
+          🎵 Bɔ Nɛ A Kɛ Playlists Tsuɔ Ní Ha (Blɔfo)
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer & Disclaimer -->
+    <footer>
+      <h4>Mlaa He Sanehi (Legal &amp; Non-Affiliation Notice)</h4>
+      <p>
+        <em>JW Library</em> ji Watch Tower Bible and Tract Society of Pennsylvania okadi nɛ a kɛ wo mlaa sisi.
+        Ní kasemi womi nɛ ɔ kɛ klas ɔ he blɔ nya tomi nɛ ɔ ji ní tsumi nɛ da e he, nɛ pi jua yemi ní tsumi; a pee konɛ a kɛ ye nihi a bua nɛ a kase bɔ nɛ a kɛ app ɔ tsuɔ ní ha pɛ. Ní tsumi nɛ ɔ kɛ Watch Tower Bible and Tract Society of Pennsylvania loo Yehowa Odasefohi be weku ko. A pee we, a ngmɛ we blɔ kaa a pee, a hyɛ we nɔ, a wo we he sika, nɛ a kplɛɛ we nɔ. Nɔ tsuaa nɔ nɛ tsake nɔ́ ko ngɛ mi, loo e kɛ pee nɔ́ kpa ko loo klas kpa ko ɔ, e ní ji, nɛ lɔ ɔ tsɔɔ we kaa nɔ nɛ pee ní kasemi womi nɛ ɔ klɛdɛɛ ɔ kplɛɛ nɔ.
+      </p>
+      <p style="margin-top: 0.5rem;" lang="en">
+        <em>English original:</em> JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This training guide and class schedule is an independent, non-commercial educational project created solely to assist individuals in learning how to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses. Any modified versions, downstream forks, or derivative classes are the sole responsibility of their respective authors and do not represent the original template maintainer.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Blɔ tsɔɔmihi, womihi, kɛ videohi nɛ je asafo ɔ ngɔ ɔ, a ngɛ <a href="https://www.jw.org/ada/" target="_blank" rel="noopener" style="color: var(--primary);">JW.ORG</a> pɛ nɔ.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Text size configuration (Dangme page: ada.html)
+    const TEXT_SIZES = {
+      small: '16px',
+      normal: '19px',
+      large: '22px',
+      xlarge: '25px'
+    };
+
+    function setTextSize(size) {
+      const base = TEXT_SIZES[size] || TEXT_SIZES.normal;
+      document.documentElement.style.setProperty('--font-base', base);
+
+      document.querySelectorAll('.btn-size').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById('btn-size-' + size);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      try {
+        localStorage.setItem('jw_tutorial_text_size', size);
+      } catch (e) {}
+    }
+
+    // Theme (Dark Mode) switcher
+    function applyTheme(theme) {
+      const root = document.documentElement;
+      const isDark = theme === 'dark';
+      if (isDark) {
+        root.setAttribute('data-theme', 'dark');
+      } else {
+        root.removeAttribute('data-theme');
+      }
+
+      const iconEl = document.getElementById('theme-icon');
+      const labelEl = document.getElementById('theme-label');
+      const toggleBtn = document.getElementById('btn-theme-toggle');
+
+      if (iconEl) iconEl.textContent = isDark ? '☀️' : '🌙';
+      if (labelEl) labelEl.textContent = isDark ? 'La' : 'Dun';
+      if (toggleBtn) {
+        toggleBtn.title = isDark ? 'Tsake kɛ ya La' : 'Tsake kɛ ya Dun';
+        toggleBtn.setAttribute('aria-label', toggleBtn.title);
+      }
+
+      try {
+        localStorage.setItem('jw_tutorial_theme', theme);
+      } catch (e) {}
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    }
+
+    // Initialize preferences from localStorage or system defaults
+    (function initPreferences() {
+      try {
+        const savedSize = localStorage.getItem('jw_tutorial_text_size');
+        if (savedSize && TEXT_SIZES[savedSize]) {
+          setTextSize(savedSize);
+        } else {
+          setTextSize('normal');
+        }
+
+        const savedTheme = localStorage.getItem('jw_tutorial_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          applyTheme(savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          applyTheme('dark');
+        } else {
+          applyTheme('light');
+        }
+
+        const savedDevice = localStorage.getItem('jw_tutorial_device');
+        if (savedDevice && (savedDevice === 'apple' || savedDevice === 'android' || savedDevice === 'windows')) {
+          selectDevice(savedDevice);
+        } else {
+          selectDevice('apple');
+        }
+      } catch (e) {
+        setTextSize('normal');
+        applyTheme('light');
+        selectDevice('apple');
+      }
+    })();
+
+    // Register Service Worker for true offline PWA capability
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+      });
+    }
+
+    // Device switcher
+    function selectDevice(device) {
+      try {
+        localStorage.setItem('jw_tutorial_device', device);
+      } catch (e) {}
+
+      document.querySelectorAll('.device-tab').forEach(tab => tab.classList.remove('active'));
+      const activeTab = document.getElementById('tab-' + device);
+      if (activeTab) activeTab.classList.add('active');
+
+      const noteText = document.getElementById('device-note-text');
+      const navLocations = document.querySelectorAll('.nav-location');
+      const checkSilence = document.getElementById('check-silence-desc');
+      const checkTimeout = document.getElementById('check-timeout-desc');
+      const exSilence = document.getElementById('ex-silence-desc');
+      const tipSilence = document.getElementById('tip-silence-desc');
+      const videoL1 = document.getElementById('video-link-lesson1');
+      const videoL2 = document.getElementById('video-link-lesson2');
+      const videoL3 = document.getElementById('video-link-lesson3');
+
+      if (device === 'apple') {
+        noteText.innerHTML = '<strong>Nɔ́ nɛ o hla:</strong> Ngɛ Apple iPhone kɛ iPad nɔ ɔ, navigation bar (kpɔ nɛ fãhi ɔmɛ ngɛ nɔ ɔ) ngɛ o skrin ɔ sisi (Bible [Baiblo], Publications [Womihi], Meetings [Asafo Mi Kpehi], Personal Study [Dɛ He Ní Kasemi]).';
+        navLocations.forEach(el => el.textContent = 'ngɛ o skrin ɔ sisi');
+        if (checkSilence) checkSilence.innerHTML = 'moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o iPhone loo o iPad a he (left) ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, loo moo nyɛ <strong>Pause (⏸️)</strong> nɔ';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsake <strong>Auto-Lock</strong> (ngɛ <em>Settings &gt; Display &amp; Brightness</em> mi) kɛ ya hɛngm. 2 loo 5, konɛ skrin ɔ ko gbe ngɛ klas ɔ mi.';
+        if (exSilence) exSilence.innerHTML = 'moo nyɛ <strong>Pause (⏸️)</strong> nɛ ngɛ o skrin ɔ nɔ ɔ nɔ, loo moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o iPhone loo o iPad a he (left) ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Ko ye gbeye kaa gbi ko maa je kpo be nɛ o hyɛ we blɔ. Ngɛ iPhone kɛ iPad nɔ ɔ, ke o nyɛ <strong>Volume Down</strong> nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ ɔ, o ma nyɛ maa ha gbi ɔ nɛ kpa, ngɛ Matsɛ Yemi Asa a nɔ loo ngɛ klas ɔ mi.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/apple/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/apple/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/apple/highlight-text/';
+      } else if (device === 'android') {
+        noteText.innerHTML = '<strong>Nɔ́ nɛ o hla:</strong> Ngɛ Android fon kɛ tablɛti nɔ ɔ, navigation bar (kpɔ nɛ fãhi ɔmɛ ngɛ nɔ ɔ) ngɛ o skrin ɔ sisi (loo moo nyɛ o skrin ɔ left je ɔ nɔ kɛ ba right konɛ o na Menu ɔ).';
+        navLocations.forEach(el => el.textContent = 'ngɛ o skrin ɔ sisi, loo ngɛ Menu nɛ ngɛ left je ɔ mi');
+        if (checkSilence) checkSilence.innerHTML = 'moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o fon loo o tablɛti ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, loo moo nyɛ <strong>Pause (⏸️)</strong> nɔ';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsake <strong>Screen timeout</strong> (ngɛ <em>Settings &gt; Display</em> mi) kɛ ya hɛngm. 2 loo 5, konɛ skrin ɔ ko gbe ngɛ klas ɔ mi.';
+        if (exSilence) exSilence.innerHTML = 'moo nyɛ <strong>Pause (⏸️)</strong> nɛ ngɛ o skrin ɔ nɔ ɔ nɔ, loo moo nyɛ <strong>Volume Down</strong> nɛ ngɛ o Android fon loo tablɛti ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Ko ye gbeye kaa gbi ko maa je kpo be nɛ o hyɛ we blɔ. Ngɛ Android fon kɛ tablɛti nɔ ɔ, ke o nyɛ <strong>Volume Down</strong> nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ ɔ, o ma nyɛ maa ha gbi ɔ nɛ kpa, ngɛ Matsɛ Yemi Asa a nɔ loo ngɛ klas ɔ mi.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/android/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/android/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/android/highlight-text/';
+      } else if (device === 'windows') {
+        noteText.innerHTML = '<strong>Nɔ́ nɛ o hla:</strong> Ngɛ Windows kɔmpiuta nɔ ɔ, navigation bar (kpɔ nɛ fãhi ɔmɛ ngɛ nɔ ɔ) ngɛ o skrin ɔ yiti je ɔ (loo ngɛ left je ɔ).';
+        navLocations.forEach(el => el.textContent = 'ngɛ o skrin ɔ yiti je ɔ');
+        if (checkSilence) checkSilence.innerHTML = 'moo nyɛ <strong>Mute (🔇)</strong> loo <strong>Volume Down</strong> ngɛ o kiibɔd ɔ nɔ, moo kliki speaker okadi ɔ nɛ ngɛ taskbar ɔ nɔ, loo moo kliki <strong>Pause (⏸️)</strong>';
+        if (checkTimeout) checkTimeout.innerHTML = 'Tsake <strong>Screen / Sleep</strong> (ngɛ <em>Settings &gt; System &gt; Power &amp; battery</em> mi) kɛ ya hɛngm. 2 loo 5, konɛ o kɔmpiuta a skrin ɔ ko gbe.';
+        if (exSilence) exSilence.innerHTML = 'moo kliki <strong>Pause (⏸️)</strong>, moo nyɛ <strong>Mute (🔇)</strong> ngɛ o kiibɔd ɔ nɔ, loo moo kliki speaker okadi ɔ nɛ ngɛ taskbar ɔ nɔ';
+        if (tipSilence) tipSilence.innerHTML = 'Ko ye gbeye kaa gbi ko maa je kpo be nɛ o hyɛ we blɔ. Ngɛ Windows kɔmpiuta nɔ ɔ, ke o nyɛ <strong>Mute (🔇)</strong> ngɛ o kiibɔd ɔ nɔ, loo o kliki Pause (⏸️) ɔ, gbi ɔ tsuo maa kpa amlɔ nɛ ɔ.';
+        videoL1.href = 'https://www.jw.org/en/online-help/jw-library/windows/features/';
+        videoL2.href = 'https://www.jw.org/en/online-help/jw-library/windows/publications/';
+        videoL3.href = 'https://www.jw.org/en/online-help/jw-library/windows/highlight-text/';
+      }
+    }
+  </script>
+</body>
+</html>

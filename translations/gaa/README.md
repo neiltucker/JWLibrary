@@ -45,7 +45,7 @@ Nikasemɔi etɛ yɛ mli, ni eko fɛɛ eko yeɔ miniti 15. Yelikɛbuamɔ ni afeɔ
 2. **Nikasemɔ 2: Nibii Ni Adaunlodiɔ Kɛ Bɔ Ni Akɛtsuɔ Nii (Miniti 15)**
    * Wi-Fi nɔ yaa dani adaunlodi nibii, koni akafite mobail data.
    * Woji, vidioi, kɛ nibii ni atswaa aboɔ toi daunlodimɔ koni akɛtsu nii kɛ́ Intanɛt bɛ (kɛ́ odaunlodi ogbe naa lɛ, ehe ehiaaa Intanɛt yɛ asafoŋ kpeei ashishi).
-   * **Nibii ni atswaa aboɔ toi (🎧)**: Biblia yitsei, Daa Gbi Ŋmalɛ Lɛ, loo saji ni akaseɔ ni akaneɔ yɛ gbee mli lɛ toi bomɔ.
+   * **Nibii ni atswaa aboɔ toi (🎧)**: Biblia yitsei, loo saji ni akaseɔ ni akaneɔ yɛ gbee mli lɛ toi bomɔ.
    * **Bɔ Ni Akɛhãa Gbee Sɛɛ Foɔ Oya Nɔŋŋ:** Volume Down ni yɔɔ foŋ lɛ he (nyɛmɔ nɔ ni ashi nine yɛ nɔ), Mute yɛ kɔmpiuta okiibɔd lɛ nɔ, loo Pause yɛ skrin lɛ nɔ.
    * *Tsɔɔlɔ lɛ baatsɔɔ:* Gbɛ ni yɔɔ foŋ lɛ nɔ kwɛmɔ, kɛ nibii toomɔ yɛ **Largest Size** *(Edalɛ)* naa koni ajie nibii ni ehe ehiaaa.
 

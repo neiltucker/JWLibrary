@@ -89,7 +89,7 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 ## 📁 Kë Tɔ̈ në Repository Kënë
 
 * **`din.html`**: Piööc ë nɛt ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï device lɔc (device cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
-  *Put `din.html` in the same folder as `index.html` (English), `sw.html`, `lg.html`, and `gaa.html` so the language menu works.*
+  *Put `din.html` in the same folder as `index.html` (English), `sw.html`, `lg.html`, `gaa.html`, and `ada.html` so the language menu works.*
 * **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn nɛt *(without internet)*. After a learner opens the guide once while online, the five guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
 * **`Table_Cards_Dinka_din.pdf`**: Printable QR table cards (4 per page) that open `din.html`.
 * **`QR_Dinka_din.png` & `QR_Dinka_din.svg`**: QR code that opens the Dinka page (PNG for screens, SVG for printing).
