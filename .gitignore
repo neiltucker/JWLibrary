@@ -4,3 +4,5 @@ SessionSummary.md
 .DS_Store
 Thumbs.db
 __pycache__/
+translations/*/TRANSLATION_NOTES.md
+translations/*/REVIEWER_CHECKLIST.md

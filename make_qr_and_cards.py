@@ -51,7 +51,7 @@ LANGUAGES = {
                text="Kozesa kamera y'essimu yo ku koodi eno okuggulawo ekitabo ky'okwegezaamu."),
     'din': dict(name='Dinka', file='Dinka_din', page='din.html',
                 title='Piööc ë JW Library',
-                text='Tïŋ QR code kënë ke camera ë telapundu ba athör ë piööc liep. (Scan with your phone camera.)'),
+                text='Tïŋ QR code kënë ke camera ë telepundu ba athör ë piööc liep. (Scan with your phone camera.)'),
     'gaa': dict(name='Ga', file='Ga_gaa', page='gaa.html',
                 title='Okɛ JW Library Lɛ Atsu Nii',
                 text='Okɛ ofoŋ kamera lɛ askani okadi nɛɛ koni ogbele kasemɔ wolo lɛ.'),

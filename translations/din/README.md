@@ -12,14 +12,14 @@ Piööc kënë acï guiir bï ya **class ë degiik 60** ke cïn riɛl, ku **degi
 
 ## 🌐 Piööc ë Nɛt
 
-Piööc kënë ë nɛt—kë ye luui apiɛth në skrin ëbën, kë nɔŋ wël tënë device du, ku wël dït—anɔŋ tɛ̈ɛ̈n:
+Piööc kënë ë nɛt—kë ye luui apiɛth ë yithkirin ëbën, kë nɔŋ wël tënë dëbayith du, ku wël dït—anɔŋ tɛ̈ɛ̈n:
 
 **[https://neiltucker.github.io/JWLibrary/din.html](https://neiltucker.github.io/JWLibrary/din.html)**
 
 [https://neiltucker.github.io/JWLibrary/](https://neiltucker.github.io/JWLibrary/) *(ë Thoŋ ë Liŋliŋ / English)*
 
 Piööc ë nɛt anɔŋ:
-* **Lɔc Device Du:** Lɔc **Apple (iOS / iPadOS)**, **Android**, ka **Windows PC / Mac** ba rin ë button ku menu ë device du tïŋ.
+* **Lɔc Dëbayith Du:** Lɔc **Apple (iOS / iPadOS)**, **Android**, ka **Windows PC / Mac** ba rin ë button ku menu ë dëbayith du tïŋ.
 * **Wël Dït ku Button bï Wël Waar:** Alëu ba wël dhuɔ̈ɔ̈r ka ba ke juak (`A−`, `A`, `A+`, `A++`).
 * **Dark Mode ku Light Mode:** Button tök nhial bï nyin cïn riɛl të nɔŋ ɣɛɛr koor.
 * **Athör Koor bï Print:** Alëu ba athör ë kuɔny print tënë kɔc ye piɔ̈ɔ̈c.
@@ -27,15 +27,15 @@ Piööc ë nɛt anɔŋ:
 
 ---
 
-## 📋 Kë Tɔ̈ në Piööc Yic
+## 📋 Kë Tɔ̈ ë Piööc Yic
 
 Piööc anɔŋ piööc kadiäk, piööc tök ë degiik 15. Kɔ̈k aye ke kuɔny ë degiik 15 ke class ŋoot ke kën jɔ̈k, degiik 5 ë tɔ̈ɔ̈k, ku degiik 10 ë thök:
 
 0. **Kuɔny ke Class Ŋoot ke Kën Jɔ̈k (Degiik 5–15)**
-   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye device ke mat në Wi-Fi, ku aye tïŋ lɔn cï Baibol (English ka thok dɛ̈t) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny ke class ŋoot ke kën jɔ̈k. *(English: there is no Bible in Dinka, and the Daily Text is not available in Dinka in JW Library; the default Bible is the New World Translation (Study Edition) in English, unless the instructor recommends another.)* Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë. *(If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.)*
+   * **Kuɔny tënë Kɔc Bɔ̈ ë Thɛɛ (degiik 15 ke ŋoot):** Kɔc ye kuɔny aye kɔc bɔ̈ muɔ̈th, aye dëbayith ke mat ë Wi-Fi, ku aye tïŋ lɔn cï Baibol (English ka thok dɛ̈t) ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ jatpiny ke class ŋoot ke kën jɔ̈k. *(English: there is no Bible in Dinka, and the Daily Text is not available in Dinka in JW Library; the default Bible is the New World Translation (Study Edition) in English, unless the instructor recommends another.)* Të kɔɔr raan ye piɔ̈ɔ̈c athör ë thok dɛ̈t, tuany **Languages** icon (A/あ) ku lɔc thok kënë. *(If a learner needs publications in another language, tap the Languages icon (A/あ) and choose that language.)*
    * **Thëm ë Second 30:** Kɔc ye piɔ̈ɔ̈c aye ciin ke jɔt enɔn, bï kɔc ye kuɔny raan kɔɔr jatpiny ë Baibol kuɔny.
-   * **Dɔ̈ɔ̈r ë Piɔ̈u ("Panic Button"):** Piööc kɔc të bïk röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn: **Volume Down button** tɔ̈ në lɔ̈ŋ ë telapun/tablet, **Mute key (🔇)** në keyboard ë computer, ka **Pause (⏸️)** në skrin.
-   * Yök navigation bar ë apɛi, ku guiir thaa bï skrin thiök (auto-lock / timeout).
+   * **Dɔ̈ɔ̈r ë Piɔ̈u ("Panic Button"):** Piööc kɔc të bïk röl cï bɔ̈ ke kën ye tak cuɔ̈ɔ̈t enɔn: **Volume Down button** tɔ̈ ë lɔ̈ŋ ë telepun/tablet, **Mute key (🔇)** ë keyboard ë computar, ka **Pause (⏸️)** ë yithkirin.
+   * Yök navigation bar ë apɛi, ku guiir thaa bï yithkirin thiök (auto-lock / timeout).
 
 1. **Piööc 1: Yök ë Wël ë Baibol ku Amat (Degiik 15)**
    * Tïŋ navigation bar ë apɛi ku liep piööc ë *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ *(the Daily Text is not available in Dinka in JW Library)*.
@@ -45,28 +45,28 @@ Piööc anɔŋ piööc kadiäk, piööc tök ë degiik 15. Kɔ̈k aye ke kuɔny 
    * *Raan ye Piööc Abï Nyuɔɔth:* Bookmarks, History, ku Search *(Wïc)*.
 
 2. **Piööc 2: Jatpiny ku Luɔ̈i ë Röl ku Bideoth (Degiik 15)**
-   * Mat device në Wi-Fi ke yïn ŋoot ke kën jatpiny, bï data ë telapundu cïï thök.
-   * Jatpiny athör, röl, ka bideoth bï kek luɔ̈ɔ̈i ke cïn nɛt (të cï ke jatpiny, cïn nɛt yïn kɔɔr në amat).
+   * Mat dëbayith ë Wi-Fi ke yïn ŋoot ke kën jatpiny, bï data ë telepundu cïï thök.
+   * Jatpiny athör, röl, ka bideoth bï kek luɔ̈ɔ̈i ke cïn nɛt (të cï ke jatpiny, cïn nɛt yïn kɔɔr ë amat).
    * Luɔ̈ɔ̈i **Audio Player (🎧)** ba chapter ë Baibol ka piööc piŋ ke ye kuɛ̈n ë röl.
-   * **Cuɔ̈ɔ̈t ë Röl Enɔn:** Cuɔ̈ɔ̈t röl enɔn ke Volume Down button në lɔ̈ŋ ë telapun, Mute key në keyboard ë computer, ka Pause në skrin.
+   * **Cuɔ̈ɔ̈t ë Röl Enɔn:** Cuɔ̈ɔ̈t röl enɔn ke Volume Down button ë lɔ̈ŋ ë telepun, Mute key ë keyboard ë computar, ka Pause ë yithkirin.
    * *Raan ye Piööc Abï Nyuɔɔth:* Tïŋ storage ku lɔc **Largest Size** bï file cïï kɔɔr ë nyaai.
 
 3. **Piööc 3: Kä ë Piööc ë Rɔt (Degiik 15)**
    * Highlight abër ë piööc ku wël ë Baibol ke yellow.
    * Waar color ë highlight (cït blue ka green) ka nyaai highlight.
-   * **Tiit ë Kä Du:** Looi backup file (`.jwlibrary`) në *Settings > Backup and Restore* bï note ku highlight ke yïn cïï määr.
+   * **Tiit ë Kä Du:** Looi backup file (`.jwlibrary`) ë *Settings > Backup and Restore* bï note ku highlight ke yïn cïï määr.
    * *Raan ye Piööc Abï Nyuɔɔth:* Mat note, guiir ke Tags, ku Personal Study tab.
 
 4. **Thök, Dhuk Cök, ku Thiëc (Degiik 10)**
    * Degiik 10 tënë dhuk cök, thiëc, ka thaa juak të cï them kɔ̈k thaa juëc dɔm.
    * Kɔc ye class wɛ̈t alëu bïk döŋ të cï class thök bïk raan kɔɔr kuɔny ë rɔt kuɔny.
-   * *Kuɔny tënë Raan ye Class Wɛ̈t:* Tääu awereek ke 1-page Class Program në tëëbil nhial të cïn nɛt apiɛth; luɔ̈ɔ̈i QR table cards bï kɔc piööc liep në camera ë telapun; ku nyuɔɔth kɔc "Add to Home Screen". *(English: put printed 1-page Class Programs on the tables where internet is poor; use the QR table cards so learners can open the guide with their phone camera; and show learners "Add to Home Screen" so the guide opens without internet after it has been opened once online.)*
+   * *Kuɔny tënë Raan ye Class Wɛ̈t:* Tääu awereek ke 1-page Class Program ë tëëbil nhial të cïn nɛt apiɛth; luɔ̈ɔ̈i QR table cards bï kɔc piööc liep ë camera ë telepun; ku nyuɔɔth kɔc "Add to Home Screen". *(English: put printed 1-page Class Programs on the tables where internet is poor; use the QR table cards so learners can open the guide with their phone camera; and show learners "Add to Home Screen" so the guide opens without internet after it has been opened once online.)*
 
 ---
 
-## 📱 Device kɔ̈k Ye Luui ku Kä Kɔɔr
+## 📱 Dëbayith kɔ̈k Ye Luui ku Kä Kɔɔr
 
-Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔɔr tënë app kënë:
+Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ dëbayith du system cï kɔɔr tënë app kënë:
 
 | Platform | Version Koor Ye Luui |
 | :--- | :--- |
@@ -76,27 +76,27 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 | **Windows** | Windows 10 Version 2004 ka kë yam |
 
 ### Kä Piɛth ke Yïn Ŋoot ke Kën Bɔ̈:
-* **Bɛ̈n ë Thɛɛ (Degiik 10–15 ke Ŋoot):** Bɛ̈n ke ŋoot bï kɔc ye kuɔny yïn mat në Wi-Fi ku tïŋ lɔn cï Baibol du ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ guiir.
-* **Battery Cï Thiäŋ:** Bɛ̈ɛ̈i device du ke battery cï thiäŋ (ka bɛ̈ɛ̈i charger du).
-* **Guiir Screen Timeout:** Guiir skrin ë device du bï thiök ë degiik 2 ka 5, bï skrin cïï thiök ke kä ŋoot ke ye nyuɔɔth.
-* **App Cï Tääu:** Tääu *JW Library* app në device du në app store ke class ŋoot ke kën jɔ̈k.
-* **Storage:** Tïŋ lɔn nɔŋ device du **GB 2 agut 4** ë storage cïn kë tɔ̈ thïn (ka SD card) bï athör, röl, ku bideoth jatpiny apiɛth.
-* **Wi-Fi:** Mat device në Wi-Fi ke yïn ŋoot ke kën file dït ë röl ku bideoth jatpiny, bï data ë telapundu cïï thök.
-* **Kë bï Tak ë Cuɔ̈ɔ̈t ë Röl:** Tak lɔn **Volume Down button** (në telapun/tablet) ka **Mute key (🔇)** në keyboard (në laptop) abï röl cuɔ̈ɔ̈t enɔn të cï bɔ̈ ke kën ye tak.
+* **Bɛ̈n ë Thɛɛ (Degiik 10–15 ke Ŋoot):** Bɛ̈n ke ŋoot bï kɔc ye kuɔny yïn mat ë Wi-Fi ku tïŋ lɔn cï Baibol du ku *Ɣönbɛ̈ɛ̈rtïët* ë Thuɔŋjäŋ guiir.
+* **Battery Cï Thiäŋ:** Bɛ̈ɛ̈i dëbayith du ke battery cï thiäŋ (ka bɛ̈ɛ̈i charger du).
+* **Guiir Screen Timeout:** Guiir yithkirin ë dëbayith du bï thiök ë degiik 2 ka 5, bï yithkirin cïï thiök ke kä ŋoot ke ye nyuɔɔth.
+* **App Cï Tääu:** Tääu *JW Library* app ë dëbayith du ë app store ke class ŋoot ke kën jɔ̈k.
+* **Storage:** Tïŋ lɔn nɔŋ dëbayith du **GB 2 agut 4** ë storage cïn kë tɔ̈ thïn (ka SD card) bï athör, röl, ku bideoth jatpiny apiɛth.
+* **Wi-Fi:** Mat dëbayith ë Wi-Fi ke yïn ŋoot ke kën file dït ë röl ku bideoth jatpiny, bï data ë telepundu cïï thök.
+* **Kë bï Tak ë Cuɔ̈ɔ̈t ë Röl:** Tak lɔn **Volume Down button** (ë telepun/tablet) ka **Mute key (🔇)** ë keyboard (ë laptop) abï röl cuɔ̈ɔ̈t enɔn të cï bɔ̈ ke kën ye tak.
 
 ---
 
-## 📁 Kë Tɔ̈ në Repository Kënë
+## 📁 Kë Tɔ̈ ë Repository Kënë
 
-* **`din.html`**: Piööc ë nɛt ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï device lɔc (device cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
+* **`din.html`**: Piööc ë nɛt ë Thuɔŋjäŋ cï thöŋ ke menu ë thoŋ (language menu), button bï dëbayith lɔc (dëbayith cï lɔc abï muk), button bï wël waar, kuɔny ë thaa tënë raan ye class wɛ̈t, ku athör koor bï print.
   *Put `din.html` in the same folder as `index.html` (English), `sw.html`, `lg.html`, `gaa.html`, and `ada.html` so the language menu works.*
 * **`manifest-din.json` & `sw.js`**: Files that let the guide be added to a phone's home screen and open in Thuɔŋjäŋ, ke cïn nɛt *(without internet)*. After a learner opens the guide once while online, the five guide pages are saved on the device. PDFs, videos, and JW.ORG links still need internet.
 * **`Table_Cards_Dinka_din.pdf`**: Printable QR table cards (4 per page) that open `din.html`.
 * **`QR_Dinka_din.png` & `QR_Dinka_din.svg`**: QR code that opens the Dinka page (PNG for screens, SVG for printing).
 * **`JWLibrary_Class.md`**: Thaa ë piööc ë Markdown: thaa tënë raan ye piööc, wël ë kuɔny tënë raan ye class wɛ̈t, ku them ë kɔc ye piɔ̈ɔ̈c.
-* **`JW Library Class Program.pdf`**: Thaa ë class ë page tök bï print *(ë English në repository ë thɛɛr)*.
-* **`JW Library Tutorial Curriculum.pdf`**: Piööc cï thöŋ ë page 4 tënë kɔc ye piööc *(ë English në repository ë thɛɛr)*.
-* **`generate_pdfs.py`**: Python script ë ReportLab bï PDF kɔ̈k looi aya. Në waar kënë, ayee PDF ë Thuɔŋjäŋ looi (`JW Library Class Program (Dinka).pdf` ku `JW Library Tutorial Curriculum (Dinka).pdf`), ku acïï PDF ë English nyaai.
+* **`JW Library Class Program.pdf`**: Thaa ë class ë page tök bï print *(ë English ë repository ë thɛɛr)*.
+* **`JW Library Tutorial Curriculum.pdf`**: Piööc cï thöŋ ë page 4 tënë kɔc ye piööc *(ë English ë repository ë thɛɛr)*.
+* **`generate_pdfs.py`**: Python script ë ReportLab bï PDF kɔ̈k looi aya. Ë waar kënë, ayee PDF ë Thuɔŋjäŋ looi (`JW Library Class Program (Dinka).pdf` ku `JW Library Tutorial Curriculum (Dinka).pdf`), ku acïï PDF ë English nyaai.
 
 ---
 
@@ -104,7 +104,7 @@ Bï kä yam ku security updates yök, tïŋ lɔn nɔŋ device du system cï kɔ�
 
 Wël ë kaam ku bideoth ë piööc tënë kɔc cï app looi atɔ̈ tɛ̈ɛ̈n *(ë English)*:
 
-* **JW.ORG në Thuɔŋjäŋ (Dinka):** [https://www.jw.org/din/](https://www.jw.org/din/)
+* **JW.ORG ë Thuɔŋjäŋ (Dinka):** [https://www.jw.org/din/](https://www.jw.org/din/)
 * **Official Online Help Index:** [https://www.jw.org/en/online-help/jw-library/](https://www.jw.org/en/online-help/jw-library/)
 * **General App Features:** [https://www.jw.org/en/online-help/jw-library/features/](https://www.jw.org/en/online-help/jw-library/features/)
 * **Help for Apple (iOS / iPadOS):** [https://www.jw.org/en/online-help/jw-library/apple/](https://www.jw.org/en/online-help/jw-library/apple/)
