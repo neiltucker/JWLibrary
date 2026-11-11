@@ -1,7 +1,7 @@
 {
   "name": "Ngɔɔ JW Library ɔ Kɛ Tsu Ní",
   "short_name": "JW Ní Kasemi",
-  "description": "Ní kasemi womi kɛ klas ɔ he blɔ nya tomi kɛ ha bɔ nɛ a kɛ JW Library app ɔ tsuɔ ní ha.",
+  "description": "Ní kasemi womi kɛ sukuu ɔ he blɔ nya tomi kɛ ha bɔ nɛ a kɛ JW Library app ɔ tsuɔ ní ha.",
   "start_url": "./ada.html",
   "scope": "./",
   "display": "standalone",

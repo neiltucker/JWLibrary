@@ -1,4 +1,4 @@
-<h1 align="center"><span style="font-variant: small-caps;">JW LIBRARY KLAS Ɔ HE BLƆ NYA TOMI</span></h1>
+<h1 align="center"><span style="font-variant: small-caps;">JW LIBRARY SUKUU Ɔ HE BLƆ NYA TOMI</span></h1>
 
 > ⚠️ **DRAFT TRANSLATION — NOT YET REVIEWED.** This Dangme text is an AI-produced first draft and must be checked by a fluent Dangme speaker before use.
 >
@@ -8,11 +8,11 @@
 >
 > **App ɔ mi biɛ ɔmɛ:** A ngma app ɔ mi biɛ ɔmɛ ngɛ Blɔfo mi, nɛ Dangme tsɔɔmi ɔ ngɛ biɛ, kaa bɔ nɛ JW.ORG nɔ Dangme blɔ tsɔɔmihi ɔ peeɔ ɔ — kaa nɔ́ hyɛmi nɔ́ ɔ, **Bible** *(Baiblo)*, **Publications** *(Womihi)*.
 
-A pee klas nɛ ɔ kaa **klas nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko tsuaa eko yeɔ hɛngm. 15, kɛ **hɛngm. 10 kɛ ha nyagbe**.
+A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko tsuaa eko yeɔ hɛngm. 15, kɛ **hɛngm. 10 kɛ ha nyagbe**.
 
 ---
 
-## ⏱️ Klas ɔ He Blɔ Nya Tomi
+## ⏱️ Sukuu ɔ He Blɔ Nya Tomi
 
 ```text
 0:00 – 0:05 | Sisije (hɛngm. 5)
@@ -24,17 +24,17 @@ A pee klas nɛ ɔ kaa **klas nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko t
 
 ---
 
-## 🧑‍🏫 Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ Kɛ Tsɔɔlɔ
+## 🧑‍🏫 Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ Kɛ Tsɔɔlɔ
 
-* **Yemi Kɛ Buami Loko Klas ɔ Maa Je Sisi (Hɛngm. 15 Loko):** Bɔ nihi amaniɛ kaa a maa bli agbo ɔmɛ hɛngm. 15 loko klas ɔ maa je sisi. Nihi nɛ yeɔ bua a nɛ hyɛ nihi nɛ ba a hɛ ngɛ agbo ɔ nya, nɛ a ye a bua nɛ a ya Wi-Fi nɛ ngɛ he nɛ a peeɔ klas ɔ ngɛ ɔ nɔ, nɛ a hyɛ kaa **Bible** *(Baiblo)* kɛ **Daily Text** *(Daa Ligbi Ngmami)* ɔ ngɛ a klama a nɔ momo lo, konɛ ní kaseli ɔmɛ nɛ je Ní Kasemi 1 sisi nɛ nyagba ko be mi. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ **Languages** okadi ɔ (A/あ) *(Gbi)* nɔ, nɛ o hla gbi ɔ.
-* **Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:** To blɔ nya konɛ **nihi 1 loo 2** nɛ yeɔ bua a nɛ nyɛɛ tsu ɔ mi blɛuu be nɛ a ngɛ ní kasee ɔ. Ke ní kaselɔ ko je app ɔ mi, loo e skrin ɔ gbe be nɛ e suɔ we ɔ, nɔ nɛ yeɔ bua a ma nyɛ maa ye e bua ngɛ sɛkɛnd 5 mi nɛ e kpale kɛ ya he nɛ sa, nɛ e he hia we kaa klas ɔ nɛ da si.
-* **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Amlɔ Nɛ ɔ:** Nihi nɛ a le fon he ní bɔɔ kɛ nimeli ɔmɛ ekomɛ yeɔ gbeye kaa gbi ko maa je kpo wawɛɛ be nɛ a hyɛ we blɔ ngɛ asafo mi kpe loo klas sisi. Loko o maa ngɔ video loo munyuhi nɛ a buɔ tue kɛ tsu ní ɔ, tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ha gbi nɛ kpa ha ngɛ klama nɛ a kɛ tsuɔ ní ɔ nɔ:
+* **Yemi Kɛ Buami Loko Sukuu ɔ Maa Je Sisi (Hɛngm. 15 Loko):** Bɔ nihi amaniɛ kaa a maa bli agbo ɔmɛ hɛngm. 15 loko sukuu ɔ maa je sisi. Nihi nɛ yeɔ bua a nɛ hyɛ nihi nɛ ba a hɛ ngɛ agbo ɔ nya, nɛ a ye a bua nɛ a ya Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ, nɛ a hyɛ kaa **Bible** *(Baiblo)* kɛ **Daily Text** *(Daa Ligbi Ngmami)* ɔ ngɛ a klama a nɔ momo lo, konɛ ní kaseli ɔmɛ nɛ je Ní Kasemi 1 sisi nɛ nyagba ko be mi. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ **Languages** okadi ɔ (A/あ) *(Gbi)* nɔ, nɛ o hla gbi ɔ.
+* **Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:** To blɔ nya konɛ **nihi 1 loo 2** nɛ yeɔ bua a nɛ nyɛɛ tsu ɔ mi blɛuu be nɛ a ngɛ ní kasee ɔ. Ke ní kaselɔ ko je app ɔ mi, loo e skrin ɔ gbe be nɛ e suɔ we ɔ, nɔ nɛ yeɔ bua a ma nyɛ maa ye e bua ngɛ sɛkɛnd 5 mi nɛ e kpale kɛ ya he nɛ sa, nɛ e he hia we kaa sukuu ɔ nɛ da si.
+* **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Amlɔ Nɛ ɔ:** Nihi nɛ a le fon he ní bɔɔ kɛ nimeli ɔmɛ ekomɛ yeɔ gbeye kaa gbi ko maa je kpo wawɛɛ be nɛ a hyɛ we blɔ ngɛ asafo mi kpe loo sukuu sisi. Loko o maa ngɔ video loo munyuhi nɛ a buɔ tue kɛ tsu ní ɔ, tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ha gbi nɛ kpa ha ngɛ klama nɛ a kɛ tsuɔ ní ɔ nɔ:
   * **Fon Kɛ Tablɛti (Apple / Android):** Moo nyɛ **Volume Down** nɛ ngɛ fon ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, loo moo nyɛ **Pause (⏸️)** nɛ ngɛ skrin ɔ nɔ ɔ nɔ.
   * **Kɔmpiuta (Windows / Mac):** Moo nyɛ **Mute (🔇)** loo **Volume Down** ngɛ o kiibɔd ɔ nɔ (be babauu ɔ, a ngɛ kiibɔd ɔ yiti je ɔ), moo kliki speaker okadi ɔ nɛ ngɛ taskbar/menu bar ɔ nɔ, loo moo kliki **Pause (⏸️)**.
-* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Ngɛ klas ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbe be nɛ a ngɛ se nyɛɛe ɔ.
+* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Ngɛ sukuu ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbe be nɛ a ngɛ se nyɛɛe ɔ.
 * **Nyagbe Hɛngm. 10 ɔ:** Ke ní peemi ko he be pe hɛngm. 15 ɔ, ngɔɔ hɛngm. 3–5 kɛ je nyagbe hɛngm. 10 ɔ mi blɛuu; e sɛ nɛ o ngmɛ fo.
-* **Yemi Kɛ Buami Ngɛ Klas ɔ Se:** Ngɛ sisije ɔ, bɔ nihi amaniɛ kaa tsɔɔlɔ ɔ kɛ nihi nɛ yeɔ bua a maa hi jamɛ a he **hɛngm. 15 ngɛ klas ɔ se**, konɛ a ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua.
-* **Womihi Nɛ A Printi (Ke E He Maa Hia):** He nɛ mobail data loo Wi-Fi be babauu ɔ, ke o printi Klas ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ nɛ o to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua wawɛɛ; ní kaseli ɔmɛ ma nyɛ maa nyɛɛ ní peemi ɔmɛ tsuo a se amlɔ nɛ ɔ, nɛ e he hia we kaa a ngɔ mobail data kɛ bli wɛbsaiti ɔ.
+* **Yemi Kɛ Buami Ngɛ Sukuu ɔ Se:** Ngɛ sisije ɔ, bɔ nihi amaniɛ kaa tsɔɔlɔ ɔ kɛ nihi nɛ yeɔ bua a maa hi jamɛ a he **hɛngm. 15 ngɛ sukuu ɔ se**, konɛ a ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua.
+* **Womihi Nɛ A Printi (Ke E He Maa Hia):** He nɛ mobail data loo Wi-Fi be babauu ɔ, ke o printi Sukuu ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ nɛ o to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua wawɛɛ; ní kaseli ɔmɛ ma nyɛ maa nyɛɛ ní peemi ɔmɛ tsuo a se amlɔ nɛ ɔ, nɛ e he hia we kaa a ngɔ mobail data kɛ bli wɛbsaiti ɔ.
 * **QR Okadi Ngɛ Okplɔ Ɔmɛ A Nɔ Loo Ngɛ Skrin ɔ Nɔ (Ke O Suɔ):** Ke o je QR okadi ɔ kpo ngɛ skrin ɔ nɔ, loo o ngɔ QR womi nyafii nɛ a printi ɔ kɛ to okplɔ ɔmɛ a nɔ ɔ, ní kaseli ɔmɛ ma nyɛ maa ngɔ a fon kamera a kɛ skani, nɛ a bli ní kasemi womi ɔ, nɛ e he hia we kaa a fia wɛbsaiti ɔ adrɛsi.
 * **Add to Home Screen (Ga Womi Kɛ Ha Be Nɛ Intanɛti Be):** Tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ngɔ "Share > Add to Home Screen" (iOS) loo "Menu > Add to Home screen" (Android) kɛ tsu ní ha. Akɛnɛ ní kasemi womi nɛ ɔ ngɛ nɔ́ ko (Service Worker) nɛ e kɛ toɔ e he ngɛ fon ɔ nɔ he je ɔ, okadi nɛ a je kpo ngɛ home screen ɔ nɔ ɔ maa bli, nɛ e maa tsu ní ke intanɛti be po ɔ.
 
@@ -43,8 +43,8 @@ A pee klas nɛ ɔ kaa **klas nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko t
 ## Ní Kasemihi ɔ Mi Sanehi
 
 ### Sisije (0:00 – 0:05)
-* **0:00** Mo Hee; hyɛ kaa nɔ tsuaa nɔ ngɛ Wi-Fi nɛ ngɛ he nɛ a peeɔ klas ɔ ngɛ ɔ nɔ lo.
-* **0:01** **Hyɛ Kaa Nihi Tsuo Dla A He Lo:** De ní kaseli ɔmɛ nɛ a nyɛ **Bible** (📖) *(Baiblo)* nɔ. Ke a na Baiblo womi ɔmɛ (1 Mose, Mateo) ɔ, lɛɛ a dla a he. Ke nɔ ko na okadi nɛ ngɛ kaa bɔku ɔ, loo e he ngɛ yemi kɛ buami hiae konɛ e gbla Baiblo ɔ loo Daa Ligbi Ngmami ɔ, e wo e nine nɔ, nɛ nɔ ko nɛ yeɔ bua nɛ ye e bua blɛuu ngɛ he nɛ e hi si ɔ be nɛ klas ɔ ngɛ sisi jee ɔ.
+* **0:00** Mo Hee; hyɛ kaa nɔ tsuaa nɔ ngɛ Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ lo.
+* **0:01** **Hyɛ Kaa Nihi Tsuo Dla A He Lo:** De ní kaseli ɔmɛ nɛ a nyɛ **Bible** (📖) *(Baiblo)* nɔ. Ke a na Baiblo womi ɔmɛ (1 Mose, Mateo) ɔ, lɛɛ a dla a he. Ke nɔ ko na okadi nɛ ngɛ kaa bɔku ɔ, loo e he ngɛ yemi kɛ buami hiae konɛ e gbla Baiblo ɔ loo Daa Ligbi Ngmami ɔ, e wo e nine nɔ, nɛ nɔ ko nɛ yeɔ bua nɛ ye e bua blɛuu ngɛ he nɛ e hi si ɔ be nɛ sukuu ɔ ngɛ sisi jee ɔ.
 * **0:03** **Tue Mi Jɔmi (Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha):** Tsɔɔ bɔ nɛ a haa gbi nɛ a hyɛ we blɔ ɔ nɛ kpa ha amlɔ nɛ ɔ: ngɛ fon kɛ tablɛti nɔ ɔ, moo nyɛ **Volume Down** nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ; ngɛ kɔmpiuta nɔ ɔ, moo nyɛ **Mute (🔇)** ngɛ o kiibɔd ɔ nɔ; loo moo nyɛ/moo kliki **Pause (⏸️)**.
 * **0:04** Hyɛ he nɛ navigation bar ɔ ngɛ (sisi ngɛ iOS / Android nɔ; yiti je ngɛ Windows nɔ); hyɛ batri ɔ kɛ be nɛ skrin ɔ gbeɔ ɔ.
 
@@ -88,7 +88,7 @@ A pee klas nɛ ɔ kaa **klas nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko t
 ### Nyagbe: Wa Maa Hyɛ Nɔ́ Nɛ Wa Kase ɔ Ekohu, Kɛ Sane Bimihi (0:50 – 1:00)
 * **0:50** Ha sane bimihi a heto, nɛ o hyɛ ní peemihi etɛ ɔmɛ ekohu.
 * **0:55** Tsɔɔ ní kaseli ɔmɛ ní kasemi womi nyafii nɛ a ma nyɛ maa printi ɔ, kɛ yemi kɛ buami sanehi nɛ ngɛ JW.ORG nɔ ɔ.
-* **1:00** Klas ɔ nya ba nɔ; yemi kɛ buami nɛ yeɔ hɛngm. 15 ɔ je sisi (ke nɔ ko suɔ).
+* **1:00** Sukuu ɔ nya ba nɔ; yemi kɛ buami nɛ yeɔ hɛngm. 15 ɔ je sisi (ke nɔ ko suɔ).
 
 ---
 
@@ -138,6 +138,6 @@ Blɔ tsɔɔmihi nɛ je asafo ɔ ngɔ kɛ ha klama nɛ o kɛ tsuɔ ní:
 
 ---
 
-> **Mlaa He Sanehi:** *JW Library* ji Watch Tower Bible and Tract Society of Pennsylvania okadi nɛ a kɛ wo mlaa sisi. Klas ɔ he blɔ nya tomi nɛ ɔ ji ní tsumi nɛ da e he nɛ pi jua yemi ní tsumi, nɛ a pee konɛ a kɛ ye ní kaseli a bua nɛ a kase bɔ nɛ a kɛ app ɔ tsuɔ ní ha. E kɛ Watch Tower Bible and Tract Society of Pennsylvania loo Yehowa Odasefohi be weku ko; a pee we, a ngmɛ we blɔ kaa a pee, a hyɛ we nɔ, a wo we he sika, nɛ a kplɛɛ we nɔ.
+> **Mlaa He Sanehi:** *JW Library* ji Watch Tower Bible and Tract Society of Pennsylvania okadi nɛ a kɛ wo mlaa sisi. Sukuu ɔ he blɔ nya tomi nɛ ɔ ji ní tsumi nɛ da e he nɛ pi jua yemi ní tsumi, nɛ a pee konɛ a kɛ ye ní kaseli a bua nɛ a kase bɔ nɛ a kɛ app ɔ tsuɔ ní ha. E kɛ Watch Tower Bible and Tract Society of Pennsylvania loo Yehowa Odasefohi be weku ko; a pee we, a ngmɛ we blɔ kaa a pee, a hyɛ we nɔ, a wo we he sika, nɛ a kplɛɛ we nɔ.
 >
 > *English original:* *JW Library* is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. This class program is an independent, non-commercial educational training outline created to assist students in learning to use the app. It is not affiliated with, authorized, maintained, sponsored, or endorsed by Watch Tower Bible and Tract Society of Pennsylvania or Jehovah’s Witnesses.

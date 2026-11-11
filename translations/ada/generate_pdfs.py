@@ -195,11 +195,11 @@ def build_class_program(output_path):
     # ---- Dangme: Class Program (1 page) ----
     story = []
 
-    story.append(Paragraph("JW LIBRARY KLAS Ɔ HE BLƆ NYA TOMI", title_style))
+    story.append(Paragraph("JW LIBRARY SUKUU Ɔ HE BLƆ NYA TOMI", title_style))
     story.append(Spacer(1, 2))
     story.append(Paragraph(DRAFT_LINE, note_style))
     story.append(Paragraph("<b>KAI:</b> Blɔ tsɔɔmihi nɛ je asafo ɔ ngɔ ngɛ bɔ nɛ a kɛ JW Library tsuɔ ní ha a he ngɛ JW.ORG nɔ (https://www.jw.org/ada/intanɛti-nɔ-yemi-kɛ-buami/jw-library/ kɛ https://www.jw.org/en/online-help/jw-library/)", note_style))
-    story.append(Paragraph("Klas nɛ maa ye hɛngm. 60: ní kasemihi etɛ, nɛ eko tsuaa eko maa ye hɛngm. 15, kɛ hɛngm. 10 kɛ ha nyagbe. (A ma nyɛ maa pee hɛngm. 75-90.)", note_style))
+    story.append(Paragraph("Sukuu nɛ maa ye hɛngm. 60: ní kasemihi etɛ, nɛ eko tsuaa eko maa ye hɛngm. 15, kɛ hɛngm. 10 kɛ ha nyagbe. (A ma nyɛ maa pee hɛngm. 75-90.)", note_style))
     story.append(Spacer(1, 3))
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=3))
 
@@ -234,7 +234,7 @@ def build_class_program(output_path):
     story.append(Spacer(1, 2))
 
     story.append(Paragraph("<b>Nyagbe, Wa Maa Hyɛ Nɔ́ Nɛ Wa Kase ɔ Ekohu, Kɛ Sane Bimihi: (0:50 - 1:00)</b>", section_hdr))
-    story.append(Paragraph("0:50 &nbsp; Hɛngm. 10 kɛ ha nɔ́ nɛ a kase ɔ hyɛmi ekohu, sane bimihi, loo be nɛ he maa hia. Klas ɔ se ɔ, a maa ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua hɛngm. 15 (ke o suɔ).", timing_style))
+    story.append(Paragraph("0:50 &nbsp; Hɛngm. 10 kɛ ha nɔ́ nɛ a kase ɔ hyɛmi ekohu, sane bimihi, loo be nɛ he maa hia. Sukuu ɔ se ɔ, a maa ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua hɛngm. 15 (ke o suɔ).", timing_style))
     story.append(Spacer(1, 2))
 
     story.append(HRFlowable(width='100%', thickness=0.5, color=colors.HexColor('#cbd5e1'), spaceBefore=1, spaceAfter=2))
@@ -255,7 +255,7 @@ def build_class_program(output_path):
     story.append(Paragraph("<b>3.3</b> Bli Settings &gt; Backup and Restore, nɛ o nyɛ <b>Create Backup</b> nɔ konɛ o ngɔ o níhi ɔmɛ kɛ to.", ex_style))
     story.append(Spacer(1, 3))
 
-    story.append(Paragraph("<i>Mlaa He Sanehi: JW Library ji Watch Tower Bible and Tract Society of Pennsylvania okadi nɛ a kɛ wo mlaa sisi. Klas ɔ he blɔ nya tomi nɛ ɔ ji ní tsumi nɛ da e he nɛ pi jua yemi ní tsumi, nɛ e kɛ Watch Tower loo Yehowa Odasefohi be weku ko, nɛ a kplɛɛ we nɔ. English: JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. Independent, non-commercial training outline; not affiliated with or endorsed by Watch Tower or Jehovah's Witnesses.</i>", disclaimer_style))
+    story.append(Paragraph("<i>Mlaa He Sanehi: JW Library ji Watch Tower Bible and Tract Society of Pennsylvania okadi nɛ a kɛ wo mlaa sisi. Sukuu ɔ he blɔ nya tomi nɛ ɔ ji ní tsumi nɛ da e he nɛ pi jua yemi ní tsumi, nɛ e kɛ Watch Tower loo Yehowa Odasefohi be weku ko, nɛ a kplɛɛ we nɔ. English: JW Library is a registered trademark of Watch Tower Bible and Tract Society of Pennsylvania. Independent, non-commercial training outline; not affiliated with or endorsed by Watch Tower or Jehovah's Witnesses.</i>", disclaimer_style))
 
     doc.build(story)
 
@@ -349,15 +349,15 @@ def build_curriculum(output_path):
         "<i>Ngɔɔ JW Library ɔ Kɛ Tsu Ní</i> ní kasemi womi ɔ mi. Ní kasemihi etɛ ngɛ mi, nɛ eko tsuaa eko yeɔ hɛngm. 15: "
         "<b>Bɔ Nɛ O Maa Na Ngmami Ɔmɛ Kɛ Asafo Mi Kpehi A Níhi Ha</b>, <b>Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha</b>, kɛ <b>Níhi Nɛ O Ma Nyɛ Maa Kɛ Tsu Ní Ngɛ Dɛ He Ní Kasemi Mi</b>. "
         "A to hɛngm. 10 kɛ ha nyagbe, konɛ tsɔɔli ko ngmɛ fo. "
-        "Loko klas ɔ maa je sisi ɔ, e sa kaa a ha ní kaseli ɔmɛ ní kasemi womi ɔ eko, nɛ a kai mɛ "
+        "Loko sukuu ɔ maa je sisi ɔ, e sa kaa a ha ní kaseli ɔmɛ ní kasemi womi ɔ eko, nɛ a kai mɛ "
         "konɛ a ngɔ app ɔ kɛ wo a fon, a tablɛti, loo a kɔmpiuta a nɔ momo.",
         body_style
     ))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "O ma nyɛ maa ngɔ <i>JW Library Klas ɔ He Blɔ Nya Tomi</i> ɔ kɛ tsu ní ke o ngɛ klas ɔ he blɔ nya tue. A to hɛngm. enuɔ "
+        "O ma nyɛ maa ngɔ <i>JW Library Sukuu ɔ He Blɔ Nya Tomi</i> ɔ kɛ tsu ní ke o ngɛ sukuu ɔ he blɔ nya tue. A to hɛngm. enuɔ "
         "kɛ ha sisije ɔ konɛ ní kaseli ɔmɛ nɛ na bɔ nɛ a to a fon, a tablɛti, loo a kɔmpiuta a he blɔ nya ha. Ngɛ ní kasemi tsuaa ní kasemi nɛ yeɔ hɛngm. 15 ɔ mi ɔ, "
-        "ní kaseli ɔmɛ peeɔ ní peemihi etɛ, nɛ tsɔɔlɔ ɔ tsɔɔ níhi nɛ a wa a ngɛ be kuku mi. Klas ɔ tsuo yeɔ "
+        "ní kaseli ɔmɛ peeɔ ní peemihi etɛ, nɛ tsɔɔlɔ ɔ tsɔɔ níhi nɛ a wa a ngɛ be kuku mi. Sukuu ɔ tsuo yeɔ "
         "hɛngm. 60, nɛ a ma nyɛ maa pee hɛngm. 75 loo 90 ke kuu ɔ ngɛ yemi kɛ buami babauu hlae.",
         body_style
     ))
@@ -380,9 +380,9 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Ngɔ kɔlahi slɔɔtohi kɛ kadi hetohi ngɛ munyuhi nɛ a kaseɔ ɔ a mi, nɛ a je kɔla a.", bullet_style))
     story.append(Paragraph("&bull; Pee backup (.jwlibrary) konɛ níhi nɛ a kase ɔ ko laa.", bullet_style))
 
-    story.append(Paragraph("Níhi Nɛ E Sa Kaa A Pee Loko Klas ɔ Maa Je Sisi", h1_style))
-    story.append(Paragraph("Loko ní kaseli ɔmɛ maa ba klas ɔ, e sa kaa:", body_style))
-    story.append(Paragraph("&bull; A ba <b>hɛngm. 10–15 loko klas ɔ maa je sisi</b> konɛ nihi nɛ yeɔ bua a nɛ ye a bua ngɛ Wi-Fi kɛ Baiblo ɔ/Daa Ligbi Ngmami ɔ he.", bullet_style))
+    story.append(Paragraph("Níhi Nɛ E Sa Kaa A Pee Loko Sukuu ɔ Maa Je Sisi", h1_style))
+    story.append(Paragraph("Loko ní kaseli ɔmɛ maa ba sukuu ɔ, e sa kaa:", body_style))
+    story.append(Paragraph("&bull; A ba <b>hɛngm. 10–15 loko sukuu ɔ maa je sisi</b> konɛ nihi nɛ yeɔ bua a nɛ ye a bua ngɛ Wi-Fi kɛ Baiblo ɔ/Daa Ligbi Ngmami ɔ he.", bullet_style))
     story.append(Paragraph("&bull; A fon, a tablɛti, loo a kɔmpiuta a ji <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, loo <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Batri ɔ <b>nɛ ye</b> loko a maa ba (loo a ngɔ a chaaja kɛ ba).", bullet_style))
     story.append(Paragraph("&bull; A tsake <b>be nɛ skrin ɔ gbeɔ ɔ kɛ ya hɛngm. 2 loo 5</b> konɛ skrin ɔ ko gbe.", bullet_style))
@@ -417,9 +417,9 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; <b>Ní Peemi 1.2:</b> Moo nyɛ Bible nɔ, hla Baiblo womi ko (Mateo), nɛ o bli yi 5.", bullet_style))
     story.append(Paragraph("&bull; <b>Ní Peemi 1.3:</b> Bli Meetings fã ɔ, nɛ o nyɛ otsi nɛ ɔ Hwɔɔmi Mɔ Ní Kasemi munyu ɔ nɔ.", bullet_style))
 
-    story.append(Paragraph("Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ Ngɛ Ní Kasemi 1 ɔ He", h2_style))
+    story.append(Paragraph("Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ Ngɛ Ní Kasemi 1 ɔ He", h2_style))
     story.append(Paragraph(
-        "To blɔ nya konɛ nihi nɛ yeɔ bua a nɛ ye nihi nɛ ba ngɛ be mi ɔ a bua hɛngm. 15 loko klas ɔ maa je sisi, konɛ a hyɛ kaa nɔ tsuaa nɔ gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo. Ngɛ klas ɔ sisije ɔ, "
+        "To blɔ nya konɛ nihi nɛ yeɔ bua a nɛ ye nihi nɛ ba ngɛ be mi ɔ a bua hɛngm. 15 loko sukuu ɔ maa je sisi, konɛ a hyɛ kaa nɔ tsuaa nɔ gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo. Ngɛ sukuu ɔ sisije ɔ, "
         "hyɛ ngɛ sɛkɛnd 30 mi: bi ní kaseli ɔmɛ nɛ a wo a nine nɔ ke a ngɛ yemi kɛ buami hlae konɛ a gbla nɔ́ ko, konɛ nihi nɛ yeɔ bua a nɛ ye a bua blɛuu "
         "be nɛ o ngɛ nɔ yae ɔ. Tsɔɔ bɔ nɛ a haa gbi nɛ kpa ha ngɛ sisije ɔ (Volume Down nɛ ngɛ fon ɔ he; Mute ngɛ kɔmpiuta kiibɔd ɔ nɔ) "
         "konɛ a ko ye gbeye. Nihi nɛ yeɔ bua a nɛ hyɛ kaa ní kaseli ɔmɛ nyɛ nɛ a ngɔ A A okadi ɔ kɛ ha ningma amɛ hi agbo lo.",
@@ -458,7 +458,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; <b>Ní Peemi 2.2:</b> Moo nyɛ okadi nɛ ngɛ kaa bɔku ɔ nɔ ngɛ womi loo video ko he konɛ o gbla.", bullet_style))
     story.append(Paragraph("&bull; <b>Ní Peemi 2.3:</b> Bli Baiblo yi ko, moo nyɛ Headphones nɔ nɛ o bu tue; ngɔɔ Volume Down loo Mute kɛ ha gbi ɔ nɛ kpa.", bullet_style))
 
-    story.append(Paragraph("Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ Ngɛ Ní Kasemi 2 ɔ He", h2_style))
+    story.append(Paragraph("Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ Ngɛ Ní Kasemi 2 ɔ He", h2_style))
     story.append(Paragraph(
         "Ha ní kaseli nɛ a mobail data be babauu ɔ nɛ na kaa ke a gbla níhi ngɛ Wi-Fi nɔ momo ɔ, a mobail data a puɛ we ngɛ asafo mi kpehi a sisi. "
         "Nyɛ ko kpa bɔ nɛ a haa gbi nɛ kpa ha a tsɔɔmi: nihi nɛ a le fon he ní bɔɔ ɔ yeɔ gbeye kaa gbi ko maa je kpo be nɛ a hyɛ we blɔ; "
@@ -499,16 +499,16 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; <b>Ní Peemi 3.2:</b> Moo nyɛ heto nɛ o kɛ kɔla kadi ɔ nɔ konɛ o tsake kɛ ya bluu, loo moo nyɛ Delete okadi ɔ nɔ konɛ o je.", bullet_style))
     story.append(Paragraph("&bull; <b>Ní Peemi 3.3:</b> Bli Settings &gt; Backup and Restore, nɛ o nyɛ <b>Create Backup</b> nɔ.", bullet_style))
 
-    story.append(Paragraph("Nyagbe Kɛ Ga Womihi Kɛ Ha Klas ɔ Hɛ Nyɛɛlɔ (0:50 - 1:00)", h2_style))
+    story.append(Paragraph("Nyagbe Kɛ Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ (0:50 - 1:00)", h2_style))
     story.append(Paragraph(
-        "• <b>Yemi Kɛ Buami Loko Klas ɔ Maa Je Sisi:</b> Ke a bli agbo ɔmɛ hɛngm. 15 loko klas ɔ maa je sisi konɛ nihi nɛ yeɔ bua a nɛ ye bua ɔ, nihi tsuo hlaa we Wi-Fi be kake. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ <b>Languages</b> okadi ɔ (Gbi) nɔ, nɛ o hla gbi ɔ.<br/>"
+        "• <b>Yemi Kɛ Buami Loko Sukuu ɔ Maa Je Sisi:</b> Ke a bli agbo ɔmɛ hɛngm. 15 loko sukuu ɔ maa je sisi konɛ nihi nɛ yeɔ bua a nɛ ye bua ɔ, nihi tsuo hlaa we Wi-Fi be kake. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ <b>Languages</b> okadi ɔ (Gbi) nɔ, nɛ o hla gbi ɔ.<br/>"
         "• <b>Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha:</b> Ke a tsɔɔ ní kaseli ɔmɛ Volume Down ɔ ngɛ sisije ɔ, a yeɔ we gbeye kaa gbi ko maa je kpo.<br/>"
         "• <b>Nyagbe Hɛngm. 10 ɔ:</b> Ngɔɔ hɛngm. nɛ ɔmɛ kɛ tsu ní kɛ hyɛ nɔ́ nɛ a kase ɔ ekohu, kɛ ha sane bimihi a heto, loo ke ní peemi ko he be pe bɔ nɛ a hyɛ blɔ ɔ.<br/>"
-        "• <b>Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:</b> Ke nihi 1 loo 2 nyɛɛɔ tsu ɔ mi kɛ yeɔ nihi a bua ɔ, klas ɔ daa we si.<br/>"
-        "• <b>Womihi Nɛ A Printi (Ke E He Maa Hia):</b> Ke a ngɔ Klas ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ kɛ to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua he nɛ data loo Wi-Fi be babauu.<br/>"
+        "• <b>Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:</b> Ke nihi 1 loo 2 nyɛɛɔ tsu ɔ mi kɛ yeɔ nihi a bua ɔ, sukuu ɔ daa we si.<br/>"
+        "• <b>Womihi Nɛ A Printi (Ke E He Maa Hia):</b> Ke a ngɔ Sukuu ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ kɛ to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua he nɛ data loo Wi-Fi be babauu.<br/>"
         "• <b>QR Okadihi Ngɛ Okplɔ Ɔmɛ A Nɔ / Skrin ɔ Nɔ (Ke O Suɔ):</b> Ke a je QR okadi ɔ kpo ngɛ skrin ɔ nɔ loo a ngɔ QR womi nyafii kɛ to okplɔ ɔmɛ a nɔ ɔ, ní kaseli ɔmɛ ma nyɛ maa ngɔ a fon kamera a kɛ bli ní kasemi womi nɛ ɔ.<br/>"
         "• <b>Add to Home Screen (Ke O Suɔ):</b> Ke o tsɔɔ ní kaseli ɔmɛ \"Add to Home Screen\" ɔ, ní kasemi womi nɛ ɔ maa hi a fon ɔ nɔ, nɛ a ma nyɛ maa kane ke intanɛti be po ɔ.<br/>"
-        "• <b>Yemi Kɛ Buami Ngɛ Klas ɔ Se:</b> Hi jamɛ a he hɛngm. 15 ngɛ klas ɔ se kɛ ha nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ngɛ e backup ɔ he.",
+        "• <b>Yemi Kɛ Buami Ngɛ Sukuu ɔ Se:</b> Hi jamɛ a he hɛngm. 15 ngɛ sukuu ɔ se kɛ ha nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ngɛ e backup ɔ he.",
         body_style
     ))
 
