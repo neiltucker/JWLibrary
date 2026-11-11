@@ -119,6 +119,8 @@ A ma nyɛ maa ngɔ womi nɛ ɔmɛ kɛ tsu ní, a tsɔɔ sisi, loo a tsake mi kɛ
 5. **Wa Maa Hyɛ Bɔ Nɛ A Kɛ App ɔ Tsuɔ Ní Ha Pɛ:** A pee ní tsumi nɛ ɔ konɛ a kɛ ye nihi a bua nɛ a kɛ *JW Library* app ɔ kɛ *JW.ORG* tsu ní pɛ. E sa kaa sukuuhi nɛ a peeɔ ɔ nɛ kɔ blɔ tsɔɔmihi nɛ je app ɔ ngɔ ɔ he.
 6. **Nɔ Nɛ Tsake Nɔ́ Ko ɔ, E Ní Ji:** Nɔ tsuaa nɔ nɛ tsake nɔ́ ko ngɛ womi nɛ ɔmɛ a mi, loo e tsɔɔ sisi, loo e kɛ tsɔɔ sukuu ɔ, e ní ji.
 
+*(English — License: This material is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution-NonCommercial 4.0 International). You may copy, translate, and adapt it for non-commercial purposes without asking permission. No credit to the author is required. Commercial use is not permitted. Keep the [LICENSE](../../LICENSE) file in your copy.)*
+
 ---
 
 ## 🔗 Blɔ Tsɔɔmihi Nɛ Je Asafo ɔ Ngɔ

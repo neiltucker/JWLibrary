@@ -131,6 +131,18 @@ The legacy repository includes:
 
 ---
 
+## 📄 License
+
+Copyright © 2026 Neil Tucker. The materials in this repository are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). See the [LICENSE](LICENSE) file for the full terms.
+
+* **Free to reuse:** You may copy, translate, and adapt this material for non-commercial purposes. You do not need to ask permission.
+* **No credit to the author is required.**
+* **Non-commercial only:** Commercial use is not permitted.
+* **Keep the license with your copy:** Keep the `LICENSE` file in your repository so that others know the same terms apply, and indicate if you have changed the material.
+* **Fonts:** The fonts in `fonts/` are not covered by this license; they remain under their own license (see `fonts/LICENSE`).
+
+---
+
 ## 🤝 Guidelines for Adapting, Customizing, or Hosting Your Own Classes
 
 Facilitators, instructors, and communities are warmly welcomed to use, translate, adapt, or build upon this material for their local training needs. If you customize these files or publish your own version, please observe the following standards:
@@ -146,7 +158,7 @@ Facilitators, instructors, and communities are warmly welcomed to use, translate
    You may reference this repository as the original source of the template, but you must not state, imply, or suggest that your modified curriculum, website, or class materials are authorized, reviewed, sponsored, or endorsed by the original author (Neil Tucker).
 
 4. **Retain the Legal & Non-Affiliation Disclaimer:**  
-   All copies, translations, and derivative works must retain the full non-affiliation notice regarding *Watch Tower Bible and Tract Society of Pennsylvania* and *Jehovah's Witnesses*. *JW Library* is a registered trademark, and all training materials must remain strictly non-commercial and educational.
+   All copies, translations, and derivative works must retain the full non-affiliation notice regarding *Watch Tower Bible and Tract Society of Pennsylvania* and *Jehovah's Witnesses*. *JW Library* is a registered trademark, and all training materials must remain strictly non-commercial and educational. Non-commercial use is a condition of the [LICENSE](LICENSE).
 
 5. **Focus on Digital Literacy & Official Guidance:**  
    This project exists solely to help individuals navigate the official *JW Library* app and *JW.ORG*. Any adapted classes should remain neutral, positive, and strictly aligned with officially published guidance from the app's publisher.

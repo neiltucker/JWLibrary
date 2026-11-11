@@ -118,6 +118,8 @@ Wël ë kaam ku bideoth ë piööc tënë kɔc cï app looi atɔ̈ tɛ̈ɛ̈n *(
 
 *(English: If you translate, adapt, or host your own class with this guide, please follow the "Guidelines for Adapting, Customizing, or Hosting Your Own Classes" in the [English README](../../README.md) and the terms of the [LICENSE](../../LICENSE).)*
 
+*(English — License: This material is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution-NonCommercial 4.0 International). You may copy, translate, and adapt it for non-commercial purposes without asking permission. No credit to the author is required. Commercial use is not permitted. Keep the [LICENSE](../../LICENSE) file in your copy.)*
+
 ---
 
 ## ⚖️ Wël ë Löŋ (Legal & Non-Affiliation Disclaimer)

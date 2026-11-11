@@ -115,6 +115,8 @@ Abaanyɛ akɛ woji nɛɛ atsu nii, atsɔɔ shishi, loo atsake mli kɛhã klasi n
 5. **Wɔjwɛŋ Bɔ Ni Akɛ App Lɛ Tsuɔ Nii Lɛ Nɔ:** Afee nitsumɔ nɛɛ koni ekɛye ebua mɛi ni amɛkɛ *JW Library* app lɛ kɛ *JW.ORG* atsu nii pɛ. Esa akɛ klasi ni afeɔ lɛ akɛ gbɛtsɔɔmɔi ni jɛ app lɛ ŋɔɔ lɛ akpã gbee.
 6. **Mɔ Ni Tsake Nɔ Ko Lɛ, Lɛ Diɛŋtsɛ Sane Ji:** Mɔ fɛɛ mɔ ni tsake nɔ ko yɛ woji nɛɛ amli, loo etsɔɔ shishi, loo ekɛtsɔɔ klas lɛ, lɛ diɛŋtsɛ sane ji.
 
+*(English — License: This material is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution-NonCommercial 4.0 International). You may copy, translate, and adapt it for non-commercial purposes without asking permission. No credit to the author is required. Commercial use is not permitted. Keep the [LICENSE](../../LICENSE) file in your copy.)*
+
 ---
 
 ## 🔗 Gbɛtsɔɔmɔi Ni Jɛ Asafo Lɛ Ŋɔɔ

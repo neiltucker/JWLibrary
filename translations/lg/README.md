@@ -116,6 +116,8 @@ Ebiragiro ebitongole eby'omutendera ku mutendera ne vidiyo ezisomesa okuva eri a
 
 Bw'oba oyagala okuvvuunula, okukyusa, oba okutegeka kiraasi yo ng'okozesa ekitabo kino, goberera *Guidelines for Adapting, Customizing, or Hosting Your Own Classes* mu [README ey'Olungereza](../../README.md) n'obukwakkulizo bwa [LICENSE](../../LICENSE). *(English: If you translate, adapt, or host your own class with this guide, please follow the "Guidelines for Adapting, Customizing, or Hosting Your Own Classes" in the [English README](../../README.md) and the terms of the [LICENSE](../../LICENSE).)*
 
+*(English — License: This material is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (Creative Commons Attribution-NonCommercial 4.0 International). You may copy, translate, and adapt it for non-commercial purposes without asking permission. No credit to the author is required. Commercial use is not permitted. Keep the [LICENSE](../../LICENSE) file in your copy.)*
+
 ---
 
 ## ⚖️ Ebikwata ku Mateeka n'Obutabaako Kakwate
