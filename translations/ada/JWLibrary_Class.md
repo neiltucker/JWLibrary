@@ -31,7 +31,7 @@ A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko
 * **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Amlɔ Nɛ ɔ:** Nihi nɛ a le fon he ní bɔɔ kɛ nimeli ɔmɛ ekomɛ yeɔ gbeye kaa gbi ko maa je kpo wawɛɛ be nɛ a hyɛ we blɔ ngɛ asafo mi kpe loo sukuu sisi. Loko o maa ngɔ video loo munyuhi nɛ a buɔ tue kɛ tsu ní ɔ, tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ha gbi nɛ kpa ha ngɛ klama nɛ a kɛ tsuɔ ní ɔ nɔ:
   * **Fon Kɛ Tablɛti (Apple / Android):** Moo nyɛ **Volume Down** nɛ ngɛ fon ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, loo moo nyɛ **Pause (⏸️)** nɛ ngɛ skrin ɔ nɔ ɔ nɔ.
   * **Kɔmpiuta (Windows / Mac):** Moo nyɛ **Mute (🔇)** loo **Volume Down** ngɛ o kiibɔd ɔ nɔ (be babauu ɔ, a ngɛ kiibɔd ɔ yiti je ɔ), moo kliki speaker okadi ɔ nɛ ngɛ taskbar/menu bar ɔ nɔ, loo moo kliki **Pause (⏸️)**.
-* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Ngɛ sukuu ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbe be nɛ a ngɛ se nyɛɛe ɔ.
+* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Ngɛ sukuu ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbo be nɛ a ngɛ se nyɛɛe ɔ.
 * **Nyagbe Hɛngm. 10 ɔ:** Ke ní peemi ko he be pe hɛngm. 15 ɔ, ngɔɔ hɛngm. 3–5 kɛ je nyagbe hɛngm. 10 ɔ mi blɛuu; e sɛ nɛ o ngmɛ fo.
 * **Yemi Kɛ Buami Ngɛ Sukuu ɔ Se:** Ngɛ sisije ɔ, bɔ nihi amaniɛ kaa tsɔɔlɔ ɔ kɛ nihi nɛ yeɔ bua a maa hi jamɛ a he **hɛngm. 15 ngɛ sukuu ɔ se**, konɛ a ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua.
 * **Womihi Nɛ A Printi (Ke E He Maa Hia):** He nɛ mobail data loo Wi-Fi be babauu ɔ, ke o printi Sukuu ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ nɛ o to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua wawɛɛ; ní kaseli ɔmɛ ma nyɛ maa nyɛɛ ní peemi ɔmɛ tsuo a se amlɔ nɛ ɔ, nɛ e he hia we kaa a ngɔ mobail data kɛ bli wɛbsaiti ɔ.
@@ -64,7 +64,7 @@ A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko
 
 ### Ní Kasemi 2: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha (0:20 – 0:35)
 * **0:20** Bɔ nɛ a kɛ níhi tsuɔ ní ha ke intanɛti be: ke a gbla nɔ́ ko be nɛ a ngɛ Wi-Fi nɔ ɔ, e hiɔ klama a nɔ, nɛ e he hia we kaa a ngɔ mobail data ngɛ asafo mi kpehi a sisi.
-* **0:22** Wi-Fi ɔ hyɛmi kɛ bɔ nɛ mobail data a ko puɛ ha (*Settings > Cellular Data* / mobile data he sanehi).
+* **0:22** Wi-Fi ɔ hyɛmi kɛ bɔ nɛ mobail data a ko dá ha (*Settings > Cellular Data* / mobile data he sanehi).
 * **0:24** **Nyɛɛ Pee Ní Peemi 2.1** (Wi-Fi ɔ hyɛmi).
 * **0:26** Womi loo video nyafii ko gblami (kaa nɔ́ hyɛmi nɔ́ ɔ, video nɛ ji *"Mɛni He Je Nɛ E Sa Kaa Waa Kase Baiblo ɔ?"*).
 * **0:29** **Nyɛɛ Pee Ní Peemi 2.2** (Gblami konɛ o kɛ tsu ní ke intanɛti be).
@@ -107,7 +107,7 @@ A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko
 
 ### 2. Ní Peemihi: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha
 
-* **Ní Peemi 2.1. Wi-Fi ɔ Hyɛmi:** Loko o maa gbla video loo munyuhi nɛ a buɔ tue ɔ, hyɛ kaa o fon, o tablɛti, loo o kɔmpiuta a ngɛ Wi-Fi ɔ nɔ lo, konɛ o mobail data a ko puɛ.
+* **Ní Peemi 2.1. Wi-Fi ɔ Hyɛmi:** Loko o maa gbla video loo munyuhi nɛ a buɔ tue ɔ, hyɛ kaa o fon, o tablɛti, loo o kɔmpiuta a ngɛ Wi-Fi ɔ nɔ lo, konɛ o mobail data a ko dá.
 * **Ní Peemi 2.2. Gblami Konɛ O Kɛ Tsu Ní Ke Intanɛti Be:** Moo nyɛ **Publications** (📚) *(Womihi)* loo asafo mi kpehi a he blɔ nya tomi ɔ nɔ. Moo nyɛ **okadi nɛ ngɛ kaa bɔku ɔ (☁️)** nɔ ngɛ womi loo video nyafii ko he konɛ o gbla nɛ o kɛ tsu ní ke intanɛti be.
 * **Ní Peemi 2.3. Bu Tue, Nɛ O Ha Gbi ɔ Nɛ Kpa:** Bli Baiblo yi ko. Moo nyɛ **Headphones / Play (🎧)** okadi nɛ ngɛ skrin ɔ yiti je ɔ nɔ konɛ o bu tue. Moo kase bɔ nɛ o maa ha gbi ɔ nɛ kpa ha amlɔ nɛ ɔ: ngɛ fon loo tablɛti nɔ ɔ, moo nyɛ **Volume Down** nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ; ngɛ kɔmpiuta nɔ ɔ, moo nyɛ **Mute (🔇)** ngɛ o kiibɔd ɔ nɔ; loo moo nyɛ/moo kliki **Pause (⏸️)**.
 * *Tsɔɔlɔ ɔ maa tsɔɔ (kɛ piɛɛ he):* Ngɛ **Publications** > **Downloaded** mi ɔ, to níhi ɔmɛ a nya kɛ **Largest Size** konɛ o hyɛ blɔ nɛ níhi ɔmɛ ngɔ, nɛ o na bɔ nɛ o maa je níhi nɛ a he hia mo hu ɔ ha.

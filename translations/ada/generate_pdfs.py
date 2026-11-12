@@ -219,7 +219,7 @@ def build_class_program(output_path):
 
     story.append(Paragraph("<b>Ní Kasemi 2: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha (0:20 - 0:35)</b>", section_hdr))
     story.append(Paragraph("0:20 &nbsp; Níhi nɛ o gbla be nɛ o ngɛ Wi-Fi ɔ nɔ ɔ hiɔ o klama a nɔ; e he hia we kaa o ngɔ mobail data ke o ngɛ ní tsue.", timing_style))
-    story.append(Paragraph("0:22 &nbsp; Nyɛɛ pee Ní Peemi 2.1 (Wi-Fi ɔ hyɛmi konɛ mobail data a ko puɛ).", timing_style))
+    story.append(Paragraph("0:22 &nbsp; Nyɛɛ pee Ní Peemi 2.1 (Wi-Fi ɔ hyɛmi konɛ mobail data a ko dá).", timing_style))
     story.append(Paragraph("0:24 &nbsp; A gbla nɔ́ ko konɛ a kane loo a hyɛ ke intanɛti be; nyɛɛ pee Ní Peemi 2.2.", timing_style))
     story.append(Paragraph("0:28 &nbsp; Munyuhi nɛ a buɔ tue (headphones okadi); bɔ nɛ a haa gbi nɛ kpa ha amlɔ nɛ ɔ kɛ gu Volume Down (fon) loo Mute (kɔmpiuta) nɔ.", timing_style))
     story.append(Paragraph("0:31 &nbsp; Nyɛɛ pee Ní Peemi 2.3 (Bu tue). (Tsɔɔlɔ ɔ tsɔɔ bɔ nɛ a hyɛɛ blɔ nɛ ngɛ klama a nɔ ha.)", timing_style))
@@ -245,7 +245,7 @@ def build_class_program(output_path):
     story.append(Paragraph("<b>1.3</b> Moo nyɛ <b>Meetings</b> (Asafo Mi Kpehi) nɔ. Moo nyɛ otsi nɛ ɔ <i>Hwɔɔmi Mɔ</i> Ní Kasemi munyu ɔ nɔ si kake konɛ e bli amlɔ nɛ ɔ.", ex_style))
     story.append(Spacer(1, 1.5))
 
-    story.append(Paragraph("<b>2.1</b> Hyɛ kaa o fon, o tablɛti, loo o kɔmpiuta a ngɛ Wi-Fi ɔ nɔ lo, konɛ o mobail data a ko puɛ.", ex_style))
+    story.append(Paragraph("<b>2.1</b> Hyɛ kaa o fon, o tablɛti, loo o kɔmpiuta a ngɛ Wi-Fi ɔ nɔ lo, konɛ o mobail data a ko dá.", ex_style))
     story.append(Paragraph("<b>2.2</b> Ngɛ Publications loo Meetings mi ɔ, moo nyɛ <b>okadi nɛ ngɛ kaa bɔku ɔ</b> nɔ ngɛ nɔ́ ko nɛ o kɛ kaseɔ ní ɔ he, konɛ o gbla nɛ o kɛ tsu ní ke intanɛti be.", ex_style))
     story.append(Paragraph("<b>2.3</b> Bli Baiblo yi ko. Moo nyɛ <b>Headphones</b> nɔ nɛ o bu tue; ngɔɔ <b>Volume Down</b> (loo Mute) kɛ ha gbi ɔ nɛ kpa.", ex_style))
     story.append(Spacer(1, 1.5))
@@ -375,7 +375,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; Ya Bible, Publications, Meetings, kɛ Personal Study fãhi ɔmɛ a nɔ.", bullet_style))
     story.append(Paragraph("&bull; Bli Daa Ligbi Ngmami ɔ, nɛ a ngɔ A A okadi ɔ kɛ ha ningma amɛ nɛ hi agbo.", bullet_style))
     story.append(Paragraph("&bull; Na munyuhi nɛ a kaseɔ ngɛ asafo mi kpehi daa otsi ɔ ngɛ Meetings fã ɔ nɔ amlɔ nɛ ɔ.", bullet_style))
-    story.append(Paragraph("&bull; Le bɔ nɛ a kaneɔ ní ha ke intanɛti be, nɛ a gbla womihi ngɛ Wi-Fi nɔ konɛ mobail data a ko puɛ.", bullet_style))
+    story.append(Paragraph("&bull; Le bɔ nɛ a kaneɔ ní ha ke intanɛti be, nɛ a gbla womihi ngɛ Wi-Fi nɔ konɛ mobail data a ko dá.", bullet_style))
     story.append(Paragraph("&bull; Bu munyuhi nɛ a buɔ tue ɔ tue (headphones okadi), nɛ a ha gbi nɛ a hyɛ we blɔ ɔ nɛ kpa amlɔ nɛ ɔ.", bullet_style))
     story.append(Paragraph("&bull; Ngɔ kɔlahi slɔɔtohi kɛ kadi hetohi ngɛ munyuhi nɛ a kaseɔ ɔ a mi, nɛ a je kɔla a.", bullet_style))
     story.append(Paragraph("&bull; Pee backup (.jwlibrary) konɛ níhi nɛ a kase ɔ ko laa.", bullet_style))
@@ -385,8 +385,8 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; A ba <b>hɛngm. 10–15 loko sukuu ɔ maa je sisi</b> konɛ nihi nɛ yeɔ bua a nɛ ye a bua ngɛ Wi-Fi kɛ Baiblo ɔ/Daa Ligbi Ngmami ɔ he.", bullet_style))
     story.append(Paragraph("&bull; A fon, a tablɛti, loo a kɔmpiuta a ji <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, loo <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Batri ɔ <b>nɛ ye</b> loko a maa ba (loo a ngɔ a chaaja kɛ ba).", bullet_style))
-    story.append(Paragraph("&bull; A tsake <b>be nɛ skrin ɔ gbeɔ ɔ kɛ ya hɛngm. 2 loo 5</b> konɛ skrin ɔ ko gbe.", bullet_style))
-    story.append(Paragraph("&bull; Blɔ nɛ se <b>GB 2 kɛ ya si 4</b> nɛ hi a klama a nɔ (loo SD card) kɛ ha videohi kɛ munyuhi nɛ a buɔ tue.", bullet_style))
+    story.append(Paragraph("&bull; A tsake <b>be nɛ skrin ɔ gbeɔ ɔ kɛ ya hɛngm. 2 loo 5</b> konɛ skrin ɔ ko gbo.", bullet_style))
+    story.append(Paragraph("&bull; Blɔ nɛ maa su <b>GB 2 kɛ ya si 4</b> nɛ hi a klama a nɔ (loo SD card) kɛ ha videohi kɛ munyuhi nɛ a buɔ tue.", bullet_style))
     story.append(Paragraph("&bull; A ya Wi-Fi nɔ loko a maa gbla videohi loo munyuhi nɛ a buɔ tue.", bullet_style))
 
     # ==================== BF. 2 ====================
@@ -419,7 +419,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ Ngɛ Ní Kasemi 1 ɔ He", h2_style))
     story.append(Paragraph(
-        "To blɔ nya konɛ nihi nɛ yeɔ bua a nɛ ye nihi nɛ ba ngɛ be mi ɔ a bua hɛngm. 15 loko sukuu ɔ maa je sisi, konɛ a hyɛ kaa nɔ tsuaa nɔ gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo. Ngɛ sukuu ɔ sisije ɔ, "
+        "To blɔ nya konɛ nihi nɛ yeɔ bua a nɛ ye nihi nɛ ba ngɛ be nya ɔ a bua hɛngm. 15 loko sukuu ɔ maa je sisi, konɛ a hyɛ kaa nɔ tsuaa nɔ gbla Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ momo lo. Ngɛ sukuu ɔ sisije ɔ, "
         "hyɛ ngɛ sɛkɛnd 30 mi: bi ní kaseli ɔmɛ nɛ a wo a nine nɔ ke a ngɛ yemi kɛ buami hlae konɛ a gbla nɔ́ ko, konɛ nihi nɛ yeɔ bua a nɛ ye a bua blɛuu "
         "be nɛ o ngɛ nɔ yae ɔ. Tsɔɔ bɔ nɛ a haa gbi nɛ kpa ha ngɛ sisije ɔ (Volume Down nɛ ngɛ fon ɔ he; Mute ngɛ kɔmpiuta kiibɔd ɔ nɔ) "
         "konɛ a ko ye gbeye. Nihi nɛ yeɔ bua a nɛ hyɛ kaa ní kaseli ɔmɛ nyɛ nɛ a ngɔ A A okadi ɔ kɛ ha ningma amɛ hi agbo lo.",
@@ -448,7 +448,7 @@ def build_curriculum(output_path):
 
     story.append(Paragraph("Sanehi Nɛ A Maa Susu He (hɛngm. 10)", h2_style))
     story.append(Paragraph("&bull; Bɔ nɛ a kaneɔ ní kɛ a buɔ tue ha ke intanɛti be", bullet_style))
-    story.append(Paragraph("&bull; Wi-Fi nɔ yami loko a maa gbla konɛ mobail data a ko puɛ", bullet_style))
+    story.append(Paragraph("&bull; Wi-Fi nɔ yami loko a maa gbla konɛ mobail data a ko dá", bullet_style))
     story.append(Paragraph("&bull; Womihi, videohi, kɛ munyuhi nɛ a buɔ tue gblami (okadi nɛ ngɛ kaa bɔku ɔ)", bullet_style))
     story.append(Paragraph("&bull; Munyuhi nɛ a buɔ tue kɛ bɔ nɛ a haa gbi nɛ kpa ha amlɔ nɛ ɔ (Volume Down ngɛ fon nɔ; Mute ngɛ kɔmpiuta nɔ)", bullet_style))
     story.append(Paragraph("&bull; <i>Nɔ́ Nɛ Tsɔɔlɔ ɔ Maa Tsɔɔ:</i> Bɔ nɛ a toɔ níhi a nya kɛ Largest Size ha konɛ a hyɛ blɔ nɛ ngɛ nɔ, nɛ a je níhi", bullet_style))
@@ -467,7 +467,7 @@ def build_curriculum(output_path):
     ))
 
     story.append(Paragraph("Ke a gbe ní kasemi nɛ ɔ nya a, ní kaseli ɔmɛ ma nyɛ maa:", h2_style))
-    story.append(Paragraph("&bull; Gbla womihi ngɛ Wi-Fi nɔ nɛ a mobail data a ko puɛ.", bullet_style))
+    story.append(Paragraph("&bull; Gbla womihi ngɛ Wi-Fi nɔ nɛ a mobail data a ko dá.", bullet_style))
     story.append(Paragraph("&bull; Bli womihi nɛ a gbla a nɛ a kane ngɛ asafo mi kpehi a sisi ke intanɛti be.", bullet_style))
     story.append(Paragraph("&bull; Bu ngmami ɔmɛ kɛ munyuhi nɛ a kaneɔ ɔ tue, a tsi (Pause), nɛ a ha gbi ɔ nɛ kpa amlɔ nɛ ɔ.", bullet_style))
 

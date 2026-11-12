@@ -34,7 +34,7 @@ Níhi nɛ ngɛ ní kasemi womi nɛ ngɛ wɛbsaiti ɔ nɔ ɔ:
 Ní kasemihi etɛ ngɛ mi, nɛ eko tsuaa eko yeɔ hɛngm. 15. Yemi kɛ buami nɛ a peeɔ hɛngm. 15 loko sukuu ɔ maa je sisi, sisije nɛ yeɔ hɛngm. 5, kɛ nyagbe nɛ yeɔ hɛngm. 10 hu ngɛ mi:
 
 0. **Yemi Kɛ Buami Loko Sukuu ɔ Maa Je Sisi Kɛ Sisije (Hɛngm. 5–15)**
-   * **Yemi Kɛ Buami Kɛ Ha Nihi Nɛ Ba Ngɛ Be Mi (hɛngm. 15 loko sukuu ɔ maa je sisi):** Nihi nɛ yeɔ bua a hyɛɛ nihi nɛ ba a hɛ, a yeɔ a bua nɛ a yaa Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ, nɛ a hyɛɛ kaa Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ ngɛ a klama a nɔ momo lo. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ **Languages** okadi ɔ (A/あ) *(Gbi)* nɔ, nɛ o hla gbi ɔ.
+   * **Yemi Kɛ Buami Kɛ Ha Nihi Nɛ Ba Ngɛ Be Nya (hɛngm. 15 loko sukuu ɔ maa je sisi):** Nihi nɛ yeɔ bua a hyɛɛ nihi nɛ ba a hɛ, a yeɔ a bua nɛ a yaa Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ, nɛ a hyɛɛ kaa Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ ngɛ a klama a nɔ momo lo. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ **Languages** okadi ɔ (A/あ) *(Gbi)* nɔ, nɛ o hla gbi ɔ.
    * **A Hyɛɛ Ngɛ Sɛkɛnd 30 Mi:** Ní kaseli ɔmɛ woɔ a nine nɔ ke a ngɛ yemi kɛ buami hlae konɛ a gbla Baiblo ɔ, nɛ nihi nɛ yeɔ bua a yeɔ a bua be nɛ sukuu ɔ ngɛ sisi jee ɔ.
    * **Tue Mi Jɔmi (Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha):** A tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ha gbi nɛ a hyɛ we blɔ ɔ nɛ kpa ha amlɔ nɛ ɔ: **Volume Down** nɛ ngɛ fon/tablɛti ɔ he, **Mute (🔇)** ngɛ kɔmpiuta kiibɔd ɔ nɔ, loo **Pause (⏸️)** ngɛ skrin ɔ nɔ.
    * A hyɛɛ he nɛ kpɔ nɛ fãhi ɔmɛ ngɛ nɔ ɔ (navigation bar) ngɛ, nɛ a tsakeɔ be nɛ skrin ɔ gbeɔ ɔ.
@@ -47,7 +47,7 @@ Ní kasemihi etɛ ngɛ mi, nɛ eko tsuaa eko yeɔ hɛngm. 15. Yemi kɛ buami nɛ
    * *Tsɔɔlɔ ɔ maa tsɔɔ:* Bookmark, History, kɛ Search.
 
 2. **Ní Kasemi 2: Níhi Nɛ A Gblaa Kɛ Bɔ Nɛ A Kɛ Tsuɔ Ní Ha (Hɛngm. 15)**
-   * Wi-Fi nɔ yami loko a maa gbla níhi, konɛ mobail data a ko puɛ.
+   * Wi-Fi nɔ yami loko a maa gbla níhi, konɛ mobail data a ko dá.
    * Womihi, videohi, kɛ munyuhi nɛ a buɔ tue gblami konɛ a kɛ tsu ní ke intanɛti be (ke o gbla ɔ, e he hia we kaa intanɛti maa hi asafo mi kpehi a sisi).
    * **Munyuhi nɛ a buɔ tue (🎧)**: Baiblo yi ɔmɛ nɛ a kaneɔ ngɛ gbi mi ɔ tue bumi.
    * **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Amlɔ Nɛ ɔ:** Volume Down nɛ ngɛ fon ɔ he (nɔ nyɛmi nɛ a kɛ nine pi nɔ), Mute ngɛ kɔmpiuta kiibɔd ɔ nɔ, loo Pause ngɛ skrin ɔ nɔ.
@@ -78,12 +78,12 @@ Konɛ o nine nɛ su níhi hehi kɛ bɔ nɛ a poɔ app ɔ he piɛ ha a nɔ ɔ, hy
 | **Windows** | Windows 10 Version 2004 loo nɔ́ nɛ he hi pe jã |
 
 ### Níhi Nɛ E Sa Kaa O Pee Loko O Maa Ba:
-* **Ba Ngɛ Be Mi (Hɛngm. 10–15 Loko Sukuu ɔ Maa Je Sisi):** Ba ngɛ be mi konɛ nihi nɛ yeɔ bua a nɛ ye bua mo nɛ o ya Wi-Fi ɔ nɔ, nɛ a hyɛ kaa Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ ngɛ o klama a nɔ lo.
-* **Batri ɔ Nɛ Ye:** Hyɛ nɛ o fon, o tablɛti, loo o kɔmpiuta a batri ɔ nɛ ye loko o maa ba (loo ngɔɔ o chaaja a kɛ ba).
-* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Tsake be nɛ o skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya hɛngm. 2 loo 5 ngɛ sukuu ɔ mi, konɛ skrin ɔ ko gbe be nɛ a ngɛ ní tsɔɔe ɔ.
+* **Ba Ngɛ Be Nya (Hɛngm. 10–15 Loko Sukuu ɔ Maa Je Sisi):** Ba ngɛ be nya konɛ walɔhi nɛ ye bua mo nɛ o ya Wi-Fi ɔ nɔ, nɛ a hyɛ kaa Baiblo ɔ kɛ Daa Ligbi Ngmami ɔ ngɛ o klama a nɔ lo.
+* **Batri ɔ Nɛ Ye:** Hyɛ nɛ o fon, o tablɛti, loo o kɔmpiuta a batri ɔ nɛ hi lɛ tɔtɔɔtɔ loko o ba (loo ngɔɔ o chaaja a kɛ ba).
+* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Tsake be nɛ o skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya hɛngm. 2 loo 5 ngɛ sukuu ɔ mi, konɛ skrin ɔ ko gbo be nɛ a ngɛ ní tsɔɔe ɔ.
 * **App ɔ Nɛ Hi Nɔ:** Gbla *JW Library* app ɔ kɛ je app store nɛ sa a nɔ kɛ wo o fon, o tablɛti, loo o kɔmpiuta a nɔ loko sukuu ɔ maa je sisi.
-* **Blɔ Ngɛ O Klama a Nɔ:** Hyɛ kaa blɔ nɛ se **GB 2 kɛ ya si 4** ngɛ o klama a nɔ (loo SD card), konɛ o nyɛ nɛ o gbla womihi, munyuhi nɛ a buɔ tue, kɛ videohi.
-* **Wi-Fi:** Yaa Wi-Fi nɔ loko o maa gbla videohi kɛ munyuhi nɛ a buɔ tue nɛ a hi agbo, konɛ o mobail data a ko puɛ.
+* **Ha Blɔ Nɛ Hi O Klama a Nɔ:** Hyɛ kaa blɔ nɛ maa su **GB 2 kɛ ya si 4** ngɛ o klama a nɔ (loo SD card), konɛ o nyɛ nɛ o gbla womihi, munyuhi nɛ a buɔ tue, kɛ videohi.
+* **Wi-Fi:** Yaa Wi-Fi nɔ loko o maa gbla videohi kɛ munyuhi nɛ a buɔ tue nɛ a hi agbo, konɛ o mobail data a ko dá.
 * **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha:** Kai kaa ke o nyɛ **Volume Down** nɔ (fon/tablɛti) loo **Mute (🔇)** ngɛ o kiibɔd ɔ nɔ (kɔmpiuta), gbi ɔ maa kpa amlɔ nɛ ɔ.
 
 ---
