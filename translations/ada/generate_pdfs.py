@@ -385,7 +385,7 @@ def build_curriculum(output_path):
     story.append(Paragraph("&bull; A ba <b>hɛngm. 10–15 loko sukuu ɔ maa je sisi</b> konɛ nihi nɛ yeɔ bua a nɛ ye a bua ngɛ Wi-Fi kɛ Baiblo ɔ/Daa Ligbi Ngmami ɔ he.", bullet_style))
     story.append(Paragraph("&bull; A fon, a tablɛti, loo a kɔmpiuta a ji <b>Android 8.0+</b>, <b>iOS 15.0+</b>, <b>macOS 13+ (M1+)</b>, loo <b>Windows 10 v2004+</b>.", bullet_style))
     story.append(Paragraph("&bull; Batri ɔ <b>nɛ ye</b> loko a maa ba (loo a ngɔ a chaaja kɛ ba).", bullet_style))
-    story.append(Paragraph("&bull; A tsake <b>be nɛ skrin ɔ gbeɔ ɔ kɛ ya hɛngm. 2 loo 5</b> konɛ skrin ɔ ko gbo.", bullet_style))
+    story.append(Paragraph("&bull; A tsake <b>be nɛ skrin ɔ gboɔ ɔ kɛ ya hɛngm. 2 loo 5</b> konɛ skrin ɔ ko gbo.", bullet_style))
     story.append(Paragraph("&bull; Blɔ nɛ maa su <b>GB 2 kɛ ya si 4</b> nɛ hi a klama a nɔ (loo SD card) kɛ ha videohi kɛ munyuhi nɛ a buɔ tue.", bullet_style))
     story.append(Paragraph("&bull; A ya Wi-Fi nɔ loko a maa gbla videohi loo munyuhi nɛ a buɔ tue.", bullet_style))
 

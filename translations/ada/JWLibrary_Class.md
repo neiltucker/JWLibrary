@@ -27,11 +27,11 @@ A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko
 ## 🧑‍🏫 Ga Womihi Kɛ Ha Sukuu ɔ Hɛ Nyɛɛlɔ Kɛ Tsɔɔlɔ
 
 * **Yemi Kɛ Buami Loko Sukuu ɔ Maa Je Sisi (Hɛngm. 15 Loko):** Bɔ nihi amaniɛ kaa a maa bli agbo ɔmɛ hɛngm. 15 loko sukuu ɔ maa je sisi. Nihi nɛ yeɔ bua a nɛ hyɛ nihi nɛ ba a hɛ ngɛ agbo ɔ nya, nɛ a ye a bua nɛ a ya Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ, nɛ a hyɛ kaa **Bible** *(Baiblo)* kɛ **Daily Text** *(Daa Ligbi Ngmami)* ɔ ngɛ a klama a nɔ momo lo, konɛ ní kaseli ɔmɛ nɛ je Ní Kasemi 1 sisi nɛ nyagba ko be mi. Ke ní kaselɔ ko ngɛ womihi hlae ngɛ gbi kpa ko mi ɔ, moo nyɛ **Languages** okadi ɔ (A/あ) *(Gbi)* nɔ, nɛ o hla gbi ɔ.
-* **Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:** To blɔ nya konɛ **nihi 1 loo 2** nɛ yeɔ bua a nɛ nyɛɛ tsu ɔ mi blɛuu be nɛ a ngɛ ní kasee ɔ. Ke ní kaselɔ ko je app ɔ mi, loo e skrin ɔ gbe be nɛ e suɔ we ɔ, nɔ nɛ yeɔ bua a ma nyɛ maa ye e bua ngɛ sɛkɛnd 5 mi nɛ e kpale kɛ ya he nɛ sa, nɛ e he hia we kaa sukuu ɔ nɛ da si.
+* **Nihi Nɛ Yeɔ Bua Nɛ A Ngɛ Okplɔ Ɔmɛ A He:** To blɔ nya konɛ **nihi 1 loo 2** nɛ yeɔ bua a nɛ nyɛɛ tsu ɔ mi blɛuu be nɛ a ngɛ ní kasee ɔ. Ke ní kaselɔ ko je app ɔ mi, loo e skrin ɔ gbo be nɛ e suɔ we ɔ, nɔ nɛ yeɔ bua a ma nyɛ maa ye e bua ngɛ sɛkɛnd 5 mi nɛ e kpale kɛ ya he nɛ sa, nɛ e he hia we kaa sukuu ɔ nɛ da si.
 * **Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha Amlɔ Nɛ ɔ:** Nihi nɛ a le fon he ní bɔɔ kɛ nimeli ɔmɛ ekomɛ yeɔ gbeye kaa gbi ko maa je kpo wawɛɛ be nɛ a hyɛ we blɔ ngɛ asafo mi kpe loo sukuu sisi. Loko o maa ngɔ video loo munyuhi nɛ a buɔ tue kɛ tsu ní ɔ, tsɔɔ ní kaseli ɔmɛ bɔ nɛ a maa ha gbi nɛ kpa ha ngɛ klama nɛ a kɛ tsuɔ ní ɔ nɔ:
   * **Fon Kɛ Tablɛti (Apple / Android):** Moo nyɛ **Volume Down** nɛ ngɛ fon ɔ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ, loo moo nyɛ **Pause (⏸️)** nɛ ngɛ skrin ɔ nɔ ɔ nɔ.
   * **Kɔmpiuta (Windows / Mac):** Moo nyɛ **Mute (🔇)** loo **Volume Down** ngɛ o kiibɔd ɔ nɔ (be babauu ɔ, a ngɛ kiibɔd ɔ yiti je ɔ), moo kliki speaker okadi ɔ nɛ ngɛ taskbar/menu bar ɔ nɔ, loo moo kliki **Pause (⏸️)**.
-* **Bɔ Nɛ Skrin ɔ Gbeɔ Ha:** Ngɛ sukuu ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gbeɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbo be nɛ a ngɛ se nyɛɛe ɔ.
+* **Bɔ Nɛ Skrin ɔ Gboɔ Ha:** Ngɛ sukuu ɔ sisije ɔ, de ní kaseli ɔmɛ nɛ a tsake be nɛ a skrin ɔ gboɔ (screen timeout / auto-lock) ɔ kɛ ya **hɛngm. 2 loo 5**, konɛ skrin ɔ ko gbo be nɛ a ngɛ se nyɛɛe ɔ.
 * **Nyagbe Hɛngm. 10 ɔ:** Ke ní peemi ko he be pe hɛngm. 15 ɔ, ngɔɔ hɛngm. 3–5 kɛ je nyagbe hɛngm. 10 ɔ mi blɛuu; e sɛ nɛ o ngmɛ fo.
 * **Yemi Kɛ Buami Ngɛ Sukuu ɔ Se:** Ngɛ sisije ɔ, bɔ nihi amaniɛ kaa tsɔɔlɔ ɔ kɛ nihi nɛ yeɔ bua a maa hi jamɛ a he **hɛngm. 15 ngɛ sukuu ɔ se**, konɛ a ye nɔ tsuaa nɔ nɛ ngɛ yemi kɛ buami hlae ɔ bua.
 * **Womihi Nɛ A Printi (Ke E He Maa Hia):** He nɛ mobail data loo Wi-Fi be babauu ɔ, ke o printi Sukuu ɔ He Blɔ Nya Tomi nɛ ngɛ bf. kake nɔ ɔ nɛ o to okplɔ ɔmɛ a nɔ ɔ, e yeɔ bua wawɛɛ; ní kaseli ɔmɛ ma nyɛ maa nyɛɛ ní peemi ɔmɛ tsuo a se amlɔ nɛ ɔ, nɛ e he hia we kaa a ngɔ mobail data kɛ bli wɛbsaiti ɔ.
@@ -46,7 +46,7 @@ A pee sukuu nɛ ɔ kaa **sukuu nɛ yeɔ hɛngm. 60**: ní kasemihi etɛ, nɛ eko
 * **0:00** Mo Hee; hyɛ kaa nɔ tsuaa nɔ ngɛ Wi-Fi nɛ ngɛ he nɛ a peeɔ sukuu ɔ ngɛ ɔ nɔ lo.
 * **0:01** **Hyɛ Kaa Nihi Tsuo Dla A He Lo:** De ní kaseli ɔmɛ nɛ a nyɛ **Bible** (📖) *(Baiblo)* nɔ. Ke a na Baiblo womi ɔmɛ (1 Mose, Mateo) ɔ, lɛɛ a dla a he. Ke nɔ ko na okadi nɛ ngɛ kaa bɔku ɔ, loo e he ngɛ yemi kɛ buami hiae konɛ e gbla Baiblo ɔ loo Daa Ligbi Ngmami ɔ, e wo e nine nɔ, nɛ nɔ ko nɛ yeɔ bua nɛ ye e bua blɛuu ngɛ he nɛ e hi si ɔ be nɛ sukuu ɔ ngɛ sisi jee ɔ.
 * **0:03** **Tue Mi Jɔmi (Bɔ Nɛ A Haa Gbi Nɛ Kpa Ha):** Tsɔɔ bɔ nɛ a haa gbi nɛ a hyɛ we blɔ ɔ nɛ kpa ha amlɔ nɛ ɔ: ngɛ fon kɛ tablɛti nɔ ɔ, moo nyɛ **Volume Down** nɛ ngɛ he ɔ nɔ nɛ o kɛ o nine nɛ pi nɔ; ngɛ kɔmpiuta nɔ ɔ, moo nyɛ **Mute (🔇)** ngɛ o kiibɔd ɔ nɔ; loo moo nyɛ/moo kliki **Pause (⏸️)**.
-* **0:04** Hyɛ he nɛ navigation bar ɔ ngɛ (sisi ngɛ iOS / Android nɔ; yiti je ngɛ Windows nɔ); hyɛ batri ɔ kɛ be nɛ skrin ɔ gbeɔ ɔ.
+* **0:04** Hyɛ he nɛ navigation bar ɔ ngɛ (sisi ngɛ iOS / Android nɔ; yiti je ngɛ Windows nɔ); hyɛ batri ɔ kɛ be nɛ skrin ɔ gboɔ ɔ.
 
 ---
 
