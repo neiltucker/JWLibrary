@@ -1,7 +1,7 @@
-// Service Worker for JW Library Tutorial (Offline PWA) - Version 28
+// Service Worker for JW Library Tutorial (Offline PWA) - Version 29
 // When you publish changes to any page or file listed below, raise the version
 // (e.g. 'v4' -> 'v5') so phones replace their saved copies.
-const CACHE_VERSION = 'v28';
+const CACHE_VERSION = 'v29';
 
 // Each copy of this guide keeps its own saved files. Copies published under the
 // same GitHub account share one web address (yourname.github.io), and so share
